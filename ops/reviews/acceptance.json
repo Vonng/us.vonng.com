@@ -245,5 +245,45 @@
     "fact_record": "ops/reviews/b06-legal-fact.md",
     "static_record": "ops/reviews/b06-legal-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/work/career/job-search-onboarding.md": {
+    "body_sha256": "f5c8738b3677bb8dca0c3ba73dcdf2d9c01f668360ff18de15ba570c618e42bc",
+    "author": "banking_fact",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b07-career-fact.md",
+    "static_record": "ops/reviews/b07-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/rights/contracts/reading-contracts.md": {
+    "body_sha256": "a456a8907378760c2b1736dc3b429457f602340975e1b36a869eb5c6f1031f08",
+    "author": "static_editor",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b07-contracts-fact.md",
+    "static_record": "ops/reviews/b07-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/aging/caregiving-plan.md": {
+    "body_sha256": "67cbe66df380938966b619fc692145282321bf43696522a0a682788dafc85c1a",
+    "author": "birth_fact",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b07-caregiving-fact.md",
+    "static_record": "ops/reviews/b07-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/foundations/world/world-connections.md": {
+    "body_sha256": "8466c6b243b057c16f914cce3c5bc3381da5c4ac3c469dc4ef0154c77c6b5375",
+    "author": "root",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b07-world-fact.md",
+    "static_record": "ops/reviews/b07-world-static.md",
+    "integration_status": "integrated"
   }
 }

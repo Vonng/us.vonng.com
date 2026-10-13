@@ -1,0 +1,35 @@
+{
+  "batch": "B07",
+  "paths": [
+    "/",
+    "/book/",
+    "/book/foundations/",
+    "/book/foundations/world/",
+    "/book/foundations/world/world-connections/",
+    "/book/people/",
+    "/book/people/aging/",
+    "/book/people/aging/caregiving-plan/",
+    "/book/work/",
+    "/book/work/career/",
+    "/book/work/career/job-search-onboarding/",
+    "/book/rights/",
+    "/book/rights/contracts/",
+    "/book/rights/contracts/reading-contracts/",
+    "/docs/routes/",
+    "/docs/routes/start-work/",
+    "/docs/routes/caregiving/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/"
+  ],
+  "queries": {
+    "USMCA": "跨国联系怎样进入",
+    "NYIA": "成年亲人需要照护",
+    "I-9": "找工作、核对录用",
+    "冷静期": "个人消费与服务合同"
+  }
+}

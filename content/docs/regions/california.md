@@ -25,6 +25,9 @@ weight: 10
 - [失业或工时减少](/book/work/employment/job-loss-support/)：查 EDD 申请、工资基期、持续申报和申诉；实际在外州工作的经历也要说明。
 - [孕产保障与出生手续](/book/people/family/birth-and-first-weeks/)：查 Medi-Cal、MCAP 与新生儿加保；洛杉矶县出生记录案例另区分 Pasadena 和 Long Beach。
 - [寻找法律帮助](/book/rights/legal/finding-help/)：从州律师主管入口找服务、核实人员，再谈代理范围与费用。
+- [求职与入职](/book/work/career/job-search-onboarding/)：使用 AJCC 与 CalJOBS，核对本州背景记录顺序和薪资披露，再办联邦入职文件。
+- [成年亲人的照护](/book/people/aging/caregiving-plan/)：向县 IHSS 申请评估，核对医疗证明、Medi-Cal 和实际服务安排。
+- [消费与服务合同](/book/rights/contracts/reading-contracts/)：先找行业主管，整理取消与履约材料；个人金钱请求沿小额法院入口继续。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：先查实际学区，再看加州年龄规则和旧金山登记案例；其他学区继续核对当地材料与分配。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。

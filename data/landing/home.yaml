@@ -53,6 +53,10 @@ sections:
       icon: fa-solid fa-baby
     - page: /docs/routes/job-loss/
       icon: fa-solid fa-briefcase
+    - page: /docs/routes/start-work/
+      icon: fa-solid fa-id-card
+    - page: /docs/routes/caregiving/
+      icon: fa-solid fa-hand-holding-heart
     - page: /book/rights/legal/finding-help/
       icon: fa-solid fa-scale-balanced
 - type: page-cards

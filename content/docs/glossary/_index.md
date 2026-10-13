@@ -41,3 +41,7 @@ weight: 30
 | Metropolitan statistical area、urban / rural、Climate Normals、DST | [地区、气候与具体住址](/book/foundations/geography/regional-life/) |
 | Small talk、pragmatics、make it、pass | [寒暄、邀约与边界](/book/foundations/culture/invitations-boundaries/) |
 | Tribal Nation、reservation、trust land、Indian country、ANCSA | [主权、土地与成员](/book/foundations/communities/tribal-nations/) |
+| Foreign-born、USMCA、BEA、direct investment、UN、NATO、WTO、IMF | [跨国联系与统计口径](/book/foundations/world/world-connections/) |
+| HIPAA、personal representative、discharge planner、LTSS、IHSS、NYIA、HCS、STAR+PLUS、respite | [成年亲人的照护安排](/book/people/aging/caregiving-plan/) |
+| American Job Center、offer、FCRA、I-9、List A/B/C、E-Verify、TNC | [求职、背景报告与入职](/book/work/career/job-search-onboarding/) |
+| DBA、guaranty、joint and several liability、mediation、arbitration、E-SIGN、ROSCA、Cooling-Off Rule | [个人消费与服务合同](/book/rights/contracts/reading-contracts/) |
