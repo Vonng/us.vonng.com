@@ -1,0 +1,83 @@
+{
+  "content/book/people/health/insurance-costs.md": {
+    "body_sha256": "c9ffeddbe4ab79912751089ee35114d95e5264fa211a58e9dc3ac7be0a4c5d3b",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-health-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/people/health/appointment-network.md": {
+    "body_sha256": "4c8d3b8551eb31ed9778e29a6a5b9724ee1fbe6bbf53f9d409e8e10c85b76de6",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-health-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/people/health/medical-bills.md": {
+    "body_sha256": "485addc8f652f6ebe777814fa5527e8c43f406519cf50d0d809a74be90304fd0",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-health-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/life/documents/status-documents.md": {
+    "body_sha256": "16e535093fd8b475a697b10581a6e99d920b8424a71d5d80929c786a924c4721",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-documents-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/life/documents/numbers.md": {
+    "body_sha256": "b19d8a3a61087b71ff259ee2164b2f967e475398fa84436f5fa12207f1d1c32a",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-documents-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/life/housing/ca-deposit.md": {
+    "body_sha256": "57553e2b832b8157cd4a7144cf9bcf2bbb32afbb1ace82fde529d2b7a0463c8d",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-documents-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/foundations/government/which-government.md": {
+    "body_sha256": "2bba54971e426152ce774fce4804325aafdf25ed47371495eefaebe48a74dc7c",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-civic-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/work/finance/credit-records.md": {
+    "body_sha256": "6e17c15a7c69fa7f55055f41624f0d15ed206a93bf2ad5f2894d0986c2e71d23",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-civic-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/rights/safety/emergency-help.md": {
+    "body_sha256": "49a8d07854505ac39f6dc4463b7d8e36d06847089314403c8e507c5c469ee095",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b01-civic-fact.md",
+    "static_record": "ops/reviews/b01-static.md"
+  }
+}

@@ -1,0 +1,4 @@
+<section class="td-landing-section us-parts" id="{{ .id }}" aria-labelledby="{{ .id }}-title"><div class="td-site-container">
+<h2 id="{{ .id }}-title">{{ .data.title }}</h2><p>{{ .data.desc }}</p>
+<div class="us-part-grid">{{ range .data.items }}{{ $icon := .icon }}{{ with site.GetPage .page }}<article class="us-part"><a class="us-part-main" href="{{ .RelPermalink }}"><h3><i class="{{ $icon }}" aria-hidden="true"></i> {{ .Title }}</h3><p>{{ .Description }}</p></a><ul>{{ range .Sections.ByWeight }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul></article>{{ end }}{{ end }}</div>
+</div></section>

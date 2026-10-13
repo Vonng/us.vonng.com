@@ -1,0 +1,72 @@
+sections:
+- type: hero
+  data:
+    eyebrow: 一本可以查着用的生活参考书
+    title: 美利坚生活指南
+    lead: 理解美国社会，处理生活中的具体问题。从一份文件、一张账单，到一个新的生活阶段。
+    image:
+      src: /images/neighborhood.svg
+      alt: 街区中的住宅、图书馆、公交站与远山示意插画
+    media:
+      ratio: 1.1fr 1fr
+      max_width: 560px
+    actions:
+    - label: 开始阅读
+      url: /book/
+      style: primary
+      icon: fa-solid fa-book-open
+    - label: 按事情查找
+      url: /docs/routes/
+      style: ghost
+      icon: fa-solid fa-list-check
+- type: book-parts
+  partial: landing/sections/book-parts.html
+  key: reading
+  data:
+    title: 从社会背景，到日常行动
+    desc: 五部分相互连接，章节导读帮助选择阅读顺序。
+    items:
+    - page: /book/foundations/
+      icon: fa-solid fa-landmark
+    - page: /book/life/
+      icon: fa-solid fa-house
+    - page: /book/people/
+      icon: fa-solid fa-heart-pulse
+    - page: /book/work/
+      icon: fa-solid fa-briefcase
+    - page: /book/rights/
+      icon: fa-solid fa-scale-balanced
+- type: page-cards
+  partial: landing/sections/page-cards.html
+  key: routes
+  data:
+    title: 眼前有事，从这里开始
+    desc: 沿一件事的处理顺序，找到条件、文件和下一步。
+    items:
+    - page: /docs/routes/medical-care/
+      icon: fa-solid fa-stethoscope
+    - page: /docs/routes/identity-theft/
+      icon: fa-solid fa-shield-halved
+    - page: /docs/routes/emergency/
+      icon: fa-solid fa-phone
+- type: page-cards
+  partial: landing/sections/page-cards.html
+  key: regions
+  data:
+    title: 找到适用的地方规则
+    desc: 从实际地址与主管机构出发，核对州、城市和服务范围。
+    items:
+    - page: /docs/regions/
+      icon: fa-solid fa-map-location-dot
+    - page: /docs/regions/california/
+      icon: fa-solid fa-house
+- type: page-cards
+  partial: landing/sections/page-cards.html
+  key: reference
+  data:
+    title: 查询与阅读
+    items:
+    - page: /docs/glossary/
+      icon: fa-solid fa-language
+    - page: /docs/about/
+      icon: fa-solid fa-circle-info

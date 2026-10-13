@@ -1,0 +1,15 @@
+public/
+.cache/
+resources/
+node_modules/
+.hugo_build.lock
+.DS_Store
+__pycache__/
+*.pyc
+*.pdf
+*.zip
+*.tar.gz
+*.png
+*.jpg
+*.webp
+*.woff*
