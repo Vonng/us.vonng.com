@@ -16,4 +16,6 @@ book_kind: chapter
 
 [结婚、分居与离婚](/book/people/family/marriage-separation/) 先核现有婚姻及实际办理地，再完成执照、仪式与证明；分开时先安排安全和眼前需要，沿法院程序取得判令，再落实账户、保险与其他手续。
 
-[迎接孩子](/book/people/family/birth-and-first-weeks/) 从孕期保障和医疗团队开始，连接出生登记、SSN、新生儿保险与出院随访，并说明四州入口的差异。收养和托育继续按各自事项向负责机构核对。
+[迎接孩子](/book/people/family/birth-and-first-weeks/) 从孕期保障和医疗团队开始，连接出生登记、SSN、新生儿保险与出院随访，并说明四州入口的差异。
+
+需要工作、上课或日常照顾的托育时，沿 [选择托育与申请费用支持](/book/people/family/childcare/) 核服务、许可与检查记录，实访并确认合同；费用支持按家庭与孩子条件向实际主管申请，等待名额时也安排可用的照顾。

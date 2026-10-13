@@ -1,0 +1,19 @@
+{
+  "paths": [
+    "/", "/book/", "/docs/", "/docs/routes/", "/docs/regions/",
+    "/docs/regions/california/", "/docs/regions/new-york/", "/docs/regions/washington/", "/docs/regions/texas/",
+    "/docs/glossary/", "/docs/about/", "/docs/routes/medical-care/", "/book/people/health/medical-bills/",
+    "/book/foundations/", "/book/life/", "/book/people/",
+    "/book/foundations/history/", "/book/life/transport/", "/book/people/family/", "/book/life/documents/", "/book/people/aging/",
+    "/book/foundations/history/historical-landscape/", "/book/life/transport/owning-car/", "/book/people/family/childcare/", "/book/life/documents/entry-return/", "/book/people/aging/advance-planning/",
+    "/docs/routes/entry-return/", "/docs/routes/owning-car/", "/docs/routes/childcare/", "/docs/routes/advance-planning/",
+    "/docs/routes/arrival/", "/docs/routes/moving/", "/docs/routes/parenthood/", "/docs/routes/caregiving/", "/docs/routes/retirement/"
+  ],
+  "queries": {
+    "建国": "历史与社会形成", "邦联": "从殖民到联邦",
+    "EVUS": "跨境到达与返美", "签证保证金": "跨境到达与返美",
+    "title": "买车、登记、保险和卖车", "买车": "买车、登记、保险和卖车",
+    "托育": "找托育、申请费用支持", "WCCC": "找托育、申请费用支持",
+    "代理授权": "医疗意愿和代理授权", "POLST": "医疗意愿和代理授权"
+  }
+}

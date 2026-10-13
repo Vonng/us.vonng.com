@@ -1,6 +1,6 @@
 # 活动队列
 
-更新：2026-10-13。用户已明确恢复全书目标，当前 active。保留 B01—B11，最新住户服务、婚姻与退休三主题两审、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
+更新：2026-10-14。用户已明确恢复全书目标，当前 active。保留 B01—B12，最新建国、入境返美、车辆、托育与意愿授权五主题两审、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
 
 | 批次 | 所有者与范围 | 状态／下一步 |
 |---|---|---|
@@ -36,17 +36,24 @@
 | B11-mental | birth_fact作者：people/accessibility/mental-health及同slug地图／证据 → banking_fact事实审 → root第三静态 | 最终117行575c7d19，完整两审及root独立五源抽查、B10工程／实际网页／全部新增打印页PASS，正式集成 |
 | B11-utilities | banking_fact作者：life/household/utilities及同slug地图／证据 → birth_fact事实审 → static_editor第三静态 | 最终112行59d29dec、map78／evidence167；四处作者补正、异人事实89行／第三62行及root完整实读与逆验PASS，B11工程／实际网页／全部新增打印页通过，正式集成。City Light PDF参与者访问边界保留 |
 | B11-retirement | birth_fact作者：people/aging/retirement-medicare及同slug地图／证据 → static_editor事实审 → root第三静态 | 最终148行body4aa59f4c、map29／evidence65；事实102行及root第三25行、完整包与唯一修订逆验PASS，B11工程／实际网页／全部新增打印页通过，正式集成。2027册与新法只采用已读范围 |
-| B12-car | static_editor作者：life/transport/owning-car及同slug地图／证据 → banking_fact事实审 → birth_fact第三静态 | 作者最终152行body876ac70b／wholeee5811a1、map56／evidence156已冻结，root实算摘要与元数据一致。banking_fact正式事实任务已发，先完成历史作者冻结再审车；birth第三尚未派发。CA三日期限算法／退款公式未读边界明确 |
+| B12-car | static_editor作者：life/transport/owning-car及同slug地图／证据 → banking_fact事实审 → birth_fact第三静态 | 最终152行bodya3a6c544／whole0a84ca46、map62／evidence162已root全部实读和唯一逆验；bank事实136行PASS SHAb331cf54、birth最终第三62行PASS SHA5212eefa均已root完整实读／重算绑定。各自来源与CA算法／公式未读边界保留；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收 |
 | B10-shared | root：无障碍章、购房／心理／便利事项、报税／四州／术语与导读 | 本地2411984，46明确源文件；103 HTML、40主题／28章，54访问／28检索／8交互零错误，补充18入口／13手机表；219页PDF全部新增23物理页目视通过，257文件／111目录完整同步一致 |
-| B11-shared | root：住户服务、婚姻与退休三篇及相关导读／事项／四州 | 109 HTML、43主题／28章；54访问／24检索／8交互零错误，补充24入口／7手机表，实际45网页图及全部19新增打印页加5导读页通过；269文件／117目录386路径独立同步相同。旧40正式主题双摘要与验收条目均不变，见b11-integration.md；全书继续 |
-| B12-childcare | birth_fact作者：people/family/childcare及同slug地图／证据 → root事实审 → banking_fact第三静态 | written草稿实际存在，作者正在收口四州支持申请和来源范围，容量异常后按真实落盘继续；尚未收到最终冻结，无审阅PASS |
-| B12-history | banking_fact作者：foundations/history/historical-landscape及同slug地图／证据 → birth_fact事实审 → root第三静态 | 作者最终90行body3979b801／whole17e3fcc0、map51／evidence78已冻结，root实算及元数据一致。birth独立事实已正式发出，先托育作者冻结再审；root第三待事实通过，无审阅PASS |
-| B12-entry | root作者：life/documents/entry-return及同slug地图／证据 → birth_fact事实审 → banking_fact第三静态 | 实际研究跨境到达／返美文件、四机场、海关及I-94纠错；地图已建，当前法律新规与旧网页冲突逐源核，尚无正文或冻结；两审待最终另派 |
-| B12-planning | static_editor作者：people/aging/advance-planning及同slug地图／证据 → root事实审 → banking_fact第三静态 | 已正式分派成人医疗意愿／代理人与财务授权完整链，四州当前官方表和执行规则先研究；死亡／殡葬与遗产另留地图，两审待冻结 |
+| B11-shared | root：住户服务、婚姻与退休三篇及相关导读／事项／四州 | 本地668a9c7，43明确文件；109 HTML、43主题／28章；54访问／24检索／8交互零错误，补充24入口／7手机表，实际45网页图及全部19新增打印页加5导读页通过；269文件／117目录386路径独立同步相同。旧40正式主题双摘要与验收条目均不变，见b11-integration.md；全书继续 |
+| B12-childcare | birth_fact作者：people/family/childcare及同slug地图／证据 → root事实审 → banking_fact第三静态 | 作者115行bodyb2075149／whole4493b2ec、map44／evidence96冻结不变；root事实74行PASS及bank第三76行PASS均完整实读绑定，第三SHA62a7345a。root49原URL＋3补充实际来源、bank15个独立采用URL与失败各自保留；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收 |
+| B12-history | banking_fact作者：foundations/history/historical-landscape及同slug地图／证据 → birth_fact事实审 → root第三静态 | 作者90行body3979b801／whole17e3fcc0、map51／evidence78冻结不变；birth事实80行及root第三30行PASS已完整实读，第三SHA31f803ff；root8个来源实际抽核及三张原件图已读。已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收 |
+| B12-entry | root作者：life/documents/entry-return及同slug地图／证据 → birth_fact事实审 → banking_fact第三静态 | L31唯一URL补正后最终114行body8293f921／whole615f3462、map35／evidence97已全读／重算和逆验。birth最终事实115行PASS SHAd7c8fb2c已root完整实读／复算；bank第三65行PASS SHA2ebe8ce9已root全文实读绑定。40采用＋2门户实际边界保留，已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收 |
+| B12-planning | static_editor作者：people/aging/advance-planning及同slug地图／证据 → root事实审 → banking_fact第三静态 | 最终125行body48c70ff0／whole3b3ccb27、map36／evidence83；root事实72行PASS SHA7ac01e30及bank最终第三61行PASS SHAdc0a380c均已root完整实读／重算绑定。第三12URL有界抽查、不同NJP原件及CA法条失败分别保留；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收 |
+| B12-shared | root：五主题、五章导读、四新事项／五现有事项增量、四州与索引 | 48正式主题／28章／5部分、118 HTML；70访问／32搜索／8交互及44补充入口／13手机表零错误，实际58幅网页图与全部27新增正文／5导读打印页通过；287文件／126目录413路径完整独立同步一致。旧43篇双摘要及验收条目不变，见b12-integration.md；本地提交完成后以Git日志为准，全书继续 |
+| B13-participation | banking_fact作者：government/public-participation → static_editor事实 → root第三 | 作者161／map62／evidence124三件已root完整实际读／复算冻结；body21ed3fa8／whole5ac40a8a、map5637c690／evidence9d7a7539。static已正式事实分派，学校保存研究断点后切换；47URL实际范围各归本人；事实审发现L50紧急例外与L54报名措辞两处必要最小修订，原作者修订／重绑中，written／draft true |
+| B13-migration | static_editor作者：history/migration-society → birth_fact事实 → root第三 | 原作者唯一L67改“签署成法”后bodyc414a204／whole74dbb24a、map36 SHA45237d99／evidence69 SHA06447e2f；birth最终事实85行PASS SHAd18ccece已落盘，root最终新包与记录完整读取／第三待做。25来源采用段／选页及失败保留；B12建国实际生产／渲染／同步已通过且正式登记，依赖已满足。 |
+| B13-transit | root作者：life/transport/public-transit及同slug地图／证据 → birth_fact事实审 → banking_fact第三静态 | 已先建真实研究地图；普通公交／铁路往返、四个都市运营者、票务／转乘、费用支持、无障碍与受阻继续；当前只有研究，未生成占位正文或继承既有外源。两审冻结后另派，B12工程优先 |
+| B14-school | static_editor作者：people/school/school-support及同slug地图／证据 → banking_fact事实审 → birth_fact第三静态 | 已正式分派在校语言、IDEA／IEP和504、转校、霸凌／安全及受阻继续；先地图和联邦／四州实际一级资料，资格和schoolday起算分开。冻结后另派两审，既有主题只读，B13必要返修／正式事实优先 |
+| B14-death | banking_fact作者：aging/death-arrangements → birth_fact事实 → static_editor第三 | 正式作者分派；先地图及联邦／四州实际一级材料，医疗／法医、证明／殡葬、机构通知、遗属／遗产分流及受阻继续；冻结后另派两审，B13必要作者返修优先 |
+| B14-workplace | birth_fact作者：employment/workplace-rights → static_editor事实 → banking_fact第三 | 正式作者分派；沟通、休假／回岗、工伤、歧视／报复完整链；各制度资格、人数及起算分开，四州实际主管与表件；ROOT公交正式事实优先保存断点，冻结后另派两审 |
 
 root拥有配置、模板、首页、章导读、公共入口、总账、共享构建及本地提交。作者只改分派主题正文与同slug地图、证据；事实审只改分派审阅记录。新稿 written／draft true，核验字段空，冻结摘要后异人事实审，再由第三名参与者静态审；元数据、构建与正式登记由root完成。
 
-后续继续历史与公共参与、意愿授权／死亡、托育与学校支持、车辆与跨境、劳动权益、借贷／经济困难和灾害等重要完整行动链；住户服务、婚姻、退休、无障碍、成人教育、创业、户外、购房和年度报税已有实际正文。四州、非公民、不同家庭、城乡、语言与无障碍条件逐项走查；领域地图条目可按同一行动链合并，不能以章节数或占位页满足目标。局部来源失败只限制相应断言，继续可核实工作。外部推送与发布未授权。
+后续继续移民社会与公共参与、公共交通、学校支持、死亡手续、劳动权益、借贷／经济困难、法律文件与灾害等重要完整行动链；住户服务、婚姻、退休、无障碍、成人教育、创业、户外、购房和年度报税已有实际正文。四州、非公民、不同家庭、城乡、语言与无障碍条件逐项走查；领域地图条目可按同一行动链合并，不能以章节数或占位页满足目标。局部来源失败只限制相应断言，继续可核实工作。外部推送与发布未授权。
 
 B07三位作者只改上述正文及同slug的ops/maps、ops/evidence，不改章导读、共享账本、其他正文或已集成版本。冻结后另下发事实审任务，不能自审。工作区新增语言校对规则已实读；新稿直接执行其判定标准，既有正文的B-PL另排批次，所有正文修订仍须符合用户AGENTS的摘要及异人审阅门禁。
 

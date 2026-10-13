@@ -58,3 +58,8 @@ weight: 30
 | REP、EFL、千瓦时（kWh）、HEFPA、UDP、EZ-SAVE | [住户服务、账单、援助与停供通知](/book/life/household/utilities/) |
 | Marriage license、marriage certificate、certified copy、joint petition、service、judgment | [婚姻办证、法院程序与之后的手续](/book/people/family/marriage-separation/) |
 | Social Security、FRA、Medicare、Medigap、IEP、MSP、IRMAA、Extra Help | [退休收入、医疗登记、计划与费用援助](/book/people/aging/retirement-medicare/) |
+| Declaration of Independence、Articles of Confederation、Bill of Rights、Naturalization Act | [殖民、独立与建国制度的权利边界](/book/foundations/history/historical-landscape/) |
+| Advance parole、reentry permit、EVUS、ESTA、DS-2019、FinCEN105、deferred inspection | [赴美、离境返美、海关与入境记录核对](/book/life/documents/entry-return/) |
+| VIN、title、registration、lien、odometer、binder、deductible、total loss | [车辆购买、登记、保险、事故与出售](/book/life/transport/owning-car/) |
+| Child care、license-exempt、CCAP、WCCC、CCS、Notice of Action | [托育选择、费用支持及决定后的继续办理](/book/people/family/childcare/) |
+| Advance directive、living will、health care proxy、durable POA、POLST、MOLST、OOH-DNR、representative payee | [医疗意愿、财务授权与信息文件的准备和更新](/book/people/aging/advance-planning/) |

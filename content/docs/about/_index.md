@@ -37,4 +37,6 @@ weight: 40
 
 [水电燃气和垃圾](/book/life/household/utilities/) 连接入住、开通、核账、付款困难与搬离结算，四市案例按实际提供者服务区选择。[婚姻与分居离婚](/book/people/family/marriage-separation/) 接办证、法院与后续记录；[退休收入和Medicare](/book/people/aging/retirement-medicare/) 分别接现金申请、医疗登记、计划与援助。县、市、州或全国程序的条件在需要作决定的步骤说明。
 
+[建国历史](/book/foundations/history/historical-landscape/) 从殖民前的具体共同体讲到独立、联邦形成与当时权利边界。[入境与返美](/book/life/documents/entry-return/) 连接旅行文件、当期执行范围、海关、机场接续和抵达记录；[车辆](/book/life/transport/owning-car/)、[托育](/book/people/family/childcare/) 与 [医疗意愿和代理授权](/book/people/aging/advance-planning/) 提供全国概念、四州办理和受阻后继续的路径。动态政策、名额和本人资格仍在对应步骤按实际材料核对。
+
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。

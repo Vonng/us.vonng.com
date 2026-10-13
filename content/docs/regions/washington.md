@@ -38,6 +38,9 @@ weight: 30
 - [水电燃气与垃圾](/book/life/household/utilities/)：西雅图案例分City Light、SPU与其他实际提供者，开户、援助、争议及搬离通知各查负责机构。
 - [结婚与分居离婚](/book/people/family/marriage-separation/)：King County执照与仪式分开办，州法院程序及本县现场帮助按当日安排继续。
 - [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找SHIBA咨询，费用援助向HCA申请，Medigap转换按本人现有计划核条件。
+- [买车、登记、保险与卖车](/book/life/transport/owning-car/)：按购车和迁入核DOL文件、税费与特定车辆要求，出售后继续跟进卖方报告及保险。
+- [托育与费用支持](/book/people/family/childcare/)：查DCYF许可／检查和WCCC本年度条件，批准后核提供者、开托日期与变更通知。
+- [医疗意愿和代理授权](/book/people/aging/advance-planning/)：医疗POA、Health Care Directive及财务表分别完成，按现行RCW核生效、撤销与搬州接收；POLST另办。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 

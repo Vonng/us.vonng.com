@@ -38,5 +38,8 @@ weight: 40
 - [水电燃气与垃圾](/book/life/household/utilities/)：休斯敦先分售电商和送电公司，市营与合作社地址另走适用分支；水与垃圾责任按实际服务区核。
 - [结婚与分居离婚](/book/people/family/marriage-separation/)：Harris County办证之外先核现有关系，法院文件、送达、答复及判令按具体程序继续。
 - [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HICAP咨询，向HHSC核费用援助，线上表件不能打开时继续索取纸件或协助。
+- [买车、登记、保险与卖车](/book/life/transport/owning-car/)：按TxDMV及实际县核购车、title、登记、保险和当前检查要求，卖车后保存转让及通知结果。
+- [托育与费用支持](/book/people/family/childcare/)：分HHSC许可监管与DFPS儿童保护，向实际Workforce Board查费用支持、候补、邀请及转提供者。
+- [医疗意愿和代理授权](/book/people/aging/advance-planning/)：取完整医疗POA／directive与财务法定表，分别核签署、生效和权限；院外OOH-DNR按自己的表与医生确认。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

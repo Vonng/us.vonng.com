@@ -19,6 +19,8 @@ weight: 20
 
 [住户服务](/book/life/household/utilities/) 的四市案例按真正的供电、供水与垃圾服务区选择；[结婚与分居离婚](/book/people/family/marriage-separation/) 分开核办证的县和有权受理的法院；[退休收入与Medicare](/book/people/aging/retirement-medicare/) 将全国登记与四州咨询、费用援助及补充保险分支接起来。
 
+[车辆手续](/book/life/transport/owning-car/)、[托育与费用支持](/book/people/family/childcare/) 和 [医疗意愿与代理授权](/book/people/aging/advance-planning/) 也按四州实际文件与主管分支办理。车辆所在州、托育服务区和本人签署的文件分别确认；迁州时同时安排旧手续退出与新机构接收。
+
 ## 比较生活环境与具体地址
 
 [地区生活比较](/book/foundations/geography/regional-life/)提供城乡、通勤、气候、时区和服务距离的共同方法，并用马萨诸塞、新泽西、伊利诺伊、佛罗里达、哥伦比亚特区、阿拉斯加与夏威夷说明背景差异。它可以帮助整理候选住址，详细地方手续继续按实际机构核对。涉及原住民族的土地与服务时，先读 [Tribal Nations 的治理与土地](/book/foundations/communities/tribal-nations/)，再找具体共同体的规则。

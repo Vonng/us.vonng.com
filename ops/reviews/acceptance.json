@@ -415,5 +415,55 @@
     "fact_record": "ops/reviews/b11-retirement-medicare-fact.md",
     "static_record": "ops/reviews/b11-retirement-medicare-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/life/transport/owning-car.md": {
+    "body_sha256": "a3a6c544a0acacc76bbdf6ef475d4072fac7c61ed863ce9c667141a4f8ba209f",
+    "author": "static_editor",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b12-owning-car-fact.md",
+    "static_record": "ops/reviews/b12-owning-car-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/family/childcare.md": {
+    "body_sha256": "b207514914db15706c42fcc8ee12041b07a5fa9460e26a657353fcbf737d413f",
+    "author": "birth_fact",
+    "fact_reviewer": "root",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b12-childcare-fact.md",
+    "static_record": "ops/reviews/b12-childcare-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/foundations/history/historical-landscape.md": {
+    "body_sha256": "3979b801f8c1aa4e0ae5d5f4c77231e11a1503c519305f2b536214cad91a2f9d",
+    "author": "banking_fact",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b12-historical-landscape-fact.md",
+    "static_record": "ops/reviews/b12-historical-landscape-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/life/documents/entry-return.md": {
+    "body_sha256": "8293f92189a7e8c44708dde97aec1d266f82bd123a860ec0121ce3a9149efd42",
+    "author": "root",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b12-entry-return-fact.md",
+    "static_record": "ops/reviews/b12-entry-return-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/aging/advance-planning.md": {
+    "body_sha256": "48c70ff0af9f63f4b21e9c2f9c85ea5a7c6ff2607d475f5ecd4cdf61312f2be0",
+    "author": "static_editor",
+    "fact_reviewer": "root",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b12-advance-planning-fact.md",
+    "static_record": "ops/reviews/b12-advance-planning-third.md",
+    "integration_status": "integrated"
   }
 }

@@ -38,5 +38,8 @@ weight: 20
 - [水电燃气与垃圾](/book/life/household/utilities/)：纽约市案例分提供者、房东和市服务，HEFPA保护按账户与家庭条件核，援助另查当期状态。
 - [结婚与分居离婚](/book/people/family/marriage-separation/)：纽约市办证和仪式先按City Clerk路线；离婚沿有管辖权的县Supreme Court继续。
 - [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HIICAP咨询，费用援助向实际LDSS或纽约市HRA办理，补充保险购买条件另核。
+- [买车、登记、保险与卖车](/book/life/transport/owning-car/)：按购车、迁入和出售分别核DMV文件、保险、检查及车牌退出；登记后继续核实际可合法使用。
+- [托育与费用支持](/book/people/family/childcare/)：查OCFS许可和检查，费用支持按实际社会服务区申请；纽约市与Tompkins县当期名额和分流分别确认。
+- [医疗意愿和代理授权](/book/people/aging/advance-planning/)：医疗proxy与财务短式各按自己的签署、见证／公证和接受要求完成；严重病情的MOLST另与医疗团队处理。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

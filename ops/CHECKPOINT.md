@@ -1,6 +1,6 @@
 # 恢复断点
 
-更新：2026-10-13。目标 **active**，继续完成全书。恢复顺序 BOOKMAP → TASKS → 本账 → 实际文件与Git；408行PROMPT、历史交接及说人话规则已完整实读。历史暂停现场见 [HANDOFF-2026-10-13.md](HANDOFF-2026-10-13.md)。
+更新：2026-10-14。目标 **active**，继续完成全书。恢复顺序 BOOKMAP → TASKS → 本账 → 实际文件与Git；408行PROMPT、历史交接及说人话规则已完整实读。历史暂停现场见 [HANDOFF-2026-10-13.md](HANDOFF-2026-10-13.md)。
 
 ## 已正式集成
 
@@ -20,17 +20,20 @@
 - 实际make sync及独立完整比较257文件／111目录／368路径，全部类型、大小和SHA一致；婚姻、退休、住户服务三个草稿无产物。B10已实际本地提交46个明确源和轻记录文件，Git为24119845fdfbff1fc48523ff32cd11a60642a263；进行中作者稿与证据未混入，外部发布未授权。便利第三静态记录实际34行，原验收记录误写37已据实际文件改正，正文与审阅内容无变化。
 - B11住户59d29dec、婚姻3dca83e2、退休4aa59f4c均已完成异人事实／第三静态及root最终完整包读取，候选安装、实际构建／网页／打印／同步PASS后正式集成，见 [B11验收](reviews/b11-integration.md)。旧40篇整文件、正文及验收条目不变；现在43正式主题、28章、5部分、109 HTML。
 - B11两端27路径54访问／24检索／8交互零错误，补充24入口图／7手机表；实际目视45幅网页图，动画未就绪两图不作浮层证据，另看已就绪桌面／手机图。最终238页PDF实际目视全部19新增主题页及5导读页，共24页，未称全238页通读。主报告598f24ca、补充a702481c、PDF6bec3070，完整SHA和访问边界见验收。
-- 手机侧栏初次失败如实保留；主控实际读固定OINK焦点代码并捕获事件，六次即时操作四次失败、六次等待就绪全部成功。仅检查脚本增加菜单焦点／动画等待，完整重跑通过，没有改主题或跳过交互。实际make sync及独立比较269文件／117目录／386路径全部类型、大小、SHA相同，车辆／托育／历史三个draft无HTML、搜索及打印产物；正式登记后public另实际检查109／43／3零错误。本批已完成源与轻记录准备本地提交，进行中B12作者包排除。
+- 手机侧栏初次失败如实保留；主控实际读固定OINK焦点代码并捕获事件，六次即时操作四次失败、六次等待就绪全部成功。仅检查脚本增加菜单焦点／动画等待，完整重跑通过，没有改主题或跳过交互。实际make sync及独立比较269文件／117目录／386路径全部类型、大小、SHA相同，车辆／托育／历史三个draft无HTML、搜索及打印产物；正式登记后public另实际检查109／43／3零错误。B11实际本地提交43个明确完成源和轻记录，Git为668a9c71d42508aa284900a1d635bcb8b3896541，进行中B12作者包未混入。
+
+- B12建国3979b801、入境返美8293f921、车辆a3a6c544、托育b2075149、意愿授权48c70ff0均完成三名不同参与者的作者／事实／第三静态及root最终包实际全文读取。只改四个集成元数据字段，实际生产／网页／打印／同步通过后五条candidate才改integrated，见 [B12验收](reviews/b12-integration.md)。现在48正式主题、28章、5部分、118 HTML；旧43篇整文件、正文及验收条目逐件不变。
+- B12最终两端70访问／32检索／8交互及补充44入口／13手机表零错误；主控实际目视58幅网页图。初次“建国”自定义检索期待新主题未命中，仅据真实索引／检索结果改检查期待为章名，保留失败报告后完整重跑通过，未改产品。265物理页PDF实际检查全部27新主题页及5导读页，共32页，不称全本逐页。实际make sync及独立完整比较287文件／126目录／413路径，类型、大小、SHA相同；public检查118 HTML／48正式／2草稿零错误，进行中稿不进入产物。
 
 ## 工程与所有权
 
-实际Hugo 0.166.0 Extended，OINK 1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce；检查依赖使用.cache/checks-venv。本批实际运行make check DESTINATION=.cache/production-review，再做网页／打印并make sync，命令与限制见 [ENGINEERING.md](ENGINEERING.md)。本会话24139预览PID46399、24140预览PID11953、24141预览PID63144及24142预览PID47946均按实际完整命令／项目cwd核所有权后关闭，最新24142已实查无监听；既有未拥有1317／1318不动。
+实际Hugo 0.166.0 Extended，OINK 1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce；检查依赖使用.cache/checks-venv。本批实际运行make check DESTINATION=.cache/production-review，再做网页／打印并make sync，命令与限制见 [ENGINEERING.md](ENGINEERING.md)。本会话24139预览PID46399、24140预览PID11953、24141预览PID63144及24142预览PID47946均按实际完整命令／项目cwd核所有权后关闭，最新24142已实查无监听；B12独有24143预览PID14588也已据完整命令／cwd核所有权后关闭，实查无监听；既有未拥有1317／1318不动。
 
 root拥有共享配置、模板、首页、导读、入口、账本、构建及本地提交。三名现役birth_fact、banking_fact、static_editor只拥有分派主题正文及同slug地图／证据，独立审只写指定记录；不得改他人文件或自行构建提交。新稿written／draft true、verified和reviewed_by空；冻结完整摘要后异人事实，再第三静态，root候选及实际渲染后集成。正文修订均重新绑定最终摘要。
 
 ## 当前研究与审阅
 
-B11三主题已正式集成，公共入口已接入，public为已验收B11。旧40正式主题整文件／正文基线`.cache/reports/b11-baseline.json`已实算保存并在同步后独立逐件验证不变。安装后整文件完整SHA见B11验收；最终正文与两审摘要一致。单批通过不结束全书目标。
+B12五主题已正式集成，公共入口已接入，public为已验收B12。旧43正式主题整文件／正文基线`.cache/reports/b12-baseline.json`已实算保存并在同步后独立逐件验证不变。安装后整文件完整SHA见B12验收；最终正文与两审摘要一致。单批通过不结束全书目标。
 
 | 主题 | 实际断点与下一步 |
 |---|---|
@@ -41,12 +44,18 @@ B11三主题已正式集成，公共入口已接入，public为已验收B11。�
 | B10 marriage-separation | 最终128行body3dca83e2f3ca391bf144a4f6f352086b7577acfbcc58c6152432483d292101d9；map52／evidence125、事实109／第三65完整绑定PASS，B11实际工程与渲染通过，正式集成。安装前wholea2a9d9be、安装后whole95ce11a8完整值见验收。此前“无预约”概括不准确已透明修正，双方实际主文均为先现场后有限预约。 |
 | B11 utilities | 最终112行body59d29dec04e22132ab9ec79a8279ab9bb2bc4058e5d28db36a5b74c6e0c5e03c；map78／evidence167、事实89／第三62完整绑定PASS，B11实际工程与渲染通过，正式集成。四处作者修订及各自逆验完整绑定；City Light七页为birth真web全读，作者及第三403、root未称本人全读成功，边界保留。安装前whole5beb98cb、安装后wholeec608120完整值见验收。 |
 | B11 retirement-medicare | 最终148行body4aa59f4c2edea50131ebea65dfe3457875c5dde0c7db6292147b69f6aa6749d2；map29／evidence65、事实102／root第三25完整绑定PASS，B11实际工程与渲染通过，正式集成。唯一修订完整逆验、新POMS及新法采用段实读；2025新法与2027册不扩称全读。安装前whole95f42ba9、安装后wholeb91cd2db完整值见验收。 |
-| B12 owning-car | static_editor最终作者152行body876ac70b0b27d1c7e25ad088fed0a842b5abdafc648be881b5243537b69beba7／wholeee5811a1d070378000aa615f1ba57c720b0f890b5d131ab0646b431cd3371568、map56／evidence156已冻结，root实算与元数据一致。banking_fact已正式收到事实任务，先完成历史作者冻结再审；birth第三未派。CA取消期限算法／退款公式未读边界保留。 |
-| B12 childcare | birth_fact written草稿实际存在，正在完成四州支持申请与采用范围；容量异常后真实恢复落盘，不计失败为读取。root事实／banking_fact第三待作者冻结。 |
-| B12 historical-landscape | banking_fact作者最终90行body3979b801f8c1aa4e0ae5d5f4c77231e11a1503c519305f2b536214cad91a2f9d／whole17e3fcc0e3237b992c4985e78fdc30361ccbecd7bb0dd1ddffd1292b07eb05c1、map51／evidence78已冻结，root实算与元数据一致。birth事实正式发出，先托育作者冻结再审；root第三待事实通过，不重复民权／Tribal正文。 |
-| B12 entry-return | root地图及实际研究存在，尚无正文；新DHS固定期限、AP不法停留新判例、签证保证金与入境限制均发现旧来源差异，正核当前原文与生效范围，不照搬旧页。跨境文件／入境／海关／四机场／I-94纠错完整链；birth事实／bank第三冻结后另派。 |
-| B12 advance-planning | static_editor已正式分派成人医疗意愿／代理与财务授权作者；四州官方文件与执行要求先实际研究。root事实／bank第三冻结后另派，死亡与遗产另留地图。 |
+| B12 owning-car | 作者唯一L54重量补正后最终152行bodya3a6c544a0acacc76bbdf6ef475d4072fac7c61ed863ce9c667141a4f8ba209f／whole0a84ca4685ef8ddcef05a14d2c6fc5f189f662f84ab1603600ad9c45fc02320b、map62／evidence162已root全读并唯一逆验。bank事实136行PASS SHAb331cf547357bd31aa197da90d7f7cb798383dc95032036509b2703f447b24dc及birth第三62行PASS SHA5212eefa0a9d1a3b8a746474fcd2a5f2819cb447a2a8b6cb766092496dfa3918均已root完整实读和全部绑定复算。root自有memo3页不冒称64源，CA算法／退款公式未读保留；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收。 |
+| B12 childcare | birth最终115行bodyb207514914db15706c42fcc8ee12041b07a5fa9460e26a657353fcbf737d413f／whole4493b2ec5bd93876ff53965baec42d6ebda505b47251e1435f4e4ee50adc3076、map44／evidence96不变。root事实74行PASS SHA bfa7483ab9284094bcc3d5509734c25e716fcf9f1fd2f68e5206657fa11a4211；bank第三76行PASS SHA62a7345a595b471d14e50cc0fada0c8027208dbd7159711bf8b030184ee53324已root完整1–38／39–76实读并复算全部绑定。root49原URL及3额外实际来源，bank15采用URL的独立实读与失败各归本人，不把200或他人成功算己读。已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收。 |
+| B12 historical-landscape | bank作者90行body3979b801f8c1aa4e0ae5d5f4c77231e11a1503c519305f2b536214cad91a2f9d／whole17e3fcc0e3237b992c4985e78fdc30361ccbecd7bb0dd1ddffd1292b07eb05c1、map51／evidence78不变。birth事实80行PASS SHA2fee749fa94f00bff3e7d22ff63f95e4ba5d59574ce112bc7f7cd0904a58e35e及root第三30行PASS SHA31f803ff76b985e13bbc7d695a7ff466174bb4287960dd2bf35ff423a4c7a63c已完整包实际读并复算。root8不同来源采用段、归化法两物理页及NPS所用物理页目视，未称全24源复核；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收，不重复民权／Tribal正文。 |
+| B12 entry-return | root唯一补L31旧护照引注，最终114行body8293f92189a7e8c44708dde97aec1d266f82bd123a860ec0121ce3a9149efd42／whole615f34629efbc275399141e277f1607364fe371dc17f4c10d83809a724fe6839、map35／evidence97全读／重算／唯一逆验。birth最终事实115行PASS SHAd7c8fb2c6fbfac02784b25b9c9f8fcf0ef00c4567a765fb0bd44be2f045149f8已root完整1—60／61—115读及复算，10/13来源和10/14最终审阅分开；bank第三65行PASS SHA2ebe8ce926de6520f411d4359d3d37150ec5add0f87fad53d6a7ead050aff400已root全文实读绑定。40采用＋2入口不冒称后台；已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收。 |
+| B12 advance-planning | static唯一补CA L66签字确认页后125行body48c70ff0af9f63f4b21e9c2f9c85ea5a7c6ff2607d475f5ecd4cdf61312f2be0／whole3b3ccb2768533fa23ae82be8a7688e2a4ceca46e187227dd2c194bdc74680f52、map36／evidence83已root全文／全包／逆验。root事实72行PASS SHA7ac01e30dca4e856182269c4246d71bc08f32751cd9c731dff8b5925bafb7b92及bank第三61行PASS SHAdc0a380c641f68e4fc131bc4193147ff0dd8e2173242c584ccc54e07eb5dad6d均root完整实读／重算接受。第三12URL有界实际抽查、NJP本人原件不同摘要与root CA法条失败分别保留。两审通过，已由root仅改四个集成元数据字段；隔离生产118 HTML／48正式主题通过，70访问／32检索／8交互及补充44入口／13手机表零错误；root实际目视58幅网页图、全部27新增正文及5导读打印页通过，287文件／126目录完整同步后正式登记integrated，见B12验收。 |
+| B13 public-participation | banking_fact作者161行、map62／evidence124三件已root完整实际读并复算；body21ed3fa8／whole5ac40a8a、map5637c690／evidence9d7a7539冻结。已正式派static_editor独立事实，root第三；47URL各自实际范围，不继承作者回源。事实审发现L50紧急例外与L54报名措辞两处必要最小修订，原作者修订／重绑中；written／draft true。 |
+| B13 migration-society | 原作者唯一L67改“签署成法”后bodyc414a204／whole74dbb24a、map36 SHA45237d99／evidence69 SHA06447e2f；birth最终事实85行PASS SHAd18ccece已落盘，root最终新包与记录完整读取／第三待做。25来源采用段／选页及失败保留；B12建国实际生产／渲染／同步已通过且正式登记，依赖已满足。 |
+| B13 public-transit | root作者仅life/transport/public-transit与同slug地图／证据；真实研究仍无正文冻结。四都市付款／转乘与ADA源已局部实际读，普通403、eCFR200 CAPTCHA、部分表件和SoundTransit旧泛文冲突保留；真实阅读采用范围须落证据后成稿。拟birth事实／bank第三另派。B12共享22文件已安装、实际工程／目视／同步与正式登记通过，public为B12。 |
+| B14 school-support | static_editor正式新作者，仅people/school/school-support与同slug地图／证据；语言服务、IDEA／IEP及504评估、转校计划、霸凌安全及受阻继续，四州实际入口和起算条件就近。先建图再实际研究，无占位或既有页改写；拟bank事实／birth第三在冻结后另派。B13必要作者返修或公共参与正式事实优先保存断点。 |
+| B14 death-arrangements | banking_fact正式新作者，仅aging/death-arrangements与同slug地图／证据；先地图及医疗／法医、证明／殡葬、机构通知、遗属／遗产分流与继续链的四州实际资料。新稿元数据空，拟birth事实／static第三冻结后另派；必要B13作者返修优先。 |
+| B14 workplace-rights | birth_fact正式新作者，仅employment/workplace-rights与同slug地图／证据；沟通、休假／回岗、工伤、歧视／报复，四州主管／表件与各制度定义／人数／起算独立；拟static事实／bank第三冻结后另派，ROOT公交正式事实优先保存断点。 |
 
-第一轮核心路径和收口条件见 [FOCUS.md](FOCUS.md)。继续历史与公共参与、意愿授权／死亡、托育与学校支持、车辆／跨境、劳动权益、借贷／经济困难及灾害等缺口；不能凭43篇或单批通过代替全书完成。PL-6两份共享页已实际通读无需删改，其他既有正文校对另排；新稿直接执行说人话标准，不能绕过摘要与异人门禁。
+第一轮核心路径和收口条件见 [FOCUS.md](FOCUS.md)。继续移民社会与公共参与、公共交通、学校支持、死亡手续、劳动权益、借贷／经济困难、法律文件及灾害等缺口；不能凭48篇或单批通过代替全书完成。PL-6两份共享页已实际通读无需删改，其他既有正文校对另排；新稿直接执行说人话标准，不能绕过摘要与异人门禁。
 
 普通研究、修订、核验、构建及本地提交继续自主推进。加拿大只读参考；不启动／探测Claude，不联系外部，不推送、部署或改DNS。记录与文件冲突时以实际文件、完整摘要和来源核对，任何记录不能替代实际核验。

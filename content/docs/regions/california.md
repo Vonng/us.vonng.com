@@ -42,5 +42,8 @@ weight: 10
 - [水电燃气与垃圾](/book/life/household/utilities/)：洛杉矶市案例先核LADWP、实际燃气提供者与垃圾责任；市外地址重新查服务区和主管。
 - [结婚与分居离婚](/book/people/family/marriage-separation/)：洛杉矶县办证与州法院程序分别查；普通离婚和共同申请各按适用路线继续。
 - [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HICAP咨询，分别核Medicare、Medigap及县费用援助申请，使用本年度条件。
+- [买车、登记、保险与卖车](/book/life/transport/owning-car/)：查车辆及卖方、购车文件、当前退款选择与登记，出售时继续确认通知和责任记录。
+- [托育与费用支持](/book/people/family/childcare/)：查CDSS许可和检查记录，向实际县或项目主管核支持、提供者接案及决定后的复核路径。
+- [医疗意愿和代理授权](/book/people/aging/advance-planning/)：使用AG医疗表核见证／公证与护理机构特别见证；财务模板和公证确认另办，交件后核接收。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。

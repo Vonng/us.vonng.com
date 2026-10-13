@@ -17,6 +17,8 @@ weight: 57
 
 沿[成年亲人的照护安排](/book/people/aging/caregiving-plan/)确认谁参与沟通、谁获准接收信息、谁具有相应决定权。亲人正在医院或护理机构时，找出院团队核对任务、药物和书面指示、器材、复诊及联系办法，把家庭不能承担的部分直接说明。
 
+要准备、更新或启用医疗与财务文件时，沿 [医疗意愿和代理授权](/book/people/aging/advance-planning/) 分别核本人选择、权限、签署和生效条件，把完整版本交给会使用的人与机构。没有文件或本人不能决定时，使用正文的医疗与财务继续分支。
+
 ## 找服务，也分别查付款
 
 用每天的任务比较居家、日间和机构服务；按[照护页的四州分支](/book/people/aging/caregiving-plan/)申请评估与支持，保存申请、补件、授权和书面决定。计划或服务方分别确认承保内容、时段、生效和自付；一般医疗费用及网络核对见[保险分担](/book/people/health/insurance-costs/)与[预约手续](/book/people/health/appointment-network/)。
