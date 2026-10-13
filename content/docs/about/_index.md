@@ -42,3 +42,7 @@ weight: 40
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。
 
 [迁移与移民社会](/book/foundations/history/migration-society/) 衔接历史、产业及人口材料的口径；[公共参与](/docs/routes/public-participation/) 衔接具体会议、意见与符合资格后的投票；[公共交通](/docs/routes/public-transit/) 衔接四都市的实际往返、付款、费用支持及无障碍申请和预约。地方场次、服务范围、身份条件与当期通知在需要行动的位置确认。
+
+[在校支持](/book/people/school/school-support/)、[劳动权益](/book/work/employment/workplace-rights/) 与 [死亡手续](/book/people/aging/death-arrangements/) 分别连接具名学校、工作机构及发生地证明机关，服务实施与正式程序各留完成记录。
+
+[专项账户](/book/work/finance/accounts-investing/)、[借款与还款](/book/work/finance/debt/) 和 [食品现金支持](/book/work/finance/food-cash-support/) 连接供款、付款困难及家庭申请；[法院通知](/book/rights/legal/notices-deadlines/)、[灾害准备](/book/rights/safety/disaster-preparation/) 和 [家庭枪支安全](/book/rights/safety/firearms/) 连接实际文件、当地主管与受阻继续。账户年度、家庭资格、法院案型、灾害声明和地方许可按对应步骤确认。

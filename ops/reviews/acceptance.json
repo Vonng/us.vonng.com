@@ -525,5 +525,65 @@
     "fact_record": "ops/reviews/b14-workplace-rights-fact.md",
     "static_record": "ops/reviews/b14-workplace-rights-third.md",
     "integration_status": "integrated"
+  },
+  "content/book/work/finance/accounts-investing.md": {
+    "body_sha256": "fdc758f7811bef7896ac5db7279b2646197340bfeaa3f3bfc3e80f41b823af7b",
+    "author": "root",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b15-accounts-investing-fact.md",
+    "static_record": "ops/reviews/b15-accounts-investing-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/work/finance/debt.md": {
+    "body_sha256": "4aa3f76757320f1f00023c73c3c92eb9544cfdf2a05ba8dab4406a2882f15e3f",
+    "author": "banking_fact",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b15-debt-fact.md",
+    "static_record": "ops/reviews/b15-debt-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/work/finance/food-cash-support.md": {
+    "body_sha256": "4d2a18b7f3999a42d605f0fcaa54dbc20c9ecf75fce34c92228025c647b96b03",
+    "author": "birth_fact",
+    "fact_reviewer": "root",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b15-food-cash-support-fact.md",
+    "static_record": "ops/reviews/b15-food-cash-support-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/rights/legal/notices-deadlines.md": {
+    "body_sha256": "511bed06c7a676fac4d03846f0554b1bfcbaa8ec8b7c123a31a664af6063e3e1",
+    "author": "static_editor",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b15-notices-deadlines-fact.md",
+    "static_record": "ops/reviews/b15-notices-deadlines-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/rights/safety/disaster-preparation.md": {
+    "body_sha256": "a0687e6b6ba5318d2f4a96b2b01cf006b0f5ddb5c3b3404be3db14310957bcb3",
+    "author": "banking_fact",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b16-disaster-preparation-fact.md",
+    "static_record": "ops/reviews/b16-disaster-preparation-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/rights/safety/firearms.md": {
+    "body_sha256": "757a4e709d30fa810d07df5110e787f49ed79b1ee987b304dbb75be1cd985efb",
+    "author": "root",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b16-firearms-fact.md",
+    "static_record": "ops/reviews/b16-firearms-third.md",
+    "integration_status": "integrated"
   }
 }

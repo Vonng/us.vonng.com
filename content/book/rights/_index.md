@@ -20,3 +20,5 @@ book_number: '5'
 [个人消费与服务合同](/book/rights/contracts/reading-contracts/)从签约前的主体、交付和费用开始，连接已签文件、取消、补救与四州投诉及法院入口。
 
 准备 [公园、步道或营地出行](/book/rights/outdoors/outdoor-planning/) 时，按实际管理者、同行者与当天条件核路线和凭证，留好通信与返回计划；途中调整、遇险求助及返回收尾沿同一页继续。
+
+[法院或行政通知](/book/rights/legal/notices-deadlines/) 按本案核期限、回应、送达和出庭，取得书面结果；[灾害准备与恢复](/book/rights/safety/disaster-preparation/) 按家庭需要和当地命令安排撤离，之后分别办保险与援助。家中有枪时，沿[安全存放与法域边界](/book/rights/safety/firearms/)核人员、地点、临时保管及搬动与交出。

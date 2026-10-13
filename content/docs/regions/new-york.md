@@ -51,3 +51,5 @@ weight: 20
 离岗照护或工作受伤时，沿[职场权利](/book/work/employment/workplace-rights/)分别核雇主、PFL承保方与Workers’ Compensation Board，歧视正式投诉另选对应机关。
 
 亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)分纽约市死亡记录、州殡葬主管、遗属申请与原住居地遗产法院；州内其他发生地另核发证。
+
+安排储蓄或教育供款时，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核供款、实际资产和取用条件。[食品与现金支持](/book/work/finance/food-cash-support/)、[债务与催收](/book/work/finance/debt/) 和 [法院通知](/book/rights/legal/notices-deadlines/) 连接经济困难与书面回应；[灾害准备](/book/rights/safety/disaster-preparation/) 和 [家庭枪支安全](/book/rights/safety/firearms/) 连接当地风险与家庭安排。食品、现金与行政办理先分纽约市和其他社会服务区；法院通知按具体法院和送达方式核。预警按实际城市订阅，枪支存放与搬入纽约市许可分别确认。

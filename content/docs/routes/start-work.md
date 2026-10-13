@@ -30,3 +30,5 @@ weight: 54
 上班安排、休假、受伤或歧视问题，接[职场沟通与权利办理](/book/work/employment/workplace-rights/)核具体制度和收件人。雇主请假、州收入支持与正式投诉分别推进，再确认书面答复及实际回岗安排。
 
 材料、背景报告或 E-Verify 卡住时，回到[入职受阻分支](/book/work/career/job-search-onboarding/)按通知处理；怀疑歧视或文件要求不当时，保存原话和日期，及时核对应向哪个机关正式提交。需要澄清或跟进，可以使用[服务沟通](/book/people/language/service-conversations/)中的表达。
+
+雇主提供退休或医疗账户时，沿[专项账户](/book/work/finance/accounts-investing/)核计划文件、供款、匹配和实际投资，第一笔工资后对照扣款与账户到账。开户和工资扣款之外，仍要完成计划选择与受益人记录。

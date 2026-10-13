@@ -23,6 +23,8 @@ weight: 10
 - [水电燃气与垃圾服务](/docs/routes/house-services/)：按租约和实际地址找到提供者，办开通、核账与援助，搬离后结清并确认销户。
 - [自住购房到交割](/docs/routes/buy-home/)：核预算和购买条件，比较贷款，完成报价、验屋与产权核验，再接登记和后续账单。
 - [发现陌生账户或信用记录](/docs/routes/identity-theft/)：取得报告，区分资料错误和身份盗用，再跟踪处理。
+- [储蓄与专项账户](/docs/routes/accounts-investing/)：先留现金，核退休、医疗与教育账户的供款、资产、对账和取用。
+- [借款、还款与催收](/docs/routes/debt/)：核完整合同与责任，困难时谈安排，分别处理催收、法院回应和结清。
 - [年度报税：身份、材料、提交与付款](/docs/routes/tax-preparation/)：确认税年与居民身份，收齐材料，分别递交和付款，再跟进受理、更正及通知。
 - [搬家后给孩子办入学](/docs/routes/school/)：确认学区、准备和补充材料，并跟进到实际开始上课。
 - [寻找托育与费用支持](/docs/routes/childcare/)：查许可、实访与合同，向实际主管申请支持，再确认名额、付款和照顾开始。
@@ -31,6 +33,7 @@ weight: 10
 - [找工作到入职](/docs/routes/start-work/)：准备申请，核实招聘和背景材料，确认录用条件，跟进文件、报到和工资。
 - [请假、工伤与歧视处理](/docs/routes/workplace-rights/)：核工作资格和收件人，分别提出请求或正式提交，继续付款、治疗与回岗安排。
 - [失业或工时减少](/docs/routes/job-loss/)：从离职记录与最后工资开始，接上失业保险、医保和紧急生活支持。
+- [缺食物或生活费](/docs/routes/food-cash-support/)：先找当下帮助，再核家庭、申请材料、领取与受阻继续。
 - [为成年亲人安排照护](/docs/routes/caregiving/)：确认本人意愿，把日常任务、服务、付款与替班接到实际开始。
 - [准备医疗意愿与代理文件](/docs/routes/advance-planning/)：谈清选择和权限，分别签署与交付，确认能找到和使用，再处理更新与撤销。
 - [退休收入与Medicare接续](/docs/routes/retirement/)：分别安排现金起领和医疗登记，核计划、费用援助及实际生效。
@@ -40,6 +43,9 @@ weight: 10
 - [安排一次公园或营地出行](/docs/routes/outdoor-trip/)：分别核路线、票务和当天限制，留好返回计划并完成收尾。
 - [寻找心理健康支持](/docs/routes/mental-health/)：找到接诊人，核保险、费用及沟通安排，接上评估与持续治疗。
 - [申请语言与残障便利](/docs/routes/accommodations/)：找负责办公室，提出具体请求，跟进安排及服务受阻后的处理。
+- [收到法院或行政通知](/docs/routes/notices-deadlines/)：核本案期限，完成递交、送达、到庭及决定后的办理。
+- [灾害准备与恢复](/docs/routes/disaster-preparation/)：按家庭需要订预警、核撤离，返回后分别办保险与援助。
+- [家中有枪支](/docs/routes/firearms/)：核合法接触与锁存，危机、搬动、报失和交出按主管办到有凭据。
 - [现在需要紧急帮助](/docs/routes/emergency/)：按危险和需要的服务选择求助渠道。
 
 还在建立背景时，可以从[全书目录](/book/)阅读；要使用州或地方规则时，继续查[地区入口](/docs/regions/)。

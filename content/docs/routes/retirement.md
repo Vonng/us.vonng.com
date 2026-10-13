@@ -34,3 +34,5 @@ weight: 56
 本人希望预先安排治疗选择或账户办理时，接 [医疗意愿与代理文件事项](/docs/routes/advance-planning/) 分别完成签署与交付。Social Security福利需要别人管理时，继续核 [代理页的SSA代领分流](/book/people/aging/advance-planning/) 所述独立申请。
 
 亲人去世后，沿[丧亲事项](/docs/routes/bereavement/)分别报告死亡、核应退款项及遗属申请，保险和遗产资料另交相应机构；已有保障也继续核终止与家属接续。
+
+退休账户的取用、离职后转移或供款错误，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核账户种类、办理方式、实际税年及期限，保存计划和金融机构的完成记录。生活费或食物不足时，另接[食品与现金支持](/docs/routes/food-cash-support/)核本人申请。

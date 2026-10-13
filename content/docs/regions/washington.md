@@ -53,3 +53,5 @@ weight: 30
 需要离岗或处理工伤时，沿[职场权利](/book/work/employment/workplace-rights/)分雇主、ESD与L&I的通知、申请及书面决定，回岗安排另确认。
 
 亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)核处置授权、DOH记录种类与申请资格，殡葬投诉、SSA和遗产资料各按主管继续。
+
+安排储蓄或教育供款时，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核供款、实际资产和取用条件。[食品与现金支持](/book/work/finance/food-cash-support/)、[债务与催收](/book/work/finance/debt/) 和 [法院通知](/book/rights/legal/notices-deadlines/) 连接经济困难与书面回应；[灾害准备](/book/rights/safety/disaster-preparation/) 和 [家庭枪支安全](/book/rights/safety/firearms/) 连接当地风险与家庭安排。食品现金申请、项目决定和法院回应分别办理；灾害预警分西雅图、King County与其他地址。枪支非公民条件、临时转交与车内存放按各条适用分支核。

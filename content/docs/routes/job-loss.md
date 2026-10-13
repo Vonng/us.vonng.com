@@ -25,6 +25,6 @@ weight: 56
 
 拿到旧保障结束日期后，按[医保衔接](/book/people/health/coverage-changes/)比较可加入的计划，确认每位家人的新保障生效。正在治疗的人同时联系诊所、医生和药房，安排记录及药物承接。
 
-食物、租金或今晚的住处已经受影响时，进入[失业页的紧急支持分支](/book/work/employment/job-loss-support/)。已有房东通知或法院文件，继续沿[租房与通知处理](/book/life/housing/rental-process/)保留记录，并按[法律帮助](/book/rights/legal/finding-help/)说明文件类型和最近日期。需要电话语言协助或书面确认，可参考[服务沟通](/book/people/language/service-conversations/)。
+食物、租金或今晚的住处已经受影响时，进入[失业页的紧急支持分支](/book/work/employment/job-loss-support/)，同时沿[食品与现金支持](/docs/routes/food-cash-support/)核实际项目申请。债务付款困难时，另沿[还款与催收](/docs/routes/debt/)核收款方及书面安排。已有房东通知或法院文件，继续沿[租房与通知处理](/book/life/housing/rental-process/)保留记录，并按[法律帮助](/book/rights/legal/finding-help/)说明文件类型和最近日期。需要电话语言协助或书面确认，可参考[服务沟通](/book/people/language/service-conversations/)。
 
 办完这一轮，应能找到每件事的确认记录：最后工资是否结清、UI 哪些条件仍待决定、下一次申报或回应日期、医保起止时间，以及本地支持机构安排的下一步。恢复工作后，按本州指引报告工时和收入变化。

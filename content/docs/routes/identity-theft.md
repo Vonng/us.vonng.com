@@ -21,3 +21,5 @@ weight: 20
 4. 收到调查结果后，怎样核对更正是否落实，继续保留递交与回复记录。
 
 如果问题涉及证件号码，也可查看[SSN 与 ITIN 的用途](/book/life/documents/numbers/)。具体争议期限和投诉前提均以信用主题页列明的程序为准。
+
+陌生催收先按[债务核实与争议](/book/work/finance/debt/)确认明细和联系人，信用纠错同时继续。真正法院文件另沿[通知与回应](/docs/routes/notices-deadlines/)核本案期限，保存递交、送达和到庭记录。

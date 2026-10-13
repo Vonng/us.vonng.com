@@ -36,3 +36,5 @@ weight: 20
 [公交与铁路](/book/life/transport/public-transit/) 按四个具名都市运营者核车资、回程和无障碍服务，市名不能替服务区。[公共参与](/book/foundations/government/public-participation/) 的会议规则限具体机构或场次，投票则另按四州本人资格与当期手续办理。理解不同社区的形成，可接 [迁移与移民社会](/book/foundations/history/migration-society/)。
 
 [在校支持](/book/people/school/school-support/) 采用具体学区的语言、评估、计划与安全分支；[劳动权益](/book/work/employment/workplace-rights/) 分开雇主、州收入支持、工伤及正式投诉；[死亡手续](/book/people/aging/death-arrangements/) 按发生地找证明机关，殡葬、遗属和遗产各核主管及权限。
+
+安排储蓄或教育供款时，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核供款、实际资产和取用条件。[食品与现金支持](/book/work/finance/food-cash-support/)、[债务与催收](/book/work/finance/debt/) 和 [法院或行政通知](/book/rights/legal/notices-deadlines/) 按实际项目、监管者和案件办理。[灾害准备](/book/rights/safety/disaster-preparation/) 的市县预警与服务区分别确认；[枪支安全](/book/rights/safety/firearms/) 的人员、地方许可和搬动条件按实际所在地核。

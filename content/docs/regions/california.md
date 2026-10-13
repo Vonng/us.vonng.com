@@ -55,3 +55,5 @@ weight: 10
 疾病或照护需要离岗、受伤或歧视时，沿[职场权利](/book/work/employment/workplace-rights/)分别找雇主、EDD、工伤或平等就业机关，核本人的收件与下一步。
 
 亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)核洛杉矶县发证实例、殡葬监管及家属申请，其他发生地点找实际登记机关。
+
+安排储蓄或教育供款时，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核供款、实际资产和取用条件。[食品与现金支持](/book/work/finance/food-cash-support/)、[债务与催收](/book/work/finance/debt/) 和 [法院通知](/book/rights/legal/notices-deadlines/) 连接经济困难与书面回应；[灾害准备](/book/rights/safety/disaster-preparation/) 和 [家庭枪支安全](/book/rights/safety/firearms/) 连接当地风险与家庭安排。食品与现金支持按实际县核申请；普通法院通知按案型及送达方式核，灾害预警分洛杉矶市和县。枪支住宅存放与迁入沿本州分支，洛杉矶市报失规则限其适用范围。

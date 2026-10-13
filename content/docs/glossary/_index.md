@@ -63,3 +63,14 @@ weight: 30
 | VIN、title、registration、lien、odometer、binder、deductible、total loss | [车辆购买、登记、保险、事故与出售](/book/life/transport/owning-car/) |
 | Child care、license-exempt、CCAP、WCCC、CCS、Notice of Action | [托育选择、费用支持及决定后的继续办理](/book/people/family/childcare/) |
 | Advance directive、living will、health care proxy、durable POA、POLST、MOLST、OOH-DNR、representative payee | [医疗意愿、财务授权与信息文件的准备和更新](/book/people/aging/advance-planning/) |
+| Public comment、provisional ballot、cure、ballot tracking | [会议意见、投票与补正](/book/foundations/government/public-participation/) |
+| Fare、transfer、Reduced-Fare、paratransit、Access、METROLift | [公交铁路、费用支持与无障碍往返](/book/life/transport/public-transit/) |
+| IEP、504 plan、ARD、HIB | [在校语言、支持计划与安全处理](/book/people/school/school-support/) |
+| FMLA、CFRA、PFL、workers’ compensation、EEOC、Right-to-Sue | [休假、工伤与正式投诉](/book/work/employment/workplace-rights/) |
+| Death certificate、GPL、direct cremation、survivor、probate | [死亡证明、殡葬、遗属与遗产分流](/book/people/aging/death-arrangements/) |
+| 401(k)、IRA、Roth、HSA、FSA、529、vesting、rollover | [专项账户、供款、资产与取用](/book/work/finance/accounts-investing/) |
+| APR、co-signer、validation notice、debt collector、settlement | [借款成本、催收与结清](/book/work/finance/debt/) |
+| SNAP、EBT、TANF、recertification | [食品与现金申请、领取与持续报告](/book/work/finance/food-cash-support/) |
+| Summons、complaint、answer、service、default judgment、proof of service | [法院通知、回应、送达与到庭](/book/rights/legal/notices-deadlines/) |
+| Evacuation、shelter、FEMA、STEAR | [灾害预警、撤离、保险与援助](/book/rights/safety/disaster-preparation/) |
+| FFL、CPL、GV-EPO、CFARS、LER | [家庭枪支安全、搬动与依法交出](/book/rights/safety/firearms/) |

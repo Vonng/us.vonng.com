@@ -1,6 +1,6 @@
 # 活动队列
 
-更新：2026-10-14。用户已明确恢复全书目标，当前 active。保留 B01—B13；B14学校支持、死亡手续与职场权益三主题两审、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
+更新：2026-10-14。用户已明确恢复全书目标，当前active。保留B01—B14；B15四篇与B16两篇已完成独立事实、第三静态、正式集成、构建、实际渲染和完整本地同步。本地白名单提交由root收口，全书语言及情境验收继续；历史暂停现场保留在HANDOFF-2026-10-13.md。
 
 | 批次 | 所有者与范围 | 状态／下一步 |
 |---|---|---|
@@ -51,17 +51,20 @@
 | B14-school | static_editor作者：people/school/school-support及同slug地图／证据 → banking_fact事实审 → birth_fact第三静态 | 原作者仅补SPS一年HIB两类例外、收窄未独核CA复议数字；最终133行body04d5ef6d／wholebc4fc553、map42 SHA6af170ab／evi119 SHA51edaf28，bankFACT116行PASS SHA872b54f9、birthTHIRD69行PASS SHA65abafa4均root真正完整实读并六摘要从实际文件复算接受；两处唯一逆验通过。37来源各自段页／失败、旧件/OCR表/SPS504冲突保留，仅安装四项元数据；B14实际生产128 HTML／54正式主题，66访问／24搜索／8交互及36补充入口／50点击／8手机表零错误，另12搜索点击通过；root实际看58有效网页图和全部18新正文／3导读／1目录打印页，307文件／136目录443路径独立同步一致后正式登记integrated，见B14验收 |
 | B14-death | banking_fact作者：aging/death-arrangements → birth_fact事实 → static_editor第三 | 原作者仅在实际L61补IFS经办案件限定，125行body7f527b50／whole0ec2260e、map67 SHAa795abe6／最终evi105 SHAe9bb7506；root已新正文／两包全部实读、唯一句及证据定位一字符完整逆验。birth新FACT126行PASS SHAfe779632、static新THIRD82行PASS SHAff2561bc均root真正完整实读并六摘要从实际文件复算接受；75链接／元数据不变。旧104行事实与56行待修第三只留历史，不作新稿结论；49来源各自段页／失败保留，仅安装四项元数据；B14实际生产128 HTML／54正式主题，66访问／24搜索／8交互及36补充入口／50点击／8手机表零错误，另12搜索点击通过；root实际看58有效网页图和全部18新正文／3导读／1目录打印页，307文件／136目录443路径独立同步一致后正式登记integrated，见B14验收 |
 | B14-workplace | birth_fact作者：employment/workplace-rights → static_editor事实 → banking_fact第三 | 第三必要中文释义唯一修订后137行body049c4ece／whole0017e303、map49 SHA372f0775／evi85 SHA468bb400；static新FACT96行PASS SHAabe8dc32、bank新THIRD72行PASS SHAcc6afc83均root真正完整实读并六摘要从实际文件复算接受。root已新作者包全部实读、两处历史唯一逆验通过，77链接／元数据不变；旧待修54行abe59270仅留历史。PTO历史及55URL各自段页／失败保留，仅安装四项元数据；B14实际生产128 HTML／54正式主题，66访问／24搜索／8交互及36补充入口／50点击／8手机表零错误，另12搜索点击通过；root实际看58有效网页图和全部18新正文／3导读／1目录打印页，307文件／136目录443路径独立同步一致后正式登记integrated，见B14验收 |
-| B14-shared | root：三篇、三章导读、两新事项／七现有事项与四州、索引 | 54正式主题／28章／5部分、128 HTML；主66访问／24检索／8交互、补充36入口／50点击／8手机表及12搜索点击零错误；实际看58有效网页图、全部18新增正文及3导读／1目录打印页，307文件／136目录443路径独立同步相同。旧51篇双摘要与账本不变；见B14验收，本地提交待实核 |
-| B15-accounts | root作者：finance/accounts-investing及同slug地图／证据 → static_editor事实 → birth_fact第三 | root已先地图并实际读2026 IRS／四州一级采用段，现有written／draft true初稿；作者证据与三件全文读回尚未完成，未冻结或分派事实，B14工程优先。California HSA／DCAP不衔接及纽约项目与DTF用途差异已实际核；冻结后另派static事实／birth第三 |
-| B15-debt | banking_fact作者：finance/debt及同slug地图／证据 → birth_fact事实 → root第三 | bank最终111行body4aa3f767／whole7a16f07b、map82 SHAc086dd82／evidence113 SHAd118fac2已root三件全文真正实读并复算四摘要接受；现正式birth独立事实优先，root第三待事实PASS及全文接受后另办。作者包冻结，未正式集成 |
-| B15-notices | static_editor作者：legal/notices-deadlines及同slug地图／证据 → birth_fact事实 → banking_fact第三 | static原作者完成B14 workplace新事实与death新第三并获root实读接受，现恢复四州真实法院一级研究断点；尚无冻结正文，冻结后正式另派birth事实／bank第三 |
-| B15-support | birth_fact作者：finance/food-cash-support及同slug地图／证据 → root事实 → static_editor第三 | 先地图及2026当前一级研究；已保存真实作者断点，优先debt独立事实后恢复，未冻结正文／分派本稿事实 |
-| B16-disaster | banking_fact作者：safety/disaster-preparation及同slug地图／证据 → static_editor事实 → birth_fact第三 | debt作者包冻结获root实际接受后正式分派；先地图及四州预警、撤离、安全返回、保险／援助完整链研究，普通recovery可合并。未冻结、未分派事实 |
+| B14-shared | root：三篇、三章导读、两新事项／七现有事项与四州、索引 | 54正式主题／28章／5部分、128 HTML；主66访问／24检索／8交互、补充36入口／50点击／8手机表及12搜索点击零错误；实际看58有效网页图、全部18新增正文及3导读／1目录打印页，307文件／136目录443路径独立同步相同。旧51篇双摘要与账本不变；见B14验收，本地6ad9cd2，42明确完成文件与白名单逐件摘要实核一致，B15／B16进行中包未混入 |
+| B15-accounts | root作者：finance/accounts-investing及同slug地图／证据 → static_editor事实 → birth_fact第三 | 最终bodyfdc758f7，root作者→static_editor事实→birth_fact第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B15-debt | banking_fact作者：finance/debt及同slug地图／证据 → birth_fact事实 → root第三 | 最终body4aa3f767，banking_fact作者→birth_fact事实→root第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B15-notices | static_editor作者：legal/notices-deadlines及同slug地图／证据 → birth_fact事实 → banking_fact第三 | 最终body511bed06，static_editor作者→birth_fact事实→banking_fact第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B15-support | birth_fact作者：finance/food-cash-support及同slug地图／证据 → root事实 → static_editor第三 | 最终body4d2a18b7，birth_fact作者→root事实→static_editor第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B16-disaster | banking_fact作者：safety/disaster-preparation及同slug地图／证据 → static_editor事实 → birth_fact第三 | 最终bodya0687e6b，banking_fact作者→static_editor事实→birth_fact第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B-PL-foundations | banking_fact只读九基础正文；root修订／异人审阅 | 九篇实际全文读取、18摘要绑定；83行走查记录SHA5a7ced52已root完整接受。四篇八建议已冻结拟稿并纳入前20差分事实PASS／第三静态进行，五篇无需改待全书逐件登记；canonical尚未实施。其余三组只读已完整接受，旧67件进度映射仍待，不表示全书语言完成 |
+| B16-firearms | root作者：safety/firearms及同slug地图／证据 → banking_fact事实 → static_editor第三 | 最终body757a4e70，root作者→banking_fact事实→static_editor第三；两异人审及root最终包实际全读／复算通过；仅四项候选元数据，真实生产／两端网页／全部新增打印页／完整同步通过后正式登记integrated；详见 [B15／B16验收](reviews/b15-b16-integration.md) |
+| B15／B16-shared | root：六主题、26公共入口与打印段间距 | 60正式／28章／5部分、140 HTML；主74访问／24检索／8交互，补充52入口／134点击／18手机表零错误；实际72最终网页图及全部30新增正文／7入口打印页通过，331文件／148目录479路径独立同步一致；旧54双摘要及账条目不变，正式集成，见B15／B16验收 |
 
 root拥有配置、模板、首页、章导读、公共入口、总账、共享构建及本地提交。作者只改分派主题正文与同slug地图、证据；事实审只改分派审阅记录。新稿 written／draft true，核验字段空，冻结摘要后异人事实审，再由第三名参与者静态审；元数据、构建与正式登记由root完成。
 
-后续继续移民社会与公共参与、公共交通、学校支持、死亡手续、劳动权益、借贷／经济困难、法律文件与灾害等重要完整行动链；住户服务、婚姻、退休、无障碍、成人教育、创业、户外、购房和年度报税已有实际正文。四州、非公民、不同家庭、城乡、语言与无障碍条件逐项走查；领域地图条目可按同一行动链合并，不能以章节数或占位页满足目标。局部来源失败只限制相应断言，继续可核实工作。外部推送与发布未授权。
+后续按FOCUS完成全书语言修订、公共入口建议和情境贯通。移民社会、公共参与、交通、学校、死亡、劳动、专项账户、经济困难、通知及灾害核心已实际承接，仍逐项核四州、非公民、不同家庭、城乡、语言与无障碍条件。地图细目可在同一行动链内合并，低频专家程序保留确切边界，不凭篇数或占位页满足目标。外部推送与发布未授权。
 
 B07三位作者只改上述正文及同slug的ops/maps、ops/evidence，不改章导读、共享账本、其他正文或已集成版本。冻结后另下发事实审任务，不能自审。工作区新增语言校对规则已实读；新稿直接执行其判定标准，既有正文的B-PL另排批次，所有正文修订仍须符合用户AGENTS的摘要及异人审阅门禁。
 
-第一轮核心路径和收口条件已具体化于FOCUS.md；后续批次先补缺章，再补重要行动断点。PL-6两份共享入口实际通读、无需语言删改，记录验收；其余既有正文校对仍待分派。
+第一轮核心路径和收口条件见FOCUS.md；现60篇和78公共页仍须全书收口。旧54四组语言只读记录已root完整接受；35拟稿64处修订冻结，前20差分FACT实际接受后第三静态进行，people15差分FACT进行，canonical旧54及原账条目仍同B15基线。进行中下一批作者／审阅记录不混入本批提交，不能以只读记录登记语言已实施。

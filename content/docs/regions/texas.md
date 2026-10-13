@@ -51,3 +51,5 @@ weight: 40
 工作受伤或歧视时，沿[职场权利](/book/work/employment/workplace-rights/)先核雇主是否参加工伤保险，再分别走DWC争议或正式歧视投诉，收入支持资格另查。
 
 亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)分Houston城市服务范围与其他登记机关；由Harris IFS经办的案件，其医学部分由IFS填写，家属证明另向发证机关申请。
+
+安排储蓄或教育供款时，沿[储蓄与专项账户](/book/work/finance/accounts-investing/)核供款、实际资产和取用条件。[食品与现金支持](/book/work/finance/food-cash-support/)、[债务与催收](/book/work/finance/debt/) 和 [法院通知](/book/rights/legal/notices-deadlines/) 连接经济困难与书面回应；[灾害准备](/book/rights/safety/disaster-preparation/) 和 [家庭枪支安全](/book/rights/safety/firearms/) 连接当地风险与家庭安排。食品现金支持按HHSC及本人项目核申请，法院通知先分区县法院与治安法院。灾害预警和协助登记分Houston与Harris County，枪支儿童接触及州际搬动按本人所在地核。
