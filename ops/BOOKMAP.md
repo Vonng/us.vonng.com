@@ -4,13 +4,13 @@
 
 | # | 部分 | 章节路径 | 领域 | 当前状态 |
 |---|---|---|---|---|
-| 1 | 认识美国 | `/book/foundations/geography/` | 地理、地区与生活环境 | 已规划 |
+| 1 | 认识美国 | `/book/foundations/geography/` | 地理、地区与生活环境 | B05 已集成／本地构建通过 |
 | 2 | 认识美国 | `/book/foundations/history/` | 历史与社会形成 | B02 已集成／本地构建通过 |
 | 3 | 认识美国 | `/book/foundations/government/` | 国家制度、政府与公共事务 | B01 已集成／本地构建通过 |
-| 4 | 认识美国 | `/book/foundations/communities/` | 原住民、族群与公民权利 | 已规划 |
-| 5 | 认识美国 | `/book/foundations/culture/` | 社会文化与默会知识 | 已规划 |
+| 4 | 认识美国 | `/book/foundations/communities/` | 原住民、族群与公民权利 | B05 已集成／本地构建通过 |
+| 5 | 认识美国 | `/book/foundations/culture/` | 社会文化与默会知识 | B05 已集成／本地构建通过 |
 | 6 | 认识美国 | `/book/foundations/world/` | 美国与世界 | 已规划 |
-| 7 | 建立日常生活 | `/book/life/documents/` | 身份、入境、文件与行政生活 | B01 已集成／本地构建通过 |
+| 7 | 建立日常生活 | `/book/life/documents/` | 身份、入境、文件与行政生活 | B01、B05 文件号码与地址更新已集成；其余待补 |
 | 8 | 建立日常生活 | `/book/life/housing/` | 住房、租赁、购房与居住关系 | B01、B04押金与四州租赁已集成；其余待补 |
 | 9 | 建立日常生活 | `/book/life/household/` | 衣食、购物与家庭运转 | 已规划 |
 | 10 | 建立日常生活 | `/book/life/transport/` | 交通、驾驶、车辆与出行 | B03 已集成／本地构建通过 |

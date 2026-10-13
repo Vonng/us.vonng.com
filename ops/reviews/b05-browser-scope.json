@@ -1,0 +1,26 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/book/foundations/",
+    "/book/foundations/geography/",
+    "/book/foundations/communities/",
+    "/book/foundations/culture/",
+    "/book/life/documents/",
+    "/book/foundations/geography/regional-life/",
+    "/book/foundations/communities/tribal-nations/",
+    "/book/foundations/culture/invitations-boundaries/",
+    "/book/life/documents/address-changes/",
+    "/docs/routes/",
+    "/docs/routes/moving/",
+    "/docs/regions/",
+    "/docs/glossary/",
+    "/docs/about/"
+  ],
+  "queries": {
+    "都会": "从地区背景到具体住址",
+    "邀约": "寒暄、邀约与边界",
+    "Tribal Nations": "Tribal Nations：主权",
+    "AR-11": "搬家后怎样更新地址"
+  }
+}

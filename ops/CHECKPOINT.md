@@ -1,13 +1,13 @@
 # 恢复断点
 
-更新：2026-10-13，B04验收通过／本地提交前。目标active，全书未完成。
+更新：2026-10-13，B05正式集成与public同步完成，待本地提交；B06作者研究与写作中。目标active，全书未完成。
 
-- Git main，无远端；已提交B01 c292949、B02 44d1094、B03 a81085f。Hugo0.166.0 Extended，OINK1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce。原始PROMPT保留；上级AGENTS不存在。
-- 已集成18主题、12章、5部分。B04新增租房流程、医保衔接和跨州税務，已接入章节／四州／相关事项；三人审阅及最终正文SHA见 acceptance.json。不要使用旧草稿SHA。
-- 最新53 HTML／18主题构建，32页面／18搜索／8交互通过；手机三表实看、89页PDF抽查第27、49、77页，详见b04-integration.md。public已同步157路径、大小、SHA。未外部发布。
-- B05作者进行中：health地理生活regional-life、documents邀约文化invitations-boundaries、civic Tribal Nations tribal-nations。三篇分别在foundations下；主控拥有章导读与共享导航。root另写life/documents/address-changes，必须由documents事实审、civic第三人静态审；root不能自审。
-- 地址稿尚未写文件；已实际读取USPS、USCIS改址／AR11／政策手册／保护案件路径、EOIR33、IRS、SSA及F1 I20第3页、J1报告段。缓存.cache/evidence/address-changes；失败的eCFR访问页与GovInfo找不到页不能当法规。学生和USCIS待办、EOIR必须分别交代。后续须把实际读源写入轻量证据。
+- Git main，无远端；已有B01 c292949、B02 44d1094、B03 a81085f、B04 34ad9e4。Hugo0.166.0 Extended，OINK1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce。原始PROMPT保留；上级AGENTS不存在。
+- 已集成22主题、15章、5部分。B05新增地理生活、原住民族、寒暄邀约、地址更新及搬家事项。最终SHA、三人身份和审阅路径在acceptance.json；root作者地址稿由documents事实审和civic第三静态，不能自审。
+- 最新61 HTML／22主题构建，32页面／20搜索／8交互通过。实际看手机三表、对话、Tribal桌面、两端背景导读与搬家事项；108页PDF抽查10、20、25、36页。public已同步173路径、大小、SHA，详b05-integration.md。无外部发布。
+- B06 health出生稿已冻结3e2583c2并交documents事实审；documents银行稿已冻结bbbe8868，civic完成失业稿后事实审；civic失业稿冻结后root事实审、documents第三静态。root完整写finding-help，SHA cfd22957adcb25ca52a9ef62cc351dd52cbe383e7de8456063e88d3e4c124277，maps/evidence同slug；已安排health完成出生稿后事实审，civic第三静态待事实PASS再派。出生、银行稿第三静态由root承担。执行者只写各自主题及分项记录。
+- B06法律稿已实际读取四州服务/目录主文、USAGov/LSC、CA有限代理与费用、NY窗口、USCIS/EOIR代表范围、TX费用争议等；NY具体律师搜索403未绕过，正文链接当前官方导航入口，未查个人。不得把入口可访问说成个案资格已核实。
 
-下一步：本地提交B04，排除B05草稿。写完地址更新、安排三篇背景稿异人事实审，再第三人静态审、补章导读；地址审核完成后可建立搬家事项。构建渲染同步后逐批本地提交。生命周期、历史文化及多数领域仍有缺口，不以篇数宣称整书完成。
+下一步：本地提交B05已经完成的源文件与轻量记录，排除B06未审草稿及证据；继续B06异人事实审、第三人静态审与章节、生命周期事项。多数领域及全书情境走查尚未完成，不凭篇数宣称整书完成。
 
-自建预览127.0.0.1:1317，scripts/serve_preview.py HTTP/1.1；恢复时查实际进程，不继承旧句柄。1318临时B04草稿服务器已关闭。所有缓存、截图、PDF、public均忽略。只关闭自己创建的浏览器或预览进程。细节见ENGINEERING与reviews。
+自建预览127.0.0.1:1317，scripts/serve_preview.py HTTP/1.1；恢复时核对实际进程，不继承旧句柄。1318旧临时预览已关闭。缓存、截图、PDF、public忽略。只关闭自己创建的进程。细节见ENGINEERING与reviews。

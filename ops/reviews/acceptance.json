@@ -160,5 +160,41 @@
     "verified": "2026-10-13",
     "fact_record": "ops/reviews/b04-state-tax-fact.md",
     "static_record": "ops/reviews/b04-static.md"
+  },
+  "content/book/foundations/geography/regional-life.md": {
+    "body_sha256": "aa982155b6b883ca880b8a025e02a2339e834d856e50ea0b29f0e3fbca3461d9",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b05-geography-fact.md",
+    "static_record": "ops/reviews/b05-static.md"
+  },
+  "content/book/foundations/culture/invitations-boundaries.md": {
+    "body_sha256": "0307996d17b75c6d7eed21c999ed8d67e2e995e2325ea9546ccfc0ea4ba309a6",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b05-culture-fact.md",
+    "static_record": "ops/reviews/b05-static.md"
+  },
+  "content/book/foundations/communities/tribal-nations.md": {
+    "body_sha256": "03f57beb548e4fa009cec0f487867cc1716c3c2be7edb99daada2409d206d506",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b05-tribal-fact.md",
+    "static_record": "ops/reviews/b05-static.md"
+  },
+  "content/book/life/documents/address-changes.md": {
+    "body_sha256": "0c4c7defe92930d2b243ef2e2de2f67112fde06bad99a8631e30755c74b05e11",
+    "author": "root",
+    "fact_reviewer": "documents",
+    "static_reviewer": "civic",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b05-address-fact.md",
+    "static_record": "ops/reviews/b05-address-static.md"
   }
 }

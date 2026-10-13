@@ -13,6 +13,6 @@ book_kind: part
 book_number: '1'
 ---
 
-历史帮助理解学校、住房和权利怎样变化；具体办事则需要辨认今日的管辖与服务范围。从办事主管入手，可以看清联邦、州和地方规则为什么会同时出现在一件事里。阅读具体制度时，先确认负责的机构，再看规则适用的地点与对象。
+从[地区与生活环境](/book/foundations/geography/)开始，可以把美国的区域背景落到具体地址。接着阅读[历史](/book/foundations/history/)与[政府制度](/book/foundations/government/)，理解学校、住房和公共规则怎样形成，以及今天由谁负责。
 
-下列章节连接相关主题；每页可以独立阅读。
+[原住民族与共同体](/book/foundations/communities/)用具体Nation的自身材料讲土地、治理与当代生活；[交往与日常文化](/book/foundations/culture/)则从寒暄、邀约和边界进入人与人的往来。各章也可按眼前的问题独立阅读。

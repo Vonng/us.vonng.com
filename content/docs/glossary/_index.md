@@ -17,6 +17,7 @@ weight: 30
 |---|---|
 | Visa、I-94、I-797、EAD | [身份与文件比较](/book/life/documents/status-documents/) |
 | SSN、ITIN | [身份、社保与税务号码](/book/life/documents/numbers/) |
+| AR-11、EOIR-33、I-865、Form 8822、DSO、SEVIS | [搬家后的地址通知与案件记录](/book/life/documents/address-changes/) |
 | Premium、deductible、copay、coinsurance、out-of-pocket maximum、SBC | [医疗费用结构](/book/people/health/insurance-costs/) |
 | Network、PCP、referral、prior authorization | [预约前的网络与手续](/book/people/health/appointment-network/) |
 | EOB、claim、appeal、FAP、good faith estimate | [医疗账单与异议处理](/book/people/health/medical-bills/) |
@@ -33,3 +34,6 @@ weight: 30
 | Rental application、lease、screening fee、adverse action notice | [租房申请、费用与拒绝后的处理](/book/life/housing/rental-process/) |
 | COBRA、special enrollment period、Marketplace、Medicaid、CHIP | [失业或搬州后的保障衔接](/book/people/health/coverage-changes/) |
 | Domicile、source income、540NR、IT-203、IT-360.1 | [跨州居民、来源收入与表件](/book/work/tax/state-residency/) |
+| Metropolitan statistical area、urban / rural、Climate Normals、DST | [地区、气候与具体住址](/book/foundations/geography/regional-life/) |
+| Small talk、pragmatics、make it、pass | [寒暄、邀约与边界](/book/foundations/culture/invitations-boundaries/) |
+| Tribal Nation、reservation、trust land、Indian country、ANCSA | [主权、土地与成员](/book/foundations/communities/tribal-nations/) |
