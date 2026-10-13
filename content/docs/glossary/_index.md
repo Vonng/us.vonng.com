@@ -23,3 +23,7 @@ weight: 30
 | Security deposit | [加州租房押金](/book/life/housing/ca-deposit/) |
 | Credit report、credit freeze、fraud alert | [信用记录与身份盗用](/book/work/finance/credit-records/) |
 | 911、988、non-emergency | [紧急与非紧急求助](/book/rights/safety/emergency-help/) |
+| Green card test、substantial presence test、exempt individual、dual-status | [税务居民与居民期间](/book/work/tax/tax-residency/) |
+| Form 8843、8840、8833、1040、1040-NR | [税务例外与申报路径](/book/work/tax/tax-residency/) |
+| Interpreter、reference number、credit、refund | [服务沟通与确认处理](/book/people/language/service-conversations/) |
+| Reconstruction、Jim Crow、Brown、restrictive covenant | [隔离与民权史](/book/foundations/history/segregation-civil-rights/) |

@@ -1,14 +1,14 @@
 # 恢复断点
 
-更新：2026-10-13，B01验收通过，首次本地提交前。目标仍 active，全书未完成。
+更新：2026-10-13，B02验收通过／本地提交前。目标active，全书未完成。
 
-- 首次目录只有 PROMPT；已读全部目标及上级约定，初始化Git main，无远端。OINK1.2.0固定指定提交；Hugo0.166.0 Extended。加拿大只读参考，无服务身份沿用。
-- 五部分、28领域、全国地区与14事项的候选地图已建；实际正式内容为 B01 九主题，六章导读。元数据与 acceptance.json 绑定正文SHA及三名不同参与者。
-- B01 生产构建零警告；33 HTML，九正式主题。站内链接／锚点／元数据／搜索／打印覆盖通过；草稿、隐藏页及隐藏子树、search_exclude、no_print独立实验通过。浏览器34页面／6搜索及点击、键盘、复制、侧栏、明暗、打印锚点通过。截图与38页PDF实际抽查看 b01-integration.md。
-- public 已从 .cache/production-review 同步，116路径、大小、SHA全部一致。仅本地构建，无外部发布。
-- B02 三篇已独立事实核验及root静态审，通过SHA见 b02-static.md；仍是 written/draft true，等待导读与入口集成。作者 civic历史、health税务、documents语言；review轮换为 documents/civic/health。
-- B03 正在研究：health公校入学，documents四州驾驶证，civic工资与加班。仅改独占主题/地图/证据。恢复须看实际文件和代理状态，不继承旧句柄。
+- Git main，无远端；B01提交c292949。Hugo0.166.0 Extended，OINK1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce。原始PROMPT保留。
+- 已集成12主题：B01医疗3、文件号码2、加州押金1、政府／信用／应急3；B02隔离民权史、税务居民、服务英语。9章导读、5部分、事项／地区／术语入口均为真实内容。SHA和三参与者绑定见acceptance.json。
+- B02最新生产构建40 HTML／12正式主题，零警告，内部链接／锚点／搜索／打印检查通过。首列6rem修正手机表格后58页面／12搜索完整回归通过，实际截图／55页PDF抽查见b02-integration.md。public已同步路径、大小、SHA；未外部发布。
+- B03三篇仍written/draft true：驾驶证e3ca87c7f5c1d773710f596dc266f7031ecd62551a98e8a8c92b5758ccc9c74b（作者documents／事实审civic通过）；工资0b21289995a0c69432629ae8231032d132c2593cdf21c3ddf4db029b89f21c0a（civic／health通过）；学校f3525f1b4dd6a652bc53c1ca7dcb434bb1ff470092e8113e035fd1eaa97697a8（health／documents通过）。root已全文预读三稿，须重读事实审与修订后静态结论。
+- root已写B03三章导读（transport/school/employment）及NY/WA/TX地区页，全为草稿，尚未正式展示。不要误当已集成。
+- B04：documents租赁流程，health失业／搬家医疗衔接，civic四州税务资料；完成B03审阅后开工，详见TASKS。恢复检查实际文件与代理，不继承旧句柄。
 
-下一步：先完成B01本地提交；集成B02三篇与章节导读、事项／术语入口，按变更验收后再次同步提交；继续B03交叉审查。不能以首批篇数代替完整首轮范围。四州地方链、生命周期与多数领域仍有明确缺口。
+下一步：本地提交B02已完成源文件（排除B03在写稿）；root第三人静态审B03三稿并集成主题／导读／地区／入学路径，按变更检查同步提交；继续B04。四州地方链与生命周期、历史文化及多数领域仍有缺口，不以篇数宣称整书完成。
 
-本会话自建预览在127.0.0.1:1317，以 scripts/serve_preview.py 提供HTTP/1.1；原SimpleHTTPServer已关闭。恢复时查实际进程；结束只关闭本项目自己创建的进程。生成物在忽略目录，详见 ENGINEERING。
+自建预览为127.0.0.1:1317，scripts/serve_preview.py HTTP/1.1；旧HTTP/1.0服务器已关闭。恢复时查真实进程；结束只关闭本项目自己创建的进程。所有缓存、截图、PDF、public均忽略。细节见ENGINEERING、reviews与分项地图。

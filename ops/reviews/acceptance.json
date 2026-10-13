@@ -79,5 +79,32 @@
     "verified": "2026-10-13",
     "fact_record": "ops/reviews/b01-civic-fact.md",
     "static_record": "ops/reviews/b01-static.md"
+  },
+  "content/book/foundations/history/segregation-civil-rights.md": {
+    "body_sha256": "0f3d9430be295eccb387b5e85cd3a8af6cdeaa194eeffff0e23773f453a5cf19",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b02-history-fact.md",
+    "static_record": "ops/reviews/b02-static.md"
+  },
+  "content/book/work/tax/tax-residency.md": {
+    "body_sha256": "93d49d8669b588696e7b89b7d48e1dd9e6647f1068a58834adb446a829eff457",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b02-tax-fact.md",
+    "static_record": "ops/reviews/b02-static.md"
+  },
+  "content/book/people/language/service-conversations.md": {
+    "body_sha256": "62b636f6b67ceecfdd3d7f0800b863c39afa29a1bb3370d40b5eb8f8e0a0d41b",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b02-language-fact.md",
+    "static_record": "ops/reviews/b02-static.md"
   }
 }

@@ -5,15 +5,18 @@ const report={date:new Date().toISOString(),base,pages:[],searches:[],interactio
 const checks='.cache/render';await fs.mkdir(checks,{recursive:true});
 const ledger=JSON.parse(await fs.readFile('ops/reviews/acceptance.json','utf8'));
 const topicPaths=Object.keys(ledger).map(p=>'/'+p.replace(/^content\//,'').replace(/\.md$/,'/'));
-const paths=['/','/book/','/book/people/health/','/docs/routes/','/docs/regions/','/docs/regions/california/','/docs/glossary/','/docs/routes/medical-care/',...topicPaths];
-const browser=await chromium.launch({executablePath:process.env.US_CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+const paths=[...new Set(['/','/book/','/docs/routes/','/docs/regions/','/docs/regions/california/','/docs/glossary/','/docs/routes/medical-care/','/docs/routes/tax-preparation/',...topicPaths.map(p=>p.slice(0,p.lastIndexOf('/',p.length-2)+1)),...topicPaths])];
+const queries={'EOB':'收到医疗账单','押金':'加州租房押金','信用':'查信用报告','税务居民':'美国税务居民怎样判断','重建':'社区与学校','口译':'预约、查账单和跟进'};
+let browser;
 const expect=(x,m)=>{if(!x)report.errors.push(m);};
 try {
  for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
   const mode=viewport.width>700?'desktop':'mobile';
+  browser=await chromium.launch({executablePath:process.env.US_CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
   const context=await browser.newContext({viewport,permissions:['clipboard-read','clipboard-write']});
   const page=await context.newPage();page.on('pageerror',e=>report.errors.push(mode+': '+e.message));page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)report.errors.push(mode+': HTTP '+r.status()+' '+r.url());});
   page.on('requestfailed',r=>{if(r.url().startsWith(base)&&r.failure()?.errorText!=='net::ERR_ABORTED')report.errors.push(mode+': '+r.failure()?.errorText+' '+r.url());});
+  page.on('crash',()=>report.errors.push(mode+': browser renderer crashed'));
   for(const path of paths){
    const response=await page.goto(base+path);await page.waitForLoadState('networkidle');
    await page.evaluate(()=>Promise.all([...document.images].map(img=>img.decode().catch(()=>{}))));
@@ -21,6 +24,7 @@ try {
    report.pages.push({mode,path,status:response.status(),...dom});
    expect(response.status()===200,`${mode} ${path}: status`);expect(dom.width<=viewport.width+1,`${mode} ${path}: overflow ${dom.width}`);expect(dom.h1.length===1,`${mode} ${path}: heading count`);expect(dom.images.length===0,`${mode} ${path}: broken images ${dom.images}`);
    if(topicPaths.includes(path))expect(dom.meta,`${mode} ${path}: missing metadata`);
+   if(topicPaths.includes(path))await page.screenshot({path:`${checks}/${mode}-topic-${path.split('/').filter(Boolean).at(-1)}.png`});
    if(['/', '/book/people/health/medical-bills/','/docs/routes/medical-care/','/docs/regions/'].includes(path))await page.screenshot({path:`${checks}/${mode}-${path==='/'?'home':path.split('/').filter(Boolean).at(-1)}.png`,fullPage:path!=='/'});
   }
   await page.goto(base+'/');
@@ -35,12 +39,11 @@ try {
   await page.locator('[data-td-action="copy_markdown"]:visible').first().click();
   await page.waitForFunction(()=>document.querySelector('[data-td-action="copy_markdown"].td-is-copied'));
   const copied=await page.evaluate(()=>navigator.clipboard.readText());expect(copied.includes('EOB'),mode+': copy content');report.interactions.push({mode,copy_chars:copied.length});
-  for(const query of ['EOB','押金','信用']){
+  for(const [query,title] of Object.entries(queries)){
    await page.locator('[data-td-shell-search-open]:visible').first().click();const input=page.locator('.td-shell-search__input');await input.fill(query);
-   await page.waitForFunction(()=>document.querySelectorAll('#td-shell-search-results [role="option"]').length>0);
-   await page.waitForTimeout(350);
-   const results=await page.locator('#td-shell-search-results').innerText();report.searches.push({mode,query,results});expect(results.includes({'EOB':'收到医疗账单','押金':'加州租房押金','信用':'查信用报告'}[query]),mode+': relevant search '+query);
-   await page.screenshot({path:`${checks}/${mode}-search-${query==='EOB'?'eob':query==='押金'?'deposit':'credit'}.png`});
+   await page.waitForFunction(expected=>document.querySelector('#td-shell-search-results')?.textContent.includes(expected),title);
+   const results=await page.locator('#td-shell-search-results').innerText();report.searches.push({mode,query,results});expect(results.includes(title),mode+': relevant search '+query);
+   await page.screenshot({path:`${checks}/${mode}-search-${query}.png`});
    await page.keyboard.press('Escape');await page.locator('#td-shell-search').waitFor({state:'hidden'});expect(await page.locator('#td-shell-search').isHidden(),mode+': search Escape');
   }
   // Search result keyboard navigation must reach an actual topic.
@@ -60,7 +63,8 @@ try {
   expect(print.broken.length===0,mode+': print anchors');expect(print.meta===topicPaths.length,mode+': print metadata count');report.interactions.push({mode,print});
   if(mode==='desktop'){await page.screenshot({path:`${checks}/desktop-print.png`});await page.pdf({path:`${checks}/book-review.pdf`,format:'A4',printBackground:true});}
   await context.close();
+  await browser.close();browser=undefined;
  }
-} catch(e){report.errors.push(e.stack);} finally {await browser.close();await fs.writeFile('.cache/browser-report.json',JSON.stringify(report,null,2)+'\n');}
+} catch(e){report.errors.push(e.stack);} finally {if(browser)await browser.close();await fs.writeFile('.cache/browser-report.json',JSON.stringify(report,null,2)+'\n');}
 console.log(JSON.stringify({pages:report.pages.length,searches:report.searches.length,interactions:report.interactions,errors:report.errors},null,2));
 process.exitCode=report.errors.length?1:0;

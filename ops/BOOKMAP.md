@@ -5,7 +5,7 @@
 | # | 部分 | 章节路径 | 领域 | 当前状态 |
 |---|---|---|---|---|
 | 1 | 认识美国 | `/book/foundations/geography/` | 地理、地区与生活环境 | 已规划 |
-| 2 | 认识美国 | `/book/foundations/history/` | 历史与社会形成 | B02 独立核验与静态审通过 |
+| 2 | 认识美国 | `/book/foundations/history/` | 历史与社会形成 | B02 已集成／本地构建通过 |
 | 3 | 认识美国 | `/book/foundations/government/` | 国家制度、政府与公共事务 | B01 已集成／本地构建通过 |
 | 4 | 认识美国 | `/book/foundations/communities/` | 原住民、族群与公民权利 | 已规划 |
 | 5 | 认识美国 | `/book/foundations/culture/` | 社会文化与默会知识 | 已规划 |
@@ -13,20 +13,20 @@
 | 7 | 建立日常生活 | `/book/life/documents/` | 身份、入境、文件与行政生活 | B01 已集成／本地构建通过 |
 | 8 | 建立日常生活 | `/book/life/housing/` | 住房、租赁、购房与居住关系 | B01 已集成／本地构建通过 |
 | 9 | 建立日常生活 | `/book/life/household/` | 衣食、购物与家庭运转 | 已规划 |
-| 10 | 建立日常生活 | `/book/life/transport/` | 交通、驾驶、车辆与出行 | 已规划 |
+| 10 | 建立日常生活 | `/book/life/transport/` | 交通、驾驶、车辆与出行 | B03 驾照事实审通过 |
 | 11 | 建立日常生活 | `/book/life/digital/` | 数字生活、通信与信息判断 | 已规划 |
 | 12 | 建立日常生活 | `/book/life/community/` | 社区、公共服务、文化与休闲 | 已规划 |
 | 13 | 人生、健康与学习 | `/book/people/health/` | 医疗保险、就医与医疗账单 | B01 已集成／本地构建通过 |
 | 14 | 人生、健康与学习 | `/book/people/accessibility/` | 心理健康、残障与无障碍生活 | 已规划 |
 | 15 | 人生、健康与学习 | `/book/people/family/` | 亲密关系、婚姻、家庭与生育 | 已规划 |
-| 16 | 人生、健康与学习 | `/book/people/school/` | 儿童、青少年与基础教育 | 已规划 |
+| 16 | 人生、健康与学习 | `/book/people/school/` | 儿童、青少年与基础教育 | B03 入学事实审通过 |
 | 17 | 人生、健康与学习 | `/book/people/education/` | 高等教育、职业教育与终身学习 | 已规划 |
-| 18 | 人生、健康与学习 | `/book/people/language/` | 美式英语与多语言生活 | B02 独立核验与静态审通过 |
+| 18 | 人生、健康与学习 | `/book/people/language/` | 美式英语与多语言生活 | B02 已集成／本地构建通过 |
 | 19 | 人生、健康与学习 | `/book/people/aging/` | 中老年、退休、照护与死亡 | 已规划 |
 | 20 | 工作与财务 | `/book/work/career/` | 求职、职业发展与职场文化 | 已规划 |
-| 21 | 工作与财务 | `/book/work/employment/` | 劳动关系、公共保障与经济困难 | 已规划 |
+| 21 | 工作与财务 | `/book/work/employment/` | 劳动关系、公共保障与经济困难 | B03 工资事实审通过 |
 | 22 | 工作与财务 | `/book/work/finance/` | 银行、支付、信用、投资与保险 | B01 已集成／本地构建通过 |
-| 23 | 工作与财务 | `/book/work/tax/` | 个人税务、申报与跨境财务 | B02 独立核验与静态审通过 |
+| 23 | 工作与财务 | `/book/work/tax/` | 个人税务、申报与跨境财务 | B02 已集成／本地构建通过 |
 | 24 | 工作与财务 | `/book/work/business/` | 创业、企业、经营与公司税务 | 已规划 |
 | 25 | 法律、风险与环境 | `/book/rights/legal/` | 法律体系、权利与解决问题的机构 | 已规划 |
 | 26 | 法律、风险与环境 | `/book/rights/contracts/` | 合同、签约、责任与纠纷实务 | 已规划 |

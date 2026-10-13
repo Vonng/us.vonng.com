@@ -1,5 +1,7 @@
 # B01 civic / finance / safety 地图
 
+主控状态（2026-10-13）：本文件所列B01已写主题均已独立核验、静态审、集成与本地构建／渲染通过，提交 c292949；正式版本见 reviews/acceptance.json。下方作者研究阶段记录保留，后续候选仍未完成。
+
 作者：civic。更新：2026-10-13。三个主题均已形成完整草稿；`status: written`、`draft: true`，等待 documents 独立事实审与 root 第三人静态审。正文路径与 `page_id` 固定，作者不安装通过元数据。
 
 | 读者问题、description | 路径与 page_id | 边界、地区、依赖 | 来源方向、未知项和完成标志 |

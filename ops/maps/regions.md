@@ -8,7 +8,7 @@
 | US-AK | 阿拉斯加 Alaska | 全国清单 | 地方规则与流程待研究 |
 | US-AZ | 亚利桑那 Arizona | 全国清单 | 地方规则与流程待研究 |
 | US-AR | 阿肯色 Arkansas | 全国清单 | 地方规则与流程待研究 |
-| US-CA | 加利福尼亚 California | 重点州 | 押金研究中；其余住房、医疗、驾驶、劳动、税、教育待研究 |
+| US-CA | 加利福尼亚 California | 重点州 | 押金B01已集成；联邦税务页说明加州另判边界；驾驶／工资／入学B03研究中，其余地方链待补 |
 | US-CO | 科罗拉多 Colorado | 全国清单 | 地方规则与流程待研究 |
 | US-CT | 康涅狄格 Connecticut | 全国清单 | 地方规则与流程待研究 |
 | US-DE | 特拉华 Delaware | 全国清单 | 地方规则与流程待研究 |
@@ -35,7 +35,7 @@
 | US-NH | 新罕布什尔 New Hampshire | 全国清单 | 地方规则与流程待研究 |
 | US-NJ | 新泽西 New Jersey | 补充州 | 地方规则与流程待研究 |
 | US-NM | 新墨西哥 New Mexico | 全国清单 | 地方规则与流程待研究 |
-| US-NY | 纽约 New York | 重点州 | 地方规则与流程待研究 |
+| US-NY | 纽约 New York | 重点州 | 驾驶／工资／入学B03研究中；其余地方链待补 |
 | US-NC | 北卡罗来纳 North Carolina | 全国清单 | 地方规则与流程待研究 |
 | US-ND | 北达科他 North Dakota | 全国清单 | 地方规则与流程待研究 |
 | US-OH | 俄亥俄 Ohio | 全国清单 | 地方规则与流程待研究 |
@@ -46,11 +46,11 @@
 | US-SC | 南卡罗来纳 South Carolina | 全国清单 | 地方规则与流程待研究 |
 | US-SD | 南达科他 South Dakota | 全国清单 | 地方规则与流程待研究 |
 | US-TN | 田纳西 Tennessee | 全国清单 | 地方规则与流程待研究 |
-| US-TX | 得克萨斯 Texas | 重点州 | 地方规则与流程待研究 |
+| US-TX | 得克萨斯 Texas | 重点州 | 驾驶／工资／入学B03研究中；其余地方链待补 |
 | US-UT | 犹他 Utah | 全国清单 | 地方规则与流程待研究 |
 | US-VT | 佛蒙特 Vermont | 全国清单 | 地方规则与流程待研究 |
 | US-VA | 弗吉尼亚 Virginia | 全国清单 | 地方规则与流程待研究 |
-| US-WA | 华盛顿 Washington | 重点州 | 地方规则与流程待研究 |
+| US-WA | 华盛顿 Washington | 重点州 | 驾驶／工资／入学B03研究中；其余地方链待补 |
 | US-WV | 西弗吉尼亚 West Virginia | 全国清单 | 地方规则与流程待研究 |
 | US-WI | 威斯康星 Wisconsin | 全国清单 | 地方规则与流程待研究 |
 | US-WY | 怀俄明 Wyoming | 全国清单 | 地方规则与流程待研究 |
