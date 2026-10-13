@@ -19,15 +19,17 @@
 
 ```sh
 git submodule update --init
-python3 -m pip install -r requirements-checks.txt
-make check DESTINATION=.cache/production-review
-make check-drafts
+# 先以 git check-ignore 确认 .cache/ 下依赖与产物被忽略
+/opt/homebrew/bin/python3 -m venv .cache/checks-venv
+.cache/checks-venv/bin/python3 -m pip install -r requirements-checks.txt
+PATH="$PWD/.cache/checks-venv/bin:$PATH" make check DESTINATION=.cache/production-review
+PATH="$PWD/.cache/checks-venv/bin:$PATH" make check-drafts
 npm install --prefix .cache/browser --no-audit --no-fund playwright@1.64.0
-make preview
-# 另一个终端，在 127.0.0.1:1317 当前构建上运行
-make browser
+.cache/checks-venv/bin/python3 scripts/serve_preview.py --port 24137
+# 另一个终端，指向自己创建的当前构建预览
+US_PREVIEW_URL=http://127.0.0.1:24137 US_REVIEW_CONFIG=ops/reviews/b06-browser-scope.json make browser
 # 渲染及事实/静态审通过后
-make sync
+PATH="$PWD/.cache/checks-venv/bin:$PATH" make sync
 ```
 
 `make check` 在生产模式以 warning 为错误，检查全站已生成 HTML 的本地 href/src 与锚点、主题元数据、正文唯一 ID、中文加粗、搜索及打印覆盖、正文审核摘要与三名不同参与者。外链不由该命令测试。
@@ -60,3 +62,13 @@ make sync
 ## B03 增量
 
 50 HTML／15正式主题，新增入学事项及四州地区入口。实际手机工资表出现16.90被挤断，右对齐数字单元格设不换行、对应表头最小宽度6rem；正文和事实审SHA不变。新增`US_REVIEW_CONFIG`可传JSON路径/搜索范围，默认行为保留。共享样式变化后78页面／18搜索回归通过；地区页随后去重，追加2端检查。72页打印稿实际抽查第42、54页。151路径同步核对一致；详见reviews/b03-integration.md。
+
+## B06 恢复与正式集成
+
+保留旧批次22正文，实际摘要逐一一致。四篇经过各自三人审阅、最终差异复核及候选元数据后，正式登记26主题／17章／5部分。`PATH="$PWD/.cache/checks-venv/bin:$PATH" make check DESTINATION=.cache/production-review` 实际通过：69 HTML、26主题、0草稿，Hugo零警告及项目检查零错误。默认python3处于另一项目虚拟环境，缺少检查依赖；因此先确认忽略规则，创建本项目 .cache/checks-venv，未安装到全局环境。研究与打印辅助 requests／pypdf 也只在该环境；PDF全文使用pdftotext读取，栅格图使用pdftoppm。
+
+初次打印129页，在出生稿最后留下半行孤句。实际检查打印已有widows／orphans后，以临时CSS验证仅打印的最后正文段不分页，再加入项目SCSS。实际末段完整同页，之后重新生产构建和完整本批浏览器回归均通过；主题正文摘要未变。未改草稿／隐藏模板或过滤脚本，无须重复已通过的专门隔离实验。
+
+最终两端46页面、20搜索、8交互零错误；49打印内容单元、26范围元数据、637外链、零坏锚点。129页PDF实际抽查10／25／36／58／61／98／118／124页及关键手机表格、桌面／手机导读、事项、地区和首页。详细实际视读范围及未逐页边界见 [B06集成验收](reviews/b06-integration.md)。189路径／大小／SHA同步一致，无外部发布。
+
+本轮自建127.0.0.1:24137预览，启动进程PID68039，验收后仅关闭该进程。恢复时已有1317／1318监听不属本轮，未接管或终止。浏览器使用自己创建的无个人账户headless上下文；缓存报告、截图、PDF和依赖继续忽略。

@@ -23,6 +23,7 @@ weight: 30
 | EOB、claim、appeal、FAP、good faith estimate | [医疗账单与异议处理](/book/people/health/medical-bills/) |
 | Security deposit | [加州租房押金](/book/life/housing/ca-deposit/) |
 | Credit report、credit freeze、fraud alert | [信用记录与身份盗用](/book/work/finance/credit-records/) |
+| Checking、savings、APY、routing number、ACH、wire、Zelle、available balance、Regulation E | [开户、付款与交易纠错](/book/work/finance/banking-payments/) |
 | 911、988、non-emergency | [紧急与非紧急求助](/book/rights/safety/emergency-help/) |
 | Green card test、substantial presence test、exempt individual、dual-status | [税务居民与居民期间](/book/work/tax/tax-residency/) |
 | Form 8843、8840、8833、1040、1040-NR | [税务例外与申报路径](/book/work/tax/tax-residency/) |
@@ -30,9 +31,12 @@ weight: 30
 | Reconstruction、Jim Crow、Brown、restrictive covenant | [隔离与民权史](/book/foundations/history/segregation-civil-rights/) |
 | DMV、DOL、DPS、REAL ID、AB 60 | [四州驾驶证与材料分支](/book/life/transport/new-resident-license/) |
 | FLSA、pay period、workweek、gross pay、net pay、exempt | [工资单与加班条件](/book/work/employment/pay-stub-overtime/) |
+| UI、base period、base year、Monetary Determination、certify、request payment | [失业保险的申请、持续申报与申诉](/book/work/employment/job-loss-support/) |
 | School district、attendance area、kindergarten、McKinney–Vento liaison | [公校入学与缺件处理](/book/people/school/school-enrollment/) |
 | Rental application、lease、screening fee、adverse action notice | [租房申请、费用与拒绝后的处理](/book/life/housing/rental-process/) |
 | COBRA、special enrollment period、Marketplace、Medicaid、CHIP | [失业或搬州后的保障衔接](/book/people/health/coverage-changes/) |
+| MCAP、After-Pregnancy Coverage、CHIP Perinatal、birth worksheet、certified copy、Enumeration at Birth | [孕产保障、出生记录与新生儿手续](/book/people/family/birth-and-first-weeks/) |
+| Legal aid、notario、accredited representative、G-28、limited-scope representation、retainer | [找法律帮助、核实资格与谈清委托](/book/rights/legal/finding-help/) |
 | Domicile、source income、540NR、IT-203、IT-360.1 | [跨州居民、来源收入与表件](/book/work/tax/state-residency/) |
 | Metropolitan statistical area、urban / rural、Climate Normals、DST | [地区、气候与具体住址](/book/foundations/geography/regional-life/) |
 | Small talk、pragmatics、make it、pass | [寒暄、邀约与边界](/book/foundations/culture/invitations-boundaries/) |

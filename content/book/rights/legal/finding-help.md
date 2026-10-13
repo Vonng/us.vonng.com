@@ -4,10 +4,10 @@ description: 带着文件和期限找到合适的帮助，核对律师或移民�
 page_id: rights.legal.finding-help
 content_kind: task
 scope: 美国个人寻找法律帮助；民事服务与加州、纽约州、华盛顿州、得州入口，另说明联邦移民代表资格；查阅至 2026-10-13
-status: written
-draft: true
-verified: ""
-reviewed_by: ""
+status: integrated
+draft: false
+verified: "2026-10-13"
+reviewed_by: "health（独立事实审）；civic（静态审）"
 weight: 10
 ---
 

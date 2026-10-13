@@ -1,0 +1,34 @@
+{
+  "batch": "B06",
+  "paths": [
+    "/",
+    "/book/",
+    "/book/people/",
+    "/book/people/family/",
+    "/book/work/",
+    "/book/work/finance/",
+    "/book/work/employment/",
+    "/book/rights/",
+    "/book/rights/legal/",
+    "/book/people/family/birth-and-first-weeks/",
+    "/book/work/finance/banking-payments/",
+    "/book/work/employment/job-loss-support/",
+    "/book/rights/legal/finding-help/",
+    "/docs/routes/",
+    "/docs/routes/parenthood/",
+    "/docs/routes/job-loss/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/"
+  ],
+  "queries": {
+    "出生": "迎接孩子：孕产保险",
+    "开户": "开户与日常付款",
+    "失业": "失业或工时减少后",
+    "认可代表": "怎样找法律帮助"
+  }
+}

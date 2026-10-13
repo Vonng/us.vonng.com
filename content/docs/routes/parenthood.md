@@ -4,8 +4,8 @@ description: 先接好孕产服务和保障，再分别确认出生记录、号�
 page_id: routes.parenthood
 content_kind: editorial
 scope: 编辑阅读路径；孕期、分娩与新生儿最初几周，四州入口及具体条件见主题页
-status: written
-draft: true
+status: integrated
+draft: false
 verified: ''
 reviewed_by: root（编辑入口）
 weight: 55
@@ -23,7 +23,7 @@ weight: 55
 
 按 [出生后的四项手续](/book/people/family/birth-and-first-weeks/) 分别处理医院提交的登记资料、政府出生证明、SSN 申请和孩子的保险。核对姓名、家庭关系和地址；哪一项需要另申请、哪个机构负责，写在清单里。
 
-给孩子加保与等待纸质证件是两件需要分别跟进的事。及时报告出生，保存提交记录，询问缺件怎样补交。出生记录和亲子关系有争议，或家庭情况需要专门法律判断时，可按 [法律帮助](/book/rights/legal/finding-help/) 找适合的人员，带上实际表件说明自己的情况。
+及时向计划报告出生，保存提交记录；出生证明或 SSN 尚未寄到时，询问能否先申报、缺件怎样补交。出生记录和亲子关系有争议，或家庭情况需要专门法律判断时，可按 [法律帮助](/book/rights/legal/finding-help/) 找适合的人员，带上实际表件说明自己的情况。
 
 ## 确认能够继续就医和生活
 

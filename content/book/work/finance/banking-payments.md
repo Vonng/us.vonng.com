@@ -4,10 +4,10 @@ description: 从开户材料、费用和存款保障，到支票、ACH、wire �
 page_id: work.finance.banking-payments
 content_kind: task
 scope: 美国个人日常存款账户与境内支付；联邦规则及具名机构实例，查阅至 2026-10-13
-status: written
-draft: true
-verified: ""
-reviewed_by: ""
+status: integrated
+draft: false
+verified: "2026-10-13"
+reviewed_by: "banking_fact（独立事实审）；root（静态审）"
 weight: 10
 ---
 
@@ -26,11 +26,11 @@ weight: 10
 - 当前材料能否在线完成；若线上验证失败，可否预约现场核验。
 - 初始存入金额、账户使用条件；申请 credit union 时，还要确认会员资格。
 
-例如， **Bank of America 的国际专业人士开户页** 在本次查阅时明确表示不统一要求 SSN，但列出两份未过期身份证件，并区分 NRA 所需的境外实际地址与美国邮寄地址、RA 所需的美国实际地址，以及适用时的税号。主要证件示例包括外国护照；来自受美国经济或金融制裁国家的公民还可能被要求提交合法在美居住证明。该页引导预约网点办理。这是这家银行这一渠道的清单，不是凭护照即可在所有银行开户的承诺。[该行材料与预约说明](https://info.bankofamerica.com/en/international/professional-bank-account)
+例如， **Bank of America 的国际专业人士开户页** 在本次查阅时明确表示不统一要求 SSN，但列出两份未过期身份证件，并区分 NRA（non-resident alien，税务上的非居民外国人）所需的境外实际地址与美国邮寄地址、RA（resident alien，税务上的居民外国人）所需的美国实际地址，以及适用时的税号。主要证件示例包括外国护照；受美国经济或金融制裁国家的公民，该页还要求提供证明合法在美居住的文件。该页引导预约网点办理。这是这家银行这一渠道的清单，不是凭护照即可在所有银行开户的承诺。[该行材料与预约说明](https://info.bankofamerica.com/en/international/professional-bank-account)
 
-开户表中的税务身份也不要直接按签证名称猜填。拿不准时，请银行说明它问的是哪项税务声明，再核对自己的税务情况；号码用途先看 [SSN 与 ITIN](/book/life/documents/numbers/)。如果缺件，要求列明缺哪一项、可接受的替代件和补交渠道，不向陌生代办发送完整证件或购买所谓“可用税号”。
+开户表中的税务身份按 [联邦税务居民的判断方法](/book/work/tax/tax-residency/) 核对，不直接按签证名称猜填。拿不准时，请银行说明它问的是哪项税务声明，再核对自己的税务情况；号码用途先看 [SSN 与 ITIN](/book/life/documents/numbers/)。如果缺件，要求列明缺哪一项、可接受的替代件和补交渠道，不向陌生代办发送完整证件或购买所谓“可用税号”。
 
-**被拒开户时，先问拒绝来自身份核验，还是消费者报告。** 银行可能使用 ChexSystems、Early Warning Services 等支票账户报告，也可能使用传统信用报告。若因消费者报告而拒绝，应收到 adverse action notice，按通知找到报告公司，索取免费报告并纠错；同时问有没有适合自己的较低风险账户。不要把反复换申请表当作处理错误记录的方法。[CFPB：开户被拒](https://www.consumerfinance.gov/ask-cfpb/why-was-i-denied-a-checking-account-en-1113/) 传统信用报告另走 [信用记录与纠错](/book/work/finance/credit-records/)。
+**被拒开户时，先问拒绝来自身份核验，还是消费者报告。** 银行可能使用 ChexSystems、Early Warning Services 等支票账户报告，也可能使用传统信用报告。若因消费者报告而拒绝，应收到 adverse action notice（不利决定通知），按通知找到报告公司，索取免费报告并纠错；同时问有没有适合自己的较低风险账户。不要把反复换申请表当作处理错误记录的方法。[CFPB：开户被拒](https://www.consumerfinance.gov/ask-cfpb/why-was-i-denied-a-checking-account-en-1113/) 传统信用报告另走 [信用记录与纠错](/book/work/finance/credit-records/)。
 
 ## 签字前看费用，开户后确认能实际使用
 
@@ -42,11 +42,11 @@ weight: 10
 | 现金与 ATM | 附近可用地点；本行与 ATM 运营方可能分别收什么费；现金怎样存入 |
 | 付款 | 支票、wire、止付、纸质账单等是否收费；账户是否提供所需功能 |
 | 余额不足 | 是拒绝交易、退回扣款，还是允许透支；每一种情况有什么费用 |
-| 储蓄 | 利息、APY、最低余额与提款条件；定期存款提前取出会怎样 |
+| 储蓄 | 利息、[APY（计入复利的年收益率）](https://www.consumerfinance.gov/rules-policy/regulations/1030/2/)、最低余额与提款条件；定期存款提前取出会怎样 |
 
 银行替你支付超出余额的款项，可能产生 **overdraft** 及费用。针对普通透支服务，金融机构要对 ATM 和一次性 debit card 交易收取相应透支费，通常须先取得消费者明确选择加入的同意。这个 opt-in 边界不自动覆盖支票、ACH 或经常性扣款；拒绝加入，也不能据此认为账户绝不可能出现负数或任何相关收费。[Regulation E §1005.17(b)、(f)](https://www.consumerfinance.gov/rules-policy/regulations/1005/17/)
 
-拿到账号后，核对账户所有人、收信地址、联系方式和费用方案；确认能登录官方渠道、看到初始存款、找到客服及争议联系方式。设置交易与低余额提醒。雇主的 direct deposit 通常要账户号、routing number 和账户类型，按银行生成的直接存款资料填写，不把 debit card 卡号当成存款账号。第一笔工资实际到账后，再确认雇主设置已生效。[Chase 直接存款表件示例](https://www.chase.com/content/dam/chase-ux/documents/digital/45969_directdeposit.pdf)
+拿到账号后，核对账户所有人、收信地址、联系方式和费用方案；确认能登录官方渠道、看到初始存款、找到客服及争议联系方式。设置交易与低余额提醒。雇主的 direct deposit 通常要账户号、routing number（银行路由号码）和账户类型，按银行生成的直接存款资料填写，不把 debit card 卡号当成存款账号。第一笔工资实际到账后，再确认雇主设置已生效。[Chase 直接存款表件示例](https://www.chase.com/content/dam/chase-ux/documents/digital/45969_directdeposit.pdf)
 
 ## 存款保障保什么
 
@@ -78,7 +78,7 @@ Zelle 当前说明：给已注册收款人的付款通常很快到达，不能�
 
 银行界面可能同时显示账面或当前余额、available balance 和 pending transactions。 **Available balance** 表示银行此刻允许使用的金额；它未必已经减去银行尚不知道的支票或未来扣款。自己记录过、已经承诺支付的钱，仍要预留。
 
-例如，Chase **2026 年 6 月 14 日生效** 的存款协议在第 5、10 页解释了 available balance 与 pending；第 18—19 页另列存款截止时间、非营业日、延迟可用及新账户规则，并提示手机存支票可能适用不同条款。存入后问清“银行把哪天视为存款日、多少金额何时可用、有没有 hold notice”，比只问“支票到账了吗”更有用。[Chase 存款协议](https://www.chase.com/content/dam/chase-ux/documents/personal/checking/deposit-account-agreement.pdf)
+例如，Chase **2026 年 6 月 14 日生效** 的存款协议在第 5、10 页解释了 available balance 与 pending；第 18—19 页另列存款截止时间、非营业日、延迟可用及新账户规则，并提示手机存支票可能适用不同条款。存入后问清“银行把哪天视为存款日、多少金额何时可用、有没有 hold notice（资金暂缓可用通知）”，比只问“支票到账了吗”更有用。[Chase 存款协议](https://www.chase.com/content/dam/chase-ux/documents/personal/checking/deposit-account-agreement.pdf)
 
 下面是 **教学虚构例子，不是某家银行的界面或计费规则** ：
 
@@ -109,7 +109,7 @@ Zelle 当前说明：给已注册收款人的付款通常很快到达，不能�
 
 两个时钟可能同时存在。不要等账单或等接近期限才通知；住院等特殊原因导致延误时，应说明原因，请机构按延长期限规则处理。州法或合同也可能给予更低的本人责任。[§1005.6：责任、期限与例外](https://www.consumerfinance.gov/rules-policy/regulations/1005/6/)
 
-一般电子转账错误通知，应让机构在 **首次显示错误的对账单发出后 60 天内收到** 。电话通知可以启动程序；若机构当时要求书面确认并提供地址，按要求在 **10 个工作日内** 补交，否则可能影响临时贷记。说明能识别账户的资料、错误原因、尽可能明确的日期和金额，保存提交与送达记录。[§1005.11(b)](https://www.consumerfinance.gov/rules-policy/regulations/1005/11/)
+一般电子转账错误通知，应让机构在 **首次显示错误的对账单发出后 60 天内收到** 。电话通知可以启动程序；若机构当时要求书面确认并提供地址，按要求在 **10 个工作日内** 补交，否则可能影响临时贷记（调查期间暂时记入账户供你使用的款项）。说明能识别账户的资料、错误原因、尽可能明确的日期和金额，保存提交与送达记录。[§1005.11(b)](https://www.consumerfinance.gov/rules-policy/regulations/1005/11/)
 
 机构通常须在收到错误通知后 **10 个工作日** 内完成调查；符合临时贷记等条件时，可延至 **45 天** 。首次存款后 30 天内发生的交易，前一期间可为 20 个工作日；这类新账户交易、销售点借记卡交易和法规所列境外交易，调查期间可达 90 天。临时贷记不是最终结案；核对机构是否已作最终决定。拒绝纠正时，索取书面理由和其据以决定的文件。[§1005.11(c)—(d)](https://www.consumerfinance.gov/rules-policy/regulations/1005/11/)
 

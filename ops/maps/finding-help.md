@@ -1,6 +1,6 @@
 # 寻找法律帮助
 
-root，2026-10-13。正文 `content/book/rights/legal/finding-help.md`，page_id `rights.legal.finding-help`；written / draft true，审核字段空。拟 health 独立事实审、civic 第三人静态审；root 不自审。
+root，2026-10-13。正文 `content/book/rights/legal/finding-help.md`，page_id `rights.legal.finding-help`；B06正式 integrated / draft false，verified为2026-10-13。health 独立事实审与 civic 第三人静态审已PASS，均绑定当前 `98b56bc4…f9f639d`；恢复后 static_editor 另核正文与两份历史记录一致。主控候选构建、实际渲染与同步已通过并正式集成；root未自作事实审或第三审。
 
 对象与问题：收到个人民事文件、需要咨询或代理的读者，怎样带材料找适合的帮助、核实人员、明确代理与费用、确认下一步并在受阻时继续。全国共同方法配 CA/NY/WA/TX 官方服务与资格查询入口，USCIS/EOIR 另说明移民认可组织、个人认可与代理范围。刑事与紧急情况前置分流，不编写具体诉讼答辩。
 
@@ -11,3 +11,7 @@ root，2026-10-13。正文 `content/book/rights/legal/finding-help.md`，page_id
 未覆盖：民刑事完整法院层级及诉讼、每州法律援助收入/移民资格、具体刑事指定辩护、全部法域跨州执业规则、争议时效、财产/家事/破产程序、诉讼费用减免、四州各自收费仲裁细目、代表更换所需全部法庭表件。不得将目录可访问说成某人已核实或当事人一定符合援助条件。
 
 维护：四州官方目录与法律援助路线、DOJ/EOIR 名录和认可范围、USCIS G-28 指引、州有限代理及公众费用指南变化。源缓存不含私人案件或查询结果，没有提交表单或联系机构。
+
+## 主控正式登记
+
+root作者；health独立事实审、civic第三人静态审历史PASS与当前正文98b56bc4一致，static_editor恢复只读核对通过。B06正式integrated／draft false，2026-10-13，见b06-integration.md。 四稿审阅、69 HTML生产检查、两端46页面／20搜索及实际截图／打印抽查均通过；public与隔离生产目录189路径／大小／SHA一致。前文研究和交稿过程保留为历史，不能替代实际核验。

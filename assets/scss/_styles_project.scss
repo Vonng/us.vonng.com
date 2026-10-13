@@ -16,4 +16,8 @@
 .td-content table th[style*="text-align:right"] { min-width:6rem; }
 .td-content table td[style*="text-align:right"] { white-space:nowrap; }
 @media(max-width:700px) { .us-part-grid,.us-card-grid { grid-template-columns:1fr; } .td-landing-hero__title { font-size:2.35rem; } }
-@media print { .editorial-meta { font-size:9pt; } }
+@media print {
+  .editorial-meta { font-size:9pt; }
+  // Keep a topic's closing paragraph together before the next topic starts.
+  .td-book-print-page > p:last-child { break-inside:avoid-page; }
+}

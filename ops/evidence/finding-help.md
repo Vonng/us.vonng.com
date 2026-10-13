@@ -35,4 +35,8 @@ root，2026-10-13。正文已写为 draft true / written；以下是实际读取
 
 事实审修正：EOIR引用原误把工具行号写作问题序号，已改自然标题“认可代表的代理范围”；partial/full事实本身无改动。
 
-第三人静态审格式修正：civic发现partial、full与教学虚构三处中文加粗前少外侧空格，作者仅补三个空格。待事实审重绑与第三人确认。
+第三人静态审格式修正：civic发现partial、full与教学虚构三处中文加粗前少外侧空格，作者仅补三个空格。health事实审已复核并重绑当前98b56bc4，civic第三人静态PASS同版。2026-10-13恢复时实际正文摘要与两份记录一致，见 b06-resume-static.md；未构建或正式集成。
+
+## B06 主控集成记录
+
+root作者；health独立事实审、civic第三人静态审历史PASS与当前正文98b56bc4一致，static_editor恢复只读核对通过。B06正式integrated／draft false，2026-10-13，见b06-integration.md。 本段仅登记实际完成的审阅与集成，不新增来源实读或个案核实声明；实际读到的范围与失败边界见对应事实审记录。

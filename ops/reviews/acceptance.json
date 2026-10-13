@@ -196,5 +196,54 @@
     "verified": "2026-10-13",
     "fact_record": "ops/reviews/b05-address-fact.md",
     "static_record": "ops/reviews/b05-address-static.md"
+  },
+  "content/book/people/family/birth-and-first-weeks.md": {
+    "body_sha256": "bb51e12f0ed73579c4f86064c2b7963c28c323ea64d7cf6425b3df355ae609b8",
+    "author": "health",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b06-birth-fact.md",
+    "static_record": "ops/reviews/b06-static.md",
+    "integration_status": "integrated",
+    "revisers": [
+      "static_editor"
+    ]
+  },
+  "content/book/work/finance/banking-payments.md": {
+    "body_sha256": "2b42753157ed603aebc8b9a9eb4f5182c930d8410435cb6a8a7822f4219207e5",
+    "author": "documents",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b06-banking-fact.md",
+    "static_record": "ops/reviews/b06-static.md",
+    "integration_status": "integrated",
+    "revisers": [
+      "static_editor"
+    ]
+  },
+  "content/book/work/employment/job-loss-support.md": {
+    "body_sha256": "160a39b1cdd003a0528be0396f50330ddda787cc1e43b11491f630372bf3f7d7",
+    "author": "civic",
+    "fact_reviewer": "root",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b06-job-loss-fact.md",
+    "static_record": "ops/reviews/b06-job-loss-static.md",
+    "integration_status": "integrated",
+    "revisers": [
+      "birth_fact"
+    ]
+  },
+  "content/book/rights/legal/finding-help.md": {
+    "body_sha256": "98b56bc44fa152f1a3674528a3ee27c87f6fe75d7785e3489918da4f3f9f639d",
+    "author": "root",
+    "fact_reviewer": "health",
+    "static_reviewer": "civic",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b06-legal-fact.md",
+    "static_record": "ops/reviews/b06-legal-static.md",
+    "integration_status": "integrated"
   }
 }

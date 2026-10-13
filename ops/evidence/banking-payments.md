@@ -1,6 +1,6 @@
 # 银行与支付证据
 
-作者 documents；实际查阅日期 2026-10-13。对应 `content/book/work/finance/banking-payments.md`，个人日常账户与境内支付。下列材料均实际打开正文或 PDF；搜索仅用于发现入口。新稿保持 written / draft true，等待独立事实审。
+原作者 documents；本轮恢复修订者 static_editor；实际查阅日期 2026-10-13。对应 `content/book/work/finance/banking-payments.md`，个人日常账户与境内支付。下列原始材料阅读由原作者完成，本轮新增阅读与修订另记在末尾；均实际打开正文或 PDF，搜索仅用于发现入口。新稿保持 written / draft true，等待独立事实审。
 
 ## 开户与账户使用
 
@@ -45,3 +45,24 @@
 - CFPB 较旧开户 checklist PDF 普通 HTTPS 返回 HTML，pypdf 无法读取；未将其材料清单、25—100 美元初始存款等写进稿件。CIP 原法与具名银行当前流程足以支持开户步骤。
 - NCUA 2026-12-01 信托调整只提示复核，不写信托公式；商业、跨境、具体非银行产品与州法支票索赔留地图。
 - 虚构余额例子独立计算：1,200 − 120 = 1,080；1,080 − 700 − 100 = 280；120 已扣一次，不再扣第二次。未使用真实银行个人信息。
+
+## 2026-10-13 恢复修订与新增实读
+
+原作者 documents；本轮修订者 `/root/static_editor`，由主控分派。修订前正文 SHA-256 为 `3fce0fead028faf8a294ed6cf8ab3de590a2b51af13678e5c0ccb6db77b3fabd`，修订后为 `2b42753157ed603aebc8b9a9eb4f5182c930d8410435cb6a8a7822f4219207e5`；均按 UTF-8 `split('---', 2)[2]` 计算，不含 frontmatter。
+
+本轮在首次出现处补充 NRA／RA、adverse action notice、APY、routing number、hold notice 和临时贷记的中文释义，保留原文名称以便读者识别材料；税务身份链接既有 `/book/work/tax/tax-residency/`，未从签证名称判断税务身份。APY 新增定义原文链接。按独立事实审 banking_fact 指出的原页 required 条件，将制裁国家公民的合法在美居住证明改为该页明确要求；其余规则、资格、金额、日期和链接未改，frontmatter 保持 written / draft true、审阅字段空。
+
+本轮修订者实际新读到的公开来源如下，不将这些作者阅读作为 banking_fact 的独立事实审：
+
+- [Bank of America 国际专业人士开户页](https://info.bankofamerica.com/en/international/professional-bank-account)：web 实读主要开户步骤及相关 FAQ，尤其 Collect required documents and information 中 NRA／RA 的全称、两种地址要求、适用时税号及制裁国家公民的居住证明。原页对后者写 required，并要求可接受文件证明 lawful U.S. residence，支持本次措辞精确化；没有扩大到其他银行或所有非公民。
+- [IRS 个人税务居民判定](https://www.irs.gov/individuals/international-taxpayers/determining-an-individuals-tax-residency-status)：web 实读正文的非公民居民／非居民、绿卡与实质居留测试、起止与例外提示及同年双重阶段；另完整读取既有 `content/book/work/tax/tax-residency.md`，确认它已 integrated / draft false，可作为主解释。本稿只补两种税务分类的名称及链接，没有复制税年算法或给具体读者定性。
+- [CFPB 开户被拒](https://www.consumerfinance.gov/ask-cfpb/why-was-i-denied-a-checking-account-en-1113/)：web 完整实读主文；adverse action 通知段说明因报告拒绝后的机构联系方式与索取报告。仅增加“不利决定通知”的中文对应，不改原通知与纠错链。
+- [Regulation DD §1030.2(c)](https://www.consumerfinance.gov/rules-policy/regulations/1030/2/)：web 实读 annual percentage yield 定义，按利率及复利频率表示一年利息收益；正文表内据此写“计入复利的年收益率”，没有写具体计算公式、利率或所有机构受相同法条约束的结论。
+- [Chase 2026-06-14 存款协议](https://www.chase.com/content/dam/chase-ux/documents/personal/checking/deposit-account-agreement.pdf)：web 读取首页生效日期及协议物理／印刷第 18—19 页 Funds Availability Policy，尤其第 19 页 D 的 Notice 段，存款完成后决定延迟可用会寄 deposit hold notice。仅给既有 hold notice 增加“资金暂缓可用通知”释义，没有把该行各金额或延迟天数推广其他银行；未逐页阅读整份 32 页 PDF。
+- [Regulation E §1005.11(c)(2)(i)—(ii)、(d)](https://www.consumerfinance.gov/rules-policy/regulations/1005/11/)：web 实读临时记款、调查期间可使用以及最终决定／扣回的有关条款。正文首次把临时贷记解释为“调查期间暂时记入账户供你使用的款项”，后文继续保留它不是最终结案的边界，未承诺每宗申诉必有此记款。
+
+routing number 仅补“银行路由号码”的中文对应，没有新增位数、个人号码或所有付款渠道通用的主张。本轮没有重新全页回源，原有来源的采用／未展开边界保留；当前版本及实际差异交 banking_fact 对照复核，随后由 root 第三人静态审。修订者不兼任此稿第三人，不安装正式元数据、不构建、不提交，没有登录账户、发起付款或联系机构。
+
+## B06 主控集成记录
+
+documents原作者／static_editor修订；banking_fact独立事实审、root第三人静态审均PASS。当前正文2b427531；B06正式integrated／draft false，2026-10-13，见b06-integration.md。 本段仅登记实际完成的审阅与集成，不新增来源实读或个案核实声明；实际读到的范围与失败边界见对应事实审记录。

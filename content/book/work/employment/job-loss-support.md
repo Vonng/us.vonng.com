@@ -4,10 +4,10 @@ description: "从最后工资和离职记录出发，比较加州、纽约州、
 page_id: work.employment.job-loss-support
 content_kind: task
 scope: "美国普通私营雇员失业或工时减少；California、New York、Washington、Texas 常规失业保险；2026 年首次申领为主，查阅至 2026-10-13"
-status: written
-draft: true
-verified: ""
-reviewed_by: ""
+status: integrated
+draft: false
+verified: "2026-10-13"
+reviewed_by: "root（独立事实审）；static_editor（静态审）"
 weight: 20
 ---
 
@@ -62,7 +62,7 @@ UI 通常回看一段已经结束的工资记录，称为 **base period / base y
 
 得州不能直接套用前三州“最近四个完整季度”的替代方式。其法律另为有可医学验证的疾病或伤害、以致在相关季度大部分时间不能工作者规定特殊基期，并附有申请时限；遇到这类经历，带医疗与工作记录让 TWC 具体核对。[Texas Labor Code §201.011(1)](https://tcss.legis.texas.gov/docs/LA/htm/LA.201.htm)
 
-通过 [TWC Unemployment Benefits Services（UBS）](https://apps.twc.texas.gov/UBS/security/logon.do) 申请或查看案件，电话申请为 **800-939-6631** 。旧用户忘记账号时先用恢复功能，不要重复新建。申请后保存 Statement of Potential Benefits 和 Work Search Notification，后者列出你的每周求职要求。[TWC 原件：Claim Help & Resources，资料包第 2 页](https://www.workforcesolutionscb.org/wp-content/uploads/2025/02/Rapid-Response-Packet.pdf)
+通过 [TWC Unemployment Benefits Services（UBS）](https://apps.twc.texas.gov/UBS/security/logon.do) 申请或查看案件，电话申请为 **800-939-6631** （[TWC：失业保险联系入口](https://cs.twc.texas.gov/TWC-CC-Contact-Us/)）。旧用户忘记账号时先用恢复功能，不要重复新建。申请后保存 Statement of Wages and Potential Benefit Amounts（工资与潜在福利金额通知）；查看机构寄来的求职要求，按通知安排每周活动。[TWC：申领后的文件与支付请求，2025 年 1 月 29 日](https://content.govdelivery.com/accounts/TXWC/bulletins/3cf852d)
 
 ### 非公民：过去工资与现在能否工作，分别核验
 
@@ -84,7 +84,7 @@ UI 通常回看一段已经结束的工资记录，称为 **base period / base y
 | 加州 | 通常每两周 certify，一次回答对应各周问题。即使工资尚未到账，也要按要求报告工作与工资；需要报告工资时，不能用受限的电话 Tele-Cert 流程，应改用在线或邮寄方式。[EDD：Certify for Benefits](https://edd.ca.gov/en/unemployment/step-5-certify-for-benefits/) |
 | 纽约州 | 每周申报。UI 一周为周一至周日；该周的申报窗口从当天周日到下一周周六。收到可以认证的通知后按周继续，在线或电话均有入口。[纽约：每周认证](https://dol.ny.gov/unemployment/certify-weekly-unemployment-insurance-benefits) |
 | 华盛顿州 | 每周申报；UI 一周为周日至周六，结束后才能申报。等待资格决定、补工资工时或申诉时，也继续提交需要领取的各周。[ESD：Weekly Claims](https://esd.wa.gov/get-financial-help/unemployment-benefits/weekly-unemployment-claims/how-file-your-weekly-claims) |
-| 得州 | 按指定 filing day 每两周 request payment；不要等资格决定才开始。在线 UBS 或 Tele-Serv **800-558-8321** 可办理。[TWC 原件，资料包第 2 页](https://www.workforcesolutionscb.org/wp-content/uploads/2025/02/Rapid-Response-Packet.pdf) |
+| 得州 | 按指定 filing day（申报日）每两周 request payment；不要等资格决定才开始。在线 UBS 或 Tele-Serv **800-558-8321** 可办理。[TWC：支付请求说明，2025 年 1 月 29 日](https://content.govdelivery.com/accounts/TXWC/bulletins/3cf852d) |
 
 持续记录每周工作日期、工时、收入及求职活动，按本州问题回答能否工作、是否拒绝工作、是否收到其他款项。减时后仍有工资，可以核对 partial unemployment，但不是“只要没满 40 小时就能领”：纽约、华盛顿州和得州各有自己的工时或收入限制及扣减方法。[纽约：部分失业入口](https://dol.ny.gov/you-file-claim-unemployment-faqs)、[华盛顿州：部分工作](https://esd.wa.gov/get-financial-help/unemployment-benefits/basic-eligibility-requirements)、[得州：部分失业](https://efte.twc.texas.gov/ui_law_eligibility_issues.html)
 

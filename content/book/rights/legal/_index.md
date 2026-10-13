@@ -4,8 +4,8 @@ description: 保留文件和期限，找到适合的帮助，谈清工作范围�
 page_id: rights.legal.index
 content_kind: editorial
 scope: 编辑导读；具体规则与适用对象见链接主题
-status: written
-draft: true
+status: integrated
+draft: false
 verified: ''
 reviewed_by: root（编辑入口）
 weight: 10

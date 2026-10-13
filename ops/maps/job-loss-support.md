@@ -1,6 +1,6 @@
 # 失业与工时减少支持地图
 
-更新：2026-10-13。作者 civic；B06 完整稿 written／draft true，等待异人事实审、第三人静态审与主控渲染集成。
+更新：2026-10-13。原作者 civic；恢复修订者 birth_fact。本次只修订 TX 申请／持续支付两段的可回源引用、文件标题与 filing day 中文说明。当前正文 SHA-256：`160a39b1cdd003a0528be0396f50330ddda787cc1e43b11491f630372bf3f7d7`。B06 完整稿已 integrated／draft false；事实审root、第三人静态审static_editor和主控渲染集成均PASS；修订者未为本稿作独立事实通过结论。
 
 | 项目 | 内容 |
 |---|---|
@@ -11,7 +11,7 @@
 | 类型与范围 | task；CA／NY／WA／TX 普通私营雇员，2026 年首次申请常规 UI 为主；联邦 DOL 仅作州际分流。非公民身份、过去工资和当前工作授权分别说明。 |
 | 已覆盖 | 三个日期及文件；四州最后工资；工作州及跨州工资；UI 与劳动法分类分开；四州普通／替代基期、具体工资或工时测试；官方申请及辅助渠道；非公民四州边界；每周／双周持续申报；工资漏报、待补件、初次不利决定的申诉；医保与紧急生活项目转介；完成证据。 |
 | 依赖 | 已有工资单与欠薪、身份文件、医保衔接、租房页；四个绝对站内链接实际确认目标存在。新稿不反向修改公共失业事项入口，由 root 管理。 |
-| 来源方向 | EDD／DIR、NY DOL／州劳动法、WA ESD／L&I／RCW、TWC 官方 efte 教材／州法／TWC 原件地方 Workforce Solutions 公布件；DOL、USCIS、USAGov。 |
+| 来源方向 | EDD／DIR、NY DOL／州劳动法、WA ESD／L&I／RCW、TWC 官方 efte 教材／州法／2025-01-29 署名公告及正式联系页；Workforce Solutions of West Central Texas 的申请入口只用于核对渠道；DOL、USCIS、USAGov。旧 Coastal Bend 资料包保留为作者历史实读，本次替代依据见 evidence。 |
 | 实际证据 | `ops/evidence/job-loss-support.md`；区分主站无法读取、正常 HTTPS 实读、官方原件转载的情况，不以摘要代替原文。 |
 
 ## 留待独立主题研究
@@ -27,3 +27,7 @@
 ## 维护触发
 
 NY 2027 工资门槛／最高季度计算值更新；四州 UI 资格、认证、听证期限或身份核验规则变更；州劳动法最后工资变更；TWC 主站恢复可读后复核官方当前原件及直接引用入口；SNAP／TANF 另稿成立后更新分流链接。
+
+## 主控正式登记
+
+civic原作者／birth_fact修订；root独立事实审、static_editor第三人静态审均PASS。当前正文160a39b1；B06正式integrated／draft false，2026-10-13，见b06-integration.md。 四稿审阅、69 HTML生产检查、两端46页面／20搜索及实际截图／打印抽查均通过；public与隔离生产目录189路径／大小／SHA一致。前文研究和交稿过程保留为历史，不能替代实际核验。

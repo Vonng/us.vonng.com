@@ -18,6 +18,9 @@ weight: 30
 - [跨州搬家与远程工作的州税](/book/work/tax/state-residency/)：保留住所、工作地点和扣缴记录，分别核对居民期间与收入来源。
 - [新居民驾驶证](/book/life/transport/new-resident-license/)：按原驾照签发地、有效期和年龄核对材料与考试；州内地址更新也在同一页。
 - [工资单与加班费](/book/work/employment/pay-stub-overtime/)：根据实际工作地点、工作周和职责查费率与处理入口。不同工资请求的受理范围须分别核对。
+- [失业或工时减少](/book/work/employment/job-loss-support/)：核对 ESD 工时记录、替代基期和每周申报；缺工时造成的决定沿更正入口处理。
+- [孕产保障与出生手续](/book/people/family/birth-and-first-weeks/)：查 Apple Health 与产后保障；医院登记之后另跟进出生证明副本订单。
+- [寻找法律帮助](/book/rights/legal/finding-help/)：沿 WSBA 按地点找服务，核对 King County 与其他地区的分流及人员执照。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：从州级边界进入西雅图案例，确认当地登记、学校分配与材料不足的处理；同一都会区的其他学区另查。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

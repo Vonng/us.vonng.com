@@ -1,10 +1,24 @@
 # B06 失业与工时减少支持：作者证据
 
-作者 civic；实际查阅 2026-10-13。对应 `content/book/work/employment/job-loss-support.md`。新稿 written／draft true，verified 与 reviewed_by 空，本文不是独立审阅结论。
+原作者 civic；恢复修订者 birth_fact；实际查阅 2026-10-13。对应 `content/book/work/employment/job-loss-support.md`。新稿仍 written／draft true，verified 与 reviewed_by 空，本文不是独立审阅结论。独立事实审为 root，第三人静态审为 static_editor；birth_fact 本次只承担作者修订。
 
-作者冻结正文 SHA-256：`e33e6d6c6fb35c66b551da0406a29ab6a86c88c31506ec681ed3744bdbf46ace`，按 UTF-8 `split('---', 2)[2]` 计算。站内四个目标存在、加粗间距无漏项，轻量格式检查通过；未构建。
+当前正文 SHA-256：`160a39b1cdd003a0528be0396f50330ddda787cc1e43b11491f630372bf3f7d7`，按 UTF-8 `split('---', 2)[2]` 实际计算。原作者冻结稿 `e33e6d6c6fb35c66b551da0406a29ab6a86c88c31506ec681ed3744bdbf46ace` 留作历史。本次只改变下述两段 TX 来源／文件名／术语说明，其他规则、金额、期限、身份条件及元数据未改；未构建或提交。
 
-## 核验方法及已知来源冲突
+## 2026-10-13 恢复修订：替换 TX 两处旧资料包引用
+
+birth_fact 先全文读正文、地图和下方 civic 作者证据，再独立实际打开以下三份一手材料。不是仅采用 root 已读回执：前两页 web 本次超时，随后普通 TLS 请求均返回 200 并实读页面；第三页 web 已实际读到主文。
+
+| 本轮实际读到的来源与定位 | 修订采用范围 |
+|---|---|
+| [TWC：About Your Unemployment Benefits Application](https://content.govdelivery.com/accounts/TXWC/bulletins/3cf852d)，页面署名 Texas Workforce Commission，发送时间 2025-01-29 08:52 AM CST；实读英语 Claim Processing、Correspondence and Documents、Request Payment、Maintaining Eligibility 等主文 | Claim Processing 给准确文件名 Statement of Wages and Potential Benefit Amounts，并说明它不是资格全面批准；Request Payment 要按所寄说明的 date/day 请求支付，不能等资格通知，UBS 或 800-558-8321，每两周继续。本文两处旧包引用改为此明确日期的 TWC 公告。未采用同页处理天数、雇主回复期、身份核验等待时间、延长福利或其他未改写条件。 |
+| [TWC：CC Contact Us](https://cs.twc.texas.gov/TWC-CC-Contact-Us/)，实读 Unemployment Benefit Claims Services | 明列 Unemployment Telecenter 800-939-6631 与 Automated System, Tele-Serv 800-558-8321。本文电话申请处增加正式联系引用；没有使用在线表单、提交个人信息或保证接通时间。页面的离线／只读提示不影响公开电话说明的实际读取，本轮不声称已验证表单功能。 |
+| [Workforce Solutions of West Central Texas：Filing for Unemployment Benefits](https://www.wfswct.org/394/Filing-for-Benefits)，首段第 19 行，并读后续申请／文件／支付段以辨边界 | 首段明确可在线或拨 800-939-6631 申请，作为电话申请用途的地方 workforce 主管互核。其后最低每周三次、waiting week 和其他时间概括未用于正文；本次不以该页替代完整 2026 资格研究。 |
+
+root 独立审本轮对原 [Coastal Bend Rapid Response Packet](https://www.workforcesolutionscb.org/wp-content/uploads/2025/02/Rapid-Response-Packet.pdf) 的复取记录为普通直连 503、web 超时及正常 8888 代理 503；该失败由 root 实际执行，本修订者不声称亲自重读成功。下方来源 19 的 civic 历史实读保留，但不把它写成本轮可达或当期全部条件已核。本次用已经实际读到的 TWC 署名公告和正式联系入口支持 TX 核心申请／支付断言，不反复尝试无关附件。
+
+具体修订：原 Statement of Potential Benefits 改为上表准确名称并加中文；原未重新读到的 Work Search Notification 标题改为“查看机构寄来的求职要求，按通知安排每周活动”；支付表 filing day 加“申报日”解释。没有新增求职次数、注册期限、等候周、给付上限或任何身份判断。改稿后交 root 对最终版本完成独立事实审，再交 static_editor 第三人静态审。
+
+## 原作者核验方法及已知来源冲突（历史）
 
 以下链接均实际读到正文或 PDF 所述页面。web 无正文或返回错误时，用普通 HTTPS requests／BeautifulSoup 读取公共页面；PDF 以 web 文本或 requests 内存 pypdf 阅读。没有登录、提交申请、联系机构或触碰账户。没有写入下载文件。
 
@@ -69,3 +83,7 @@
 ## 作者自检与未核实边界
 
 无真实申请人数据、无账户登录或提交；未验证电话接通时长、账号内每屏或当天项目资金。四州基期门槛、初次申诉、最后工资、身份边界均有实际一手来源；金额信不是资格全通过、UI 不是劳动分类或 SSN 判断已在正文分开。三张比较表均两列。站内目标存在；中文加粗边界在收稿前扫描。没有自行构建或提交。特殊工种、第二福利年度、等候周完整比较、给付金额计算、追回与多级上诉、SNAP／TANF 细则留地图。
+
+## B06 主控集成记录
+
+civic原作者／birth_fact修订；root独立事实审、static_editor第三人静态审均PASS。当前正文160a39b1；B06正式integrated／draft false，2026-10-13，见b06-integration.md。 本段仅登记实际完成的审阅与集成，不新增来源实读或个案核实声明；实际读到的范围与失败边界见对应事实审记录。

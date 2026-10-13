@@ -4,8 +4,8 @@ description: 连接家庭中的医疗、文件、保障和照顾安排，确认�
 page_id: people.family.index
 content_kind: editorial
 scope: 编辑导读；具体规则与适用对象见链接主题
-status: written
-draft: true
+status: integrated
+draft: false
 verified: ''
 reviewed_by: root（编辑入口）
 weight: 40

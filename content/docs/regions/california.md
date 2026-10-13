@@ -22,6 +22,9 @@ weight: 10
 - [跨州搬家与远程工作的州税](/book/work/tax/state-residency/)：保留住所、工作地点和扣缴记录，分别核对居民期间与收入来源。
 - [新居民驾驶证](/book/life/transport/new-resident-license/)：根据原驾照来源、身份与住址材料，选择办理和考试路线。
 - [工资单与加班费](/book/work/employment/pay-stub-overtime/)：按实际工作地点和工时核对工资，查看加州每日加班与欠薪处理说明。
+- [失业或工时减少](/book/work/employment/job-loss-support/)：查 EDD 申请、工资基期、持续申报和申诉；实际在外州工作的经历也要说明。
+- [孕产保障与出生手续](/book/people/family/birth-and-first-weeks/)：查 Medi-Cal、MCAP 与新生儿加保；洛杉矶县出生记录案例另区分 Pasadena 和 Long Beach。
+- [寻找法律帮助](/book/rights/legal/finding-help/)：从州律师主管入口找服务、核实人员，再谈代理范围与费用。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：先查实际学区，再看加州年龄规则和旧金山登记案例；其他学区继续核对当地材料与分配。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。

@@ -4,10 +4,10 @@ description: 从孕期选择保障和医疗团队，到出生登记、SSN、新�
 page_id: people.family.birth-and-first-weeks
 content_kind: task
 scope: 在美国准备分娩或照顾新生儿的个人与家庭；联邦保险与SSN事项，加州、纽约州、华盛顿州和得州的孕产保障及出生记录入口；按2026年10月资料说明。
-status: written
-draft: true
-verified: ""
-reviewed_by: ""
+status: integrated
+draft: false
+verified: "2026-10-13"
+reviewed_by: "birth_fact（独立事实审）；root（静态审）"
 weight: 10
 ---
 
@@ -82,7 +82,7 @@ weight: 10
 | HealthCare.gov 市场计划 | 出生后有 **60 天** 特殊投保窗口，保障可追溯至出生日期。[特殊投保期规则](https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/)。已在市场投保的人通常可把孩子加到现有计划，或给孩子选单独计划；出生并不通常允许原有成人随意换到任何另一计划。使用州自建市场时，向该市场确认具体选择和生效日期。[HealthCare.gov：孩子出生后的选择](https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant/) |
 | 分娩时孕产者已享有 Medicaid | HealthCare.gov 说明，这种情况下新生儿自动纳入 Medicaid，至少保持一年资格。仍应及时报告出生，确认孩子自己的档案、计划及会员号，使儿科诊所能够核验保障。若孕期使用的是州内其他项目，例如 CHIP Perinatal，向承办单位核对新生儿进入的项目，不直接套用母亲项目名称。[HealthCare.gov：Medicaid 新生儿保障](https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant/) |
 
-完成标志是拿到孩子的参保确认及生效日期，并让儿科诊所核实可以按该保障结算。医院账单仍显示孩子未保险时，把出生日期、参保确认和会员资料交给医院保险核验部门，请其核对或重新提交理赔；发生拒赔则按[医疗账单页的纠错与申诉步骤](/book/people/health/medical-bills/)处理。
+完成标志是拿到孩子的参保确认及生效日期，并让儿科诊所核实可以按该保障结算。医院账单仍把孩子记作无保险时，把出生日期、参保确认和会员资料交给医院保险核验部门，请其核对或重新提交理赔；发生拒赔则按[医疗账单页的纠错与申诉步骤](/book/people/health/medical-bills/)处理。
 
 ## 出院后先把两个人的随访接上
 

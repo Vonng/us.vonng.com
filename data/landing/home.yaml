@@ -49,6 +49,12 @@ sections:
       icon: fa-solid fa-shield-halved
     - page: /docs/routes/emergency/
       icon: fa-solid fa-phone
+    - page: /docs/routes/parenthood/
+      icon: fa-solid fa-baby
+    - page: /docs/routes/job-loss/
+      icon: fa-solid fa-briefcase
+    - page: /book/rights/legal/finding-help/
+      icon: fa-solid fa-scale-balanced
 - type: page-cards
   partial: landing/sections/page-cards.html
   key: regions
