@@ -24,7 +24,7 @@ weight: 15
 1. **旧住房与新住房交接。** 根据租约和本地规则安排通知、交房、钥匙、最后账目及押金；拍照、付款和送达记录继续留存。住房交接见 [租房流程](/book/life/housing/rental-process/)；同时按 [水电燃气和垃圾](/book/life/household/utilities/) 安排新地址开通与旧账户停止日，保留读数、最终账和销户确认。
 2. **地址与收信。** 按 [地址更新](/book/life/documents/address-changes/) 分开办理邮政、政府和个人账户通知。公民、永久居民、学生、经济担保人及有移民法院案件的人，走各自适用分支；一家人也逐人、逐案核对。
 3. **医疗保障与治疗。** 用 [医保衔接](/book/people/health/coverage-changes/) 确认旧保结束与新保生效，逐位家庭成员跟进申请和付款。正在治疗的人同时核对新地区的医生、药房与手续，继续读 [网络及预约](/book/people/health/appointment-network/)。
-4. **驾驶与车辆。** 需要驾驶时，按 [四州新居民驾照](/book/life/transport/new-resident-license/) 区分原驾照来源、年龄、材料与考试；已有车辆同时按 [迁州登记与承保](/book/life/transport/owning-car/) 核新州登记、检查、保险及旧州车牌退出。无需驾驶的人也应核实实际往返线路。
+4. **出行、驾驶与车辆。** 按 [公交或铁路往返](/docs/routes/public-transit/) 核新地址的实际去回程、付款与无障碍服务；需要驾驶时，按 [四州新居民驾照](/book/life/transport/new-resident-license/) 区分原驾照来源、年龄、材料与考试。已有车辆同时按 [迁州登记与承保](/book/life/transport/owning-car/) 核新州登记、检查、保险及旧州车牌退出。
 5. **孩子入学与托育。** 有学龄孩子时沿 [入学事项](/docs/routes/school/) 查地址所属学区、转学材料和上课安排。材料不足时使用主题中的替代与求助路径，继续跟进到实际能开始上课。托育及费用支持沿 [托育事项](/docs/routes/childcare/) 确认旧服务结束、新提供者接案与主管通知。
 6. **工作与税务记录。** 向雇主确认工作地点和工资记录，按 [跨州居民与收入来源](/book/work/tax/state-residency/) 保存迁居日期、住房联系和实际工作日。更新邮寄地址后，仍要按税年判断居民期间与申报范围。
 7. **通信服务与社区资源。** 按 [手机与家庭网络](/book/life/digital/phone-internet/) 核新住址能否接通、旧设备与号码怎样转移，确认停用、归还及最后账单。想用图书馆、英语课或家庭活动时，按 [图书馆与社区服务](/book/life/community/local-support/) 查新地址所属机构，分别确认卡种、材料与当期报名。

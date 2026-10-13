@@ -43,3 +43,5 @@ weight: 40
 - [医疗意愿和代理授权](/book/people/aging/advance-planning/)：取完整医疗POA／directive与财务法定表，分别核签署、生效和权限；院外OOH-DNR按自己的表与医生确认。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
+
+[公共交通往返](/book/life/transport/public-transit/) 的休斯敦METRO与METROLift按实际服务范围和预约条件核，乡村或其他城市从真实主管继续。[公共参与与投票](/book/foundations/government/public-participation/) 分开Houston会议与得州选民手续；新登记、迁县有限票、现场证件和邮寄资格分别走适用程序。

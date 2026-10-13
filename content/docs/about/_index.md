@@ -40,3 +40,5 @@ weight: 40
 [建国历史](/book/foundations/history/historical-landscape/) 从殖民前的具体共同体讲到独立、联邦形成与当时权利边界。[入境与返美](/book/life/documents/entry-return/) 连接旅行文件、当期执行范围、海关、机场接续和抵达记录；[车辆](/book/life/transport/owning-car/)、[托育](/book/people/family/childcare/) 与 [医疗意愿和代理授权](/book/people/aging/advance-planning/) 提供全国概念、四州办理和受阻后继续的路径。动态政策、名额和本人资格仍在对应步骤按实际材料核对。
 
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。
+
+[迁移与移民社会](/book/foundations/history/migration-society/) 衔接历史、产业及人口材料的口径；[公共参与](/docs/routes/public-participation/) 衔接具体会议、意见与符合资格后的投票；[公共交通](/docs/routes/public-transit/) 衔接四都市的实际往返、付款、费用支持及无障碍申请和预约。地方场次、服务范围、身份条件与当期通知在需要行动的位置确认。

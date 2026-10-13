@@ -43,3 +43,5 @@ weight: 20
 - [医疗意愿和代理授权](/book/people/aging/advance-planning/)：医疗proxy与财务短式各按自己的签署、见证／公证和接受要求完成；严重病情的MOLST另与医疗团队处理。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
+
+[公共交通往返](/book/life/transport/public-transit/) 的MTA、优惠及AAR按纽约市具体范围办理，通勤铁路和州内其他地区另核。[公共参与与投票](/book/foundations/government/public-participation/) 采用Tompkins县会议实例及纽约州普通选民手续，会议接入和登记／返票分别确认。

@@ -21,7 +21,7 @@ weight: 5
 
 用 [地区与住址比较](/book/foundations/geography/regional-life/) 把通勤、医疗、学校与服务放进具体地址，租住时沿 [租房流程](/book/life/housing/rental-process/) 核房源、每笔款项、租约和可入住日期。临时住处与正式登记需要的住址证明分开询问，搬家后按 [地址更新](/book/life/documents/address-changes/) 逐人、逐案确认邮政和机构记录。
 
-要驾驶的人进入 [新居民驾驶证](/book/life/transport/new-resident-license/) 的适用分支；已有车或准备买车时，再沿 [车辆与保险手续](/book/life/transport/owning-car/) 核车辆、title、registration与承保。不驾驶时，也把住处到工作、学校或预约地点的实际往返安排确认好。
+要驾驶的人进入 [新居民驾驶证](/book/life/transport/new-resident-license/) 的适用分支；已有车或准备买车时，再沿 [车辆与保险手续](/book/life/transport/owning-car/) 核车辆、title、registration与承保。使用公交或铁路时，沿 [实际往返事项](/docs/routes/public-transit/) 核住处到工作、学校或预约地点的去回程、付款与必要协助。
 
 入住前按 [住户服务](/docs/routes/house-services/) 分清水、电、燃气、污水与垃圾责任，找到实际提供者，确认开户与起始日。开通后核读数、服务和首账；城市邮寄地址与提供者服务区分别确认。
 

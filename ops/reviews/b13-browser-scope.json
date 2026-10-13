@@ -1,0 +1,21 @@
+{
+  "paths": [
+    "/", "/book/", "/docs/", "/docs/routes/", "/docs/regions/",
+    "/docs/regions/california/", "/docs/regions/new-york/", "/docs/regions/washington/", "/docs/regions/texas/",
+    "/docs/glossary/", "/docs/about/", "/docs/routes/medical-care/", "/book/people/health/medical-bills/",
+    "/book/foundations/", "/book/life/",
+    "/book/foundations/history/", "/book/foundations/government/", "/book/life/transport/",
+    "/book/foundations/history/migration-society/", "/book/foundations/government/public-participation/", "/book/life/transport/public-transit/",
+    "/docs/routes/public-participation/", "/docs/routes/public-transit/", "/docs/routes/arrival/", "/docs/routes/moving/",
+    "/book/foundations/history/historical-landscape/", "/book/foundations/government/which-government/",
+    "/book/life/transport/new-resident-license/", "/book/life/transport/owning-car/", "/docs/routes/owning-car/"
+  ],
+  "queries": {
+    "移民": "移民、迁移与美国社会的形成",
+    "领土扩张": "移民、迁移与美国社会的形成",
+    "投票": "公共事项怎样表达意见",
+    "公开议程": "公共事项怎样表达意见",
+    "往返": "不用自己的车，怎样安排日常往返",
+    "无障碍接送": "不用自己的车，怎样安排日常往返"
+  }
+}

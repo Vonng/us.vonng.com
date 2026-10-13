@@ -47,3 +47,5 @@ weight: 10
 - [医疗意愿和代理授权](/book/people/aging/advance-planning/)：使用AG医疗表核见证／公证与护理机构特别见证；财务模板和公证确认另办，交件后核接收。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。
+
+[公共交通往返](/book/life/transport/public-transit/) 的洛杉矶Metro及Access实例按真实线路、服务区和本人条件使用，其他地区另找运营者。[公共参与与投票](/book/foundations/government/public-participation/) 分开LAUSD具体会议规则与加州普通选民手续，场次和个人资格分别确认。

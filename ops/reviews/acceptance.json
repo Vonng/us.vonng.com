@@ -465,5 +465,35 @@
     "fact_record": "ops/reviews/b12-advance-planning-fact.md",
     "static_record": "ops/reviews/b12-advance-planning-third.md",
     "integration_status": "integrated"
+  },
+  "content/book/foundations/history/migration-society.md": {
+    "body_sha256": "c414a20450719df9af3aef4c81366ad96bdc150fa9929021240e850b125acc30",
+    "author": "static_editor",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b13-migration-society-fact.md",
+    "static_record": "ops/reviews/b13-migration-society-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/foundations/government/public-participation.md": {
+    "body_sha256": "86f99832c159afb5224625af45da590c02679525bef9474046d50d28b81d3c11",
+    "author": "banking_fact",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "root",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b13-public-participation-fact.md",
+    "static_record": "ops/reviews/b13-public-participation-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/life/transport/public-transit.md": {
+    "body_sha256": "2d29516be45d78fedd5e5ef709f6f5b790c4f7dc570e3d2503bb8cda1b35692c",
+    "author": "root",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b13-public-transit-fact.md",
+    "static_record": "ops/reviews/b13-public-transit-third.md",
+    "integration_status": "integrated"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: 出行、驾驶与车辆
-description: 按行程和证件条件安排出行，从驾驶许可接到车辆购买、登记、保险、事故与卖车。
+description: 按实际往返安排公交或铁路，需要驾驶时再接驾照、车辆购买、登记、保险与退出手续。
 page_id: life.transport.index
 content_kind: editorial
 scope: 编辑导读；具体规则与适用对象见链接主题
@@ -11,6 +11,8 @@ reviewed_by: root（编辑入口）
 weight: 40
 book_kind: chapter
 ---
+
+先按具体地址、日期与回程比较出行方式。[不用自己的车怎样往返](/book/life/transport/public-transit/) 连接线路、付款、转乘、费用支持和无障碍接送，安排之后继续核实际能否完成。
 
 搬家后的驾驶手续，从迁入时间、原驾照来源和有效期开始核对。办理驾照、更新住址和登记车辆分别有自己的入口与材料。
 

@@ -45,3 +45,5 @@ weight: 30
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 
 遇到需要求助的情况，可从[紧急与非紧急渠道](/book/rights/safety/emergency-help/)查到西雅图案例；先按是否存在即时危险选择渠道。
+
+[公共交通往返](/book/life/transport/public-transit/) 分开King County Metro、Sound Transit、ORCA和Access的线路、付款及资格，其他县继续找真实运营者。[公共参与与投票](/book/foundations/government/public-participation/) 采用西雅图具体预算场次与华州登记／投票分支，县签名补正按实际通知核收到期限。

@@ -22,3 +22,5 @@ book_number: '2'
 准备 [自住购房](/book/life/housing/buying-home/) 时，把每月负担和成交现金分开算，逐步完成贷款比较、报价、验屋与产权核验，再接交割、登记及后续账单。
 
 住户还要逐项确认 [水电燃气和垃圾](/book/life/household/utilities/) 由谁负责，按实际服务区开户、核账并处理欠费或中断。换住处时沿 [住户服务事项](/docs/routes/house-services/) 安排新旧账户和最后结算。
+
+日常出行可以沿 [公交或铁路往返](/docs/routes/public-transit/) 从具体地址查到实际回程，核付款工具、费用支持与无障碍服务，再比较是否还需车辆。

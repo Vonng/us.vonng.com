@@ -32,3 +32,5 @@ weight: 20
 本书的重点地方范围为加利福尼亚、纽约、华盛顿和得克萨斯；现有目录所列主题代表已建立的阅读入口。范围说明见[阅读与来源](/docs/about/)。
 
 准备跨州迁居时，可沿 [搬家事项](/docs/routes/moving/) 把地区比较与住房交接、地址、保障、驾驶、入学和税务记录接起来。
+
+[公交与铁路](/book/life/transport/public-transit/) 按四个具名都市运营者核车资、回程和无障碍服务，市名不能替服务区。[公共参与](/book/foundations/government/public-participation/) 的会议规则限具体机构或场次，投票则另按四州本人资格与当期手续办理。理解不同社区的形成，可接 [迁移与移民社会](/book/foundations/history/migration-society/)。

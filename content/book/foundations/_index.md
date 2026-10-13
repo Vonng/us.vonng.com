@@ -18,3 +18,5 @@ book_number: '1'
 [原住民族与共同体](/book/foundations/communities/)用具体Nation的自身材料讲土地、治理与当代生活；[交往与日常文化](/book/foundations/culture/)则从寒暄、邀约和边界进入人与人的往来。各章也可按眼前的问题独立阅读。
 
 [美国与世界](/book/foundations/world/)连接家庭、贸易、货币和国际机构，帮助读清政策、统计与民意材料中的日期、对象和单位。
+
+理解社区形成时，接着读 [国内迁移与移民社会](/book/foundations/history/migration-society/)；已有具体公共事项时，沿 [公共参与](/docs/routes/public-participation/) 找议程和提交渠道，再按个人资格办理投票。
