@@ -32,3 +32,5 @@ weight: 56
 迁居、收入变化、登记空档、资格拒绝和医疗拒付，回 [受阻与申诉分支](/book/people/aging/retirement-medicare/) 找对应机构，保留通知、收到日期和期限。把到账、保障、卡与扣费都确认后，继续按各自报告要求更新记录。
 
 本人希望预先安排治疗选择或账户办理时，接 [医疗意愿与代理文件事项](/docs/routes/advance-planning/) 分别完成签署与交付。Social Security福利需要别人管理时，继续核 [代理页的SSA代领分流](/book/people/aging/advance-planning/) 所述独立申请。
+
+亲人去世后，沿[丧亲事项](/docs/routes/bereavement/)分别报告死亡、核应退款项及遗属申请，保险和遗产资料另交相应机构；已有保障也继续核终止与家属接续。

@@ -495,5 +495,35 @@
     "fact_record": "ops/reviews/b13-public-transit-fact.md",
     "static_record": "ops/reviews/b13-public-transit-third.md",
     "integration_status": "integrated"
+  },
+  "content/book/people/school/school-support.md": {
+    "body_sha256": "04d5ef6d12845b42122e149d02290671845bb1bfe88244470a1ae31b33c53af2",
+    "author": "static_editor",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b14-school-support-fact.md",
+    "static_record": "ops/reviews/b14-school-support-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/aging/death-arrangements.md": {
+    "body_sha256": "7f527b505e36cdd4ad519ccae92b745a3e48187f69f1e6f63f6f89b7e2244397",
+    "author": "banking_fact",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b14-death-arrangements-fact.md",
+    "static_record": "ops/reviews/b14-death-arrangements-third.md",
+    "integration_status": "integrated"
+  },
+  "content/book/work/employment/workplace-rights.md": {
+    "body_sha256": "049c4ecee882f7ad65d2d713568d2e2df999c895b37e0f735b44fe56ee0def05",
+    "author": "birth_fact",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-14",
+    "fact_record": "ops/reviews/b14-workplace-rights-fact.md",
+    "static_record": "ops/reviews/b14-workplace-rights-third.md",
+    "integration_status": "integrated"
   }
 }

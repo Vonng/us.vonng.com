@@ -49,3 +49,9 @@ weight: 10
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。
 
 [公共交通往返](/book/life/transport/public-transit/) 的洛杉矶Metro及Access实例按真实线路、服务区和本人条件使用，其他地区另找运营者。[公共参与与投票](/book/foundations/government/public-participation/) 分开LAUSD具体会议规则与加州普通选民手续，场次和个人资格分别确认。
+
+在校的语言、评估与安全安排，沿[学校支持](/book/people/school/school-support/)核SFUSD实例及州投诉分支，其他学区重新找负责人。
+
+疾病或照护需要离岗、受伤或歧视时，沿[职场权利](/book/work/employment/workplace-rights/)分别找雇主、EDD、工伤或平等就业机关，核本人的收件与下一步。
+
+亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)核洛杉矶县发证实例、殡葬监管及家属申请，其他发生地点找实际登记机关。

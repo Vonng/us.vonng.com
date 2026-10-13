@@ -45,3 +45,9 @@ weight: 20
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 
 [公共交通往返](/book/life/transport/public-transit/) 的MTA、优惠及AAR按纽约市具体范围办理，通勤铁路和州内其他地区另核。[公共参与与投票](/book/foundations/government/public-participation/) 采用Tompkins县会议实例及纽约州普通选民手续，会议接入和登记／返票分别确认。
+
+孩子在校的语言、评估、504与安全问题，沿[学校支持](/book/people/school/school-support/)核NYCPS具体收件和实施；纽约州其他学区另找负责人。
+
+离岗照护或工作受伤时，沿[职场权利](/book/work/employment/workplace-rights/)分别核雇主、PFL承保方与Workers’ Compensation Board，歧视正式投诉另选对应机关。
+
+亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)分纽约市死亡记录、州殡葬主管、遗属申请与原住居地遗产法院；州内其他发生地另核发证。

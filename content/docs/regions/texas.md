@@ -45,3 +45,9 @@ weight: 40
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 
 [公共交通往返](/book/life/transport/public-transit/) 的休斯敦METRO与METROLift按实际服务范围和预约条件核，乡村或其他城市从真实主管继续。[公共参与与投票](/book/foundations/government/public-participation/) 分开Houston会议与得州选民手续；新登记、迁县有限票、现场证件和邮寄资格分别走适用程序。
+
+在校英语、评估及支持计划，沿[学校支持](/book/people/school/school-support/)核得州程序和Austin ISD实例，区分请求、家长同意、ARD及实际实施。
+
+工作受伤或歧视时，沿[职场权利](/book/work/employment/workplace-rights/)先核雇主是否参加工伤保险，再分别走DWC争议或正式歧视投诉，收入支持资格另查。
+
+亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)分Houston城市服务范围与其他登记机关；由Harris IFS经办的案件，其医学部分由IFS填写，家属证明另向发证机关申请。

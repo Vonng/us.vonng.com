@@ -47,3 +47,9 @@ weight: 30
 遇到需要求助的情况，可从[紧急与非紧急渠道](/book/rights/safety/emergency-help/)查到西雅图案例；先按是否存在即时危险选择渠道。
 
 [公共交通往返](/book/life/transport/public-transit/) 分开King County Metro、Sound Transit、ORCA和Access的线路、付款及资格，其他县继续找真实运营者。[公共参与与投票](/book/foundations/government/public-participation/) 采用西雅图具体预算场次与华州登记／投票分支，县签名补正按实际通知核收到期限。
+
+在校语言、评估、支持计划与欺凌问题，沿[学校支持](/book/people/school/school-support/)核SPS实例和州程序，特别注意不同事项的学校日或日历日起算。
+
+需要离岗或处理工伤时，沿[职场权利](/book/work/employment/workplace-rights/)分雇主、ESD与L&I的通知、申请及书面决定，回岗安排另确认。
+
+亲人去世后，沿[死亡手续](/book/people/aging/death-arrangements/)核处置授权、DOH记录种类与申请资格，殡葬投诉、SSA和遗产资料各按主管继续。
