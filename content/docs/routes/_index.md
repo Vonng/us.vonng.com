@@ -16,6 +16,7 @@ weight: 10
 - [预约就医与处理账单](/docs/routes/medical-care/)：从计划、网络和手续一路查到账单、申诉和援助。
 - [发现陌生账户或信用记录](/docs/routes/identity-theft/)：取得报告，区分资料错误和身份盗用，再跟踪处理。
 - [准备报税：先整理身份与居留记录](/docs/routes/tax-preparation/)：把税年、旅行与身份资料连接到居民判定和申报路径。
+- [搬家后给孩子办入学](/docs/routes/school/)：确认学区、准备和补充材料，并跟进到实际开始上课。
 - [现在需要紧急帮助](/docs/routes/emergency/)：按危险和需要的服务选择求助渠道。
 
 还在建立背景时，可以从[全书目录](/book/)阅读；要使用州或地方规则时，继续查[地区入口](/docs/regions/)。

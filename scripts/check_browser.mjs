@@ -5,8 +5,11 @@ const report={date:new Date().toISOString(),base,pages:[],searches:[],interactio
 const checks='.cache/render';await fs.mkdir(checks,{recursive:true});
 const ledger=JSON.parse(await fs.readFile('ops/reviews/acceptance.json','utf8'));
 const topicPaths=Object.keys(ledger).map(p=>'/'+p.replace(/^content\//,'').replace(/\.md$/,'/'));
-const paths=[...new Set(['/','/book/','/docs/routes/','/docs/regions/','/docs/regions/california/','/docs/glossary/','/docs/routes/medical-care/','/docs/routes/tax-preparation/',...topicPaths.map(p=>p.slice(0,p.lastIndexOf('/',p.length-2)+1)),...topicPaths])];
-const queries={'EOB':'收到医疗账单','押金':'加州租房押金','信用':'查信用报告','税务居民':'美国税务居民怎样判断','重建':'社区与学校','口译':'预约、查账单和跟进'};
+const scope=process.env.US_REVIEW_CONFIG?JSON.parse(await fs.readFile(process.env.US_REVIEW_CONFIG,'utf8')):{};
+report.scope_file=process.env.US_REVIEW_CONFIG||null;
+const paths=[...new Set(scope.paths||['/','/book/','/docs/routes/','/docs/regions/','/docs/regions/california/','/docs/glossary/','/docs/routes/medical-care/','/docs/routes/tax-preparation/',...topicPaths.map(p=>p.slice(0,p.lastIndexOf('/',p.length-2)+1)),...topicPaths])];
+if(paths.some(p=>typeof p!=='string'||!p.startsWith('/')||p.startsWith('//')))throw new Error('Review paths must be local absolute paths');
+const queries={...{'EOB':'收到医疗账单','押金':'加州租房押金','信用':'查信用报告','税务居民':'美国税务居民怎样判断','重建':'社区与学校','口译':'预约、查账单和跟进'},...scope.queries};
 let browser;
 const expect=(x,m)=>{if(!x)report.errors.push(m);};
 try {

@@ -106,5 +106,32 @@
     "verified": "2026-10-13",
     "fact_record": "ops/reviews/b02-language-fact.md",
     "static_record": "ops/reviews/b02-static.md"
+  },
+  "content/book/life/transport/new-resident-license.md": {
+    "body_sha256": "e3ca87c7f5c1d773710f596dc266f7031ecd62551a98e8a8c92b5758ccc9c74b",
+    "author": "documents",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b03-driving-fact.md",
+    "static_record": "ops/reviews/b03-static.md"
+  },
+  "content/book/work/employment/pay-stub-overtime.md": {
+    "body_sha256": "0b21289995a0c69432629ae8231032d132c2593cdf21c3ddf4db029b89f21c0a",
+    "author": "civic",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b03-employment-fact.md",
+    "static_record": "ops/reviews/b03-static.md"
+  },
+  "content/book/people/school/school-enrollment.md": {
+    "body_sha256": "b8a01b4ae60bdc4441c9ace62002b07b90dc47e629dd06653dea6868b1f03cc0",
+    "author": "health",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b03-school-fact.md",
+    "static_record": "ops/reviews/b03-static.md"
   }
 }

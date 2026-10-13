@@ -107,6 +107,6 @@ else:
   excluded=navigation_hidden(path,meta) or meta.get('no_print')
   present=bool(soup.select_one(f'[data-td-book-page="{url.rstrip("/")}"]'))
   if present==bool(excluded):fail(f'print exclusion/coverage mismatch: {url}')
-result={'html_files':len(documents),'formal_topics':len(themes),'draft_topics':len(draft_urls),'external_links':'not checked by this script','errors':errors}
+result={'html_files':len(documents),'formal_topics':len(themes),'draft_pages':len(draft_urls),'external_links':'not checked by this script','errors':errors}
 print(json.dumps(result,ensure_ascii=False,indent=2))
 raise SystemExit(bool(errors))

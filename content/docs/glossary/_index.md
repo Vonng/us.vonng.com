@@ -27,3 +27,6 @@ weight: 30
 | Form 8843、8840、8833、1040、1040-NR | [税务例外与申报路径](/book/work/tax/tax-residency/) |
 | Interpreter、reference number、credit、refund | [服务沟通与确认处理](/book/people/language/service-conversations/) |
 | Reconstruction、Jim Crow、Brown、restrictive covenant | [隔离与民权史](/book/foundations/history/segregation-civil-rights/) |
+| DMV、DOL、DPS、REAL ID、AB 60 | [四州驾驶证与材料分支](/book/life/transport/new-resident-license/) |
+| FLSA、pay period、workweek、gross pay、net pay、exempt | [工资单与加班条件](/book/work/employment/pay-stub-overtime/) |
+| School district、attendance area、kindergarten、McKinney–Vento liaison | [公校入学与缺件处理](/book/people/school/school-enrollment/) |

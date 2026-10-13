@@ -1,19 +1,20 @@
 # 活动队列
 
-更新：2026-10-13。B01九主题＋B02三主题已集成并本地构建／渲染通过，实际发布无。全书目标仍active。
+更新：2026-10-13。B01—B03共15主题已集成并本地构建／渲染通过，实际发布无。全书目标仍active。
 
 | 批次 | 所有者与范围 | 状态／下一步 |
 |---|---|---|
 | INIT | root：28领域、地区、事项地图，Hugo/OINK、导航与验证 | 工程基线通过，地图用途说明已具体化 |
 | B01 | health医疗3；documents文件号码2／加州押金1；civic政府／信用／应急3 | 本地提交c292949；33 HTML，渲染／同步通过 |
-| B02 | civic历史；health税务居民；documents服务英语 | 三稿三方审及集成验收通过，40 HTML，58页面／12搜索；待本地提交 |
-| B03-school | health作者→documents事实审→root静态审 | 入学事实审通过，待静态／集成；章导读已准备为草稿 |
-| B03-driving | documents作者→civic事实审→root静态审 | 四州驾驶证事实审通过，待静态／集成 |
-| B03-employment | civic作者→health事实审→root静态审 | 工资／加班事实审通过，待静态／集成 |
-| B04-rental | documents | B03审收口后写租赁流程，四州边界；maps/rental-process、evidence/rental-process |
-| B04-coverage | health | 失业／搬州保障衔接，四州入口；maps/coverage-changes、evidence/coverage-changes；研究中 |
-| B04-state-tax | civic | 四州居民与收入来源资料；maps/state-tax、evidence/state-tax；研究中 |
+| B02 | civic历史；health税务居民；documents服务英语 | 本地提交44d1094；40 HTML，58页面／12搜索通过 |
+| B03 | health入学→documents事实审；documents驾驶→civic事实审；civic工资→health事实审；root静态审 | 三稿及章节／四州／入学入口集成通过；50 HTML，78页面／18搜索及地区2端增量检查通过，待本地提交 |
+| B04-rental | documents作者→health事实审→root静态审 | 完整稿及证据冻结，已加法院通知分流；独立事实审中 |
+| B04-coverage | health作者→civic事实审→root静态审 | 完整稿及证据冻结，2026四州变更已写；独立事实审中 |
+| B04-state-tax | civic作者→documents事实审→root静态审 | 四州居民与收入来源、迁州资料已冻结；独立事实审中 |
+| B05-geography | health；regional-life | 完成本批作者修订及租房事实审后研究城乡、区域与具体地址的生活比较 |
+| B05-culture | documents；invitations-boundaries | 完成本批作者修订及州税事实审后研究邀约、拒绝、时间及隐私的具体场景 |
+| B05-communities | civic；tribal-nations | 完成本批作者修订及医保事实审后研究具体Nation自身来源、主权土地与当代治理 |
 
-B03三份章导读和NY/WA/TX地区入口已由root准备，仍draft true，等待正文完整验收。完成批次及时集成；候选地图不算成稿。
+B05三页均在foundations相应章；分项maps/evidence同slug，root拥有章导读与共享导航。事实审及第三人静态审另按冻结版本排环；新稿始终draft true。及时收口已通过批次，地图条目不计成稿。
 
-后续缺口：四州住房／医疗／税务链继续补；地理、文化、社区、家庭生育、大学／终身教育、照护／丧亲、求职失业、创业、合同、户外等仍需真实内容和事项走查。局部来源受阻只影响对应断言，记录解除条件，继续其他任务。推送和发布未授权。
+后续缺口：四州住房／医疗／税务链继续补；家庭生育、大学／终身教育、照护／丧亲、求职失业、创业、合同、户外等仍需真实内容和事项走查。局部来源受阻只影响对应断言，记录解除条件，继续其他任务。推送和发布未授权。
