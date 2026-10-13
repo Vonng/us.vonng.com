@@ -1,6 +1,6 @@
 ---
 title: 加利福尼亚州 California
-description: 从住房、驾驶、工资和入学主题进入加州规则，再核对城市与学区条件。
+description: 从租房、驾驶、劳动、入学、医保与州税进入本州分支，再核对当地主管与个人条件。
 page_id: regions.california
 content_kind: editorial
 scope: 编辑阅读路径；具体规则与适用对象见所链接正文
@@ -17,6 +17,9 @@ weight: 10
 
 搬家与工作中的其他手续，可以从下面几页进入加州分支：
 
+- [租房申请、维修与交房](/book/life/housing/rental-process/)：查本州申请费用、书面通知与押金结算，遇到法院文件时进入对应应诉与帮助渠道。
+- [失业或搬家后接上医疗保险](/book/people/health/coverage-changes/)：按家庭成员查本州市场与公共保障入口，确认旧保结束、新保生效及持续就医。
+- [跨州搬家与远程工作的州税](/book/work/tax/state-residency/)：保留住所、工作地点和扣缴记录，分别核对居民期间与收入来源。
 - [新居民驾驶证](/book/life/transport/new-resident-license/)：根据原驾照来源、身份与住址材料，选择办理和考试路线。
 - [工资单与加班费](/book/work/employment/pay-stub-overtime/)：按实际工作地点和工时核对工资，查看加州每日加班与欠薪处理说明。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：先查实际学区，再看加州年龄规则和旧金山登记案例；其他学区继续核对当地材料与分配。

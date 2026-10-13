@@ -1,0 +1,25 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/",
+    "/docs/glossary/",
+    "/docs/routes/medical-care/",
+    "/docs/routes/tax-preparation/",
+    "/book/life/housing/",
+    "/book/people/health/",
+    "/book/work/tax/",
+    "/book/life/housing/rental-process/",
+    "/book/people/health/coverage-changes/",
+    "/book/work/tax/state-residency/"
+  ],
+  "queries": {
+    "COBRA": "失业或搬州",
+    "筛查费": "租房怎样",
+    "州税": "跨州搬家与远程工作"
+  }
+}

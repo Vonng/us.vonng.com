@@ -133,5 +133,32 @@
     "verified": "2026-10-13",
     "fact_record": "ops/reviews/b03-school-fact.md",
     "static_record": "ops/reviews/b03-static.md"
+  },
+  "content/book/life/housing/rental-process.md": {
+    "body_sha256": "6d0058fe202a619f99274b6199e7dbe454fe0ce33756ec71bdffaa3686e44438",
+    "author": "documents",
+    "fact_reviewer": "health",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b04-rental-fact.md",
+    "static_record": "ops/reviews/b04-static.md"
+  },
+  "content/book/people/health/coverage-changes.md": {
+    "body_sha256": "54f796e916ab7d1d0cc19fca99e8ffc8919a6bff161674e547ce17cee5da3943",
+    "author": "health",
+    "fact_reviewer": "civic",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b04-coverage-fact.md",
+    "static_record": "ops/reviews/b04-static.md"
+  },
+  "content/book/work/tax/state-residency.md": {
+    "body_sha256": "05d6c6adeefc9b4c4c3cd1fa1e7263d5101f60367b07baf589c038f77c180017",
+    "author": "civic",
+    "fact_reviewer": "documents",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b04-state-tax-fact.md",
+    "static_record": "ops/reviews/b04-static.md"
   }
 }

@@ -30,3 +30,6 @@ weight: 30
 | DMV、DOL、DPS、REAL ID、AB 60 | [四州驾驶证与材料分支](/book/life/transport/new-resident-license/) |
 | FLSA、pay period、workweek、gross pay、net pay、exempt | [工资单与加班条件](/book/work/employment/pay-stub-overtime/) |
 | School district、attendance area、kindergarten、McKinney–Vento liaison | [公校入学与缺件处理](/book/people/school/school-enrollment/) |
+| Rental application、lease、screening fee、adverse action notice | [租房申请、费用与拒绝后的处理](/book/life/housing/rental-process/) |
+| COBRA、special enrollment period、Marketplace、Medicaid、CHIP | [失业或搬州后的保障衔接](/book/people/health/coverage-changes/) |
+| Domicile、source income、540NR、IT-203、IT-360.1 | [跨州居民、来源收入与表件](/book/work/tax/state-residency/) |
