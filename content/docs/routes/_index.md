@@ -23,6 +23,9 @@ weight: 10
 - [找工作到入职](/docs/routes/start-work/)：准备申请，核实招聘和背景材料，确认录用条件，跟进文件、报到和工资。
 - [失业或工时减少](/docs/routes/job-loss/)：从离职记录与最后工资开始，接上失业保险、医保和紧急生活支持。
 - [为成年亲人安排照护](/docs/routes/caregiving/)：确认本人意愿，把日常任务、服务、付款与替班接到实际开始。
+- [准备自己开业](/docs/routes/start-business/)：核本人资格、经营主体与地址许可，接好税号、收款和持续手续。
+- [继续学习到开始上课](/docs/routes/continuing-education/)：核项目与成本，办入学和资助，再确认注册、付款与出席。
+- [安排一次公园或营地出行](/docs/routes/outdoor-trip/)：分别核路线、票务和当天限制，留好返回计划并完成收尾。
 - [现在需要紧急帮助](/docs/routes/emergency/)：按危险和需要的服务选择求助渠道。
 
 还在建立背景时，可以从[全书目录](/book/)阅读；要使用州或地方规则时，继续查[地区入口](/docs/regions/)。

@@ -29,4 +29,6 @@ weight: 40
 
 手机与家庭网络、日常购物与退货、图书馆与社区服务也提供四州主管或具体城市入口；可沿 [抵达后安顿](/docs/routes/arrival/) 把相关手续接到实际使用。实时名额、当期活动与服务地址仍要按所选机构确认。
 
+[经营与停业](/book/work/business/start-business/)、[成人继续学习](/book/people/education/continuing-education/) 和 [公园与营地出行](/book/rights/outdoors/outdoor-planning/) 接上全国流程及四州具体分支。学校、学年、经营地址、土地管理者和活动日期会改变手续，沿对应页面核本人所走的路线。
+
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。

@@ -28,6 +28,9 @@ weight: 30
 - [手机与家庭网络](/book/life/digital/phone-internet/)：按地址查服务与联邦 Lifeline；账单问题先确认提供者和服务种类，再找 UTC 或 FCC。
 - [日常购物与退货](/book/life/household/shopping-returns/)：先取得普通退货政策；称重计价问题找 WSDA，消费投诉和付款机构争议另走各自渠道。
 - [图书馆与社区服务](/book/life/community/local-support/)：SPL 与 KCLS 的卡种和互借条件分别核对；系列英语班、谈话圈和当期登记状态各有安排。
+- [自己接单或开小店](/book/work/business/start-business/)：查州经营许可、城市 endorsement 与税务报告；Bellevue 实例按实际地址继续核。
+- [成人继续学习](/book/people/education/continuing-education/)：Seattle Central 连接申请、州资助、居民声明、注册与退款；其他地点从 SBCTC 校区目录继续。
+- [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Discover Pass、营地停车与 Sno-Park 分开核；Deception Pass 的关闭和水域警示在出发前再确认。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 

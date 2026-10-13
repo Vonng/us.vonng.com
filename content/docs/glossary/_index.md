@@ -48,3 +48,6 @@ weight: 30
 | IMEI、SIM／eSIM、Broadband Consumer Label、Lifeline、ABA、porting、Port Out PIN | [手机与家庭网络的开通、转号和停用](/book/life/digital/phone-internet/) |
 | Unit price、Nutrition Facts、serving size、%DV、Contains、Use by、store credit、restocking fee、billing inquiries | [购物、食品标签与退货争议](/book/life/household/shopping-returns/) |
 | LAPL、NYPL、QPL、BPL、SPL、KCLS、HPL、HCPL、e-card、drop-in、cohort、LEAP | [图书馆办卡、活动登记与社区服务](/book/life/community/local-support/) |
+| Sole proprietor、LLC、registered agent、EIN、BOI、annual report、Form 5472 | [准备经营、登记与停业结清](/book/work/business/start-business/) |
+| FAFSA、Pell Grant、Workforce Pell、CCPG、CADAA、TAP、WASFA、TASFA、TEOG、SAP、MPN | [成人入学、资助、注册与退出](/book/people/education/continuing-education/) |
+| NPS、BLM、America the Beautiful、Discover Pass、timed entry、Sno-Park、service dog | [公园通行、预约与户外准备](/book/rights/outdoors/outdoor-planning/) |

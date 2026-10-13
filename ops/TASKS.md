@@ -1,6 +1,6 @@
 # 活动队列
 
-更新：2026-10-13。用户已明确恢复全书目标，当前 active。保留 B01—B07，B08审阅、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
+更新：2026-10-13。用户已明确恢复全书目标，当前 active。保留 B01—B08，B09三主题两审、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
 
 | 批次 | 所有者与范围 | 状态／下一步 |
 |---|---|---|
@@ -24,12 +24,16 @@
 | B08-digital | root作者：life/digital/phone-internet → banking_fact事实审 → birth_fact第三静态 | 最终2fec99db，两审及主控实际网页／打印PASS，正式集成 |
 | B08-community | static_editor作者：life/community/local-support → birth_fact事实审 → banking_fact第三静态 | 最终01cae4dd，事实修改与最后单处删句分别重绑，两审及主控网页／打印PASS，正式集成 |
 | B08-household | birth_fact作者：life/household/shopping-returns → root事实审 → static_editor第三静态 | 最终b8541cd6，两处最小补正后两审及主控网页／打印PASS，正式集成；食品支持资格另留地图 |
-| B08-shared | root：三章导读、抵达后安顿、搬家增量、四州与索引 | 86 HTML、33主题／24章；44页面／28检索／8交互零错误，172页PDF实际10页抽查通过；223文件／94目录完整同步一致 |
-| B09-business | banking_fact作者：work/business/start-business → birth_fact事实审 → root第三静态 | 最终76c4cc7f，独立事实PASS；root第三静态尚待实际完整审，仍written／draft true |
-| B09-education | static_editor作者：people/education/continuing-education及同slug地图／证据 | 作者继续实际回源及成稿；成人继续学习／资助／注册链，未获独立事实或静态PASS |
-| B09-accessibility | birth_fact作者：people/accessibility/accommodations及同slug地图／证据 → banking_fact事实审 → root第三静态 | 已分派先地图后研究；公共服务、工作、住房、学校分别核法律／材料／实施／受阻；尚无审阅PASS |
-| B09-outdoors | root作者：rights/outdoors/outdoor-planning及同slug地图／证据 | 地图已建立，实际一级研究开始；普通日游与入门营地、四州许可／闭园／通信／返回；无正文或审阅PASS |
-| B10-home | banking_fact作者：life/housing/buying-home及同slug地图／证据 → root事实审 → static_editor第三静态 | 已分派先地图后研究；自住贷款、合同、验屋／估价、产权／交割及持续成本；不提前视为成稿或审阅通过 |
+| B08-shared | root：三章导读、抵达后安顿、搬家增量、四州与索引 | 本地58bba22；86 HTML、33主题／24章；44页面／28检索／8交互零错误，172页PDF实际10页抽查通过；223文件／94目录完整同步一致 |
+| B09-business | banking_fact作者：work/business/start-business → birth_fact事实审 → root第三静态 | 最终3733354f两审及主控实际网页／打印PASS，正式集成 |
+| B09-education | static_editor作者：people/education/continuing-education → banking_fact事实审 → birth_fact第三静态 | d99c8bc5两审、root完整正文／证据／审阅实读及工程门禁PASS，正式集成 |
+| B09-accessibility | birth_fact作者：people/accessibility/accommodations及同slug地图／证据 → banking_fact事实审 → root第三静态 | 原作者134行初冻结af3be0e5；TEA在线副本范围一处实读补正，新报1b028fd2，独立事实审在继续／全文重绑，未集成 |
+| B09-outdoors | root作者：rights/outdoors/outdoor-planning → birth_fact事实审 → static_editor第三静态 | 最终5e190a77：作者仅删两句后两异人新95行全文／逆验重绑PASS，主控实际网页／打印通过，正式集成 |
+| B10-home | banking_fact作者：life/housing/buying-home及同slug地图／证据 → root事实审 → static_editor第三静态 | 作者报最终123行冻结b89f8256／whole1abc9857，written／draft true／核验空；root独立事实待开始。作者现先做无障碍事实审 |
+| B10-family | static_editor作者：people/family/marriage-separation及同slug地图／证据 → root事实审 → banking_fact第三静态 | 四县与法院研究保存；流断开后从实际map36／evidence99恢复，written草稿128行现已创建，未冻结；没有追认失败轮通过 |
+| B10-filing | root作者：work/tax/filing及同slug地图／证据 → static_editor事实审 → birth_fact第三静态 | 合并年度申报／付款、更正及普通海外收入／FBAR／8938；50官方原件正常TLS取得，联邦／四州采用段与4868／FBAR实际物理页已读，两个长州／联邦说明只读采用段；准备成稿，未送审 |
+| B09-shared | root：三章导读、开业／继续学习／户外事项、三部分与四州／索引 | 95 HTML、36主题／27章，50访问／24搜索／8交互零错误；打印孤立引注修正后194页实际17页通过，241文件／103目录同步一致；本地提交待实际Git登记 |
+| B11-mental | birth_fact作者：people/accessibility/mental-health及同slug地图／证据 → banking_fact事实审 → root第三静态 | 正式分派全国／四州普通成人心理支持完整链，作者研究中；无障碍原作者必要返修优先 |
 
 root拥有配置、模板、首页、章导读、公共入口、总账、共享构建及本地提交。作者只改分派主题正文与同slug地图、证据；事实审只改分派审阅记录。新稿 written／draft true，核验字段空，冻结摘要后异人事实审，再由第三名参与者静态审；元数据、构建与正式登记由root完成。
 

@@ -18,3 +18,5 @@ book_number: '5'
 收到法院文件或需要有人分析权利时，沿[寻找法律帮助](/book/rights/legal/finding-help/)准备文件、核实人员资格，并把服务范围、费用和眼前期限谈清楚。下列章节连接相关主题；每页可以独立阅读。
 
 [个人消费与服务合同](/book/rights/contracts/reading-contracts/)从签约前的主体、交付和费用开始，连接已签文件、取消、补救与四州投诉及法院入口。
+
+准备 [公园、步道或营地出行](/book/rights/outdoors/outdoor-planning/) 时，按实际管理者、同行者与当天条件核路线和凭证，留好通信与返回计划；途中调整、遇险求助及返回收尾沿同一页继续。

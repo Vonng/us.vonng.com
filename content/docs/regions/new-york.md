@@ -28,5 +28,8 @@ weight: 20
 - [手机与家庭网络](/book/life/digital/phone-internet/)：按地址和计划查联邦 Lifeline 与本州 Affordable Broadband Act 的不同条件，再核实际报价。
 - [日常购物与退货](/book/life/household/shopping-returns/)：核信用卡付款总价、网店退货展示和有条件的退款；书面账单争议另接联邦期限。
 - [图书馆与社区服务](/book/life/community/local-support/)：纽约市 NYPL、Queens 与 Brooklyn 分别办卡及归还；英语课、活动和设备再看所选项目。
+- [自己接单或开小店](/book/work/business/start-business/)：按实际主体查州登记、报告和纽约市经营许可，接好税号、收款与停业手续。
+- [成人继续学习](/book/people/education/continuing-education/)：BMCC 案例连接海外记录、入学、TAP／DREAM Act、成人项目与退出；其他地点从 SUNY 目录继续找学校。
+- [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Bear Mountain 的车辆费用、设施和施工改线分别核，不能只凭旧地图安排路线。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

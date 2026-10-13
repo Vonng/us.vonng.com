@@ -315,5 +315,35 @@
     "fact_record": "ops/reviews/b08-community-fact.md",
     "static_record": "ops/reviews/b08-community-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/work/business/start-business.md": {
+    "body_sha256": "3733354f29b41084479b4b99e3cba5f81d15d9ea56841b3ef0f387d59b6529e7",
+    "author": "banking_fact",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b09-business-fact.md",
+    "static_record": "ops/reviews/b09-business-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/education/continuing-education.md": {
+    "body_sha256": "d99c8bc5766a56450668a7a053d39c9a55813cb824bce54fa943081cc7952106",
+    "author": "static_editor",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b09-education-fact.md",
+    "static_record": "ops/reviews/b09-education-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/rights/outdoors/outdoor-planning.md": {
+    "body_sha256": "5e190a7790971ce0d39769e7edf962a19ff04277569e405fcc96f3572a2330ac",
+    "author": "root",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b09-outdoors-fact.md",
+    "static_record": "ops/reviews/b09-outdoors-static.md",
+    "integration_status": "integrated"
   }
 }

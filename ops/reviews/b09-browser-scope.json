@@ -1,0 +1,37 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/book/work/",
+    "/book/work/business/",
+    "/book/work/business/start-business/",
+    "/book/people/",
+    "/book/people/education/",
+    "/book/people/education/continuing-education/",
+    "/book/rights/",
+    "/book/rights/outdoors/",
+    "/book/rights/outdoors/outdoor-planning/",
+    "/docs/",
+    "/docs/routes/",
+    "/docs/routes/start-business/",
+    "/docs/routes/continuing-education/",
+    "/docs/routes/outdoor-trip/",
+    "/docs/routes/start-work/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/book/people/health/medical-bills/"
+  ],
+  "queries": {
+    "LLC": "自己接单或开小店",
+    "Form 5472": "自己接单或开小店",
+    "FAFSA": "成人继续学习",
+    "TEOG": "成人继续学习",
+    "Discover Pass": "去公园、步道和营地",
+    "营地": "去公园、步道和营地"
+  }
+}
