@@ -1,23 +1,33 @@
 # 恢复断点
 
-更新：2026-10-13。目标 **active**，继续完成全书。恢复时已完整读取历史交接、上级和本项目约定、三份工作账本及408行 PROMPT；实际 Git、正文摘要、工具版本和固定主题均已核对。历史暂停现场保留在 [HANDOFF-2026-10-13.md](HANDOFF-2026-10-13.md)。
+更新：2026-10-13。目标 **active**，继续完成全书。恢复顺序 BOOKMAP → TASKS → 本账 → 实际文件与Git；408行PROMPT、历史交接及说人话规则已完整实读。历史暂停现场见 [HANDOFF-2026-10-13.md](HANDOFF-2026-10-13.md)。
 
-- B01—B05 共22主题保持正文和审阅摘要；B05 本地提交 `2b293c7`，暂停现场提交 `559caf8`。本项目 main，无 remote，未外部发布。
-- B06本地提交 `49b0bd3`。四篇已正式集成：出生 bb51e12f、银行 2b427531、失业 160a39b1、法律帮助 98b56bc4。完整 SHA、不同作者／事实审／第三人的记录在 acceptance.json 和 [B06集成验收](reviews/b06-integration.md)。旧未完成审未追认为通过。
-- 当前26正式主题、17有内容的章节、5部分、69 HTML。生产检查零警告／错误；最终两端46页面访问、20搜索、8项交互零错误。129页 PDF 实际抽查10／25／36／58／61／98／118／124页；出生末段孤行已修正后重新构建及交互回归。
-- 新增家庭／法律章导读、迎接孩子／失业事项，更新首页、四州、术语和来源说明。public 已与隔离生产目录189路径、大小和 SHA-256 一致。依赖及所有截图、PDF、原始报告只在忽略目录。
-- 当前检查使用 `.cache/checks-venv` 隔离 Python 依赖；Hugo 0.166.0 Extended，OINK 1.2.0 固定 f8f476e660cf053a2645b7b923ae8d08d5448fce。实际命令及限制见 ENGINEERING.md。
-- B07已重新分派：birth_fact作者照护→banking_fact事实；banking_fact作者求职入职→static_editor事实；static_editor作者合同→birth_fact事实；root作三稿第三静态。照护已有部分历史研究，须实际重读采纳资料并补四州。作者只拥有各自正文和同slug maps／evidence，不修改共享导读、不构建或提交。
-- 当前三名恢复代理 birth_fact、banking_fact、static_editor 已结束 B06 分派并继续 B07；旧会话句柄不作为权限或事实证据。root负责总账、共享工程、本地提交和实际渲染。
+## 已正式集成
 
-未写领域与行动链仍在 BOOKMAP 和 maps，不能用导航数量替代全书验收。接续时先核对本账与实际 Git，再继续剩余工作；不重新初始化、丢弃草稿、改写历史或探测 Claude。外部推送、发布、DNS 与联系他人未授权。
+- 本项目main，无remote，未外部推送或发布。B01—B05共22篇保留，B05本地2b293c7、暂停现场559caf8。B06本地49b0bd3，出生bb51e12f、银行2b427531、失业160a39b1、法律帮助98b56bc4，见 [B06验收](reviews/b06-integration.md)。旧未完成审没有追认为通过。
+- B07本地cd9af3f，世界8466c6b2、照护67cbe66d、求职f5c8738b、合同a456a890。79 HTML、30主题／21章，两端48访问／20检索／8交互；154物理页PDF实际11页，209文件／87目录同步，见 [B07验收](reviews/b07-integration.md)。旧世界事实分派容量异常不计PASS，最终采用现役banking_fact事实及static_editor第三的实际记录。
+- B08手机2fec99db（root→banking_fact事实→birth_fact第三），购物b8541cd6（birth_fact→root事实→static_editor第三），社区01cae4dd（static_editor→birth_fact事实→banking_fact第三），两审及主控实际渲染均PASS，正式集成。完整SHA与三人记录见 [验收账](reviews/acceptance.json) 和 [B08验收](reviews/b08-integration.md)。root实际完整读最终正文及审阅，只安装frontmatter；旧30篇整文件与正文摘要均不变。
+- B08电话原2019 FTC引注受阻后实际换2022主文／两页PDF；购物全额credit及退款(b)/(d)由作者改并逆验；社区NYC优惠、SPL现名、当期课程关闭及未核BPL细则已处理，最后单处空话删句经事实及第三全文重绑。作者BPL Languages成功、事实403与本人已读Contact等效依据分开保留，不承继他人回源。
+- 新增生活三章实际导读及抵达后安顿事项，搬家增通信与社区，四州、术语、事项及来源索引已接入。当前33正式主题、24有内容章节、5部分、86 HTML；其余地图条目没有占位页。
+- B08隔离生产零警告／错误，22路径两端44访问、28检索、8交互零错误。三新主题表格宽／scroll均770／356；打印63内容单元、33范围框、917外链、零坏锚点。root实际目视关键桌面／手机表、导读、事项与四州；172物理页PDF实际55／57／58／59／66／68／70／72／74／76，未见裁切或结尾孤行，并非逐页检查。
+- public与隔离目录已独立比较完整223文件、94目录、317路径，类型／大小／SHA一致。报告、截图、打印稿、原件及依赖忽略，只保存源文、轻量证据与记录。本批本地提交另见Git，不写待执行提交号。
 
-工作区新增ops/PROMPT-SPEAK-PLAINLY.md及校对进度表已完整实读。B06提交后解除hold-B06；新稿按同一语言标准写，既有正文另排校对，不能绕过本项目正文摘要与异人审阅门禁。
+## 工程与所有权
 
-root的foundations/world/world-connections已正式集成；birth_fact两轮模型容量异常中止、没有PASS，正式改由banking_fact事实审及static_editor第三审，两审均已实际PASS。独立审提出Census字段须限“调查”，root作者重新读源并单处修订后8466c6b2冻结；旧dd966cfe保留历史。求职f5c8738b、合同a456a890、照护67cbe66d均已通过独立事实与root第三静态。主控核四稿完整摘要、实际审阅与三人角色，安装候选元数据，生产与实际渲染通过后将acceptance四项正式登记；旧26正文未变。摘要全值在各自地图／证据／审阅，root未代改三名作者正文。
+实际Hugo 0.166.0 Extended，OINK 1.2.0固定f8f476e660cf053a2645b7b923ae8d08d5448fce；检查依赖使用.cache/checks-venv。本批实际运行make check DESTINATION=.cache/production-review，再做网页／打印并make sync，命令与限制见 [ENGINEERING.md](ENGINEERING.md)。本会话24139预览PID46399已按实际完整命令核所有权后关闭；既有未拥有1317／1318不动。
 
-四个新章导读及求职／照护事项已正式接入；部分、索引、四州与首页8卡生产通过。B07为79 HTML、30主题、21章，电话草稿与空数字章节实际未泄漏；24路径两端共48页面、20检索、8交互零错误，打印57单元／30元数据／787外链／零坏锚点。root实际查四州照护手机版、I-9／WA招聘／合同法院表、机构表、导读与事项、两端首页；154页PDF实际看10／31／32／95／96／98／103／105／125／148／150页，未发现裁切。原报告及PDF已归档到忽略缓存，正式结论与public实际同步见b07-integration。第一轮核心路径及收口条件见FOCUS。PL-6两份共享页已实际通读，无需删改；其他校对任务未领取。
+root拥有共享配置、模板、首页、导读、入口、账本、构建及本地提交。三名现役birth_fact、banking_fact、static_editor只拥有分派主题正文及同slug地图／证据，独立审只写指定记录；不得改他人文件或自行构建提交。新稿written／draft true、verified和reviewed_by空；冻结完整摘要后异人事实，再第三静态，root候选及实际渲染后集成。正文修订均重新绑定最终摘要。
 
-B08电话与家庭网络因独立事实审本轮2019 FTC原页受阻，作者实际读2022两项并只修近处引注后2fec99db冻结，root作者→banking_fact独立事实PASS（root全文实读记录）→birth_fact第三静态，第三审已分派。购物完整稿f37769cc，birth_fact作者→root事实→static_editor第三静态，尚未事实审。社区完整稿62e8a253，static_editor作者→birth_fact独立事实→banking_fact第三静态；birth_fact先完成电话第三再做社区事实。三稿实际核空字段与draft，生产均未泄漏。B08正文／map／evidence／审阅不纳入B07提交。
+## 当前研究与审阅
 
-banking_fact已另分派B09-business的start-business作者地图／研究；static_editor另分派B09-education的continuing-education作者地图／研究。仅独占正文同slug maps／evidence，不写章导读或shared；B08第三审门禁到达时优先暂停预备写作。root下一步购物独立事实及其余缺章研究。普通研究及三人门禁继续，不以30篇代替全书完成。
+| 主题 | 实际断点与下一步 |
+|---|---|
+| B09 start-business | banking_fact作者，birth_fact独立事实PASS；最终正文76c4cc7f729f955eb773776e03c2ddfe02e2dd9049c5d636ac3b1fc07a3a458b、整文件d16b3e9ec08e7752c9eda46fb832cabea31f65ce0dc5568d9c802d3d4c0badfa。DE／5472自身EIN、I-9少于3工作日、TX年化收入由作者补正；root第三静态尚待完整审。仍written／draft true，无生产HTML。 |
+| B09 continuing-education | static_editor继续作者研究／成稿；高等及职业教育、资助资格、申请注册／缴费／持续与退出链。不提前认事实或第三PASS。 |
+| B09 accommodations | birth_fact在创业事实完成后接作者，先地图；公共服务／工作／住房／学校各自法律、请求材料、实施及受阻继续。未来banking_fact事实、root第三。 |
+| B09 outdoor-planning | root已建地图与证据，NPS准备／装备和四州公园实际研究开始；普通日游与入门营地、许可、天气／闭园、费用、通信和返回。无正文、无审阅PASS。 |
+| B10 buying-home | banking_fact已分派作者，先地图再自住购房完整链实际研究；未来root事实、static_editor第三。 |
+
+第一轮核心路径和收口条件见 [FOCUS.md](FOCUS.md)。继续历史与公共参与、生命周期、通勤／车辆、住户服务、年度报税、经济困难及灾害等缺口；不能凭33篇或单批通过代替全书完成。PL-6两份共享页已实际通读无需删改，其他既有正文校对另排；新稿直接执行说人话标准，不能绕过摘要与异人门禁。
+
+普通研究、修订、核验、构建及本地提交继续自主推进。加拿大只读参考；不启动／探测Claude，不联系外部，不推送、部署或改DNS。记录与文件冲突时以实际文件、完整摘要和来源核对，任何记录不能替代实际核验。

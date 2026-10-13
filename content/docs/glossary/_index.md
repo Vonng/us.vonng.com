@@ -45,3 +45,6 @@ weight: 30
 | HIPAA、personal representative、discharge planner、LTSS、IHSS、NYIA、HCS、STAR+PLUS、respite | [成年亲人的照护安排](/book/people/aging/caregiving-plan/) |
 | American Job Center、offer、FCRA、I-9、List A/B/C、E-Verify、TNC | [求职、背景报告与入职](/book/work/career/job-search-onboarding/) |
 | DBA、guaranty、joint and several liability、mediation、arbitration、E-SIGN、ROSCA、Cooling-Off Rule | [个人消费与服务合同](/book/rights/contracts/reading-contracts/) |
+| IMEI、SIM／eSIM、Broadband Consumer Label、Lifeline、ABA、porting、Port Out PIN | [手机与家庭网络的开通、转号和停用](/book/life/digital/phone-internet/) |
+| Unit price、Nutrition Facts、serving size、%DV、Contains、Use by、store credit、restocking fee、billing inquiries | [购物、食品标签与退货争议](/book/life/household/shopping-returns/) |
+| LAPL、NYPL、QPL、BPL、SPL、KCLS、HPL、HCPL、e-card、drop-in、cohort、LEAP | [图书馆办卡、活动登记与社区服务](/book/life/community/local-support/) |

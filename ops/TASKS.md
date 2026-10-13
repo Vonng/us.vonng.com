@@ -1,6 +1,6 @@
 # 活动队列
 
-更新：2026-10-13。用户已明确恢复全书目标，当前 active。保留 B01—B06，B07审阅、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
+更新：2026-10-13。用户已明确恢复全书目标，当前 active。保留 B01—B07，B08审阅、正式集成、构建、实际渲染与本地同步已通过；历史暂停现场保留在 HANDOFF-2026-10-13.md。
 
 | 批次 | 所有者与范围 | 状态／下一步 |
 |---|---|---|
@@ -21,15 +21,19 @@
 | B07-world | root作者：foundations/world/world-connections → banking_fact事实审 → static_editor第三静态 | 最终8466c6b2，两审及实际生产／渲染PASS，正式集成 |
 | B07-contracts | static_editor作者：rights/contracts/reading-contracts → birth_fact事实审 → root第三静态 | 最终a456a890，两审及实际生产／渲染PASS，正式集成 |
 | B07-shared | root：四章导读、求职／照护事项、四州入口与索引 | 79 HTML、30主题／21章；48页面／20检索／8交互零错误，154页PDF实际11页抽查通过；209文件／87目录同步一致 |
-| B08-digital | root作者：life/digital/phone-internet → banking_fact事实审 → birth_fact第三静态 | 最终2fec99db，独立事实PASS；birth_fact第三静态已正式分派，仍written／draft true |
-| B08-community | static_editor作者：life/community/local-support → birth_fact事实审 → banking_fact第三静态 | 完整正文62e8a253冻结；birth_fact完成电话第三审后独立事实审，written／draft true |
-| B08-household | birth_fact作者：life/household/shopping-returns → root事实审 → static_editor第三静态 | 完整正文f37769cc冻结，written／draft true；独立事实及第三静态尚未完成；食品支持资格另留地图 |
-| B09-business-prep | banking_fact作者：work/business/start-business及同slug地图／证据 | 已分派先地图与实际回源，普通小企业起办／持续／停业链；社区第三静态到达时优先暂停作者任务 |
-| B09-education-prep | static_editor作者：people/education/continuing-education及同slug地图／证据 | 已分派先地图与实际回源，成人继续学习／资助／注册链；购物第三静态到达时优先暂停作者任务 |
+| B08-digital | root作者：life/digital/phone-internet → banking_fact事实审 → birth_fact第三静态 | 最终2fec99db，两审及主控实际网页／打印PASS，正式集成 |
+| B08-community | static_editor作者：life/community/local-support → birth_fact事实审 → banking_fact第三静态 | 最终01cae4dd，事实修改与最后单处删句分别重绑，两审及主控网页／打印PASS，正式集成 |
+| B08-household | birth_fact作者：life/household/shopping-returns → root事实审 → static_editor第三静态 | 最终b8541cd6，两处最小补正后两审及主控网页／打印PASS，正式集成；食品支持资格另留地图 |
+| B08-shared | root：三章导读、抵达后安顿、搬家增量、四州与索引 | 86 HTML、33主题／24章；44页面／28检索／8交互零错误，172页PDF实际10页抽查通过；223文件／94目录完整同步一致 |
+| B09-business | banking_fact作者：work/business/start-business → birth_fact事实审 → root第三静态 | 最终76c4cc7f，独立事实PASS；root第三静态尚待实际完整审，仍written／draft true |
+| B09-education | static_editor作者：people/education/continuing-education及同slug地图／证据 | 作者继续实际回源及成稿；成人继续学习／资助／注册链，未获独立事实或静态PASS |
+| B09-accessibility | birth_fact作者：people/accessibility/accommodations及同slug地图／证据 → banking_fact事实审 → root第三静态 | 已分派先地图后研究；公共服务、工作、住房、学校分别核法律／材料／实施／受阻；尚无审阅PASS |
+| B09-outdoors | root作者：rights/outdoors/outdoor-planning及同slug地图／证据 | 地图已建立，实际一级研究开始；普通日游与入门营地、四州许可／闭园／通信／返回；无正文或审阅PASS |
+| B10-home | banking_fact作者：life/housing/buying-home及同slug地图／证据 → root事实审 → static_editor第三静态 | 已分派先地图后研究；自住贷款、合同、验屋／估价、产权／交割及持续成本；不提前视为成稿或审阅通过 |
 
 root拥有配置、模板、首页、章导读、公共入口、总账、共享构建及本地提交。作者只改分派主题正文与同slug地图、证据；事实审只改分派审阅记录。新稿 written／draft true，核验字段空，冻结摘要后异人事实审，再由第三名参与者静态审；元数据、构建与正式登记由root完成。
 
-后续须覆盖尚无正文的日常购物、数字通信、社区、无障碍、高等教育、创业、户外、美国与世界，并继续退休／死亡、家庭与托育、车辆、住房、报税等重要完整行动链。四州、非公民、不同家庭、城乡、语言与无障碍条件逐项走查；领域地图条目可按同一行动链合并，不能以章节数或占位页满足目标。局部来源失败只限制相应断言，继续可核实工作。外部推送与发布未授权。
+后续须覆盖尚无正文的无障碍、高等教育、创业、户外，并继续历史与公共参与、退休／死亡、家庭与托育、车辆、住户服务、购房、年度报税等重要完整行动链。四州、非公民、不同家庭、城乡、语言与无障碍条件逐项走查；领域地图条目可按同一行动链合并，不能以章节数或占位页满足目标。局部来源失败只限制相应断言，继续可核实工作。外部推送与发布未授权。
 
 B07三位作者只改上述正文及同slug的ops/maps、ops/evidence，不改章导读、共享账本、其他正文或已集成版本。冻结后另下发事实审任务，不能自审。工作区新增语言校对规则已实读；新稿直接执行其判定标准，既有正文的B-PL另排批次，所有正文修订仍须符合用户AGENTS的摘要及异人审阅门禁。
 

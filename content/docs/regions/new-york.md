@@ -25,5 +25,8 @@ weight: 20
 - [成年亲人的照护](/book/people/aging/caregiving-plan/)：按资格类别找 LDSS、计划与 NYIA，核对新评估条件及既有记录。
 - [消费与服务合同](/book/rights/contracts/reading-contracts/)：选择 Consumer Frauds 投诉与当地办公室；法院程序先分纽约市、其他县市的指南。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：从州级边界进入纽约市案例，确认当地登记、学校分配与材料不足的处理；同一都会区的其他学区另查。
+- [手机与家庭网络](/book/life/digital/phone-internet/)：按地址和计划查联邦 Lifeline 与本州 Affordable Broadband Act 的不同条件，再核实际报价。
+- [日常购物与退货](/book/life/household/shopping-returns/)：核信用卡付款总价、网店退货展示和有条件的退款；书面账单争议另接联邦期限。
+- [图书馆与社区服务](/book/life/community/local-support/)：纽约市 NYPL、Queens 与 Brooklyn 分别办卡及归还；英语课、活动和设备再看所选项目。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

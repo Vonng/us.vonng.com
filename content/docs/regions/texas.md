@@ -25,5 +25,8 @@ weight: 40
 - [成年亲人的照护](/book/people/aging/caregiving-plan/)：核对 STAR+PLUS、服务协调与 HCBS 的不同进入路径，再查完整 Medicaid 资格。
 - [消费与服务合同](/book/rights/contracts/reading-contracts/)：整理 OAG 投诉材料，个人请求继续核治安法院、司法辖区、传票与送达。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：从州级边界进入奥斯汀案例，确认当地登记、学校分配与材料不足的处理；同一都会区的其他学区另查。
+- [手机与家庭网络](/book/life/digital/phone-internet/)：先核住址、设备与完整报价；补助从联邦 Lifeline 的得州适用入口继续，服务投诉按具体业务找主管。
+- [日常购物与退货](/book/life/household/shopping-returns/)：核商家政策、收据和多收费；TDA 称重计价投诉、OAG 消费投诉与金融争议分开。
+- [图书馆与社区服务](/book/life/community/local-support/)：休斯敦市 HPL 与 Harris 县 HCPL 是不同系统；临时卡、设备会员和儿童项目另核材料及报名。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

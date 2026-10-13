@@ -25,6 +25,9 @@ weight: 30
 - [成年亲人的照护](/book/people/aging/caregiving-plan/)：从 HCS 申请财务与任务评估，查当前可用支持，再确认提供者和开始日期。
 - [消费与服务合同](/book/rights/contracts/reading-contracts/)：保存合同、取消和补救记录，按 AGO 投诉或地区法院的立案与送达步骤继续。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：从州级边界进入西雅图案例，确认当地登记、学校分配与材料不足的处理；同一都会区的其他学区另查。
+- [手机与家庭网络](/book/life/digital/phone-internet/)：按地址查服务与联邦 Lifeline；账单问题先确认提供者和服务种类，再找 UTC 或 FCC。
+- [日常购物与退货](/book/life/household/shopping-returns/)：先取得普通退货政策；称重计价问题找 WSDA，消费投诉和付款机构争议另走各自渠道。
+- [图书馆与社区服务](/book/life/community/local-support/)：SPL 与 KCLS 的卡种和互借条件分别核对；系列英语班、谈话圈和当期登记状态各有安排。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 

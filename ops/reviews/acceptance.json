@@ -285,5 +285,35 @@
     "fact_record": "ops/reviews/b07-world-fact.md",
     "static_record": "ops/reviews/b07-world-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/life/digital/phone-internet.md": {
+    "body_sha256": "2fec99dbc2e0eeba297f76fd9f4241d25d3f37dc7f7c9d4cc382644f4cd0abe7",
+    "author": "root",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b08-phone-fact.md",
+    "static_record": "ops/reviews/b08-phone-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/life/household/shopping-returns.md": {
+    "body_sha256": "b8541cd63e9eab39a42b8d26a2a1803e45121cb4affc91c3ab789d1a9355631f",
+    "author": "birth_fact",
+    "fact_reviewer": "root",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b08-shopping-fact.md",
+    "static_record": "ops/reviews/b08-shopping-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/life/community/local-support.md": {
+    "body_sha256": "01cae4dda1ce86d14d2dadf448184cf1415b09c949ad90523f6db6aafead751e",
+    "author": "static_editor",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b08-community-fact.md",
+    "static_record": "ops/reviews/b08-community-static.md",
+    "integration_status": "integrated"
   }
 }

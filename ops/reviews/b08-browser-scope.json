@@ -1,0 +1,36 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/book/life/",
+    "/book/life/digital/",
+    "/book/life/digital/phone-internet/",
+    "/book/life/household/",
+    "/book/life/household/shopping-returns/",
+    "/book/life/community/",
+    "/book/life/community/local-support/",
+    "/docs/",
+    "/docs/routes/",
+    "/docs/routes/arrival/",
+    "/docs/routes/moving/",
+    "/docs/routes/medical-care/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/book/people/health/medical-bills/"
+  ],
+  "queries": {
+    "转号": "手机与家庭网络",
+    "Broadband Consumer Label": "手机与家庭网络",
+    "Nutrition Facts": "日常购物与退货",
+    "store credit": "日常购物与退货",
+    "NYPL": "图书馆与社区服务",
+    "KCLS": "图书馆与社区服务",
+    "TECHLink": "图书馆与社区服务",
+    "抵达后": "抵达后安顿"
+  }
+}

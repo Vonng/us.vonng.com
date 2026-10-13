@@ -29,5 +29,8 @@ weight: 10
 - [成年亲人的照护](/book/people/aging/caregiving-plan/)：向县 IHSS 申请评估，核对医疗证明、Medi-Cal 和实际服务安排。
 - [消费与服务合同](/book/rights/contracts/reading-contracts/)：先找行业主管，整理取消与履约材料；个人金钱请求沿小额法院入口继续。
 - [孩子入读公立学校](/book/people/school/school-enrollment/)：先查实际学区，再看加州年龄规则和旧金山登记案例；其他学区继续核对当地材料与分配。
+- [手机与家庭网络](/book/life/digital/phone-internet/)：先按服务地址比较套餐，再分开核联邦 Lifeline 与 California LifeLine 的申请、核验及账单。
+- [日常购物与退货](/book/life/household/shopping-returns/)：看食品日期、到手总价和普通退货条件；多收费、缺陷、未发货与退款未入账分别处理。
+- [图书馆与社区服务](/book/life/community/local-support/)：洛杉矶市普通卡与市 e-card 的住址条件不同，县系统另办；课程、设备及儿童活动各查登记。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。
