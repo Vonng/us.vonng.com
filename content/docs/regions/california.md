@@ -35,5 +35,9 @@ weight: 10
 - [自己接单或开小店](/book/work/business/start-business/)：先核主体、州登记、洛杉矶经营地址和当地许可，再安排税号、收款、报告与停业。
 - [成人继续学习](/book/people/education/continuing-education/)：从州院校目录找项目；圣莫尼卡学院案例连接申请、居民学费、当学年资助、注册与退出。
 - [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Malibu Creek 的停车、营地、火险和动物规则按具体区域核，出发前继续查关闭与天气。
+- [年度报税办理](/book/work/tax/filing/)：核本州自动申报延期与付款期限、境外生活或旅行分支，以及联邦更正后向 FTB 继续的手续。
+- [语言与残障便利](/book/people/accessibility/accommodations/)：按医疗、公共服务、工作、住房与学校找负责办公室，跟进答复及相应主管。
+- [心理健康支持](/book/people/accessibility/mental-health/)：按 Medi-Cal 计划与县专业服务分工接入，洛杉矶县例子另核服务区；预约受阻按所监管计划继续。
+- [自住购房](/book/life/housing/buying-home/)：分别核买方代理、房况与产权文件；洛杉矶县补充税单在普通年度税单之外，收到后另核付款安排。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。

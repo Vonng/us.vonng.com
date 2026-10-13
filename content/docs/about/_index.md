@@ -31,4 +31,8 @@ weight: 40
 
 [经营与停业](/book/work/business/start-business/)、[成人继续学习](/book/people/education/continuing-education/) 和 [公园与营地出行](/book/rights/outdoors/outdoor-planning/) 接上全国流程及四州具体分支。学校、学年、经营地址、土地管理者和活动日期会改变手续，沿对应页面核本人所走的路线。
 
+[心理健康支持](/book/people/accessibility/mental-health/) 与 [语言、残障便利](/book/people/accessibility/accommodations/) 连接服务选择、预约或请求、安排落实与受阻后继续；[年度报税办理](/book/work/tax/filing/) 连接材料、各项申报及付款、受理记录与更正。所用文件、计划、法域和税年分别在办理处确认。
+
+[自住购房](/book/life/housing/buying-home/) 从持续负担与成交现金接到贷款、报价、验屋、产权和交割，成交后继续核登记、付款与税单；四州及地方实例按实际房产所在地确认。
+
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。

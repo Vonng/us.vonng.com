@@ -1,0 +1,41 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/book/life/",
+    "/book/life/housing/",
+    "/book/life/housing/buying-home/",
+    "/book/people/",
+    "/book/people/accessibility/",
+    "/book/people/accessibility/accommodations/",
+    "/book/people/accessibility/mental-health/",
+    "/book/work/",
+    "/book/work/tax/",
+    "/book/work/tax/filing/",
+    "/docs/",
+    "/docs/routes/",
+    "/docs/routes/buy-home/",
+    "/docs/routes/mental-health/",
+    "/docs/routes/accommodations/",
+    "/docs/routes/tax-preparation/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/book/people/health/medical-bills/",
+    "/docs/routes/medical-care/"
+  ],
+  "queries": {
+    "Loan Estimate": "买来自住：预算、贷款与交割",
+    "Cash to Close": "买来自住：预算、贷款与交割",
+    "FBAR": "年度报税怎样办：材料、付款、海外账户与更正",
+    "8938": "年度报税怎样办：材料、付款、海外账户与更正",
+    "OBHA": "寻找心理健康支持：预约、费用与持续治疗",
+    "谈话治疗": "寻找心理健康支持：预约、费用与持续治疗",
+    "ADA coordinator": "需要无障碍服务：怎样提出请求并跟进落实",
+    "reasonable accommodation": "需要无障碍服务：怎样提出请求并跟进落实"
+  }
+}

@@ -18,3 +18,5 @@ book_number: '2'
 搬到新的州，还要按原驾照来源和有效期选择办理路线，分别核对驾驶证、地址与车辆手续。下列章节连接相关主题；每页可以独立阅读。
 
 住处确定后，可按 [手机与家庭网络](/book/life/digital/phone-internet/) 开通并核账，沿 [日常购物与退货](/book/life/household/shopping-returns/) 看标签、总价与退款，再用 [图书馆与社区服务](/book/life/community/local-support/) 查实际服务机构、报名和到场安排。需要一起安顿这些事项时，进入 [抵达后安顿](/docs/routes/arrival/)。
+
+准备 [自住购房](/book/life/housing/buying-home/) 时，把每月负担和成交现金分开算，逐步完成贷款比较、报价、验屋与产权核验，再接交割、登记及后续账单。

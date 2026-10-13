@@ -51,3 +51,7 @@ weight: 30
 | Sole proprietor、LLC、registered agent、EIN、BOI、annual report、Form 5472 | [准备经营、登记与停业结清](/book/work/business/start-business/) |
 | FAFSA、Pell Grant、Workforce Pell、CCPG、CADAA、TAP、WASFA、TASFA、TEOG、SAP、MPN | [成人入学、资助、注册与退出](/book/people/education/continuing-education/) |
 | NPS、BLM、America the Beautiful、Discover Pass、timed entry、Sno-Park、service dog | [公园通行、预约与户外准备](/book/rights/outdoors/outdoor-planning/) |
+| Reasonable accommodation、reasonable modification、effective communication、Section 504、ADA coordinator | [语言与残障便利的请求、答复与复核](/book/people/accessibility/accommodations/) |
+| Psychotherapy、EAP、MHP、BH-ASO、LMHA／LBHA、OBHA、patient-provider dispute resolution | [心理健康服务、费用与持续治疗](/book/people/accessibility/mental-health/) |
+| W-2、1099、1095-A、Form 4868、FBAR、FinCEN114、Form 8938、Form 1040-X、PTIN | [年度报税材料、海外账户申报与更正](/book/work/tax/filing/) |
+| Loan Estimate、Closing Disclosure、APR、Cash to Close、HOA、title commitment、escrow、servicer | [自住购房的贷款比较、产权与交割](/book/life/housing/buying-home/) |

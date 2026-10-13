@@ -31,5 +31,9 @@ weight: 20
 - [自己接单或开小店](/book/work/business/start-business/)：按实际主体查州登记、报告和纽约市经营许可，接好税号、收款与停业手续。
 - [成人继续学习](/book/people/education/continuing-education/)：BMCC 案例连接海外记录、入学、TAP／DREAM Act、成人项目与退出；其他地点从 SUNY 目录继续找学校。
 - [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Bear Mountain 的车辆费用、设施和施工改线分别核，不能只凭旧地图安排路线。
+- [年度报税办理](/book/work/tax/filing/)：联邦与纽约州延期分别办，按本人税年、表件及州更正通知期限继续，地方所得税另核。
+- [语言与残障便利](/book/people/accessibility/accommodations/)：按服务场景、人员与实际主管提交请求，工作、住房和学校的法律范围分别核。
+- [心理健康支持](/book/people/accessibility/mental-health/)：从 OMH 社区服务接入；纽约市 NYC Care 另由财务人员筛查，服务与投诉范围分别确认。
+- [自住购房](/book/life/housing/buying-home/)：代理披露、服务协议和房况披露按各自用途核；纽约市四区与 Staten Island 的产权记录由不同机关保存。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

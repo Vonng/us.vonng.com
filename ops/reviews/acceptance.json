@@ -345,5 +345,45 @@
     "fact_record": "ops/reviews/b09-outdoors-fact.md",
     "static_record": "ops/reviews/b09-outdoors-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/people/accessibility/accommodations.md": {
+    "body_sha256": "1b028fd251ea4f4878076d3cae67fc7aec940ad7e44d7637c269c4362f24db0c",
+    "author": "birth_fact",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b09-accommodations-fact.md",
+    "static_record": "ops/reviews/b09-accommodations-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/work/tax/filing.md": {
+    "body_sha256": "6ca184bce421c07a203b09640178a0da16e31bb5fefcb8ce7397b089e571e70a",
+    "author": "root",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "birth_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b10-filing-fact.md",
+    "static_record": "ops/reviews/b10-filing-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/accessibility/mental-health.md": {
+    "body_sha256": "575c7d19fa70154da8672ea22f9d942a3c48fd89998f6f41ccb047a13a428917",
+    "author": "birth_fact",
+    "fact_reviewer": "banking_fact",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b11-mental-health-fact.md",
+    "static_record": "ops/reviews/b11-mental-health-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/life/housing/buying-home.md": {
+    "body_sha256": "1232cdbdd91165c3773efb2bc3a29085cd8d589c396085b437842e79b5092671",
+    "author": "banking_fact",
+    "fact_reviewer": "root",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b10-buying-home-fact.md",
+    "static_record": "ops/reviews/b10-buying-home-static.md",
+    "integration_status": "integrated"
   }
 }

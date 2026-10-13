@@ -31,5 +31,9 @@ weight: 40
 - [自己接单或开小店](/book/work/business/start-business/)：Austin／Travis 县实例分别查名称登记、场地和州税务，再接实际经营、报告与停业。
 - [成人继续学习](/book/people/education/continuing-education/)：Houston City College 连接州居民与服务区、TASFA／TEOG、注册和退出；其他地点从 THECB 项目目录继续。
 - [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Brazos Bend 的日票、营位和无障碍预约各核确认，再查当天禁火、路段与鳄鱼安全说明。
+- [年度报税办理](/book/work/tax/filing/)：本州个人所得税条件与联邦、其他州及经营义务分别核，保存各项受理和付款记录。
+- [语言与残障便利](/book/people/accessibility/accommodations/)：工作、住房和学校请求沿各自负责人及主管继续，州法与联邦范围分开核。
+- [心理健康支持](/book/people/accessibility/mental-health/)：按县或 ZIP code 找 LMHA／LBHA，核评估、材料与费用；Harris County 例子另按服务区继续。
+- [自住购房](/book/life/housing/buying-home/)：签报价和付订金前核购买资格及持有方式；经纪协议、当前表件及实际地块的 CAD／Clerk 分工分别确认。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

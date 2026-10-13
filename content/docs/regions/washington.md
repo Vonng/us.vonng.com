@@ -31,6 +31,10 @@ weight: 30
 - [自己接单或开小店](/book/work/business/start-business/)：查州经营许可、城市 endorsement 与税务报告；Bellevue 实例按实际地址继续核。
 - [成人继续学习](/book/people/education/continuing-education/)：Seattle Central 连接申请、州资助、居民声明、注册与退款；其他地点从 SBCTC 校区目录继续。
 - [公园、步道和营地](/book/rights/outdoors/outdoor-planning/)：Discover Pass、营地停车与 Sno-Park 分开核；Deception Pass 的关闭和水域警示在出发前再确认。
+- [年度报税办理](/book/work/tax/filing/)：工资与州资本利得申报分别核；适用资本利得时，申报、延期、付款及更正沿州独立程序继续。
+- [语言与残障便利](/book/people/accessibility/accommodations/)：按实际服务与主管提出请求，确认材料、辅助方式及拒绝后的继续路线。
+- [心理健康支持](/book/people/accessibility/mental-health/)：按 Apple Health、BHSO 与 BH-ASO 分支找服务，King County 例子另核地址和财务条件。
+- [自住购房](/book/life/housing/buying-home/)：核买方服务协议及披露收到后的书面回应期限；King County 税单与付款按实际账户继续确认。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 

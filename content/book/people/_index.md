@@ -22,3 +22,5 @@ book_number: '3'
 准备 [继续学习](/book/people/education/continuing-education/) 时，先核课程结果、认可与可出席时间，再申请入学和对应学年资助；录取后继续完成注册、付款和第一次上课，计划改变时正式办理转学或退出。
 
 需要电话预约、确认安排或追问账单时，也可进入语言章节，结合实际事项练习表达。下列章节中的每页都可以独立阅读。
+
+需要 [心理健康支持](/book/people/accessibility/mental-health/) 时，把接诊、费用、初评及持续治疗接起来；遇到语言、残障或场所障碍时，用 [便利申请](/book/people/accessibility/accommodations/) 找负责办公室，确认安排并跟进答复。
