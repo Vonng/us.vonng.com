@@ -16,14 +16,17 @@ weight: 10
 - [抵达后安顿](/docs/routes/arrival/)：核文件与住址，接上通信、账户、医疗、工作或上学，再确认实际能用。
 - [预约就医与处理账单](/docs/routes/medical-care/)：从计划、网络和手续一路查到账单、申诉和援助。
 - [跨州搬家](/docs/routes/moving/)：把住房交接、地址通知、医疗、出行、学校与税务记录接起来。
+- [水电燃气与垃圾服务](/docs/routes/house-services/)：按租约和实际地址找到提供者，办开通、核账与援助，搬离后结清并确认销户。
 - [自住购房到交割](/docs/routes/buy-home/)：核预算和购买条件，比较贷款，完成报价、验屋与产权核验，再接登记和后续账单。
 - [发现陌生账户或信用记录](/docs/routes/identity-theft/)：取得报告，区分资料错误和身份盗用，再跟踪处理。
 - [年度报税：身份、材料、提交与付款](/docs/routes/tax-preparation/)：确认税年与居民身份，收齐材料，分别递交和付款，再跟进受理、更正及通知。
 - [搬家后给孩子办入学](/docs/routes/school/)：确认学区、准备和补充材料，并跟进到实际开始上课。
 - [迎接孩子](/docs/routes/parenthood/)：安排孕产服务，分别跟进出生记录、号码、孩子加保及出院随访。
+- [结婚或分居离婚](/docs/routes/marriage-separation/)：核现有关系与办理地，完成办证或法院程序，再落实保险、账户与其他文件。
 - [找工作到入职](/docs/routes/start-work/)：准备申请，核实招聘和背景材料，确认录用条件，跟进文件、报到和工资。
 - [失业或工时减少](/docs/routes/job-loss/)：从离职记录与最后工资开始，接上失业保险、医保和紧急生活支持。
 - [为成年亲人安排照护](/docs/routes/caregiving/)：确认本人意愿，把日常任务、服务、付款与替班接到实际开始。
+- [退休收入与Medicare接续](/docs/routes/retirement/)：分别安排现金起领和医疗登记，核计划、费用援助及实际生效。
 - [准备自己开业](/docs/routes/start-business/)：核本人资格、经营主体与地址许可，接好税号、收款和持续手续。
 - [继续学习到开始上课](/docs/routes/continuing-education/)：核项目与成本，办入学和资助，再确认注册、付款与出席。
 - [安排一次公园或营地出行](/docs/routes/outdoor-trip/)：分别核路线、票务和当天限制，留好返回计划并完成收尾。

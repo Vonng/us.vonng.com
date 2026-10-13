@@ -35,6 +35,9 @@ weight: 30
 - [语言与残障便利](/book/people/accessibility/accommodations/)：按实际服务与主管提出请求，确认材料、辅助方式及拒绝后的继续路线。
 - [心理健康支持](/book/people/accessibility/mental-health/)：按 Apple Health、BHSO 与 BH-ASO 分支找服务，King County 例子另核地址和财务条件。
 - [自住购房](/book/life/housing/buying-home/)：核买方服务协议及披露收到后的书面回应期限；King County 税单与付款按实际账户继续确认。
+- [水电燃气与垃圾](/book/life/household/utilities/)：西雅图案例分City Light、SPU与其他实际提供者，开户、援助、争议及搬离通知各查负责机构。
+- [结婚与分居离婚](/book/people/family/marriage-separation/)：King County执照与仪式分开办，州法院程序及本县现场帮助按当日安排继续。
+- [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找SHIBA咨询，费用援助向HCA申请，Medigap转换按本人现有计划核条件。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。
 

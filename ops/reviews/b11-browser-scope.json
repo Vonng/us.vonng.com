@@ -1,0 +1,39 @@
+{
+  "paths": [
+    "/",
+    "/book/",
+    "/docs/",
+    "/docs/routes/",
+    "/docs/regions/",
+    "/docs/regions/california/",
+    "/docs/regions/new-york/",
+    "/docs/regions/washington/",
+    "/docs/regions/texas/",
+    "/docs/glossary/",
+    "/docs/about/",
+    "/docs/routes/medical-care/",
+    "/book/people/health/medical-bills/",
+    "/book/life/",
+    "/book/people/",
+    "/book/life/documents/",
+    "/book/life/household/",
+    "/book/people/family/",
+    "/book/people/aging/",
+    "/book/life/household/utilities/",
+    "/book/people/family/marriage-separation/",
+    "/book/people/aging/retirement-medicare/",
+    "/docs/routes/house-services/",
+    "/docs/routes/marriage-separation/",
+    "/docs/routes/retirement/",
+    "/docs/routes/arrival/",
+    "/docs/routes/moving/"
+  ],
+  "queries": {
+    "HEFPA": "水电燃气和垃圾",
+    "REP": "水电燃气和垃圾",
+    "Project Cupid": "结婚、分居与离婚",
+    "joint petition": "结婚、分居与离婚",
+    "Medigap": "退休收入和Medicare",
+    "工作积分": "退休收入和Medicare"
+  }
+}

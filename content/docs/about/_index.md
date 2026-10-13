@@ -35,4 +35,6 @@ weight: 40
 
 [自住购房](/book/life/housing/buying-home/) 从持续负担与成交现金接到贷款、报价、验屋、产权和交割，成交后继续核登记、付款与税单；四州及地方实例按实际房产所在地确认。
 
+[水电燃气和垃圾](/book/life/household/utilities/) 连接入住、开通、核账、付款困难与搬离结算，四市案例按实际提供者服务区选择。[婚姻与分居离婚](/book/people/family/marriage-separation/) 接办证、法院与后续记录；[退休收入和Medicare](/book/people/aging/retirement-medicare/) 分别接现金申请、医疗登记、计划与援助。县、市、州或全国程序的条件在需要作决定的步骤说明。
+
 同一主题只维护一份主要正文，事项与地区页引用它。发现关键记录与实际机构说明冲突时，保存文件和日期，联系该页列出的主管机构确认当前执行方式。

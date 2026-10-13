@@ -39,5 +39,8 @@ weight: 10
 - [语言与残障便利](/book/people/accessibility/accommodations/)：按医疗、公共服务、工作、住房与学校找负责办公室，跟进答复及相应主管。
 - [心理健康支持](/book/people/accessibility/mental-health/)：按 Medi-Cal 计划与县专业服务分工接入，洛杉矶县例子另核服务区；预约受阻按所监管计划继续。
 - [自住购房](/book/life/housing/buying-home/)：分别核买方代理、房况与产权文件；洛杉矶县补充税单在普通年度税单之外，收到后另核付款安排。
+- [水电燃气与垃圾](/book/life/household/utilities/)：洛杉矶市案例先核LADWP、实际燃气提供者与垃圾责任；市外地址重新查服务区和主管。
+- [结婚与分居离婚](/book/people/family/marriage-separation/)：洛杉矶县办证与州法院程序分别查；普通离婚和共同申请各按适用路线继续。
+- [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HICAP咨询，分别核Medicare、Medigap及县费用援助申请，使用本年度条件。
 
 如果不确定信件上的机构属于哪个层次，先读[办事主管](/book/foundations/government/which-government/)；需要核对租房申请中使用的信用记录，可读[信用报告与纠错](/book/work/finance/credit-records/)。全国文件和金融主题的适用条件仍在各自页面说明。

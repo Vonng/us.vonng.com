@@ -1,0 +1,65 @@
+# 退休收入与Medicare接续：作者证据
+
+2026-10-13，原作者 `birth_fact`。先建对应地图，再自行新取一级原件并实际读采用段。当前正文 `content/book/people/aging/retirement-medicare.md` 已写，written／draft true、verified／reviewed_by空；不作作者事实PASS。冻结正文SHA-256 `4aa59f4c2edea50131ebea65dfe3457875c5dde0c7db6292147b69f6aa6749d2`（UTF-8 `split('---', 2)[2]`）；整文件SHA-256 `95f42ba943dae50d696562d2467e356513bb14f100ba24fb1097255d91eab4eb`。正文148行、87普通链接，59个不同HTTPS一级URL；以下是本人真正完成的读取，缓存200或元数据初始 `fetched, not yet read` 不代表全文阅读。主控已正式分派 `static_editor` 独立事实，完成后由 `root` 第三静态。
+
+历史断点保留：00–72研究完成后曾优先执行B10 filing第三静态，当时没有退休正文与冻结SHA；该第三审实际完成后，继续73–82、下列网页工具原文和2027手册阅读，再成稿。原“待补”范围已按下面的实际补读更新，不把暂停或异常当成完成。
+
+## 已实际阅读的核心来源
+
+实际读取日均为2026-10-13。普通TLS新取原件在本人忽略缓存 `.cache/evidence/retirement-medicare-birth/`；编号文本行只是定位，不是来源版本。未列范围、搜索结果、交互后台及未读取PDF页不算已读。
+
+| 一级来源 | 本轮实际读的位置、采用口径与边界 |
+| --- | --- |
+| [SSA退休工作积分](https://www.ssa.gov/benefits/retirement/planner/credits.html) | 网页工具主文50–67：退休通常40积分；2026积分收入口径，不决定福利金额。正文不复制积分金额。普通TLS及8888均403，网页工具主文实读。 |
+| [SSA领取年龄](https://www.ssa.gov/benefits/retirement/planner/agereduction.html)、[延迟领取](https://www.ssa.gov/benefits/retirement/planner/delayret.html) | 网页工具年龄页50–78、延迟页50–79：最早62，1960年及以后出生FRA67，延迟增额止于70；1月1日生日用前一出生年，须整月62。 |
+| [SSA仍工作](https://www.ssa.gov/benefits/retirement/planner/whileworking.html) | 网页工具50–90：2026未达FRA全年24,480美元、到达FRA当年65,160美元且只计FRA月前；分别每超2扣1／每超3扣1，FRA月起不限；工资／自雇净收入与养老金、投资收入区分，首次部分年另核，海外工作不直接套用。 |
+| [SSA合法在美现金福利](https://secure.ssa.gov/apps10/poms.nsf/lnx/0300204010)、[证明](https://secure.ssa.gov/poms.nsf/lnx/0300204025) | 新原件07文本1–140、08文本1–115；采用07的49–78、08的1–39。Title II付款时合法在美与具体身份审核，不等于SSI或Medicare资格；不可邮寄移民文件原件。08标有效2026-09-17，07的旧Medicare段不采用。 |
+| [SSA协定总览](https://www.ssa.gov/international/agreements_overview.html) | 网页工具53–91、170–181：特定协定可合并工作记录、美国至少6积分才可能部分福利。不以本总览证明外国记录可换免保费A部，后续已实际补读下列协定说明的明确排除。 |
+| [SSA起领月](https://www.ssa.gov/help/iClaim_startBenefits.html)、[申请文件](https://www.ssa.gov/benefits/retirement/planner/applying5.html)、[申请渠道FAQ](https://www.ssa.gov/faqs/en/questions/KA-01891.html) | 网页工具分别全文20行、50–68、50–58：最多提前4个月，在线须61岁9个月，款在福利月份次月支付；年龄／身份原件或签发机构认证件，W-2／自雇税表可复印，缺件勿延误申请；my Social Security或SSA电话／预约，未进入真实账号。FAQ标2024-04-24。银行字段后续从下列2024-10官方清单补读。 |
+| [SSA工作记录](https://www.ssa.gov/prepare/review-record-earnings)、[更正FAQ](https://www.ssa.gov/faqs/en/questions/KA-02603.html) | 网页工具43–78、50–59：记录影响福利；凭W-2／工资单申请更正，通常更正期限有例外。后者标2023-02-22，不把简化期限覆盖所有例外。 |
+| [SSA Medicare申请](https://www.ssa.gov/medicare/sign-up)、[状态](https://www.ssa.gov/apply/check-application-or-appeal-status) | 网页工具43–106、43–64：A／B由SSA办理，Medicare number／雇主保险起止资料，电话与TTY及其他语言；实际未登入申请后台。 |
+| [CMS A／B资格登记](https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b) | 09文本1–94、163–214，页标2026-03-10：工作／家庭记录免保费A、付费A需B；65岁付费路径在美居住及公民或LPR连续5年；现金福利至少提前4个月自动登记，波多黎各B另申请；残障24个月、ALS和ESRD分支。94–162稀有SEP未完整读，不纳入。此一般页未完整反映2025新非公民限制，且IEP生效简述不用于生日月前申请。 |
+| [Public Law 119-21 §71201](https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm)、[CMS特定人群培训](https://www.cms.gov/files/document/serving-select-population-groups-communities.pdf)、[Medicare加入计划现页](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan) | 法律38新原件文本1–15、14835–14920，采用14840–14884（139 Stat. 320）；CMS PDF物理79页、连同物理77–78相关段1490–1542实读；15全文149行并补读12–78的首次及A后加B计划窗口。新Medicare身份限公民／国民、LPR、Cuban-Haitian entrant、在美合法居住COFA人士；2025-07-04已取得／在保者18个月过渡，据实际签署头及日历换算为2027-01-04，具体个人终止须看SSA通知。法律原件SHA `84000b07c382db50ead04ce65b70983e2dcd699a931d80cd3d2edac584e9004d`；培训PDF98物理页，只读上述页，SHA `a31c17d7836db46c87cdc5b9a2f4a83ada22b8c3983faa3375490dca0a1147a4`，未推定未明示的更新日，不声称整部法律／整册培训已读。 |
+| [Medicare生效](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start)、[仍就业](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65)、[COBRA](https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/working-past-65/cobra-coverage)、[Marketplace](https://www.healthcare.gov/medicare/medicare-and-the-marketplace/) | 11全文165行、12全文144行（分段实际补读）、13全文35行、14全文85行：IEP及生效；当前就业group结束／工作结束较早者之后8个月，COBRA不延长；Marketplace不自动终止，家庭其他人保留；HSA与免保费A追溯另核，不能等拿卡才核。未把交互工资人数问答自动映射为统一先后付款规则。 |
+| [计划选择](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options)、[Medigap](https://www.medicare.gov/health-drug-plans/medigap/basics)、[迟登罚金](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties) | 57全文80行、53全文50行、42全文72行；Original／Advantage／D／Medigap区分，Medigap联邦6个月从65岁且B起始首月，不等于每年AEP；无creditable药保63日或以上可能D罚金。15的加入计划全文亦实读AEP10/15–12/7及Advantage专用1/1–3/31。 |
+| [2026费用](https://www.medicare.gov/basics/costs/medicare-costs)、[付保费](https://www.medicare.gov/basics/costs/pay-premiums)、[卡](https://www.medicare.gov/basics/get-started-with-medicare/using-medicare/your-medicare-card) | 37分段全文1–248；58补读63–73后全文1–84；44全文65行。2026B标准月费202.90美元、年度免赔283美元及assignment的20%；Original无一般年度A／B个人支出上限，Advantage仍付B保费另看计划；SSA扣费与CMS账单区分，自动扣款未开始仍须照账单付，卡分别核A／B生效。未把2026费率当2027费率，不加入未采用的付款邮寄地址或全部费用表。 |
+| [MSP](https://www.medicare.gov/basics/costs/help/medicare-savings-programs)、[Extra Help](https://www.medicare.gov/basics/costs/help/drug-costs)、[SSA Extra Help](https://www.ssa.gov/medicare/part-d-extra-help) | 18全文124行、19全文103行、SSA网页工具43–76：州MSP申请、QMB受保护的费用、QI每年续；Extra Help按收入／资源或自动资格，SSA全年可申请。19同页混有2026资格及2027费用，禁止把其不同年份数字混写；SSA页77–83未读不声称全文。 |
+| [CA HICAP](https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/)、[NY HIICAP](https://aging.ny.gov/health-insurance-information-counseling-and-assistance-programs)、[WA SHIBA](https://www.insurance.wa.gov/insurance-resources/medicare/get-free-medicare-help-shiba)、[TX Medicare](https://www.hhs.texas.gov/services/health/medicare) | 新取20全文58、21全文19、72全文29、23全文69行，均实际读免费咨询、适用对象、县／地区转介及电话800-434-0222／800-701-0501／800-562-6900／800-252-9240；没有实际联系、实时排期或个案资格结论。TX23资源金额与其他当前材料不一致，不采用其金额。 |
+| [CA MSP](https://www.dhcs.ca.gov/individuals/medicare-savings-programs-in-california/)、[NY2026 MSP](https://healthweb-back.health.ny.gov/health_care/medicaid/program/update/savingsprogram/medicaresavingsprogram.htm)、[NY MSP说明](https://healthweb-back.health.ny.gov/health_care/medicaid/program/update/savingsprogram/)、[WA MSP](https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/medicare-savings-program) | CA普通／8888均403、网页工具39–78实读2026资产恢复130,000个体+额外成员65,000最多10人、MC14A／县办理与A buy-in的完整条件；NY65网页工具57–105实读2026申请、居住县LDSS／NYC HRA／NY State of Health（表Rev.3/26，页Revised May2026），66新原件55–96及132–142实读MSP无资产、签字、中文表及Revised April2025；WA26全文35行无资产、Washington Connection。CA同页年／月收入口径不直接当统一门槛，NY全Medicaid资产列不套MSP。TX现申请手册与表入口见补读表。 |
+| [CA Medigap](https://www.insurance.ca.gov/0150-seniors/0600informationguides/Informing-Senior.cfm)、[NY Medigap](https://www.dfs.ny.gov/consumers/health_insurance/information_for_medicare_beneficiaries)、[WA Medigap](https://www.insurance.wa.gov/insurance-resources/medicare/health-and-drug-plans/medigap-medicare-supplement-plan-coverage-and-costs)、[TX Medigap](https://tdi.texas.gov/pubs/consumer/medsup.html) | 61实际1–63及77–99；62实际1–41；63全文38行；64实际补读至201–214，另220–238。CA页标May2018但生日段60日与下列现存CDI修订公告一致，法条原件失败另记；NY全年不因健康拒绝仍可能既往病等待；WA现有B–N互换、A对A无需筛健康；TX明确区分未65ESRD／ALS的可售方案保护与其他残障Plan A，65岁新6个月。未假称全298行或费率表均读。 |
+| [迁居等计划SEP](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan/special-enrollment-periods)、[Medicare申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals)、[Original申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/original-medicare)、[SSA复议](https://www.ssa.gov/apply/appeal-decision-we-made/request-reconsideration) | 47明确实读1–24、58–67及97–125，迁居提前通知的月份窗口与失雇主／药保不同，不穷举未读SEP；59全文38、60文本1–56，按MSN日期／计划书面决定及紧急fast appeal；SSA网页工具43–90收到决定60日，退休非医疗申诉不可误用残障专用表。 |
+
+## 暂停后实际补读并采用的来源
+
+实际读取仍为2026-10-13，本人普通TLS73–82新取或网页工具直接原文；未将搜索摘文或他人记录替作实读。PDF页码为物理页，本轮所用2027手册与印页一致。
+
+| 一级来源 | 实际读取位置、版本与采用／不采用边界 |
+| --- | --- |
+| [SSA退休规划](https://www.ssa.gov/retirement/plan-for-retirement)、[家庭福利](https://www.ssa.gov/family) | 网页工具分别全文92行（43–91主文）及全文72行（45–69主文）；前者由旧prepare/plan-retirement正规重定向，采用不同起领金额、终身收入、B费扣除及税、家庭转介。前者79明确非缴Social Security养老金不再导致旧WEP减额；后者只采用可核适用家庭记录，不穷举配偶／遗属资格。 |
+| [SSA协定说明](https://www.ssa.gov/international/agreement_descriptions.html) | 73普通及8888均403，网页工具原文采用69–72、460–464、542–547、551–556；545明确外国积分不可取得免保费Medicare A。没有读完921行；539旧WEP减額内容与上述现退休规划冲突，不采用；旧7点电话时段也不采用。跨境停付／返美细则不扩入正文。 |
+| [SSA非公民FAQ](https://www.ssa.gov/faqs/en/questions/KA-02447.html)、[POMS RS00301.102](https://secure.ssa.gov/apps10/poms.nsf/links/0300301102) | 82普通及8888均403，网页工具FAQ全文107行、采用50–58（2022-12-30）；81新TLS原件实际1–216，重点41–50、60–88、156–203：既非美国公民也非美国国民、首次SSN在2004-01-01及以后的劳动者有工作号码／当前或历次工作授权，或B-1／D-1／D-2例外，仍须正常缴费积分；不以40积分单独断定资格。原文有效日期10/04/2023—Present、TN64(09-26)，不把搜索所示09/04/2026当原文更新日；未读1511行全部实例与专家程序。 |
+| [SSA在线资料清单](https://www.ssa.gov/hlp/isba/10/isba-checklist.pdf) | 网页工具直接PDF两物理页全文73行，Publication05-10509、October2024；采用婚姻／工作和本人银行账户类型、号码、routing number。第1页旧“U.S. citizen”账户限制不据以认定现退休福利／在线资格，正文按当前渠道提供电话替代；没有进入真实mySSA账号。 |
+| [SSA降低IRMAA](https://www.ssa.gov/medicare/lower-irmaa)、[SSA-44](https://www.ssa.gov/forms/ssa-44.pdf) | 网页工具前者全文92行、43–89主文；后者PDF8物理页358行实际全文，FormSSA-44(12-2025)；正文采用1—3、5—8页停工／减工等生活变动、收入／事件证明及请求方式。普通下载SSA-44失败并不改称成功；未套所有2027人群收入年／表内费率，不采用旧电话小时。 |
+| [2027 Medicare & You](https://www.medicare.gov/publications/10050-medicare-and-you.pdf) | 76普通TLS新PDF200、128物理页，SHA `e9b6768279c3a022c9e8e28efa38b0a8c011e6af79fed48806f28d228f7a6b65`；实际封面1及9、11—12、15—21、80、87—88、124页，125页采用5684–5696（英文与繁体中文），不声称整册已读。封面为2027；PDF创建2026-09-02、修改2026-10-05只是文件元数据，不作规则生效日。9为A／B／D及新身份组；15—18自动登记、ALS首福利月、IEP生日1日-4/+2、SEP及GEP；16及20为HSA追溯；21另实际渲染并看整页图，核65岁雇主20人阈值及多雇主例外，未从pypdf错列checkbox推断；11—12路径／2027价格未全部公布，80只采用2020-01-01新Med资格者不能新买C／F，未推断未渲染表格的全部列权益；87—88完整实读连续63日且IEP已结束的D罚金、Extra Help免罚及年度creditable记录，不采用2027药费上限金额；124及125采用免费无障碍材料／中文口译及TTY，未读全部语言译文。 |
+| [A／B准备递交](https://www.medicare.gov/basics/get-started-with-medicare/sign-up/ready-to-sign-up-for-part-a-part-b)、[Medicare联系](https://www.medicare.gov/talk-to-someone) | 43新原件全文72行：SSA、已有A补B、CMS-L564及雇主不能填时接受替代证明的处理；52新原件全文33行：Medicare800-633-4227／TTY877-486-2048、SSA负责A／B和地址、SHIP咨询。免费中文及可及材料另由2027册已读段支持，不冒称此联系页独自支持全部语言权利。 |
+| [TX申请手册](https://fhb.hhs.texas.gov/handbooks/medicaid-elderly-people-disabilities-handbook/b-3100-application-process)、[H1200-EZ现入口](https://fhb.hhs.texas.gov/forms/1000-1999/form-h1200-ez-application-assistance-aged-disabled) | 74TLS200全文39行，Revision20-2有效2020-06-01的现存手册：H1200及H1200-EZ路径、申请收据；77由/node/17937正规重定向至左列最终URL，TLS200全文26行，Effective及Instructions Updated均8/2026，采用表用途、H1200替代、资格人员／签字和部分PDF需要Adobe说明。网页工具/node曾timeout；80新PDF200只抽出14行XFA“Please wait／Adobe”提示，SHA `5d1146c152e7084fe04b65de0cbdecc77b667e9a8678ab17517f9a3c1dbfe4b6`，未实际读到字段，不据它认定资产／移民资格或具体必交附件。 |
+| [CDI生日转换公告](https://www.insurance.ca.gov/0150-seniors/0100alerts/SA-01-10B.cfm) | 79TLS200全文63行，Senior Advisory Revised08/20，采用32–33已持有Medigap、生日后60日、same-or-less保障、无新的健康筛选／等待期，和61现网站段交叉核。INS10192.11普通及8888均403、网页工具internal error，未直接读当前法条；正文明确转HICAP核日期和对应保障。78官方2026比较工具TLS200全文60行只看初始页，未执行ZIP／县／年龄查询或取得报价，不采用后台费率。 |
+| [Medicaid资格决定／听证](https://www.medicaid.gov/medicaid/eligibility-policy)、[SSA Extra Help申诉说明](https://www.ssa.gov/forms/ssa-1021-inst.pdf) | 网页工具分别全文101行、采用44–46（州拒绝、错误或未及时处理可fair hearing）；PDF两物理页全文62行，FormSSA-1021-INST(02-2025)，采用第1页Extra Help资格决定申诉SSA-1021／理由与支持证据，第2页口译／TTY需求和签字递交。未从本说明推定统一60日Extra Help期限，正文依决定书；SSA退休非医疗申诉60日由前表独立支持，药保计划拒药另走Medicare渠道。 |
+
+## 访问失败、冲突与恢复点
+
+SSA大多数普通页面直连及普通8888均403；只把网页工具确实打开并实读主文列上表。错误或失效路径 `/retirement/about.htm` JS无退休主文、`/retirement/apply`、旧状态／申诉／口译路径、下载SSA-44普通TLS失败、Medicare猜测的比较／付款／申诉路径404均不作为规则。US Code 1395mmm入口HTTP200却为Page Not Found，不当现法读过；改用实际新取PL119-21及CMS现页。纽约 `www.health.ny.gov` MSP普通／网页工具403，实际读取官方同部门 `healthweb-back.health.ny.gov` 原文；没有改TLS或绕过登录。
+
+缓存路径已实际确认忽略；首批00–54在下载前按具体路径检查。55为失败403未产生原件；56出版目录在首批检查漏掉末编号，随后实际确认具体raw/txt/json忽略，不伪称事前已检查。后批57–82与2027册第21页渲染PNG均在下载／写入前检查具体路径。网页工具直接读取的PDF未另写本地下载，不虚造本地原件SHA。未读的出版目录附件、失效猜测路径、作者或搜索摘文均不承载采用事实；CA法条失败保留，得州XFA字段未核，不把它们写成读过。
+
+个案移民分类、福利金额测算、完整协定／跨境支付、所有州资产豁免及移民福利门槛、计划后台／实时报价／医生实际接案、药物临床选择、罕见专家程序均未核，不作个人资格或推荐结论。退休税惠储蓄投资和死亡／遗属全链留另主题地图；照护全链接已集成caregiving-plan。
+
+作者最终自查：完整正文148行及当前地图／本证据实际终读；两SHA绑定上方，9个二级标题／1个三级标题，无正文一级标题，5张表各行列数一致，42处加粗外侧留白；87普通链接中82次HTTPS、59个不同URL，全部采用URL在本记录有实际范围；5个绝对内链实际文件存在且status integrated／draft false。没有虚构例子、未登录／申请／付款／外部联系、未构建或提交。此为作者冻结与采用边界，事实／第三静态由不同参与者继续。
+
+最终作者语言自查补明SSA、SSI收入补助、ALS／ESRD、团体医保、HSA、IRMAA、A buy-in、LDSS／HRA及MSN的含义，未改变年龄、资格、金额、期限或链接。D罚金的IEP后连续空档和QMB禁收／Medicaid少量共付例外均按实际补读段收窄。未交独立事实审前的自查稿43d2c406…／1e862d18…不承载最终结论，最终以顶部完整两SHA为准。
+
+## 独立事实审返修：SSPA附加条件适用范围
+
+2026-10-13，独立事实审 `static_editor` 返回正文第22行的范围问题。本人重读本轮自行正常TLS取得的81原件30—100行，尤其39—44：SSPA Section211的alien worker明确定义为not a U.S. citizen or national；47—49为首次SSN在2004之前的豁免。只把“2004年1月1日或之后首次取得SSN的非公民工作者”收窄为“既非美国公民也非美国国民的工作者，若2004年1月1日或之后首次取得SSN”，其余40积分、工作号码／授权、B-1／D-1／D-2、链接、金额、期限及元数据未动。
+
+正文148行完整重新自读，当前两SHA见顶部；内存唯一逆撤该片段恰恢复原冻结正文 `c757320adfb995223100af4c56dbdd34df4a703bc2578161129c78ffaa0f083e`／整文件 `c71ccd93c1c3840bda12e8d8afa95ebd8264c99471ce5a23373be7d0c8454ee7`。原冻结两SHA保留为历史，不能承载最终事实PASS；交独立事实审按新完整摘要重新复核。

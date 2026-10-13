@@ -35,5 +35,8 @@ weight: 20
 - [语言与残障便利](/book/people/accessibility/accommodations/)：按服务场景、人员与实际主管提交请求，工作、住房和学校的法律范围分别核。
 - [心理健康支持](/book/people/accessibility/mental-health/)：从 OMH 社区服务接入；纽约市 NYC Care 另由财务人员筛查，服务与投诉范围分别确认。
 - [自住购房](/book/life/housing/buying-home/)：代理披露、服务协议和房况披露按各自用途核；纽约市四区与 Staten Island 的产权记录由不同机关保存。
+- [水电燃气与垃圾](/book/life/household/utilities/)：纽约市案例分提供者、房东和市服务，HEFPA保护按账户与家庭条件核，援助另查当期状态。
+- [结婚与分居离婚](/book/people/family/marriage-separation/)：纽约市办证和仪式先按City Clerk路线；离婚沿有管辖权的县Supreme Court继续。
+- [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HIICAP咨询，费用援助向实际LDSS或纽约市HRA办理，补充保险购买条件另核。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

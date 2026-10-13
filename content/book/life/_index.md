@@ -20,3 +20,5 @@ book_number: '2'
 住处确定后，可按 [手机与家庭网络](/book/life/digital/phone-internet/) 开通并核账，沿 [日常购物与退货](/book/life/household/shopping-returns/) 看标签、总价与退款，再用 [图书馆与社区服务](/book/life/community/local-support/) 查实际服务机构、报名和到场安排。需要一起安顿这些事项时，进入 [抵达后安顿](/docs/routes/arrival/)。
 
 准备 [自住购房](/book/life/housing/buying-home/) 时，把每月负担和成交现金分开算，逐步完成贷款比较、报价、验屋与产权核验，再接交割、登记及后续账单。
+
+住户还要逐项确认 [水电燃气和垃圾](/book/life/household/utilities/) 由谁负责，按实际服务区开户、核账并处理欠费或中断。换住处时沿 [住户服务事项](/docs/routes/house-services/) 安排新旧账户和最后结算。

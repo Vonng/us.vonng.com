@@ -385,5 +385,35 @@
     "fact_record": "ops/reviews/b10-buying-home-fact.md",
     "static_record": "ops/reviews/b10-buying-home-static.md",
     "integration_status": "integrated"
+  },
+  "content/book/life/household/utilities.md": {
+    "body_sha256": "59d29dec04e22132ab9ec79a8279ab9bb2bc4058e5d28db36a5b74c6e0c5e03c",
+    "author": "banking_fact",
+    "fact_reviewer": "birth_fact",
+    "static_reviewer": "static_editor",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b11-utilities-fact.md",
+    "static_record": "ops/reviews/b11-utilities-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/family/marriage-separation.md": {
+    "body_sha256": "3dca83e2f3ca391bf144a4f6f352086b7577acfbcc58c6152432483d292101d9",
+    "author": "static_editor",
+    "fact_reviewer": "root",
+    "static_reviewer": "banking_fact",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b10-marriage-separation-fact.md",
+    "static_record": "ops/reviews/b10-marriage-separation-static.md",
+    "integration_status": "integrated"
+  },
+  "content/book/people/aging/retirement-medicare.md": {
+    "body_sha256": "4aa59f4c2edea50131ebea65dfe3457875c5dde0c7db6292147b69f6aa6749d2",
+    "author": "birth_fact",
+    "fact_reviewer": "static_editor",
+    "static_reviewer": "root",
+    "verified": "2026-10-13",
+    "fact_record": "ops/reviews/b11-retirement-medicare-fact.md",
+    "static_record": "ops/reviews/b11-retirement-medicare-static.md",
+    "integration_status": "integrated"
   }
 }

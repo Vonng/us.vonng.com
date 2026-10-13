@@ -54,7 +54,12 @@ try {
   await page.locator('[data-td-shell-search-open]:visible').first().click();await page.locator('.td-shell-search__input').fill('EOB');await page.waitForFunction(()=>document.querySelector('#td-shell-search-results [role="option"]')?.textContent.includes('收到医疗账单'));await page.keyboard.press('ArrowDown');await page.keyboard.press('ArrowUp');await page.keyboard.press('Enter');await page.waitForURL('**/medical-bills/',{waitUntil:'load'});await page.locator('#td-shell-search').waitFor({state:'hidden'});expect((await page.locator('#td-shell-search').isHidden()),mode+': search Enter');
   {
    await page.goto(base+'/book/people/health/medical-bills/');
-   if(mode==='mobile')await page.locator('[data-td-shell-drawer-open]:visible').first().click();
+   if(mode==='mobile'){
+    await page.locator('[data-td-shell-drawer-open]:visible').first().click();
+    // The drawer focuses its close button on the next frame before keyboard navigation starts.
+    await page.waitForFunction(()=>document.activeElement===document.querySelector('#td-shell-sidebar [data-td-shell-drawer-close]'));
+    await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect?.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));
+   }
    for(const href of ['/book/life/','/book/life/documents/']){
     const node=page.locator('.td-shell-tree__row').filter({has:page.locator(`a[href="${href}"]`)}).first();
     const toggle=node.locator('[data-td-shell-tree-toggle]');if(await toggle.getAttribute('aria-expanded')==='false'){await toggle.focus();await page.keyboard.press('Enter');}

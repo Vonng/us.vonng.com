@@ -35,5 +35,8 @@ weight: 40
 - [语言与残障便利](/book/people/accessibility/accommodations/)：工作、住房和学校请求沿各自负责人及主管继续，州法与联邦范围分开核。
 - [心理健康支持](/book/people/accessibility/mental-health/)：按县或 ZIP code 找 LMHA／LBHA，核评估、材料与费用；Harris County 例子另按服务区继续。
 - [自住购房](/book/life/housing/buying-home/)：签报价和付订金前核购买资格及持有方式；经纪协议、当前表件及实际地块的 CAD／Clerk 分工分别确认。
+- [水电燃气与垃圾](/book/life/household/utilities/)：休斯敦先分售电商和送电公司，市营与合作社地址另走适用分支；水与垃圾责任按实际服务区核。
+- [结婚与分居离婚](/book/people/family/marriage-separation/)：Harris County办证之外先核现有关系，法院文件、送达、答复及判令按具体程序继续。
+- [退休收入与Medicare](/book/people/aging/retirement-medicare/)：找HICAP咨询，向HHSC核费用援助，线上表件不能打开时继续索取纸件或协助。
 
 还没有分清州、城市和学区的职责时，可先读[这件事该找哪一级政府](/book/foundations/government/which-government/)。联邦[税务居民判定](/book/work/tax/tax-residency/)和[医疗费用结构](/book/people/health/insurance-costs/)解释共同概念；州税与保障衔接使用上方具体分支。

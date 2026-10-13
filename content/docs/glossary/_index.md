@@ -55,3 +55,6 @@ weight: 30
 | Psychotherapy、EAP、MHP、BH-ASO、LMHA／LBHA、OBHA、patient-provider dispute resolution | [心理健康服务、费用与持续治疗](/book/people/accessibility/mental-health/) |
 | W-2、1099、1095-A、Form 4868、FBAR、FinCEN114、Form 8938、Form 1040-X、PTIN | [年度报税材料、海外账户申报与更正](/book/work/tax/filing/) |
 | Loan Estimate、Closing Disclosure、APR、Cash to Close、HOA、title commitment、escrow、servicer | [自住购房的贷款比较、产权与交割](/book/life/housing/buying-home/) |
+| REP、EFL、千瓦时（kWh）、HEFPA、UDP、EZ-SAVE | [住户服务、账单、援助与停供通知](/book/life/household/utilities/) |
+| Marriage license、marriage certificate、certified copy、joint petition、service、judgment | [婚姻办证、法院程序与之后的手续](/book/people/family/marriage-separation/) |
+| Social Security、FRA、Medicare、Medigap、IEP、MSP、IRMAA、Extra Help | [退休收入、医疗登记、计划与费用援助](/book/people/aging/retirement-medicare/) |

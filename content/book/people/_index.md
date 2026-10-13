@@ -24,3 +24,5 @@ book_number: '3'
 需要电话预约、确认安排或追问账单时，也可进入语言章节，结合实际事项练习表达。下列章节中的每页都可以独立阅读。
 
 需要 [心理健康支持](/book/people/accessibility/mental-health/) 时，把接诊、费用、初评及持续治疗接起来；遇到语言、残障或场所障碍时，用 [便利申请](/book/people/accessibility/accommodations/) 找负责办公室，确认安排并跟进答复。
+
+[婚姻或分居离婚](/book/people/family/marriage-separation/) 涉及的执照、证明、法院程序与后续保险账户分别办理。准备退休时，从 [退休收入与Medicare](/book/people/aging/retirement-medicare/) 核现金起领和医疗生效，继续跟进卡、到账及扣费。
