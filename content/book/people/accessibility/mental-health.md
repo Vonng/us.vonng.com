@@ -17,7 +17,7 @@ weight: 20
 
 有生命危险或医疗急症，拨 **911** 或去最近急诊；例如已经发生药物过量时，按急救处理。心理困扰、想到自伤或担心亲友时，可以拨打或发短信到 **988** ，或使用 [988聊天](https://988lifeline.org/deaf-hard-of-hearing-hearing-loss/)；其支持服务免费、全天可用。具体报位置及现场安全步骤见 [紧急求助](/book/rights/safety/emergency-help/)。[NIMH：危及生命与988](https://www.nimh.nih.gov/health/find-help)、[King County：药物过量拨911](https://kingcounty.gov/en/dept/dchs/human-social-services/behavioral-health-recovery/bhrd)、[988支持与保密](https://988lifeline.org/confidentiality/)
 
-需要中文时，拨打988后说“Mandarin”或“Cantonese”，请求语音口译；其其他语言口译通过电话提供，不能据此期待中文短信服务。听障者可用短信或聊天；使用美国手语（ASL）者可通过视频电话拨988，习惯TTY／relay的人可用其relay服务或先拨711再接988。[988：其他语言](https://988lifeline.org/faq/calling-the-988-lifeline/faq-is-the-988-lifeline-available-in-other-languages-for-non-english-speakers/)、[听障联系办法](https://988lifeline.org/deaf-hard-of-hearing-hearing-loss/)
+需要中文时，拨打988后说“Mandarin”或“Cantonese”，请求语音口译；其他语言（含中文）的口译只经电话提供；短信服务不含中文口译。听障者可用短信或聊天；使用美国手语（ASL）者可通过视频电话拨988，习惯TTY／relay的人可用其relay服务或先拨711再接988。[988：其他语言](https://988lifeline.org/faq/calling-the-988-lifeline/faq-is-the-988-lifeline-available-in-other-languages-for-non-english-speakers/)、[听障联系办法](https://988lifeline.org/deaf-hard-of-hearing-hearing-loss/)
 
 988不要求先给姓名或住址，但中心可能记录电话等资料。向外分享通常需要记录同意；迫近伤害风险或法律要求有例外。部分中心还会为照护协调或保险／Medicaid付款分享信息；介意这项分享时，明确请求不要这样分享，并问当地中心的保密政策。[988当前保密声明](https://988lifeline.org/confidentiality/)
 
