@@ -52,7 +52,7 @@ weight: 10
 >
 > **Lin:** Great. See you there.
 
-开头是“有空喝咖啡”，到最后才形成双方都接受的日期、时间和地点。Lin 也提前说明能待多久，Maya 不需要猜会不会一直聊到午饭。表达邀请时，熟人间的 “Do you want to…” 和更留余地的 “Would you like to…” 都可以使用，选择看关系与活动。教学资料把说话者关系和任务类型放在一起分析，而不是规定所有邀请只能用一种句型。[Relationship between Speakers and Task Type，第 1—2、12 页](https://americanenglish.state.gov/files/ae/resource_files/biesenbach_0.pdf)
+开头是“有空喝咖啡”，到最后才形成双方都接受的日期、时间和地点。Lin 也提前说明能待多久，Maya 不需要猜会不会一直聊到午饭。表达邀请时，熟人间的 “Do you want to…” 和更留余地的 “Would you like to…” 都可以使用，选择看关系与活动。[Relationship between Speakers and Task Type，第 1—2、12 页](https://americanenglish.state.gov/files/ae/resource_files/biesenbach_0.pdf)
 
 如果对方答 “Maybe, I’ll let you know”，安排仍没有确认。可以回应：“Sounds good. Let me know if Sunday works.” 然后继续自己的计划。若需要预订，直接给出实际截止点：“I need to book the table by [Thursday]. Could you let me know before then?” 到时仍没答复，就按未确认处理，别替对方买不可退的票或默认留座。
 

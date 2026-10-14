@@ -10,84 +10,86 @@
 
 | 日期 | 批次 | 结果 | 备注 |
 |---|---|---|---|
-|  |  |  |  |
+| 2026-10-14 | R2-1 | 通过 | 1 处修订（invitations-boundaries 元叙述删除＋引用移挂），15 clean；root 差分验收 [b-pl-r2-1-master.md](b-pl-r2-1-master.md)，第三静态审 [b-pl-r2-1-third.md](b-pl-r2-1-third.md) 通过；acceptance 已装条目，构建检查本批无失配 |
+| 2026-10-14 | R2-2 | 通过 | 2 处修订（entry-return、status-documents 否定改正面），19 clean；root 差分验收 [b-pl-r2-2-master.md](b-pl-r2-2-master.md)，第三静态审 [b-pl-r2-2-third.md](b-pl-r2-2-third.md) 通过；acceptance 已装条目，构建检查本批无失配 |
+| 2026-10-14 | R2-6a | 通过 | 23 件全部 clean、零改动（入口页首轮已收口，甲类 5 处真否定保留）；无 acceptance 条目变更 |
 
 ## R2-1 认识美国（foundations，16 文件）
 
 | 文件 | 状态 | 处理人 | 完成日期 | 本轮删改处数 | 当前 body SHA-256 | 遗留问题／备注 |
 |---|---|---|---|---|---|---|
-| `content/book/foundations/_index.md` | pending |  |  | 0 | `91bea13ca0cf7b7b6846f8231196b03d1fdf059e0afbc156a1c9f48853480804` |  |
-| `content/book/foundations/communities/_index.md` | pending |  |  | 0 | `64543c7be3ab898a96815bd03924a16d10cc11b89ff97553228c6ad3b06ca4e0` |  |
-| `content/book/foundations/communities/tribal-nations.md` | pending |  |  | 0 | `8618e8cd61696005770906179527571b9e1d1fb412a94e4a9ec324de6ec18412` |  |
-| `content/book/foundations/culture/_index.md` | pending |  |  | 0 | `5827b88118e4662af086d90ded49260fbe9fba134c47fb9ec7288db29cb8010a` |  |
-| `content/book/foundations/culture/invitations-boundaries.md` | pending |  |  | 0 | `56a9c74590f03b0447e5e46859b3ed18efcd44f2cfb1e62e2b1d77966d0297d1` |  |
-| `content/book/foundations/geography/_index.md` | pending |  |  | 0 | `3b420436ff8a046d005f1d215a2318842508689055a9d184cb501acbdccf76ba` |  |
-| `content/book/foundations/geography/regional-life.md` | pending |  |  | 0 | `e092179f5412454d3a139cd482ac19c3b955393bd3b6e614ed38e48061ee7b5a` |  |
-| `content/book/foundations/government/_index.md` | pending |  |  | 0 | `c0609c0af4aa3b5c922d138857e90985a6056d3ad4b15c0fe55328d0db590c35` |  |
-| `content/book/foundations/government/public-participation.md` | pending |  |  | 0 | `86f99832c159afb5224625af45da590c02679525bef9474046d50d28b81d3c11` |  |
-| `content/book/foundations/government/which-government.md` | pending |  |  | 0 | `2bba54971e426152ce774fce4804325aafdf25ed47371495eefaebe48a74dc7c` |  |
-| `content/book/foundations/history/_index.md` | pending |  |  | 0 | `5f4ee1ba1398e8febaf075bb195b52f65e4a60be90f69e910bb50a8ae1a54fd0` |  |
-| `content/book/foundations/history/historical-landscape.md` | pending |  |  | 0 | `3979b801f8c1aa4e0ae5d5f4c77231e11a1503c519305f2b536214cad91a2f9d` |  |
-| `content/book/foundations/history/migration-society.md` | pending |  |  | 0 | `c414a20450719df9af3aef4c81366ad96bdc150fa9929021240e850b125acc30` |  |
-| `content/book/foundations/history/segregation-civil-rights.md` | pending |  |  | 0 | `4da2f0997e69ad6a8eebcbb259db48e6a11e9cf9f5663449b711294f24924d81` |  |
-| `content/book/foundations/world/_index.md` | pending |  |  | 0 | `17437369e796c1ac129eb5d091683e84d83f4a0a43760f120e65b86330b135df` |  |
-| `content/book/foundations/world/world-connections.md` | pending |  |  | 0 | `8466c6b243b057c16f914cce3c5bc3381da5c4ac3c469dc4ef0154c77c6b5375` |  |
+| `content/book/foundations/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `91bea13ca0cf7b7b6846f8231196b03d1fdf059e0afbc156a1c9f48853480804` |  |
+| `content/book/foundations/communities/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `64543c7be3ab898a96815bd03924a16d10cc11b89ff97553228c6ad3b06ca4e0` |  |
+| `content/book/foundations/communities/tribal-nations.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `8618e8cd61696005770906179527571b9e1d1fb412a94e4a9ec324de6ec18412` | 存留否定式均承载真范围信息，逐处判定保留 |
+| `content/book/foundations/culture/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `5827b88118e4662af086d90ded49260fbe9fba134c47fb9ec7288db29cb8010a` |  |
+| `content/book/foundations/culture/invitations-boundaries.md` | verified | B-PL-R2-1 | 2026-10-14 | 1 | `b9f0e449db9e1128a7fb39345beb462079cc089a0e617acb40779c06f060abe8` | 删"教学资料把……而不是……"元叙述句，引用移挂前句（甲类·判定示例1）；链接 5+3 前后一致 |
+| `content/book/foundations/geography/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `3b420436ff8a046d005f1d215a2318842508689055a9d184cb501acbdccf76ba` |  |
+| `content/book/foundations/geography/regional-life.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `e092179f5412454d3a139cd482ac19c3b955393bd3b6e614ed38e48061ee7b5a` | "并非简单把行政市标为城市"承载定义真范围，保留 |
+| `content/book/foundations/government/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `c0609c0af4aa3b5c922d138857e90985a6056d3ad4b15c0fe55328d0db590c35` |  |
+| `content/book/foundations/government/public-participation.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `86f99832c159afb5224625af45da590c02679525bef9474046d50d28b81d3c11` | 否定式均防具体办理错误（登记、临时票、返票），保留 |
+| `content/book/foundations/government/which-government.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `2bba54971e426152ce774fce4804325aafdf25ed47371495eefaebe48a74dc7c` |  |
+| `content/book/foundations/history/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `5f4ee1ba1398e8febaf075bb195b52f65e4a60be90f69e910bb50a8ae1a54fd0` |  |
+| `content/book/foundations/history/historical-landscape.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `3979b801f8c1aa4e0ae5d5f4c77231e11a1503c519305f2b536214cad91a2f9d` | "可以作出选择"等叙事句改写收益不足，保守保留 |
+| `content/book/foundations/history/migration-society.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `c414a20450719df9af3aef4c81366ad96bdc150fa9929021240e850b125acc30` | 否定式均承载分类/口径真信息（大迁移、波多黎各、foreign-born），保留 |
+| `content/book/foundations/history/segregation-civil-rights.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `4da2f0997e69ad6a8eebcbb259db48e6a11e9cf9f5663449b711294f24924d81` | "并非一部名称相同的全国法律"承载真分类信息，保留 |
+| `content/book/foundations/world/_index.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `17437369e796c1ac129eb5d091683e84d83f4a0a43760f120e65b86330b135df` |  |
+| `content/book/foundations/world/world-connections.md` | verified | B-PL-R2-1 | 2026-10-14 | 0 | `8466c6b243b057c16f914cce3c5bc3381da5c4ac3c469dc4ef0154c77c6b5375` | "出生时不是美国公民"为 Census 定义本身，保留 |
 
 ## R2-2 日常生活（life，21 文件）
 
 | 文件 | 状态 | 处理人 | 完成日期 | 本轮删改处数 | 当前 body SHA-256 | 遗留问题／备注 |
 |---|---|---|---|---|---|---|
-| `content/book/life/_index.md` | pending |  |  | 0 | `c918e09156e26398b9f030e0261d6e0d74bd53bdbeb6200d2e0f7784aead9f40` |  |
-| `content/book/life/community/_index.md` | pending |  |  | 0 | `c50408612a46e5b3d335d1010fe0519c72359decabf8efaaf36730149334d521` |  |
-| `content/book/life/community/local-support.md` | pending |  |  | 0 | `7e60ff36fbef135a943c7c0aeda8cbb616773baa72cf8e14f8c14d7dcd15cce2` |  |
-| `content/book/life/digital/_index.md` | pending |  |  | 0 | `5f9a7e026da613b613ebbed4d5f2bbc35ba74dd56ae2b16fe2707f6873a96350` |  |
-| `content/book/life/digital/phone-internet.md` | pending |  |  | 0 | `9102337e353ebbec4ff83fb406edf2c5f0b24a30504af8d4ffef9fba9ee6597d` |  |
-| `content/book/life/documents/_index.md` | pending |  |  | 0 | `704aaaa379cbeb88607481597ffcc86e5829158a4680c09917c077a8493a1ade` |  |
-| `content/book/life/documents/address-changes.md` | pending |  |  | 0 | `e71cd8fbbe082765e7a239552f6cfb2ecfb12c6043f59c326e7e34dc3f18925d` |  |
-| `content/book/life/documents/entry-return.md` | pending |  |  | 0 | `8293f92189a7e8c44708dde97aec1d266f82bd123a860ec0121ce3a9149efd42` |  |
-| `content/book/life/documents/numbers.md` | pending |  |  | 0 | `f820a0d7fb9d38d7b6c69321f4b53b482ecf0bd1d51f316402f69f627104a5e0` |  |
-| `content/book/life/documents/status-documents.md` | pending |  |  | 0 | `16e535093fd8b475a697b10581a6e99d920b8424a71d5d80929c786a924c4721` |  |
-| `content/book/life/household/_index.md` | pending |  |  | 0 | `071e36bdd181d8683e617ee39fc622892f75ed316c6ad3ec1ffa080b1282bbca` |  |
-| `content/book/life/household/shopping-returns.md` | pending |  |  | 0 | `b8541cd63e9eab39a42b8d26a2a1803e45121cb4affc91c3ab789d1a9355631f` |  |
-| `content/book/life/household/utilities.md` | pending |  |  | 0 | `fa44d2aae99a7f833556706aff8bd1ae14724c69c3368f384903b2949006221a` |  |
-| `content/book/life/housing/_index.md` | pending |  |  | 0 | `43907e8ad92ffeb0e19f5435a853a44937cf7f7f7bfded97542d4a5524d07f49` |  |
-| `content/book/life/housing/buying-home.md` | pending |  |  | 0 | `1232cdbdd91165c3773efb2bc3a29085cd8d589c396085b437842e79b5092671` |  |
-| `content/book/life/housing/ca-deposit.md` | pending |  |  | 0 | `7485994c01ab02eba4d09e7de101a6551632aabf2b6d3da6c8b31014754a8cbd` |  |
-| `content/book/life/housing/rental-process.md` | pending |  |  | 0 | `c4eba9734e269439a6cb6fd7664c9335aba7d296d85d3736629f885272427e8b` |  |
-| `content/book/life/transport/_index.md` | pending |  |  | 0 | `f384fdc389acee3cfad21be16d1cb248f1328c73f946315fded20d6551b0ab87` |  |
-| `content/book/life/transport/new-resident-license.md` | pending |  |  | 0 | `e3ca87c7f5c1d773710f596dc266f7031ecd62551a98e8a8c92b5758ccc9c74b` |  |
-| `content/book/life/transport/owning-car.md` | pending |  |  | 0 | `9b18cf798394de12dbc2c4bd9dc017d8704d928c8088adfd4efab06c35f0f402` |  |
-| `content/book/life/transport/public-transit.md` | pending |  |  | 0 | `090d4dcbe57a2096f5dcbff314a7ca21fa37075669d3601528316fe4d8816cd7` |  |
+| `content/book/life/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `c918e09156e26398b9f030e0261d6e0d74bd53bdbeb6200d2e0f7784aead9f40` |  |
+| `content/book/life/community/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `c50408612a46e5b3d335d1010fe0519c72359decabf8efaaf36730149334d521` |  |
+| `content/book/life/community/local-support.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `7e60ff36fbef135a943c7c0aeda8cbb616773baa72cf8e14f8c14d7dcd15cce2` | 存留否定式均为真范围信息，判定保留 |
+| `content/book/life/digital/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `5f9a7e026da613b613ebbed4d5f2bbc35ba74dd56ae2b16fe2707f6873a96350` |  |
+| `content/book/life/digital/phone-internet.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `9102337e353ebbec4ff83fb406edf2c5f0b24a30504af8d4ffef9fba9ee6597d` | "移动图不能据此确定室内信号"等否定式判定保留（常见误解，正面指示已在同句） |
+| `content/book/life/documents/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `704aaaa379cbeb88607481597ffcc86e5829158a4680c09917c077a8493a1ade` |  |
+| `content/book/life/documents/address-changes.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `e71cd8fbbe082765e7a239552f6cfb2ecfb12c6043f59c326e7e34dc3f18925d` | 大量存留否定式均为程序性真否定（"并不等于正式改址"等），判定保留 |
+| `content/book/life/documents/entry-return.md` | verified | B-PL-R2-2 | 2026-10-14 | 1 | `e0ea3b76c8ebb055f33fdbfbe45c37d80accb1cbd809a12611361b2b9803981f` | 甲类改写："这是诉讼期间救济，不能写成永久撤销"→"……不是永久撤销"（"写成"为面向写作者的措辞，事实范围不变） |
+| `content/book/life/documents/numbers.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `f820a0d7fb9d38d7b6c69321f4b53b482ecf0bd1d51f316402f69f627104a5e0` | "卡上没有到期日，不能据此判断工作许可永远有效"判定保留（常见误解，正面读法已在前句） |
+| `content/book/life/documents/status-documents.md` | verified | B-PL-R2-2 | 2026-10-14 | 1 | `c2897386c6b55d8f727288f241d5b12c3d68eb64b6fbc8486e0d583a15994224` | 甲类改写：D/S"并不意味着无需管理……日期"双重否定改正面"写 D/S 时仍要管理……日期"，事实范围不变 |
+| `content/book/life/household/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `071e36bdd181d8683e617ee39fc622892f75ed316c6ad3ec1ffa080b1282bbca` |  |
+| `content/book/life/household/shopping-returns.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `b8541cd63e9eab39a42b8d26a2a1803e45121cb4affc91c3ab789d1a9355631f` |  |
+| `content/book/life/household/utilities.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `fa44d2aae99a7f833556706aff8bd1ae14724c69c3368f384903b2949006221a` | "邮寄地址写着大城市，不代表所有服务都由该市提供"判定保留（指名常见错误，正面做法在后句） |
+| `content/book/life/housing/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `43907e8ad92ffeb0e19f5435a853a44937cf7f7f7bfded97542d4a5524d07f49` |  |
+| `content/book/life/housing/buying-home.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `1232cdbdd91165c3773efb2bc3a29085cd8d589c396085b437842e79b5092671` | 交割等待期段落三个"通常"各限定一条有法定例外的独立规则，非对冲堆叠，保留 |
+| `content/book/life/housing/ca-deposit.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `7485994c01ab02eba4d09e7de101a6551632aabf2b6d3da6c8b31014754a8cbd` |  |
+| `content/book/life/housing/rental-process.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `c4eba9734e269439a6cb6fd7664c9335aba7d296d85d3736629f885272427e8b` | 表格内"一般不迟于"等为各州法独立期限分层，非对冲堆叠，保留 |
+| `content/book/life/transport/_index.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `f384fdc389acee3cfad21be16d1cb248f1328c73f946315fded20d6551b0ab87` |  |
+| `content/book/life/transport/new-resident-license.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `e3ca87c7f5c1d773710f596dc266f7031ecd62551a98e8a8c92b5758ccc9c74b` | "并非必须先住满半年""不等于必须申请 AB 60"等均为真范围信息，判定保留 |
+| `content/book/life/transport/owning-car.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `9b18cf798394de12dbc2c4bd9dc017d8704d928c8088adfd4efab06c35f0f402` |  |
+| `content/book/life/transport/public-transit.md` | verified | B-PL-R2-2 | 2026-10-14 | 0 | `090d4dcbe57a2096f5dcbff314a7ca21fa37075669d3601528316fe4d8816cd7` |  |
 
 ## R2-3 人生与健康（people，25 文件）
 
 | 文件 | 状态 | 处理人 | 完成日期 | 本轮删改处数 | 当前 body SHA-256 | 遗留问题／备注 |
 |---|---|---|---|---|---|---|
-| `content/book/people/_index.md` | pending |  |  | 0 | `ace9996fed0d24364dbed3d085502f82c44d088bc15547e80e5fe2b5898ed578` |  |
-| `content/book/people/accessibility/_index.md` | pending |  |  | 0 | `93d75d6e85d78ac117986cee7f5d8759eef17c78c68bda73a427dcc2a21a3740` |  |
-| `content/book/people/accessibility/accommodations.md` | pending |  |  | 0 | `988d870296bfba09feda32475657ea5542c321765ce5ca29ecf65a6e3f062d59` |  |
-| `content/book/people/accessibility/mental-health.md` | pending |  |  | 0 | `8b52a308ae7a27c57845818ad47800d86a0d89ce89123797893c8eaac45f05d4` |  |
-| `content/book/people/aging/_index.md` | pending |  |  | 0 | `cf5afe0758a1dec2c03d1b19f4618b52120d8888aa7a0029cbd3d13abd5a6f21` |  |
-| `content/book/people/aging/advance-planning.md` | pending |  |  | 0 | `581fc7d83f10f9f464bd0ef52c73dc25c1c01075ed186657b22884a1b9ff47f0` |  |
-| `content/book/people/aging/caregiving-plan.md` | pending |  |  | 0 | `9a5cf557ecbd0ac87bcb7df0831bdac58c0cb324fbef20f5b48c27f769bd3609` |  |
-| `content/book/people/aging/death-arrangements.md` | pending |  |  | 0 | `51b15e77c5314ef1bf7cab976cb83b0946ba76fd816ba51ce41e7605679cb0dd` |  |
-| `content/book/people/aging/retirement-medicare.md` | pending |  |  | 0 | `cc54818566e1fce18046f533d7060871b9a0b72c3ae8e1564bf9e5e697b56765` |  |
-| `content/book/people/education/_index.md` | pending |  |  | 0 | `35115b431893661bff624459203da0f5156937a9fdd200e76238fed10ac85b63` |  |
-| `content/book/people/education/continuing-education.md` | pending |  |  | 0 | `d99c8bc5766a56450668a7a053d39c9a55813cb824bce54fa943081cc7952106` |  |
-| `content/book/people/family/_index.md` | pending |  |  | 0 | `f6ee28f5ed3acb447f33fe6f36d130c259118e7efcc12d27460fe0d4588ebc67` |  |
-| `content/book/people/family/birth-and-first-weeks.md` | pending |  |  | 0 | `0756c0d7424a31a382e3441ac9739e8a7caed57b965e908fc15e0d13b361706b` |  |
-| `content/book/people/family/childcare.md` | pending |  |  | 0 | `1c45c3e7ffaa09652cafe2ec5bb0263d47f87ffa7913727b52568b5c6367672b` |  |
-| `content/book/people/family/marriage-separation.md` | pending |  |  | 0 | `3dca83e2f3ca391bf144a4f6f352086b7577acfbcc58c6152432483d292101d9` |  |
-| `content/book/people/health/_index.md` | pending |  |  | 0 | `44a9c41c324e5b46154fc2a79474556db298dcb1243e4ea3b9a1f87e46ee125f` |  |
-| `content/book/people/health/appointment-network.md` | pending |  |  | 0 | `7d99bc988b333e482094362f7366994a17a988b9c4db7a222f273fff125c901d` |  |
-| `content/book/people/health/coverage-changes.md` | pending |  |  | 0 | `0027fac51a855511b7301404a4aa38a121d501950a9a6c97109a29482d8848e2` |  |
-| `content/book/people/health/insurance-costs.md` | pending |  |  | 0 | `d682854aa03ae2c37081e8df0cac1286b8b973877513c84f5e8d86246ae94e7b` |  |
-| `content/book/people/health/medical-bills.md` | pending |  |  | 0 | `b85af8f5bbaf5a130efec97c0c31022e3fcee983273d734ceefe508277cac141` |  |
-| `content/book/people/language/_index.md` | pending |  |  | 0 | `ee7aed076428f489e5d01f44678f0a498c989141ae8ce915ac887ad0b70ce35b` |  |
-| `content/book/people/language/service-conversations.md` | pending |  |  | 0 | `41a9d3b418c44ad20e39a326fcaa862cce6a16d3408ff7d8abf2aa747a893a6c` |  |
-| `content/book/people/school/_index.md` | pending |  |  | 0 | `0b05977b1d3e6dfa10d8117045c1e057c62a8111e9011c200762b032b9f2b079` |  |
-| `content/book/people/school/school-enrollment.md` | pending |  |  | 0 | `491fc6eeabdbcf76b869fa450ff3c101cad98ff9766ae54bed45d6f7b79ec1c5` |  |
-| `content/book/people/school/school-support.md` | pending |  |  | 0 | `7b85c2e4a50b0355aa89980186a9103600d66abdb110a9ef90e76a113e584b71` |  |
+| `content/book/people/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `ace9996fed0d24364dbed3d085502f82c44d088bc15547e80e5fe2b5898ed578` |  |
+| `content/book/people/accessibility/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `93d75d6e85d78ac117986cee7f5d8759eef17c78c68bda73a427dcc2a21a3740` |  |
+| `content/book/people/accessibility/accommodations.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `988d870296bfba09feda32475657ea5542c321765ce5ca29ecf65a6e3f062d59` | 存留否定式均为程序性真否定（"并不因此要求提供合理便利""IDEA不适用于大学"等承载法定范围），判定保留 |
+| `content/book/people/accessibility/mental-health.md` | processed | B-PL-R2-3 | 2026-10-14 | 1 | `4b81f5793c311b5ef5d933ccf2423c825464bc9050dd7d541a57acaa206c384e` | 甲类改写（判定示例2）："其其他语言口译通过电话提供，不能据此期待中文短信服务"→"其他语言（含中文）的口译只经电话提供；短信服务不含中文口译"，事实范围不变；链接69前后一致 |
+| `content/book/people/aging/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `cf5afe0758a1dec2c03d1b19f4618b52120d8888aa7a0029cbd3d13abd5a6f21` |  |
+| `content/book/people/aging/advance-planning.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `581fc7d83f10f9f464bd0ef52c73dc25c1c01075ed186657b22884a1b9ff47f0` | 存留否定式均防具体签署/交付/撤销错误（"不等于已成为representative payee"等，正面要求已在同句），判定保留 |
+| `content/book/people/aging/caregiving-plan.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `9a5cf557ecbd0ac87bcb7df0831bdac58c0cb324fbef20f5b48c27f769bd3609` | "只有财务事项的POA，不能据此取得医疗决定权"等真法律范围信息，判定保留 |
+| `content/book/people/aging/death-arrangements.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `51b15e77c5314ef1bf7cab976cb83b0946ba76fd816ba51ce41e7605679cb0dd` | "按死亡发生地点找记录机关，不是按家属现住地址"等否定式指名常见错误且正面规则在句首，判定保留 |
+| `content/book/people/aging/retirement-medicare.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `cc54818566e1fce18046f533d7060871b9a0b72c3ae8e1564bf9e5e697b56765` | "COBRA等不等于当前就业保障""A部免保费不等于所有医护免费"等均防高代价办理错误；各"通常"限定独立法定规则，非对冲堆叠，判定保留 |
+| `content/book/people/education/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `35115b431893661bff624459203da0f5156937a9fdd200e76238fed10ac85b63` |  |
+| `content/book/people/education/continuing-education.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `d99c8bc5766a56450668a7a053d39c9a55813cb824bce54fa943081cc7952106` | "DACA、F-1等不会仅凭身份取得联邦资助"等真范围信息，正面路线已在句尾，判定保留；"通常需6–8周，可能更久"承载实际排期信息，保留 |
+| `content/book/people/family/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `f6ee28f5ed3acb447f33fe6f36d130c259118e7efcc12d27460fe0d4588ebc67` |  |
+| `content/book/people/family/birth-and-first-weeks.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `0756c0d7424a31a382e3441ac9739e8a7caed57b965e908fc15e0d13b361706b` | 存留否定式均防错过加保窗口、递错材料的具体错误（"不要等出生证明和SSN寄到才开始加保"等），判定保留 |
+| `content/book/people/family/childcare.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `1c45c3e7ffaa09652cafe2ec5bb0263d47f87ffa7913727b52568b5c6367672b` | 存留否定式均为安全与权利信息（"不能只等机构内部答复""不能凭诊断拒绝"），判定保留 |
+| `content/book/people/family/marriage-separation.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `3dca83e2f3ca391bf144a4f6f352086b7577acfbcc58c6152432483d292101d9` | 存留否定式均为法定事实与范围（"没有固定同居年限规则""判令分债不约束债权人"），判定保留 |
+| `content/book/people/health/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `44a9c41c324e5b46154fc2a79474556db298dcb1243e4ea3b9a1f87e46ee125f` |  |
+| `content/book/people/health/appointment-network.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `7d99bc988b333e482094362f7366994a17a988b9c4db7a222f273fff125c901d` | "批准预授权并不是付款承诺""不要等网络电话或授权手续"等防具体就医错误，判定保留 |
+| `content/book/people/health/coverage-changes.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `0027fac51a855511b7301404a4aa38a121d501950a9a6c97109a29482d8848e2` | "主动终止COBRA通常不产生新窗口""60天不是随时申请都能追溯"等均防衔接空档错误，判定保留 |
+| `content/book/people/health/insurance-costs.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `d682854aa03ae2c37081e8df0cac1286b8b973877513c84f5e8d86246ae94e7b` | "免赔额并非每次就诊重新扣""自付上限不是绝对封顶"等均为关键口径真信息，判定保留 |
+| `content/book/people/health/medical-bills.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `b85af8f5bbaf5a130efec97c0c31022e3fcee983273d734ceefe508277cac141` | "EOB不是付款账单""医院减免不代表医生账单一起减免"等真范围信息，判定保留 |
+| `content/book/people/language/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `ee7aed076428f489e5d01f44678f0a498c989141ae8ce915ac887ad0b70ce35b` |  |
+| `content/book/people/language/service-conversations.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `41a9d3b418c44ad20e39a326fcaa862cce6a16d3408ff7d8abf2aa747a893a6c` | 例句后的复述句为教学旁注（点明范例结构供模仿），判定保留 |
+| `content/book/people/school/_index.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `0b05977b1d3e6dfa10d8117045c1e057c62a8111e9011c200762b032b9f2b079` |  |
+| `content/book/people/school/school-enrollment.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `491fc6eeabdbcf76b869fa450ff3c101cad98ff9766ae54bed45d6f7b79ec1c5` | "城市名/学区字样不足以确认学校""homeless不只指露宿"等防找错学校、漏用保障，判定保留 |
+| `content/book/people/school/school-support.md` | clean | B-PL-R2-3 | 2026-10-14 | 0 | `7b85c2e4a50b0355aa89980186a9103600d66abdb110a9ef90e76a113e584b71` | "请求评估与同意评估是两步""无IEP不代表排除504"等关键程序真信息，判定保留；"作出决定/作出知情同意"改写收益不足，按先例保留 |
 
 ## R2-4 工作与财务（work，19 文件）
 
@@ -117,46 +119,46 @@
 
 | 文件 | 状态 | 处理人 | 完成日期 | 本轮删改处数 | 当前 body SHA-256 | 遗留问题／备注 |
 |---|---|---|---|---|---|---|
-| `content/book/rights/_index.md` | pending |  |  | 0 | `0d2f2522e347f5245498fb669c142b9c6b0a365befefbef1469e126ecbabaae2` |  |
-| `content/book/rights/contracts/_index.md` | pending |  |  | 0 | `89b2b44b1e93e29402479fc56fd8fc3bbe9703225029b011d9f9dba4ef50b654` |  |
-| `content/book/rights/contracts/reading-contracts.md` | pending |  |  | 0 | `a456a8907378760c2b1736dc3b429457f602340975e1b36a869eb5c6f1031f08` |  |
-| `content/book/rights/legal/_index.md` | pending |  |  | 0 | `42ff8db81fac91d17e34843943bad2ceab1160e2d3f662eec2885cd3b5e76712` |  |
-| `content/book/rights/legal/finding-help.md` | pending |  |  | 0 | `4a1ef3b78e05ed734897b889f9d4888affde0f0f656196e3ae795f46154ee2cb` |  |
-| `content/book/rights/legal/notices-deadlines.md` | pending |  |  | 0 | `511bed06c7a676fac4d03846f0554b1bfcbaa8ec8b7c123a31a664af6063e3e1` |  |
-| `content/book/rights/outdoors/_index.md` | pending |  |  | 0 | `588863415728f67e423e2e5c64c98a53d8a9d8184a6c9a9201005d30c02cdaea` |  |
-| `content/book/rights/outdoors/outdoor-planning.md` | pending |  |  | 0 | `5e190a7790971ce0d39769e7edf962a19ff04277569e405fcc96f3572a2330ac` |  |
-| `content/book/rights/safety/_index.md` | pending |  |  | 0 | `5570f100af63872e13fbcfaf02a931711c2b9cbb307c423bb643efaede9cadcf` |  |
-| `content/book/rights/safety/disaster-preparation.md` | pending |  |  | 0 | `a0687e6b6ba5318d2f4a96b2b01cf006b0f5ddb5c3b3404be3db14310957bcb3` |  |
-| `content/book/rights/safety/emergency-help.md` | pending |  |  | 0 | `49a8d07854505ac39f6dc4463b7d8e36d06847089314403c8e507c5c469ee095` |  |
-| `content/book/rights/safety/firearms.md` | pending |  |  | 0 | `757a4e709d30fa810d07df5110e787f49ed79b1ee987b304dbb75be1cd985efb` |  |
+| `content/book/rights/_index.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `0d2f2522e347f5245498fb669c142b9c6b0a365befefbef1469e126ecbabaae2` | "具体行动还取决于事件发生地点和主管机关"点名决定因素，保留 |
+| `content/book/rights/contracts/_index.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `89b2b44b1e93e29402479fc56fd8fc3bbe9703225029b011d9f9dba4ef50b654` |  |
+| `content/book/rights/contracts/reading-contracts.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `a456a8907378760c2b1736dc3b429457f602340975e1b36a869eb5c6f1031f08` | 存留否定式均为真范围信息（E-SIGN 法定效力措辞、冷静期排除、OAG 受理分工），逐处判定保留 |
+| `content/book/rights/legal/_index.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `42ff8db81fac91d17e34843943bad2ceab1160e2d3f662eec2885cd3b5e76712` |  |
+| `content/book/rights/legal/finding-help.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `4a1ef3b78e05ed734897b889f9d4888affde0f0f656196e3ae795f46154ee2cb` | "列入目录不等于适合""notario 不因此取得移民代理资格"等否定式均防找错人的具体错误，逐处保留 |
+| `content/book/rights/legal/notices-deadlines.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `511bed06c7a676fac4d03846f0554b1bfcbaa8ec8b7c123a31a664af6063e3e1` | 期限分支的"通常"各限定有例外或分层起算的法定期限；"未收到准许改期仍按原庭期到场"等程序性真否定保留 |
+| `content/book/rights/outdoors/_index.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `588863415728f67e423e2e5c64c98a53d8a9d8184a6c9a9201005d30c02cdaea` |  |
+| `content/book/rights/outdoors/outdoor-planning.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `5e190a7790971ce0d39769e7edf962a19ff04277569e405fcc96f3572a2330ac` | "不会因租到一个营位就能在附近另辟帐篷"句式稍绕，改写收益不足保守保留，供主控复核；其余否定式均防具体错误 |
+| `content/book/rights/safety/_index.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `5570f100af63872e13fbcfaf02a931711c2b9cbb307c423bb643efaede9cadcf` |  |
+| `content/book/rights/safety/disaster-preparation.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `a0687e6b6ba5318d2f4a96b2b01cf006b0f5ddb5c3b3404be3db14310957bcb3` | 安全与资格类否定（"风扇不能作极端高温唯一降温""合法签证不能替代 FEMA 身份核验"）均为真规则，保留 |
+| `content/book/rights/safety/emergency-help.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `49a8d07854505ac39f6dc4463b7d8e36d06847089314403c8e507c5c469ee095` | "不能把中文短信当作已获得中文服务""未送达提示不能当作已受理"等否定式防求助失败，保留 |
+| `content/book/rights/safety/firearms.md` | clean | B-PL-R2-5 | 2026-10-14 | 0 | `757a4e709d30fa810d07df5110e787f49ed79b1ee987b304dbb75be1cd985efb` | "免签在境者不适用非移民签证禁令""手套箱不算锁存容器"等承载法定分类与安全真范围，逐处保留 |
 
 ## R2-6 docs 入口与共享页（45 文件；入口页短小，可分两个会话）
 
 | 文件 | 状态 | 处理人 | 完成日期 | 本轮删改处数 | 当前 body SHA-256 | 遗留问题／备注 |
 |---|---|---|---|---|---|---|
-| `content/_index.md` | pending |  |  | 0 | `79633853cc6599ff9901367d0777440eafa18eb95ca0b2c48e918c6b10f89bc1` |  |
-| `content/book/_index.md` | pending |  |  | 0 | `00e7935b06f154ae27342e959ec59f52d590986f6d7335dba77b41176fa47ae7` |  |
-| `content/docs/_index.md` | pending |  |  | 0 | `91fdc6be08b603cc3455b9d05915d2cdfb6e6c8f729f5ed83566dbe8fae854e3` |  |
-| `content/docs/about/_index.md` | pending |  |  | 0 | `02cf1103ab148f823a90b6fc0a8341a36e5681e885ef7e5f7086a7dcb3670150` |  |
-| `content/docs/glossary/_index.md` | pending |  |  | 0 | `db419067a098ebd151f153eb709a93fa520e7381d2d2c618e9e0fa6e22d87218` |  |
-| `content/docs/regions/_index.md` | pending |  |  | 0 | `fd112c8f5bfff9ffc62ca7bcab5e3bec2d1a28b8ac88e668c35cae00c4e5e4f5` |  |
-| `content/docs/regions/california.md` | pending |  |  | 0 | `8d78e0e732f372f694a057be6e7876ddf14d769f6e7447af63ece3f5573eec54` |  |
-| `content/docs/regions/new-york.md` | pending |  |  | 0 | `739fc3c01e1b0ffc6e6f8b60ae96873a104e5b62c7f57bbd9b287a433f974bd5` |  |
-| `content/docs/regions/texas.md` | pending |  |  | 0 | `d2c2471e1c312f154ac0d99e0fb2b0e8b2433859fe4510c790f81eecb1acd975` |  |
-| `content/docs/regions/washington.md` | pending |  |  | 0 | `a54d9e7034615f6a00ef0930d8334c861677e7ad15f0f0a899b9f4653c098eab` |  |
-| `content/docs/routes/_index.md` | pending |  |  | 0 | `17dcf23a991587046903c91b5a5823807bbe32dccc76e1d4da142f0fe9e43c98` |  |
-| `content/docs/routes/accommodations.md` | pending |  |  | 0 | `b5ef96a50ae121772bf7b3d542f7d7e3600b8a606df9382997a24b0d1331e476` |  |
-| `content/docs/routes/accounts-investing.md` | pending |  |  | 0 | `4f2724a7d5334a560aac0a83972ef98a3a1d9e458f41b6d21da02f1ef190c5cb` |  |
-| `content/docs/routes/advance-planning.md` | pending |  |  | 0 | `097640e9b346a3d519c7af267e81f370223d2b75d79d6f9c60e39970cb460e8f` |  |
-| `content/docs/routes/arrival.md` | pending |  |  | 0 | `0938540809472e2d3075839caf93c367f4bacbe0ac217766c44bd9fce0e5bfc0` |  |
-| `content/docs/routes/bereavement.md` | pending |  |  | 0 | `1d1bcae9278fafe373d9d025e2dd030af10046cec93382a23605b96a29c428cc` |  |
-| `content/docs/routes/buy-home.md` | pending |  |  | 0 | `b437f149da8502f5a8b147fd7949e1cb532986223e4c395e695033fae9e12ae9` |  |
-| `content/docs/routes/caregiving.md` | pending |  |  | 0 | `365a82ad91c0d15642c33d9f2a41b83e0214f9a19763a89875bf2bce88cbff26` |  |
-| `content/docs/routes/childcare.md` | pending |  |  | 0 | `525f89c8dcae5e7767ca98b6c565eb7701ab99e9d482a702d15348dd03b17bdd` |  |
-| `content/docs/routes/continuing-education.md` | pending |  |  | 0 | `2998c7d9721b4d5f5a0791344a2ebc2ac5880587c2882b31801c26dc240feb3b` |  |
-| `content/docs/routes/debt.md` | pending |  |  | 0 | `cd112388c5413c2b039bfb3504f291ef5330e0c75068553004adb89f36d35576` |  |
-| `content/docs/routes/disaster-preparation.md` | pending |  |  | 0 | `4645172706d5494b92212a0b225de16d405b92352e33e34e7ab8cb8a10d024ce` |  |
-| `content/docs/routes/emergency.md` | pending |  |  | 0 | `016c586b2e592177688a7b82469d5fa75ec1f948e449bcb6cd8a06014593cfcc` |  |
+| `content/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `79633853cc6599ff9901367d0777440eafa18eb95ca0b2c48e918c6b10f89bc1` |  |
+| `content/book/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `00e7935b06f154ae27342e959ec59f52d590986f6d7335dba77b41176fa47ae7` |  |
+| `content/docs/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `91fdc6be08b603cc3455b9d05915d2cdfb6e6c8f729f5ed83566dbe8fae854e3` |  |
+| `content/docs/about/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `02cf1103ab148f823a90b6fc0a8341a36e5681e885ef7e5f7086a7dcb3670150` | 存留否定式均防误读（核验日期≠时效保证；未列出≠已覆盖），判定保留 |
+| `content/docs/glossary/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `db419067a098ebd151f153eb709a93fa520e7381d2d2c618e9e0fa6e22d87218` |  |
+| `content/docs/regions/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `fd112c8f5bfff9ffc62ca7bcab5e3bec2d1a28b8ac88e668c35cae00c4e5e4f5` | "城市名不足以替你核对管辖"指名常见错误，正面做法在前句，保留 |
+| `content/docs/regions/california.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `8d78e0e732f372f694a057be6e7876ddf14d769f6e7447af63ece3f5573eec54` |  |
+| `content/docs/regions/new-york.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `739fc3c01e1b0ffc6e6f8b60ae96873a104e5b62c7f57bbd9b287a433f974bd5` | "不能只凭旧地图安排路线"指名具体错误，正面指示同句，保留 |
+| `content/docs/regions/texas.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `d2c2471e1c312f154ac0d99e0fb2b0e8b2433859fe4510c790f81eecb1acd975` | "不要套用其他州的替代基期"指名具体错误，正面规则同句，保留 |
+| `content/docs/regions/washington.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `a54d9e7034615f6a00ef0930d8334c861677e7ad15f0f0a899b9f4653c098eab` |  |
+| `content/docs/routes/_index.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `17dcf23a991587046903c91b5a5823807bbe32dccc76e1d4da142f0fe9e43c98` |  |
+| `content/docs/routes/accommodations.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `b5ef96a50ae121772bf7b3d542f7d7e3600b8a606df9382997a24b0d1331e476` |  |
+| `content/docs/routes/accounts-investing.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `4f2724a7d5334a560aac0a83972ef98a3a1d9e458f41b6d21da02f1ef190c5cb` | "投资可能下跌"为真实风险陈述，保留 |
+| `content/docs/routes/advance-planning.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `097640e9b346a3d519c7af267e81f370223d2b75d79d6f9c60e39970cb460e8f` |  |
+| `content/docs/routes/arrival.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `0938540809472e2d3075839caf93c367f4bacbe0ac217766c44bd9fce0e5bfc0` |  |
+| `content/docs/routes/bereavement.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `1d1bcae9278fafe373d9d025e2dd030af10046cec93382a23605b96a29c428cc` | "不能仅凭照顾者身份推断权限"指名常见且有后果的错误，正面做法紧邻在前，保留 |
+| `content/docs/routes/buy-home.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `b437f149da8502f5a8b147fd7949e1cb532986223e4c395e695033fae9e12ae9` |  |
+| `content/docs/routes/caregiving.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `365a82ad91c0d15642c33d9f2a41b83e0214f9a19763a89875bf2bce88cbff26` |  |
+| `content/docs/routes/childcare.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `525f89c8dcae5e7767ca98b6c565eb7701ab99e9d482a702d15348dd03b17bdd` |  |
+| `content/docs/routes/continuing-education.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `2998c7d9721b4d5f5a0791344a2ebc2ac5880587c2882b31801c26dc240feb3b` |  |
+| `content/docs/routes/debt.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `cd112388c5413c2b039bfb3504f291ef5330e0c75068553004adb89f36d35576` |  |
+| `content/docs/routes/disaster-preparation.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `4645172706d5494b92212a0b225de16d405b92352e33e34e7ab8cb8a10d024ce` |  |
+| `content/docs/routes/emergency.md` | clean | B-PL-R2-6a | 2026-10-14 | 0 | `016c586b2e592177688a7b82469d5fa75ec1f948e449bcb6cd8a06014593cfcc` |  |
 | `content/docs/routes/entry-return.md` | pending |  |  | 0 | `e841888ee40aba8856fe79815621bec9442ef160a650ba316d8aa888d3189cc2` |  |
 | `content/docs/routes/firearms.md` | pending |  |  | 0 | `8a64a13cb597e73a72da81961121eec8baac19967c8a2b294f4c090258448e4e` |  |
 | `content/docs/routes/food-cash-support.md` | pending |  |  | 0 | `bc2f2d2bbf0b8cb4d774b8e68a90f14ea97c22b9a281bb1d6dcbcb4f54b32bc7` |  |

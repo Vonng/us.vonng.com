@@ -32,7 +32,7 @@ weight: 10
 
 在 [CBP 的 I-94 官方网站](https://i94.cbp.dhs.gov/) 查询并保存最新入境记录，核对姓名、护照号、入境日期、入境类别和 Admit Until Date。把它与本次实际获准的入境目的、学校或雇主文件一起保存。每次返美重新查看，不能只留第一次入境的记录。
 
-Admit Until Date 如果写具体日期，它关系到此次获准停留的期限；如果写 **D/S（Duration of Status）** ，则需要持续符合相应身份条件，例如继续符合学生或交流项目要求。D/S 并不意味着无需管理毕业、项目终止或授权工作的日期。[国务院：入境与停留](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-expiration-date.html)
+Admit Until Date 如果写具体日期，它关系到此次获准停留的期限；如果写 **D/S（Duration of Status）** ，则需要持续符合相应身份条件，例如继续符合学生或交流项目要求。写 D/S 时仍要管理毕业、项目终止或授权工作的日期。[国务院：入境与停留](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-expiration-date.html)
 
 如果在美国境内获准延期或变更身份，查看 USCIS 的批准文件是否附有新 I-94。CBP 网站中的入境记录不能代替阅读后来收到的 USCIS 决定。遇到多份文件日期互相冲突，整理每次入境、递交和批准的时间线，请负责该申请的移民律师或相应机构核对，别自行选择最晚日期。
 

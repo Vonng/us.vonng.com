@@ -50,7 +50,7 @@ F-1继续学业、短期返美前，向国际学生办公室的 **DSO（学校�
 
 J交流者找DS-2019对应项目的responsible officer（RO，项目负责官员）或alternate RO（候补负责官员），出国前确认当前表格与旅行签署。转项目、换类别、签证过期和家属DS-2019逐人核；国务院对同SEVIS ID的项目转移列有继续用未过期J签证的条件，换类别又有不同要求。加拿大及百慕大公民有J签证例外，仍须适用DS-2019，不能把旅游免签当交流项目文件。[BridgeUSA旅行说明](https://j1visa.state.gov/faqs/)、[国务院J签证与免签对象](https://travel.state.gov/content/travel/en/us-visas/study/exchange.html)
 
-F／J停留规则近期有变动：DHS原定2026年9月15日生效的固定期限新规，被联邦地区法院9月14日命令暂缓整项规则生效；这是诉讼期间救济，不能写成永久撤销。USC的办理提示也说明D/S继续。安排本次旅行时，让DSO／RO核学校最新通知及命令是否有后续变化，再核实际I-94；不要仅据旧新规公告自行计算固定四年或统一离境宽限期。[实际法院命令，第44—48页](https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_26-cv-13799/pdf/USCOURTS-mad-1_26-cv-13799-0.pdf)、[USC学校办理提示](https://ois.usc.edu/dhs-final-rule-postponed/)
+F／J停留规则近期有变动：DHS原定2026年9月15日生效的固定期限新规，被联邦地区法院9月14日命令暂缓整项规则生效；这是诉讼期间救济，不是永久撤销。USC的办理提示也说明D/S继续。安排本次旅行时，让DSO／RO核学校最新通知及命令是否有后续变化，再核实际I-94；不要仅据旧新规公告自行计算固定四年或统一离境宽限期。[实际法院命令，第44—48页](https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_26-cv-13799/pdf/USCOURTS-mad-1_26-cv-13799-0.pdf)、[USC学校办理提示](https://ois.usc.edu/dhs-final-rule-postponed/)
 
 把学校／项目负责人的工作时间和联系办法随身保存，约定旅途中若需核记录找谁。返美后按学校或项目要求报告到达及当前住址，并保存其确认；有另外的USCIS申请，地址和收件仍逐案核。[学校与项目改址](/book/life/documents/address-changes/)
 
