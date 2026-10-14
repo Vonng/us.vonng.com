@@ -7,6 +7,7 @@
 - 保留B01—B16，五部分、28有内容章节、60正式主题、78公共页，共138源件；生产140 HTML，0草稿泄漏。五部分主题分布9／14／17／13／7。正文唯一源content/book，docs为编辑入口；未写主题只留地图。
 - 43件共76处语言修订正式集成：35主题68处（含照护四留白），8公共页8处。95源件及25主题旧验收条目不变。当前138语言verified／pending0／hold0，旧67队列已单独历史归档。当前摘要、三人身份及previous_acceptance见acceptance.json、逐项语言账和语言集成记录。
 - 说人话第二轮（B-PL-R2）已收口：六批（R2-1～R2-6，末批拆6a/6b并行）138件全部verified，共5处修订（invitations-boundaries元叙述删除＋引用移挂、entry-return与status-documents与mental-health否定改正面、tax-residency删8840空转定语），133件零改动clean。语言修订不重跑事实审、frontmatter未动；每处修订经root逐diff验收（红线四项＋事实范围等同）＋B-PL-R2-THIRD独立第三静态审，5个主题条目在acceptance.json滚动登记previous_acceptance链。最终make check零错误零警告、make sync 331路径核验。进度与验收行见 [R2账](reviews/speak-plainly-r2-progress.md)，差分验收记录b-pl-r2-*-master.md、第三静态审b-pl-r2-*-third.md。遗留问题0项。
+- 站点外观收口（主控配置模板，正文未动）：favicon换星形主标并补全ICO/PNG多尺寸、全站fat四列页脚（版权署名改作者本人）、首页改版为guide四分区（全书目录／按事项／按地区／查询说明，新增guide-*五模板与guide-home样式，替换旧book-parts/page-cards，新增海湾主视觉us-life-hero.webp）。改版后make check零错误零警告（140 HTML／0草稿不变），make sync 337路径SHA核验一致。三笔本地提交：15fde6a（图标＋gitignore放行static站点图片）→5ee59c7（页脚）→7baa428（首页），public/已同步不入Git。
 - static_editor七核心链当前61依赖，birth_fact学校／照护／死亡当前26依赖；医疗P08新版断点已关闭。banking_fact领域88依赖及五医疗当期资格／assignment有界重绑完成。root四最终记录实际完整阅读并逐件独立复算，旧事实阅读、失败／选段及未来规则边界保留，不称所有旧外引全部新回源。
 - 生产make check零警告／错误；138页两端276访问、32搜索、8交互；补充152改动段、16公共页两端、84手机表零错误。root实际看205网页图＋4稳定搜索图；318页打印稿实际看105指定页，覆盖72打印改动及39改变单元首尾。未称全318页目视，完整章末仍有留白。
 - make sync后两个完整树479路径（331文件／148目录／0软链接）类型、大小、SHA独立一致，public再实际140 HTML／60主题／0草稿／0错误。缓存、截图、PDF、依赖及public忽略；仅源、轻量证据和审阅入Git。附加diff --check的单项strong外侧行末空格按格式约定接受，详见工程记录。
