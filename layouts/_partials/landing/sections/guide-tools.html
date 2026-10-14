@@ -1,0 +1,54 @@
+{{- /* 首页“查询与说明”：三张简洁工具卡片（标题 + 单行说明 + 快捷入口）。
+       站内入口写 page（可加 anchor），构建时经 site.GetPage 校验；站外或输出格式入口写 url。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-tools{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    {{- partial "landing/guide-head.html" (dict "data" $data "id" $id) }}
+
+    {{- with $data.items }}
+    <div class="guide-tools__grid">
+      {{- range $index, $item := . }}
+      {{- $href := "" -}}
+      {{- with $item.page }}
+        {{- $p := site.GetPage . -}}
+        {{- if not $p }}{{ errorf "home landing: tool page %q not found" . }}{{ end -}}
+        {{- $href = $p.RelPermalink -}}
+      {{- else }}
+        {{- with $item.url }}{{ $href = . | relLangURL }}{{ end -}}
+      {{- end }}
+      {{- $titleID := printf "%s-card-%d-title" $id $index -}}
+      <article class="guide-tool-card" aria-labelledby="{{ $titleID }}">
+        <h3 id="{{ $titleID }}" class="guide-tool-card__title">
+          <a href="{{ $href }}">
+            {{- with $item.icon }}<span class="guide-tool-card__icon"><i class="{{ . }}" aria-hidden="true"></i></span>{{ end }}
+            <span>{{ $item.title }}</span>
+          </a>
+        </h3>
+
+        {{- with $item.desc }}
+        <p class="guide-tool-card__desc">{{ . }}</p>
+        {{- end }}
+
+        {{- with $item.links }}
+        <ul class="guide-tool-card__links">
+          {{- range . }}
+          {{- $link := "" -}}
+          {{- if .page }}
+            {{- $p := site.GetPage .page -}}
+            {{- if not $p }}{{ errorf "home landing: tool link %q not found" .page }}{{ end -}}
+            {{- $link = $p.RelPermalink -}}
+            {{- with .anchor }}{{ $link = printf "%s#%s" $link (anchorize .) }}{{ end -}}
+          {{- else }}
+            {{- $link = .url | relLangURL -}}
+          {{- end }}
+          <li><a href="{{ $link }}">{{ .label }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>

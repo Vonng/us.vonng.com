@@ -1,0 +1,83 @@
+{{- /* 首页“按地区查”：重点州主卡（州代码、名称、单行说明与 2 列直达入口）；
+       可选次卡（徽章入口）与其余州缩写入口行，地区页增加后在数据中启用。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-regions{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    {{- partial "landing/guide-head.html" (dict "data" $data "id" $id) }}
+
+    {{- with $data.featured }}
+    <div class="guide-regions__featured">
+      {{- range $index, $item := . }}
+      {{- $region := site.GetPage $item.page -}}
+      {{- if not $region }}{{ errorf "home landing: region %q not found" $item.page }}{{ end }}
+      {{- $name := $item.name | default (index (split $region.Title " ") 0) -}}
+      {{- $cardTitleID := printf "%s-featured-%d" $id $index }}
+      <article class="guide-region-card guide-region-card--featured" aria-labelledby="{{ $cardTitleID }}">
+        <a class="guide-region-card__main" href="{{ $region.RelPermalink }}">
+          <span class="guide-region-card__code">{{ $item.code }}</span>
+          <span class="guide-region-card__heading">
+            <h3 id="{{ $cardTitleID }}" class="guide-region-card__title">{{ $name }}</h3>
+            <span class="guide-region-card__desc">{{ $item.desc | default $region.Description }}</span>
+          </span>
+        </a>
+
+        {{- with $item.topics }}
+        <ul class="guide-region-card__topics-grid" aria-label="{{ $name }}常用入口">
+          {{- range . }}
+          {{- $topic := site.GetPage .page -}}
+          {{- if not $topic }}{{ errorf "home landing: region topic %q not found" .page }}{{ end }}
+          <li><a href="{{ $topic.RelPermalink }}"><span>{{ .label }}</span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{- with $data.secondary }}
+    <div class="guide-regions__secondary">
+      {{- range $index, $item := . }}
+      {{- $region := site.GetPage $item.page -}}
+      {{- if not $region }}{{ errorf "home landing: secondary region %q not found" $item.page }}{{ end }}
+      {{- $name := $item.name | default (index (split $region.Title " ") 0) -}}
+      {{- $secTitleID := printf "%s-secondary-%d" $id $index }}
+      <article class="guide-region-card guide-region-card--secondary" aria-labelledby="{{ $secTitleID }}">
+        <a class="guide-region-card__main" href="{{ $region.RelPermalink }}">
+          <span class="guide-region-card__code guide-region-card__code--secondary">{{ $item.code }}</span>
+          <span class="guide-region-card__heading">
+            <h3 id="{{ $secTitleID }}" class="guide-region-card__title">{{ $name }}</h3>
+            <span class="guide-region-card__desc">{{ $item.desc | default $region.Description }}</span>
+          </span>
+        </a>
+        {{- with $item.topics }}
+        <ul class="guide-region-card__pills" aria-label="{{ $name }}常用入口">
+          {{- range . }}
+          {{- $topic := site.GetPage .page -}}
+          {{- if not $topic }}{{ errorf "home landing: secondary region topic %q not found" .page }}{{ end }}
+          <li><a href="{{ $topic.RelPermalink }}">{{ .label }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{- with $data.other }}
+    <ul class="guide-regions__chips" aria-label="其他州与地区">
+      {{- range . }}
+      {{- $region := site.GetPage .page -}}
+      {{- if not $region }}{{ errorf "home landing: region %q not found" .page }}{{ end }}
+      <li>
+        <a class="guide-region-chip" href="{{ $region.RelPermalink }}">
+          <b class="guide-region-chip__code">{{ .code }}</b>
+          <span class="guide-region-chip__name">{{ .name | default (index (split $region.Title " ") 0) }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</section>

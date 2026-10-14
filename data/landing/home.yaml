@@ -1,82 +1,186 @@
+# 首页 landing 数据（《美利坚生活指南》）
+# 由 content/_index.md（layout: landing, landing: home）引用。
+# 设计语言与 ca.vonng.com 首页一致：卡片只保留标题与单行说明，全部链接经 site.GetPage 校验。
+
 sections:
-- type: hero
-  data:
-    eyebrow: 一本可以查着用的生活参考书
-    title: 美利坚生活指南
-    lead: 理解美国社会，处理生活中的具体问题。从一份文件、一张账单，到一个新的生活阶段。
-    image:
-      src: /images/neighborhood.svg
-      alt: 街区中的住宅、图书馆、公交站与远山示意插画
-    media:
-      ratio: 1.1fr 1fr
-      max_width: 560px
-    actions:
-    - label: 开始阅读
-      url: /book/
-      style: primary
-      icon: fa-solid fa-book-open
-    - label: 按事情查找
-      url: /docs/routes/
-      style: ghost
-      icon: fa-solid fa-list-check
-- type: book-parts
-  partial: landing/sections/book-parts.html
-  key: reading
-  data:
-    title: 从社会背景，到日常行动
-    desc: 五部分相互连接，章节导读帮助选择阅读顺序。
-    items:
-    - page: /book/foundations/
-      icon: fa-solid fa-landmark
-    - page: /book/life/
-      icon: fa-solid fa-house
-    - page: /book/people/
-      icon: fa-solid fa-heart-pulse
-    - page: /book/work/
-      icon: fa-solid fa-briefcase
-    - page: /book/rights/
-      icon: fa-solid fa-scale-balanced
-- type: page-cards
-  partial: landing/sections/page-cards.html
-  key: routes
-  data:
-    title: 眼前有事，从这里开始
-    desc: 沿一件事的处理顺序，找到条件、文件和下一步。
-    items:
-    - page: /docs/routes/medical-care/
-      icon: fa-solid fa-stethoscope
-    - page: /docs/routes/identity-theft/
-      icon: fa-solid fa-shield-halved
-    - page: /docs/routes/emergency/
-      icon: fa-solid fa-phone
-    - page: /docs/routes/parenthood/
-      icon: fa-solid fa-baby
-    - page: /docs/routes/job-loss/
-      icon: fa-solid fa-briefcase
-    - page: /docs/routes/start-work/
-      icon: fa-solid fa-id-card
-    - page: /docs/routes/caregiving/
-      icon: fa-solid fa-hand-holding-heart
-    - page: /book/rights/legal/finding-help/
-      icon: fa-solid fa-scale-balanced
-- type: page-cards
-  partial: landing/sections/page-cards.html
-  key: regions
-  data:
-    title: 找到适用的地方规则
-    desc: 从实际地址与主管机构出发，核对州、城市和服务范围。
-    items:
-    - page: /docs/regions/
-      icon: fa-solid fa-map-location-dot
-    - page: /docs/regions/california/
-      icon: fa-solid fa-house
-- type: page-cards
-  partial: landing/sections/page-cards.html
-  key: reference
-  data:
-    title: 查询与阅读
-    items:
-    - page: /docs/glossary/
-      icon: fa-solid fa-language
-    - page: /docs/about/
-      icon: fa-solid fa-circle-info
+  - type: hero
+    data:
+      class: guide-home-hero
+      title: 美利坚生活指南
+      lead: 读懂美利坚社会，找到日常生活与人生事务的办事指南。
+      image:
+        src: /images/us-life-hero.webp
+        alt: 海湾步道、金门大桥与远山的美国生活主题插画
+      media:
+        ratio: 1fr 1.1fr
+        max_width: 600px
+      actions:
+        - { label: 阅读, url: /book/, style: primary, icon: fa-solid fa-book-open }
+        - { label: 按事项, url: "#routes", style: ghost, icon: fa-solid fa-list-check }
+        - { label: 按地区, url: "#regions", style: ghost, icon: fa-solid fa-map-location-dot }
+
+  - type: guide-parts
+    partial: landing/sections/guide-parts.html
+    key: parts
+    data:
+      title: 全书目录
+      desc: 从社会背景到日常实务，每部分先有导读，各章均可独立查用。
+      more: { label: 展开三级目录, url: "/book/#contents" }
+      items:
+        - page: /book/foundations
+          desc: 地区差异、历史形成与联邦州地方分工。
+          chapters:
+            geography: 城乡通勤、气候时区与住址比较
+            government: 联邦州县分工、公共参与与投票
+            history: 国家形成、移民脉络与民权历史
+            communities: 部落主权、土地与今天的共同体
+            culture: 寒暄邀约、交往边界与社交默契
+            world: 跨国家庭、海外联系与国际往来
+        - page: /book/life
+          desc: 身份文件、住房、出行、消费与社区日常。
+          chapters:
+            documents: 签证身份、SSN、返美与地址变更
+            housing: 租房流程、押金结算与自住购房
+            household: 水电燃气开户、日常购物与退货
+            transport: 公共交通、驾照换领与买车保险
+            digital: 手机套餐、家庭网络与通信补助
+            community: 图书馆办卡、社区课程与活动
+        - page: /book/people
+          desc: 医疗保险、婚育、学校、照护与养老。
+          chapters:
+            accessibility: 心理健康支持与无障碍便利申请
+            health: 保险费用、预约网络与账单申诉
+            family: 结婚离婚、孕产出生与托育安排
+            education: 成人继续学习、选课与学费资助
+            school: 公校入学、学区分配与在校支持
+            language: 预约、查账与跟进的英语沟通
+            aging: 退休与 Medicare、照护与身后事
+        - page: /book/work
+          desc: 求职就业、劳动权益、银行信用与税务。
+          chapters:
+            career: 求职渠道、录用核对与入职文件
+            employment: 工资加班、失业保险与职场权利
+            finance: 银行付款、信用报告、债务与援助
+            tax: 税务居民判定、年度报税与州税
+            business: 个人接单、开店登记与停业结清
+        - page: /book/rights
+          desc: 法律帮助、合同纠纷、应急安全与户外。
+          chapters:
+            legal: 寻找律师、法院通知与回应期限
+            contracts: 消费合同签约、取消与投诉
+            outdoors: 公园步道、营地规则与野外安全
+            safety: 紧急求助、灾害准备与枪支安全
+
+  - type: guide-routes
+    partial: landing/sections/guide-routes.html
+    key: routes
+    data:
+      title: 按事项查
+      desc: 按具体人生事件串联跨章主题，理清前置条件与办理顺序。
+      more: { label: 全部事项, url: /docs/routes/ }
+      items:
+        - { name: 抵达, desc: 住处、通信、账户与医疗, page: /docs/routes/arrival, icon: fa-solid fa-plane-arrival }
+        - { name: 搬家, desc: 地址、驾照、医保与州税衔接, page: /docs/routes/moving, icon: fa-solid fa-truck-moving }
+        - { name: 工作, desc: 求职、录用核对与入职文件, page: /docs/routes/start-work, icon: fa-solid fa-briefcase }
+        - { name: 失业, desc: 最后工资、失业金与医保, page: /docs/routes/job-loss, icon: fa-solid fa-user-xmark }
+        - { name: 看病, desc: 保险网络、预约与账单异议, page: /docs/routes/medical-care, icon: fa-solid fa-stethoscope }
+        - { name: 报税, desc: 税务身份、材料与州税申报, page: /docs/routes/tax-preparation, icon: fa-solid fa-file-invoice-dollar }
+        - { name: 生育, desc: 孕产保险、出生证明与加保, page: /docs/routes/parenthood, icon: fa-solid fa-baby-carriage }
+        - { name: 照顾, desc: 照护评估、居家服务与授权, page: /docs/routes/caregiving, icon: fa-solid fa-hand-holding-heart }
+        - { name: 退休, desc: 退休收入与 Medicare 登记, page: /docs/routes/retirement, icon: fa-solid fa-umbrella-beach }
+        - { name: 丧亲, desc: 死亡证明、殡葬与遗属申领, page: /docs/routes/bereavement, icon: fa-solid fa-dove }
+
+  # 四州覆盖深度一致（每州约 45 个本州分支入口），因此四州均为主卡；
+  # 其余各州暂无地区页，不设缩写入口行。
+  - type: guide-regions
+    partial: landing/sections/guide-regions.html
+    key: regions
+    data:
+      title: 按地区查
+      desc: 同一件事各州规则与机构不同，按实际居住的州进入当地入口。
+      more: { label: 地区总览, url: /docs/regions/ }
+      featured:
+        - code: CA
+          name: 加利福尼亚州
+          desc: 加州与洛杉矶、旧金山的租房、驾照、就业与入学入口。
+          page: /docs/regions/california
+          topics:
+            - { label: 加州租房押金, page: /book/life/housing/ca-deposit }
+            - { label: 租房申请与交房, page: /book/life/housing/rental-process }
+            - { label: DMV 新居民驾照, page: /book/life/transport/new-resident-license }
+            - { label: 每日加班与欠薪, page: /book/work/employment/pay-stub-overtime }
+            - { label: EDD 失业申请, page: /book/work/employment/job-loss-support }
+            - { label: Medi-Cal 孕产保障, page: /book/people/family/birth-and-first-weeks }
+            - { label: IHSS 居家照护, page: /book/people/aging/caregiving-plan }
+            - { label: 旧金山公校入学, page: /book/people/school/school-enrollment }
+        - code: NY
+          name: 纽约州
+          desc: 纽约州与纽约市的租房、驾照、就业、医保与入学入口。
+          page: /docs/regions/new-york
+          topics:
+            - { label: 租房申请与押金, page: /book/life/housing/rental-process }
+            - { label: DMV 新居民驾照, page: /book/life/transport/new-resident-license }
+            - { label: 工资单与加班费, page: /book/work/employment/pay-stub-overtime }
+            - { label: 失业金申请与听证, page: /book/work/employment/job-loss-support }
+            - { label: 孕产投保与出生记录, page: /book/people/family/birth-and-first-weeks }
+            - { label: 纽约市公校入学, page: /book/people/school/school-enrollment }
+            - { label: 纽约市办证结婚, page: /book/people/family/marriage-separation }
+            - { label: HIICAP 与 Medicare, page: /book/people/aging/retirement-medicare }
+        - code: WA
+          name: 华盛顿州
+          desc: 华盛顿州与西雅图的租房、驾照、就业、照护与入学入口。
+          page: /docs/regions/washington
+          topics:
+            - { label: 租房申请与押金, page: /book/life/housing/rental-process }
+            - { label: DOL 新居民驾照, page: /book/life/transport/new-resident-license }
+            - { label: ESD 失业申请, page: /book/work/employment/job-loss-support }
+            - { label: Apple Health 孕产, page: /book/people/family/birth-and-first-weeks }
+            - { label: 西雅图公校入学, page: /book/people/school/school-enrollment }
+            - { label: 西雅图紧急求助, page: /book/rights/safety/emergency-help }
+            - { label: HCS 照护评估, page: /book/people/aging/caregiving-plan }
+            - { label: WorkSource 求职, page: /book/work/career/job-search-onboarding }
+        - code: TX
+          name: 得克萨斯州
+          desc: 得州与奥斯汀、休斯敦的租房、驾照、就业与入学入口。
+          page: /docs/regions/texas
+          topics:
+            - { label: 租房申请与押金, page: /book/life/housing/rental-process }
+            - { label: DPS 新居民驾照, page: /book/life/transport/new-resident-license }
+            - { label: TWC 失业申请, page: /book/work/employment/job-loss-support }
+            - { label: Medicaid / CHIP 孕产, page: /book/people/family/birth-and-first-weeks }
+            - { label: 奥斯汀公校入学, page: /book/people/school/school-enrollment }
+            - { label: STAR+PLUS 照护, page: /book/people/aging/caregiving-plan }
+            - { label: 休斯敦水电开户, page: /book/life/household/utilities }
+            - { label: OAG 消费投诉, page: /book/rights/contracts/reading-contracts }
+
+  - type: guide-tools
+    partial: landing/sections/guide-tools.html
+    key: tools
+    data:
+      title: 查询与说明
+      desc: 检索全书主题、核对英文文件简称，或查看阅读与来源说明。
+      items:
+        - title: 全书查询索引
+          desc: 按事项、地区与术语找到全书主题页。
+          icon: fa-solid fa-magnifying-glass
+          page: /docs
+          links:
+            - { label: 按事项查, page: /docs/routes }
+            - { label: 按地区查, page: /docs/regions }
+            - { label: 全书三级目录, page: /book, anchor: contents }
+        - title: 术语与文件索引
+          desc: 从英文文件名与简称查对应解释页。
+          icon: fa-solid fa-language
+          page: /docs/glossary
+          links:
+            - { label: SSN 与 ITIN, page: /book/life/documents/numbers }
+            - { label: I-94 与 EAD, page: /book/life/documents/status-documents }
+            - { label: EOB 与账单, page: /book/people/health/medical-bills }
+        - title: 阅读与来源说明
+          desc: 了解阅读方式、来源核验与覆盖边界。
+          icon: fa-solid fa-book-bookmark
+          page: /docs/about
+          links:
+            - { label: 怎样使用, page: /docs/about, anchor: 怎样使用 }
+            - { label: 来源与核验, page: /docs/about, anchor: 来源与核验 }
+            - { label: 整书打印视图, url: "/_print/book/" }

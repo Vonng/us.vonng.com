@@ -10,6 +10,7 @@ verified: ''
 reviewed_by: root（编辑入口）
 layout: landing
 landing: home
+body_class: guide-home
 ---
 
 可以从头阅读，也可以从眼前的问题开始。
