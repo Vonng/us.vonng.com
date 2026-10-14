@@ -22,3 +22,76 @@
   .td-book-print-page > p { break-inside:avoid-page; margin-bottom:.6em; }
   .td-book-print-page h2 { margin-top:1.1em; }
 }
+
+// ============================================================================
+// 站点页脚（全站）：品牌 + 四列链接，Tailwind 式的安静排版
+// ============================================================================
+
+.td-site-footer {
+  background: color-mix(in srgb, var(--bs-emphasis-color) 2.5%, var(--bs-body-bg));
+  border-top: 1px solid color-mix(in srgb, var(--bs-emphasis-color) 9%, transparent);
+
+  &__container {
+    padding: 3.5rem 2rem 2.5rem;
+  }
+
+  &__inner {
+    grid-template-columns: minmax(240px, 1fr) minmax(0, 2fr);
+    gap: 2.5rem 4rem;
+  }
+
+  &__grid {
+    gap: 2rem;
+  }
+
+  &__logo {
+    gap: .625rem;
+    margin-bottom: .75rem;
+
+    img {
+      width: 26px;
+      height: 26px;
+    }
+
+    span {
+      background: none;
+      color: var(--bs-emphasis-color);
+      -webkit-text-fill-color: currentColor;
+      font-family: inherit;
+      font-size: 1.0625rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+  }
+
+  &__tagline {
+    font-size: .875rem;
+    line-height: 1.6;
+  }
+
+  &__column {
+    padding-inline-start: 0;
+
+    h2 {
+      margin: 0 0 1rem;
+      color: var(--bs-emphasis-color);
+      font-family: inherit;
+      font-size: .875rem;
+      font-weight: 600;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    li + li { margin-top: .75rem; }
+
+    a {
+      font-size: .875rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+// 版权行与上方四列共用同一条居中容器边线
+.td-site-footer + .td-shell-footline {
+  padding-inline: unquote('max(2rem, calc((100% - 1280px) / 2 + 2rem))');
+}

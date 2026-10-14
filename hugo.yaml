@@ -41,7 +41,7 @@ params:
   offline_search: true
   offline_search_index: content
   copyright:
-    authors: 美利坚生活指南编写组
+    authors: 冯若航
     from_year: 2026
     to_year: present
   ui:
@@ -63,7 +63,7 @@ params:
     sidebar_headings: 2
     backlinks: true
     annotation: false
-    footer_style: slim
+    footer_style: fat
 menus:
   main:
   - identifier: book
