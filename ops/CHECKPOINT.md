@@ -20,7 +20,7 @@
 
 Hugo0.166.0 Extended，OINK固定f8f476e660cf053a2645b7b923ae8d08d5448fce；首轮的.cache/checks-venv缓存已清理，R2起检查依赖（bs4）装于当前python3环境（~/dev/.venv），PyYAML原有。实际工程命令见ENGINEERING。root自有24146／PID15997在最终检查后按新鲜完整命令、项目cwd及监听复核，只TERM该进程；随后ps／lsof确无该进程及监听。未触碰既有未拥有1317／1318，不安排后台任务。
 
-项目main，无remote，未推送／部署／改DNS或联系他人；加拿大只读，未启动／探测Claude。R2三轮本地提交：560a5b5（发起）→45f1580（R2-1/R2-2/R2-6a）→bdbb102（收口），以实际git log及提交内文件为准；提交前按明确白名单核暂存集合，提交后核Git／索引。没有未集成正文或待作者返修。
+项目main，remote为github.com/Vonng/us.vonng.com（用户明确授权后设置），2026-10-14推送25提交至origin/main并核SHA一致；未部署／改DNS或联系他人。加拿大只读，未启动／探测Claude。R2三轮本地提交：560a5b5（发起）→45f1580（R2-1/R2-2/R2-6a）→bdbb102（收口），以实际git log及提交内文件为准；提交前按明确白名单核暂存集合，提交后核Git／索引。没有未集成正文或待作者返修。
 
 ## 后续队列
 
