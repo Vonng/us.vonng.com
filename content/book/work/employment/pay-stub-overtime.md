@@ -6,8 +6,8 @@ content_kind: task
 scope: "美国联邦 FLSA；California、New York、Washington、Texas；普通成年私营雇员，2026 年金额，规则查阅至 2026-10-13"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "health（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -66,7 +66,7 @@ weight: 10
 
 联邦规则下，雇主允许完成的下班后工作仍可能计薪；短休通常计入工时，真正免除所有工作职责的用餐时间才可能不计。吃饭时仍要接电话或看守岗位，不能仅因系统写着 lunch 就当成完全休息。培训是否计时也有条件，不能仅因发生在晚上就删除。[美国劳工部：Hours Worked](https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked)
 
-休息时间 **是否计薪** 与雇主 **是否必须安排休息** 是两个判断。本页不替四州逐项确定餐休安排；工资核对先保留真实时间和当时是否仍有工作义务。年假、病假等有薪但未实际工作的时间，通常也不因此计入法定加班工时。[加州加班问答，第 7 项](https://www.dir.ca.gov/dlse/FAQ_Overtime.htm)、[华盛顿州加班计算](https://www.lni.wa.gov/workers-rights/wages/overtime/)
+休息时间 **是否计薪** 与雇主 **是否必须安排休息** 是两个判断。餐休安排另按实际工作州的规则核对；工资核对先保留真实时间和当时是否仍有工作义务。年假、病假等有薪但未实际工作的时间，通常也不因此计入法定加班工时。[加州加班问答，第 7 项](https://www.dir.ca.gov/dlse/FAQ_Overtime.htm)、[华盛顿州加班计算](https://www.lni.wa.gov/workers-rights/wages/overtime/)
 
 ## 同样工作 40 小时，四州可能算出不同工资
 

@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国个人日常存款账户与境内支付；联邦规则及具名机构实例，查阅至 2026-10-13
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "banking_fact（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -44,7 +44,7 @@ weight: 10
 | 余额不足 | 是拒绝交易、退回扣款，还是允许透支；每一种情况有什么费用 |
 | 储蓄 | 利息、[APY（计入复利的年收益率）](https://www.consumerfinance.gov/rules-policy/regulations/1030/2/)、最低余额与提款条件；定期存款提前取出会怎样 |
 
-银行替你支付超出余额的款项，可能产生 **overdraft** 及费用。针对普通透支服务，金融机构要对 ATM 和一次性 debit card 交易收取相应透支费，通常须先取得消费者明确选择加入的同意。这个 opt-in 边界不自动覆盖支票、ACH 或经常性扣款；拒绝加入，也不能据此认为账户绝不可能出现负数或任何相关收费。[Regulation E §1005.17(b)、(f)](https://www.consumerfinance.gov/rules-policy/regulations/1005/17/)
+银行替你支付超出余额的款项，可能产生 **overdraft** 及费用。针对普通透支服务，金融机构要对 ATM 和一次性 debit card 交易收取相应透支费，通常须先取得消费者明确选择加入的同意。即使拒绝加入（opt-in），支票、ACH 和经常性扣款仍可能让账户出现负数或产生相关费用。[Regulation E §1005.17(b)、(f)](https://www.consumerfinance.gov/rules-policy/regulations/1005/17/)
 
 拿到账号后，核对账户所有人、收信地址、联系方式和费用方案；确认能登录官方渠道、看到初始存款、找到客服及争议联系方式。设置交易与低余额提醒。雇主的 direct deposit 通常要账户号、routing number（银行路由号码）和账户类型，按银行生成的直接存款资料填写，不把 debit card 卡号当成存款账号。第一笔工资实际到账后，再确认雇主设置已生效。[Chase 直接存款表件示例](https://www.chase.com/content/dam/chase-ux/documents/digital/45969_directdeposit.pdf)
 

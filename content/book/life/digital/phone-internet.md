@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国个人与家庭的手机、固定家庭网络及消费通信账户；联邦标签、Lifeline和投诉框架，配加州、纽约州、华盛顿州与得州支持分流；资料实际查阅至2026年10月13日。
 status: integrated
 draft: false
-verified: 2026-10-13
-reviewed_by: banking_fact（独立事实审）；birth_fact（第三静态审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -119,4 +119,4 @@ T-Mobile个人账户就是一个具体例子：Temporary Port Out PIN由Primary 
 - **华盛顿州：** UTC监管州内电话公司，通常不管网络、有线或无线电话；这些问题从FCC相应类别或[消费合同的州受理步骤](/book/rights/contracts/reading-contracts/)继续。[UTC：电话监管范围](https://www.utc.wa.gov/regulated-industries/utilities/telecommunications)
 - **得州：** 手机与网络的上述问题可从FCC对应类别开始；对商家误导、未交付或退款争议，也按[消费合同的得州受理步骤](/book/rights/contracts/reading-contracts/)准备订单与交易证据。收到不同机构的分流后，核其管辖与所需材料再提交。
 
-每次办理都保存请求、确认、编号和实际结果。修复后验证能用，调账后核新账单，取消后核最终收费，设备归还后核账户记录；还有未完成项就带同一套材料继续跟进。
+每次办理都保存请求、确认、编号和实际结果；还有未完成项，就带同一套材料继续跟进。

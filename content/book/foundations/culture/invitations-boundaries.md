@@ -6,8 +6,8 @@ content_kind: culture
 scope: 美国日常英语社交场景；邻里、同事与朋友关系；语言教学与研究材料查阅至 2026-10-13，不作全国性格或法律权利判断
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: health；root（静态编辑审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -15,7 +15,7 @@ weight: 10
 
 同一句话，对陌生邻居、熟悉的同事和多年朋友可以有不同分量。语言教学中的 **pragmatics（语用）** 研究的正是词句怎样在关系和情境中产生意思。美国国务院的教学资料也强调，即使在同一语言和文化群体内，向朋友与向主管提出请求，措辞仍会变化。[American English：语用与情境](https://americanenglish.state.gov/resources/teachers-corner-simple-ways-incorporate-pragmatics-efl-classroom)
 
-下面的对话与例句均为 **教学虚构** ，可以替换方括号中的信息。它们提供可用选择，并不代表每个地区、世代、宗教或家庭都采用同一套礼节；大学教学与住宿资料也不等于全国居民的行为调查。
+下面的对话与例句均为 **教学虚构** ，可以替换方括号中的信息，按关系与场合选用。
 
 ## Small talk：先给彼此一个容易接住的开头
 
@@ -86,7 +86,7 @@ weight: 10
 
 去别人家之前，确认地址和进门方式，问是否需要带东西，别自行增加同伴：“Would it be okay if I brought [my partner / a friend]?” 有饮食需要可先说：“I don’t eat [pork]. Would it help if I brought something I can share?” 这是在协商这次安排，不要求主人知道你全部健康或宗教情况。准备食物的人也可以提前问需要避开什么，而不要根据姓名或外貌猜。
 
-收到邀请、回复接受和当天出发是三件不同的事。真正能照着行动的约定，应能回答：哪一天、几点、在哪里、谁来，以及仍有哪些安排要等确认。
+约定应能回答：哪一天、几点、在哪里、谁来，以及仍有哪些安排要等确认。
 
 ## 私人问题，可以不回答，也可以换一种谈法
 
@@ -108,7 +108,7 @@ weight: 10
 
 ## 熟人越界时，指出具体行为
 
-关系熟悉不等于对方一定知道你的安排。朋友习惯临时上门，你需要在家休息；室友爱聊夜班见闻，你早晨要上班。先说是哪件事造成什么影响，再说以后希望怎样做，比“你总是不尊重我”更容易回应。爱荷华大学给住宿学生的沟通指南也建议从自己的感受和需求出发，同时说明清楚；这是一种可练习的沟通方法，并不保证对方一定同意。[University of Iowa Housing：Styles of Communication](https://housing.uiowa.edu/styles-communication-0)
+关系熟悉不等于对方一定知道你的安排。朋友习惯临时上门，你需要在家休息；室友爱聊夜班见闻，你早晨要上班。先说是哪件事造成什么影响，再说以后希望怎样做，比“你总是不尊重我”更容易回应。爱荷华大学给住宿学生的沟通指南也建议从自己的感受和需求出发，同时说明清楚。[University of Iowa Housing：Styles of Communication](https://housing.uiowa.edu/styles-communication-0)
 
 下面是朋友想临时来访的虚构短信：
 
@@ -126,6 +126,6 @@ Lin 没有证明自己“足够忙”才有资格拒绝，也没有把第一次 
 
 说错了或误解了，也可以修复：“I think I misunderstood. Were you suggesting a plan, or just saying we should catch up sometime?” 问了让对方不舒服的问题，可以说：“Sorry, that was too personal. You don’t have to answer.” 然后停止追问，不要求对方反过来安慰你。
 
-如果已经明确拒绝，对方仍不断施压，可以重复一句简短边界、结束交谈或减少接触。涉及工作或住宿中的持续行为时，保存具体发生的事，再按单位或住房的实际渠道寻求帮助；出现威胁或当前危险，转到 [紧急与非紧急求助](/book/rights/safety/emergency-help/)。礼貌表达是沟通工具，不是要求你独自解决所有冲突。
+如果已经明确拒绝，对方仍不断施压，可以重复一句简短边界、结束交谈或减少接触。涉及工作或住宿中的持续行为时，保存具体发生的事，再按单位或住房的实际渠道寻求帮助；出现威胁或当前危险，转到 [紧急与非紧急求助](/book/rights/safety/emergency-help/)。
 
 想继续练习电话、请求重复、确认服务承诺或跟进邮件，可以接着读 [日常服务英语](/book/people/language/service-conversations/)。

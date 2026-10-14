@@ -6,8 +6,8 @@ content_kind: task
 scope: "普通成年人在美国准备医疗意愿、医疗代理和生前财务授权，及照护亲人的交接；全国HIPAA主线与CA、NY、WA、TX实际表格和程序入口；依据2026-10-13实际查阅资料，不包含个案文书起草、完整监护或身后遗产办理"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "root（事实审）；banking_fact（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -65,7 +65,7 @@ TX医疗代理不能用这份POA同意法律排除的事项，包括自愿住院
 |---|---|
 | CA：[Sacramento County Public Law Library法定模板及说明](https://saclaw.org/resource_library/power-of-attorney-california-uniform-statutory/) | 该公共法库提供Probate§4401的[2页财务模板](https://saclaw.org/wp-content/uploads/2023/04/form-uniform-form-power-of-attorney.pdf)。逐项initial（签姓名首字母）选择权限；表默认立即生效，并列有本人失去能力后继续有效的文字。先请律师核权限、特殊指示及签署安排，采用公证确认本人签字的路径，请公证人按[州务卿的签字确认页](https://notary.cdn.sos.ca.gov/forms/notary-ack.pdf)完成所需证明；不要把医疗表的见证栏复制过来。[CA法院财务安排入口](https://selfhelp.courts.ca.gov/wills-estates-probate/legal-documents) |
 | NY：[当前官方法定短式§5-1513](https://www.nysenate.gov/legislation/laws/GOB/5-1513) | 本人理解授权、签名／initial和日期，完成 **公证及两名合格见证** ；见证不能是指定代理或表中允许受赠的人，公证人可兼一名见证。代理另签名并公证接受；共同代理、生效条件和替补接受按[§5-1501B](https://www.nysenate.gov/legislation/laws/GOB/5-1501B)核，不能把仅本人签好的版本当成所有步骤均已完成。 |
-| WA：[DSHS所链NJP财务表包，第9—10页](https://assets.washingtonlawhelp.org/en/print/pdf/node/191) | 当前财务500表标Revised05/2026，列公证栏，逐项选择特殊权限及立即／失去能力后生效。本页按该表走公证；法律另允许符合[§11.125.050](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.050)的见证路线，要改用时先核当前要求和接收手续。不要把同包医疗表的立即生效条款当成财务表唯一选项。 |
+| WA：[DSHS所链NJP财务表包，第9—10页](https://assets.washingtonlawhelp.org/en/print/pdf/node/191) | 当前财务500表标Revised05/2026，列公证栏，逐项选择特殊权限及立即／失去能力后生效。按该表的公证栏办理；法律另允许符合[§11.125.050](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.050)的见证路线，要改用时先核当前要求和接收手续。不要把同包医疗表的立即生效条款当成财务表唯一选项。 |
 | TX：[官方Statutory Durable POA，§752.051](https://tcss.legis.texas.gov/resources/ES/htm/ES.752.htm) | 按法定表initial权限、选择生效方式，由本人签名并完成公证acknowledgment（签字确认）。该表的有效要求另列§752.004。若要授权代理签home equity loan（房屋净值贷款）文件，表上特别要求本人在贷款方、律师或title company（产权服务公司）办公室签署，签前就安排合适地点。 |
 
 让财务代理读懂职责：只在授权范围内、为本人利益办事，把本人资产与自己的资产分开，保存收支、收据和每次以代理身份签署的记录；涉及自己的利益时先核授权和法律要求。[NY代理说明](https://www.nysenate.gov/legislation/laws/GOB/5-1513)、[TX代理职责，§752.051](https://tcss.legis.texas.gov/resources/ES/htm/ES.752.htm)

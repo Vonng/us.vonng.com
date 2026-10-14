@@ -6,8 +6,8 @@ content_kind: task
 scope: "普通个人自用车；全国交易、融资、车况与保险主线，以及CA、NY、WA、TX的产权、登记、检查和退出手续；查阅于2026-10-13，加州取消规则采用2026-10-01起实施资料，得州检查及牌照变化按2025现行规则"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "banking_fact（事实审）；birth_fact（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -59,7 +59,7 @@ weight: 20
 
 向保险公司提供本车VIN、实际主要停车地址、驾驶人和用途，确认起保的日期与时间、限额、deductible（本人承担的免赔额）及登记要用的证明。已有车险再买车、借车或租车，先让保险方确认本次适用保障；不能只按旧保险卡决定已覆盖新车。[TDI：车辆与保单保障](https://www.tdi.texas.gov/pubs/consumer/cb020.html)
 
-liability（责任保障）主要处理本人依法承担的他方损失；本人车辆碰撞维修和盗窃／洪水等损失，另看collision（碰撞保障）及comprehensive（其他车辆损失保障）。贷款或lease合同可能要求这些额外保障。把自付额、拖车和临时代步费用也问清，决定是否能承担损失时自己的付款。[TDI：保障与免赔](https://www.tdi.texas.gov/pubs/consumer/cb020.html)
+liability（责任保障）主要处理本人依法承担的他方损失；本人车辆碰撞维修和盗窃／洪水等损失，另看collision（碰撞保障）及comprehensive（其他车辆损失保障）。贷款或lease合同可能要求这些额外保障。把自付额、拖车和临时代步费用也问清，再判断发生损失时自己要付的费用是否承担得起。[TDI：保障与免赔](https://www.tdi.texas.gov/pubs/consumer/cb020.html)
 
 登记要求还要按州确认：例如[纽约州](https://dmv.ny.gov/insurance/insurance-requirements)要求纽约州责任保险，登记人与保单姓名一致，保险ID卡和保险方电子报告都要；两名登记人有相应双人条件。[加州](https://www.dmv.ca.gov/portal/vehicle-registration/insurance-requirements/)和[华盛顿州](https://dol.wa.gov/driver-licenses-and-permits/mandatory-insurance)各有财务责任和证明规则。不要把只办title或有买卖收据当成已经可以无牌／无保险开走；交车前问清牌照或实际可用的临时行驶许可。[WA交车与trip permit](https://dol.wa.gov/vehicles-and-boats/vehicles/buying-and-selling-vehicle/buy-and-register-vehicle)
 

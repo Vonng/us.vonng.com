@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国使用个人或雇主医疗保险的计划性就诊；具体网络、服务与授权规则由计划决定，紧急就医另有保护。
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: civic
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -15,9 +15,9 @@ weight: 20
 
 ## 先准备一张就诊资料单
 
-抄下保险卡上的计划名称、member ID、group number（如有）与客服电话，再写医生姓名、诊所地址、打算接受的服务和预计日期。刚换保险时，先向计划确认保障生效日期，以及诊所应使用哪张卡。
+抄下保险卡上的计划名称、会员号（member ID）、团体编号（group number，如有）与客服电话，再写医生姓名、诊所地址、打算接受的服务和预计日期。刚换保险时，先向计划确认保障生效日期，以及诊所应使用哪张卡。
 
-网络查询从保险计划的 provider directory 开始。查到医生后，再联系保险方与诊所确认具体计划和地点；HealthCare.gov 同时建议使用目录、保险客服电话和医生办公室核实。[HealthCare.gov：寻找计划内医生](https://www.healthcare.gov/using-marketplace-coverage/getting-medical-care/)
+网络查询从保险计划的医疗服务提供者目录（provider directory）开始。查到医生后，再联系保险方与诊所确认具体计划和地点；HealthCare.gov 同时建议使用目录、保险客服电话和医生办公室核实。[HealthCare.gov：寻找计划内医生](https://www.healthcare.gov/using-marketplace-coverage/getting-medical-care/)
 
 以下是 **教学虚构问句** ，可以把括号内容替换成自己的信息：
 
@@ -50,7 +50,7 @@ weight: 20
 
 ## 紧急情况不能照搬预约流程
 
-有危及生命的紧急情况应拨 911 或立即寻求急诊救助，不要等网络电话或授权手续。适用 HealthCare.gov 所述急诊保护的计划，不得要求患者先取得网络外急诊的预批准；其页面对 grandfathered plans 另有适用限制。[HealthCare.gov：急诊就医保护](https://www.healthcare.gov/health-care-law-protections/doctor-choice-emergency-room-access/)
+有危及生命的紧急情况应拨 911 或立即寻求急诊救助，不要等网络电话或授权手续。适用 HealthCare.gov 所述急诊保护的计划，不得要求患者先取得网络外急诊的预批准；其页面对保留旧规则的保险计划（grandfathered plans）另有适用限制。[HealthCare.gov：急诊就医保护](https://www.healthcare.gov/health-care-law-protections/doctor-choice-emergency-room-access/)
 
 急诊可能产生免赔额、共付或共保费用。联邦 No Surprises Act 对多数私人医疗保险的特定网络外急诊收费另有保护，但地面救护车通常不在该联邦账单保护中；州法可能提供其他保护。[CMS：急诊与救护车账单](https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/insurance)
 

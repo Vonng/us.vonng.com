@@ -7,8 +7,8 @@ scope: 美国 Tribal Nations 的基础概念，以 Cherokee Nation（俄克拉�
   Alaska Native 与 Native Hawaiian 的制度边界，不提供个案管辖或成员资格认定。
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: documents；root（静态编辑审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -22,13 +22,13 @@ weight: 10
 
 “联邦承认”（federal recognition）说明美国如何在法律上确认这种关系及相应责任、资格；它不表示共同体的历史从获承认那天才开始。读到地方政府与某个 Nation 签协议时，应当把协议双方分别认清。哪些部门负责一般居民事务，可以结合[联邦、州与地方政府](/book/foundations/government/which-government/)阅读；涉及特定 Nation 的土地、法院或项目，还要找该 Nation 自身的规则。
 
-两个实际制度就足以看出差异。Cherokee Nation 以俄克拉何马州 Tahlequah 为首府，政府设立行政、立法和司法三部门。Suquamish 则由七人 Tribal Council 治理，议员任期三年、交错届满；成年成员组成的 General Council 也有宪法规定的职责。这里的 council 究竟指什么、怎样产生，须读对应共同体的文件。[Cherokee Nation：政府结构](https://www.cherokee.gov/about-the-nation/)、[Suquamish 宪法，第 III、IV、VII 条](https://suquamish.nsn.us/wp-content/uploads/2024/03/03212024-Suquamish-Tribe-Constitution_.pdf)
+Cherokee Nation 以俄克拉何马州 Tahlequah 为首府，政府设立行政、立法和司法三部门。Suquamish 则由七人 Tribal Council 治理，议员任期三年、交错届满；成年成员组成的 General Council 也有宪法规定的职责。这里的 council 究竟指什么、怎样产生，须读对应共同体的文件。[Cherokee Nation：政府结构](https://www.cherokee.gov/about-the-nation/)、[Suquamish 宪法，第 III、IV、VII 条](https://suquamish.nsn.us/wp-content/uploads/2024/03/03212024-Suquamish-Tribe-Constitution_.pdf)
 
 ## 两条不同的历史，留下今天不同的土地关系
 
 Cherokee Nation 今天的政府所在地，与强制迁移史直接相连。1835 年，少数 Cherokee 领袖在没有本族政府授权的情况下签订《New Echota 条约》。美国随后以它为依据，强迫仍留在东南部家园的大批 Cherokee 在 1838—1839 年迁往当时的 Indian Territory，即今天俄克拉何马州一带。集中营地和迁移途中造成了大量死亡，这段经历通常被称为 **Trail of Tears（泪水之路）** 。[NPS：Cherokee 迁移的过程](https://www.nps.gov/articles/000/introduction-transportation-during-the-cherokee-removal-1837-1839.htm)
 
-迁移以后，人们重建了政府和社区。Cherokee Nation 的自身历史记述介绍了 1839 年宪法，以及后来建设的学校、报纸和公共机构。今天的政府、语言和社区生活延续着这段重建过程；只读迁移的悲剧，还不能理解这个 Nation 此后怎样生活。[Cherokee Nation：历史](https://www.cherokee.gov/about-the-nation/history/)
+迁移以后，人们重建了政府和社区。Cherokee Nation 的自身历史记述介绍了 1839 年宪法，以及后来建设的学校、报纸和公共机构。今天的政府、语言和社区生活延续着这段重建过程。[Cherokee Nation：历史](https://www.cherokee.gov/about-the-nation/history/)
 
 Suquamish 的土地经历则发生在普吉特海湾。1855 年，Suquamish 等共同体与美国签订《Point Elliott 条约》，让出大片土地，同时保留包括 Port Madison 在内的居住土地及相关权利。条约第 V 条保留在“usual and accustomed”地点捕鱼的权利；这些惯常捕鱼地点并不局限在保留地边界内。这是条约保留的权利，其依据不同于后来向普通公众开放的州休闲捕鱼许可。[条约第 II、V 条，印刷第 928 页](https://suquamish.nsn.us/wp-content/uploads/2016/11/Appx-2-Treaty-of-Point-Elliott.pdf)、[Suquamish：历史与文化](https://suquamish.nsn.us/home/about-us/history-culture/)
 

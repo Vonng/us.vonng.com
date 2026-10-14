@@ -6,8 +6,8 @@ content_kind: task
 scope: "普通成人退休收入与Medicare接续；全国SSA／CMS主线及CA／NY／WA／TX咨询和费用援助；查阅至2026-10-13，费用示例适用2026年，已公布2027手册规则另注明"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "static_editor（事实审）；root（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -41,7 +41,7 @@ SSA到FRA后会按此前因超额工作收入而少领或停领的月份重算�
 
 可在希望开始领取的月份前 **最多4个月** 申请，SSA在线申请还须已满61岁9个月；福利通常在所属月份的次月支付。核62岁首次起领时，还要考虑整月年龄条件和生日所在日。[SSA：开始月份](https://www.ssa.gov/help/iClaim_startBenefits.html)、[申请渠道](https://www.ssa.gov/faqs/en/questions/KA-01891.html)
 
-准备SSN、年龄和公民／合法身份证明、近期W-2或自雇税表，以及适用的婚姻和家庭资料。出生证明等通常需原件或签发机构认证件，W-2和自雇税表可用复印件；移民文件仍按上面的到场核验方式处理。缺少部分文件时先联系SSA，不因等齐所有材料而延误申请。另备本人收款账户类型、账号和银行routing number。[SSA：申请文件](https://www.ssa.gov/benefits/retirement/planner/applying5.html)、[在线申请资料清单，2024-10，第1—2页](https://www.ssa.gov/hlp/isba/10/isba-checklist.pdf)
+准备SSN、年龄和公民／合法身份证明、近期W-2或自雇税表，以及适用的婚姻和家庭资料。出生证明等通常需原件或签发机构认证件，W-2和自雇税表可用复印件；移民文件仍按上面的到场核验方式处理。缺少部分文件时先联系SSA，不因等齐所有材料而延误申请。另备本人收款账户类型、账号和银行路由号码（routing number）。[SSA：申请文件](https://www.ssa.gov/benefits/retirement/planner/applying5.html)、[在线申请资料清单，2024-10，第1—2页](https://www.ssa.gov/hlp/isba/10/isba-checklist.pdf)
 
 能使用在线服务时从SSA官方入口办理；不能建立账户、不会上网或需要协助时，拨 **800-772-1213** ，TTY **800-325-0778** ，预约电话或办公室办理，并说明所需语言。递交后保存申请确认、起领月、补件要求及决定书，再核实际首笔款项和以后每月扣费。[SSA：退休申请](https://www.ssa.gov/faqs/en/questions/KA-01891.html)、[查申请状态](https://www.ssa.gov/apply/check-application-or-appeal-status)
 
@@ -84,7 +84,7 @@ Marketplace不会自动停保。确认Medicare将何时生效后，安排自己�
 
 两条医疗路径、D部和Medigap的角色分别核；多数Advantage计划不能再另加独立D药保，Medigap用于Original Medicare。Advantage可能要求服务预授权，不能只看额外牙科或视力宣传。[Medicare：保障选择](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options)、[2027手册，第12页](https://www.medicare.gov/publications/10050-medicare-and-you.pdf)
 
-**2026年B部标准月费为202.90美元，年度免赔额为283美元** ；高收入者可能另付附加保费（IRMAA）。Original常见B部服务在免赔额后，本人付Medicare核准额的20%（服务提供者接受assignment时）。选Advantage或Medigap通常仍须付B部保费，计划和药保还可能另收费用。把月费、免赔、医护共付、药费和不承保服务分开列预算，A部免保费不等于所有医护免费。2027手册印制时尚未列出全部2027费用，不能直接把上述2026价格当2027价格。[Medicare：2026费用](https://www.medicare.gov/basics/costs/medicare-costs)、[2027手册，第12页](https://www.medicare.gov/publications/10050-medicare-and-you.pdf)
+**2026年B部标准月费为202.90美元，年度免赔额为283美元** ；高收入者可能另付附加保费（IRMAA）。Original常见B部服务在免赔额后，本人付Medicare核准额的20%（服务提供者同意以Medicare核准额作为全额收费，即接受assignment时）。选Advantage或Medigap通常仍须付B部保费，计划和药保还可能另收费用。把月费、免赔、医护共付、药费和不承保服务分开列预算，A部免保费不等于所有医护免费。2027手册印制时尚未列出全部2027费用，不能直接把上述2026价格当2027价格。[Medicare：2026费用](https://www.medicare.gov/basics/costs/medicare-costs)、[2027手册，第12页](https://www.medicare.gov/publications/10050-medicare-and-you.pdf)
 
 问原药保是否是 **creditable coverage（达到Medicare要求的可比药物保障）** ，保存每年的证明。初次登记期结束后，连续 **63日或以上** 没有Medicare药保或其他可比药物保障，再加入D部时可能有迟登罚金；符合Extra Help时免这项罚金。失去雇主／工会保险（包括COBRA）的计划登记期，通常只有保险结束月份之后2个完整月；这与A／B的8个月不同。把药保生效接上，不等A／B窗口快结束才处理药保。[2027手册，第87—88页](https://www.medicare.gov/publications/10050-medicare-and-you.pdf)、[Medicare：迟登罚金](https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties)、[计划特殊登记期](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan/special-enrollment-periods)
 
@@ -143,6 +143,6 @@ B部保费多数从Social Security／RRB款中扣；没有这些月福利时可�
 
 没接上A／B时，先确认是缺件、处理未完、没有申请，还是错过窗口；把原保险和工作证明交SSA核是否有特殊期，没有时按普通登记期及可用的其他保障处理。药保未接上另外问Medicare／计划窗口和LI NET资格。费用比较方法见 [医疗保险费用怎样算](/book/people/health/insurance-costs/)，账单先核保障生效、服务日期、网络和处理原因，见 [医疗账单怎样核对与继续处理](/book/people/health/medical-bills/)。
 
-不同意SSA退休福利决定，通常须在 **收到决定后60日内** 请求复议，按该非医疗申诉渠道办，并保存提交证明。Medicare拒付、拒绝服务或停止承保，按Medicare结算通知（MSN）或计划书面决定列的理由、期限和地址申诉，附服务与医疗支持资料；需要快速处理正在结束的承保医护时，马上按机构给的fast appeal通知办。免费咨询可帮整理，不能用等咨询回复代替按期提交。[SSA：复议](https://www.ssa.gov/apply/appeal-decision-we-made/request-reconsideration)、[Medicare：申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals)、[Original Medicare申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/original-medicare)
+不同意SSA退休福利决定，通常须在 **收到决定后60日内** 请求复议，按该非医疗申诉渠道办，并保存提交证明。Medicare拒付、拒绝服务或停止承保，按Medicare结算通知（MSN）或计划书面决定列的理由、期限和地址申诉，附服务与医疗支持资料；需要快速处理正在结束的承保医护时，马上按机构给的快速申诉（fast appeal）通知办。免费咨询可帮整理，不能用等咨询回复代替按期提交。[SSA：复议](https://www.ssa.gov/apply/appeal-decision-we-made/request-reconsideration)、[Medicare：申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals)、[Original Medicare申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/original-medicare)
 
 最后逐项留下确认：退休福利起领月、预计及实际到账；原保险终止日；A／B和Advantage／D／Medigap各自生效日；计划网络及药表；每笔保费付款或扣费；MSP／Extra Help批准、续办或补件；尚未解决问题的决定书、回复截止日、负责机构和下一次跟进日期。

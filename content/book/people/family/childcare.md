@@ -6,8 +6,8 @@ content_kind: task
 scope: 在美国为孩子寻找日常托育的父母、监护人与照顾者；全国选择与交接步骤，加州、纽约州、华盛顿州和得州的许可、费用支持及投诉入口；查阅至2026-10-13。
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "root（事实审）；banking_fact（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -60,7 +60,7 @@ weight: 20
 | 地区 | 找谁申请、怎样继续 |
 | --- | --- |
 | 加州 | 正在领CalWORKs现金补助的家庭先找县经办人；其他家庭通过当地R&R找到Alternative Payment Program（APP，托育费用补助项目）经办机构，问可申请的券或直接补助名额。领取过CalWORKs的家庭也应说明原个案与停止领取日期，让经办人核适用阶段。[CDSS：家长申请路线](https://www.cdss.ca.gov/inforesources/calworks-child-care/parent-information-and-resources) |
-| 纽约州／纽约市 | [OCFS申请指引](https://hs.ocfs.ny.gov/CCAPeligibility/Home/SurveyQuestions?answer=false&questionNumber=3)提供线上申请或当地社会服务部门（LDSS）路线；筛查结果仍可接正式申请。纽约市按[ACS申请页](https://www.nyc.gov/site/acs/early-care/apply-child-care.page)办理；领取Cash Assistance的家庭找HRA经办人。纽约市非现金补助家庭的新券目前因资金不足进入等候，已有券家庭按续认通知办理。 |
+| 纽约州／纽约市 | [OCFS申请指引](https://hs.ocfs.ny.gov/CCAPeligibility/Home/SurveyQuestions?answer=false&questionNumber=3)提供线上申请或当地社会服务部门（LDSS）路线；筛查结果仍可接正式申请。纽约市按[ACS申请页](https://www.nyc.gov/site/acs/early-care/apply-child-care.page)办理；领取现金援助（Cash Assistance）的家庭找HRA经办人。纽约市非现金补助家庭的新券目前因资金不足进入等候，已有券家庭按续认通知办理。 |
 | 华盛顿州 | 向[DCYF的Working Connections Child Care（WCCC，工作衔接托育补助）](https://www.dcyf.wa.gov/services/earlylearning-childcare/getting-help/wccc)线上或电话 **844-626-8687** 申请，可先申请再选机构。电话有多语言服务；申请或领取WCCC有免费口译、翻译及请求主管复核／行政听证的权利。[DCYF：权利与责任](https://dcyf.wa.gov/services/earlylearning-childcare/getting-help/wccc/rights-responsibilities) |
 | 得州 | 按[Texas Child Care Connection申请步骤](https://www.childcare.texas.gov/for-families/child-care-scholarships/ccs-application-steps-for-families)在Parent Central先交资格筛查和等候申请，获邀请后交Standard Application（正式申请）及证明。休斯敦—加尔维斯顿的[Gulf Coast服务地区](https://www.wrksolutions.com/about-us)可向[托育补助办公室](https://www.wrksolutions.com/childcare-financial-assistance) **713-334-5980** 问申请和变更；该地区当前也有等候名单。其他地区找自己当地Workforce Solutions经办机构。 |
 
@@ -68,7 +68,7 @@ weight: 20
 
 **纽约市** 的ACS券要核居住、家庭人数、收入和照护理由；其申请页列工作每周至少10小时、就学、求职、临时住房等不同理由。孩子须满足所申券的身份条件；移民身份材料只要求所申孩子，其他家人不须提交。使用[ACS表格页](https://www.nyc.gov/site/acs/early-care/forms.page)上的申请、说明和材料清单，也有中文；没有工资单、属于自雇或用学习／求职等理由时，选相应证明表。线上提交后不要再重复寄同一纸件。[ACS：申请条件](https://www.nyc.gov/site/acs/early-care/apply-child-care.page)、[MOIA：孩子与其他家人的身份材料](https://www.nyc.gov/site/immigrants/city-services/family-services.page)
 
-纽约市以外，按当地LDSS接续。以[Tompkins县](https://www.tompkinscountyny.gov/All-Departments/Social-Services/Child-Care-Assistance-Program)为例，可致电 **607-274-5612** 领取纸表，完成后邮寄、递交或发到该页指定邮箱。当前新申请和部分续认因资金不足等候，要完成申请并被认定合格才能列入；Temporary Assistance案件继续，续认家庭如无家可归、收入低于州收入标准（SIS）的300%或孩子有特殊需要，可按该县列出的优先例外核继续服务。其他县要向自己的经办人确认资金和续认安排。
+纽约市以外，按当地LDSS接续。以[Tompkins县](https://www.tompkinscountyny.gov/All-Departments/Social-Services/Child-Care-Assistance-Program)为例，可致电 **607-274-5612** 领取纸表，完成后邮寄、递交或发到该页指定邮箱。当前新申请和部分续认因资金不足等候，要完成申请并被认定合格才能列入；临时援助（Temporary Assistance）案件继续，续认家庭如无家可归、收入低于州收入标准（SIS）的300%或孩子有特殊需要，可按该县列出的优先例外核继续服务。其他县要向自己的经办人确认资金和续认安排。
 
 **华盛顿州** 的普通WCCC初次申请收入线为家庭规模对应SMI（州收入中位数）的60%，重申为65%；还须核资产、获准活动和欠付自付额的处理。学徒、符合规定的托育从业者和就读高中等有特殊路线。孩子在资格开始日未满13岁，或未满19岁且有核实的特殊需要／法院监督，并住在华盛顿州。[WAC110-15-0005：资格](https://app.leg.wa.gov/wac/default.aspx?cite=110-15-0005)
 

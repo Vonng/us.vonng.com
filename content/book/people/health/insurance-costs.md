@@ -6,8 +6,8 @@ content_kind: concept
 scope: 美国个人与雇主医疗保险的常见费用结构；具体待遇按保险计划与计划年度，Medicare、Medicaid、旅行及其他特殊保险另查各自规则。
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: civic
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -17,7 +17,7 @@ weight: 10
 
 向保险公司或雇主福利部门索取当年度的 **Summary of Benefits and Coverage（SBC，福利与保障摘要）** ，同时准备完整保险条款、医生网络目录和药品目录。SBC 用统一格式列出主要费用与限制，个人及雇主医疗计划，包括保留旧规则的 grandfathered plans，都有提供 SBC 的要求；摘要中的教学案例不是你的治疗报价。[HealthCare.gov：SBC](https://www.healthcare.gov/health-care-law-protections/summary-of-benefits-and-coverage/)
 
-查看文件首页的计划名称、承保对象与 coverage period。投保家庭计划时，同时读个人和家庭额度；不要拿上年的文件推算今年的待遇。
+查看文件首页的计划名称、承保对象与保障期间（coverage period）。投保家庭计划时，同时读个人和家庭额度；不要拿上年的文件推算今年的待遇。
 
 ## 这几个词分别控制什么费用
 
@@ -39,7 +39,7 @@ weight: 10
 
 账单上的原始收费可能高于计划认可的 **allowed amount** 。共保费用通常围绕认可金额计算。网络内签约提供者对承保服务不能把合同折让部分再当作余额追收；网络外则可能出现 balance billing，另需检查适用的账单保护。[HealthCare.gov：Allowed amount](https://www.healthcare.gov/glossary/allowed-amount/)
 
-下面是 **教学虚构** ，没有对应真实保险产品：一次网络内承保检查，认可金额为 600 美元，尚余免赔额 200 美元；余下部分按个人承担 20% 计算，且本次不会达到自付上限。
+下面是 **教学虚构** ：一次网络内承保检查，认可金额为 600 美元，尚余免赔额 200 美元；余下部分按个人承担 20% 计算，且本次不会达到自付上限。
 
 1. 先有 200 美元计入免赔额，由患者承担。
 2. 剩余 400 美元中，患者承担 80 美元，计划承担 320 美元。

@@ -6,8 +6,8 @@ content_kind: language
 scope: "美国日常服务中的英语沟通；例句均为教学虚构，具体服务、口译安排和正式争议程序按机构确认"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "health"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -47,7 +47,7 @@ weight: 10
 
 可以先说：“I need a Mandarin interpreter, please.” 需要粤语则用 Cantonese；其他语言也说出具体名称。预约时可问：“Could you arrange a Mandarin interpreter for my appointment?” 如果听到的是“可以申请”，继续确认谁来安排、何时能确认，以及是否收费。
 
-截至 2026 年 10 月，SSA 的公开说明列明：办理 Social Security 业务可请求免费口译，电话和办公室服务都适用；需要到场办理时，可以安排预约及口译。这是一个具体机构的服务承诺。到其他机构办事，应查其 language assistance／interpreter services 页面和实际安排。[SSA：2026 口译服务说明](https://www.ssa.gov/ssi/spotlights/spot-interpreter.htm)
+截至 2026 年 10 月，SSA 的公开说明列明：办理 Social Security 业务可请求免费口译，电话和办公室服务都适用；需要到场办理时，可以安排预约及口译。到其他机构办事，应查其 language assistance／interpreter services 页面和实际安排。[SSA：2026 口译服务说明](https://www.ssa.gov/ssi/spotlights/spot-interpreter.htm)
 
 暂时接不上口译时，可以问：“When can we speak with an interpreter?” 或 “Is there another way to get language assistance?” 再确认是否需要改约、保留哪个编号。若对方只让你找亲友帮忙，可以请求其说明机构自己的语言服务办法。紧急情况使用 [紧急求助渠道](/book/rights/safety/emergency-help/)，不要按普通预约的节奏等待。
 
@@ -124,4 +124,4 @@ weight: 10
 
 通话结束前，把下一步复述成一句话：“You'll [send the corrected bill] by [Friday], and I'll [check my account]. Is that correct?” 之后以实际收到的确认、修正账单或书面决定核对是否完成。
 
-平时可用 [美国国务院 Everyday Conversations](https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english) 的电话对话练习开场和结束，再把其中的人名、活动与时间换成自己的事情。先把一句来意、一个澄清问题和一句确认安排练熟，就有了下次通话能用的起点。
+平时可用 [美国国务院 Everyday Conversations](https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english) 的电话对话练习开场和结束，再把其中的人名、活动与时间换成自己的事情。先把一句来意、一个澄清问题和一句确认安排练熟。

@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国残障相关服务请求；ADA、住房公平法、504与IDEA基础，配加州、纽约州、华盛顿州、得州主管及地方公共服务入口；资料查阅至2026年10月13日。
 status: integrated
 draft: false
-verified: 2026-10-13
-reviewed_by: banking_fact（独立事实审）；root（第三静态审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -21,10 +21,10 @@ weight: 10
 |---|---|
 | 州、县、市政府的服务、活动和设施 | 找承办部门；ADA Title II适用于州地方政府。符合服务本身的基本资格后，请求必要的政策修改、沟通辅助或可用的参加方式；有50名及以上雇员的公共实体须设协调员和内部申诉程序 |
 | 对公众开放的私营商店、诊所、酒店等 | 找经营者或服务负责人；ADA Title III适用。宗教组织及其控制的活动有Title III豁免，遇到这类机构要继续核适用的其他法律和自身服务安排 |
-| 求职或在职工作 | 找招聘负责人、主管或HR；ADA Title I通常覆盖15人及以上雇主，州法可能覆盖更小的雇主。本人须能在有或没有合理便利时完成岗位基本职责 |
+| 求职或在职工作 | 找招聘负责人、主管或人力资源部门（HR）；ADA Title I通常覆盖15人及以上雇主，州法可能覆盖更小的雇主。本人须能在有或没有合理便利时完成岗位基本职责 |
 | 租房、住房管理规则或改建 | 找房东、物业或住房提供者；住房公平法（FHA）的合理便利与合理改建分开，联邦资助住房还可能适用504 |
 | 公立小学、中学 | 找504协调员评估需要的教育与辅助服务；孩子因残障需要特殊教育时，向学区特殊教育部门提出IDEA评估 |
-| 大学及其他高等教育 | 找Disability Services／Accessibility Office；按学校程序请求学业调整。IDEA的IEP程序不适用于大学，学生须满足学业与技术要求 |
+| 大学及其他高等教育 | 找残障／无障碍服务办公室（Disability Services／Accessibility Office）；按学校程序请求学业调整。IDEA的IEP程序不适用于大学，学生须满足学业与技术要求 |
 
 公共服务协调员和基本资格见 [28 CFR §§35.104、35.107](https://www.ecfr.gov/api/versioner/v1/full/2026-10-08/title-28.xml?part=35)；工作条件见 [EEOC合理便利指引](https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada)，学校与住房的操作见下文。
 
@@ -69,7 +69,7 @@ weight: 10
 
 残障和需要已明显、或雇主已有充分证明时，不应再索取证明。情况不明显时，雇主可索取足以说明残障与所需便利联系的文件，一般不能要求全部医疗病历。请对方写清缺什么，再向适当的医疗或康复专业人员补有关限制及所需调整的说明；医疗信息应保密，提供给需要处理的人。[EEOC：证明、补件与保密Q6—8、Q42](https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada)
 
-雇主人数较少时，查下文州主管，避免只因不足15人就停止询问。联邦雇员或联邦求职者则走本机构的便利及EEO程序，适用的联邦残障就业法为Rehabilitation Act Section 501；遇到歧视，一般须在事件起 **45日内联系本机构EEO Counselor** 。[EEOC：适用雇主及Section 501](https://www.eeoc.gov/laws/guidance/questions-and-answers-final-rule-implementing-ada-amendments-act-2008)、[联邦EEO首步及期限](https://www.eeoc.gov/federal-sector/overview-federal-sector-eeo-complaint-process)
+雇主人数较少时，查下文州主管，避免只因不足15人就停止询问。联邦雇员或联邦求职者则走本机构的便利及EEO程序，适用的联邦残障就业法为Rehabilitation Act Section 501；遇到歧视，一般须在事件起 **45日内联系本机构平等就业机会辅导员（EEO Counselor）** 。[EEOC：适用雇主及Section 501](https://www.eeoc.gov/laws/guidance/questions-and-answers-final-rule-implementing-ada-amendments-act-2008)、[联邦EEO首步及期限](https://www.eeoc.gov/federal-sector/overview-federal-sector-eeo-complaint-process)
 
 ## 住房：规则例外与实际改建分开谈
 
@@ -112,7 +112,7 @@ IEP会议要让家长能够参与；家长听障或使用其他母语时，学�
 
 - **州地方公共服务：** 可用机构内部申诉，也可向DOJ或适当联邦机构提交Title II投诉，通常须在歧视事件起180日内，主管可因正当理由延长。Bellevue市自身ADA申诉也要求事件起180日内书面提交；其他城市须核各自程序。[28 CFR §35.170](https://www.ecfr.gov/api/versioner/v1/full/2026-10-08/title-28.xml?part=35)、[Bellevue申诉](https://bellevuewa.gov/resident-resources/adatitle-vi-resources)
 - **对公众私营服务：** 从 [DOJ ADA投诉](https://www.ada.gov/file-a-complaint/) 在线或邮寄提交。就业转EEOC、住房转HUD；不要把Title II的180日规则套给所有Title III案件。
-- **普通就业：** 向EEOC提交charge，一般事件起180个日历日；同一理由由州或地方机构执法时可延至300日。内部、工会或调解程序通常不延长EEOC期限，先让EEOC按具体事件核截止日。[EEOC期限](https://www.eeoc.gov/time-limits-filing-charge)
+- **普通就业：** 向EEOC提交歧视控告（charge），一般事件起180个日历日；同一理由由州或地方机构执法时可延至300日。内部、工会或调解程序通常不延长EEOC期限，先让EEOC按具体事件核截止日。[EEOC期限](https://www.eeoc.gov/time-limits-filing-charge)
 - **住房：** 向HUD提出住房歧视投诉一般须在拒绝等涉嫌歧视事件起一年内。可拨800-669-9777取得递交帮助，也可联系下表适用州主管。[HUD／DOJ：住房便利Q19](https://www.justice.gov/crt/us-department-housing-and-urban-development)、[TDHCA：现行HUD及得州联系](https://www.tdhca.texas.gov/how-file-fair-housing-complaint)
 - **学校残障歧视：** 联系教育部OCR取得投诉帮助，通常事件起180日内书面递交，机构可延长期限；504和IDEA争议先识别上述路线。OCR现联系800-421-3481、ocr@ed.gov。[34 CFR §§104.61、100.7(b)](https://www.ecfr.gov/api/versioner/v1/full/2026-10-08/title-34.xml?part=104)、[§100.7](https://www.ecfr.gov/api/versioner/v1/full/2026-10-08/title-34.xml?section=100.7)、[USAGov：OCR联系](https://www.usa.gov/agencies/office-for-civil-rights-department-of-education)
 

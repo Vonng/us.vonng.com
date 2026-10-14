@@ -6,8 +6,8 @@ content_kind: task
 scope: "美国联邦个人所得税；主要面向非美国公民，州税另判；规则查阅至 2026-10-13，表件说明使用查阅时已发布版本"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "civic"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -121,6 +121,6 @@ tax home 通常指主要工作、营业或任职地点所在地区，不简单�
 
 联邦非居民不保证是所在州的非居民。以加州为例，FTB 关注是否为了非临时目的在州内居住，以及以加州为 domicile、只因临时目的离州等事实；它不是照抄上述三年计日公式。联邦协定待遇也不保证各州承认。[加州 FTB：居民判定](https://www.ftb.ca.gov/file/personal/residency-status/index.html)、[IRS：协定与州税](https://www.irs.gov/individuals/international-taxpayers/tax-treaties)
 
-到实际居住、工作及有收入来源的州税务机关分别查 resident、part-year resident 和 nonresident 要求。跨州搬家、远程工作或夫妻分居两州，应保存各州入住、离开及工作地点记录。本页不据联邦结论替你给某州下最终判断。
+到实际居住、工作及有收入来源的州税务机关分别查 resident、part-year resident 和 nonresident 要求。跨州搬家、远程工作或夫妻分居两州，应保存各州入住、离开及工作地点记录。
 
 办理前应能写出一份简短结论：报哪个税年；两项测试的结果；排除哪些天及理由；是否主张例外、协定或选举；居民期起止日期；需提交哪些税表、附表和声明。将结论与支持文件一起保存，再进行收入计算和申报。以前用错居民类型、漏交声明或存在两国冲突时，把完整资料交给处理国际个人税的专业人员核对，不要只更换本年的表格而忽略以前年度。

@@ -6,8 +6,8 @@ content_kind: task
 scope: 普通成人在美国寻找心理健康支持；全国办理主线及加州、纽约州、华盛顿州、得州公共服务入口；资料查阅至2026年10月13日。
 status: integrated
 draft: false
-verified: 2026-10-13
-reviewed_by: banking_fact（独立事实审）；root（第三静态审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -27,7 +27,7 @@ weight: 20
 
 联系诊所时，问清它接的是初评、谈话治疗还是药物管理，最早什么时候能看、怎样登记，以及需要什么材料。只取得机构名字时，接着核接诊人和预约；排在候诊名单上时，记录回访方式和等待期间可找谁。
 
-雇主若有Employee Assistance Program（EAP），可向该项目询问初次支持、转介和费用安排，并核保密说明。离开EAP转入长期治疗时，再按下面的保险与收费步骤确认。[NIMH：EAP及选择服务](https://www.nimh.nih.gov/health/find-help)
+雇主若有雇员援助项目（Employee Assistance Program，EAP），可向该项目询问初次支持、转介和费用安排，并核保密说明。离开EAP转入长期治疗时，再按下面的保险与收费步骤确认。[NIMH：EAP及选择服务](https://www.nimh.nih.gov/health/find-help)
 
 没有保险或当前付不起费用时，可找 [HRSA资助的社区health center](https://www.hrsa.gov/get-health-care/affordable)，询问初级医疗评估、心理健康服务或转介及费用评估。这类中心可接有无保险、无支付能力和各年龄患者；预约时仍要核该点能提供什么。也可从下面所在州的公共服务入口继续。
 
@@ -46,7 +46,7 @@ weight: 20
 
 ## 把保险和费用核到这次服务
 
-向计划索取Summary of Benefits and Coverage（SBC）或雇主计划的Summary Plan Description（SPD），再向保险和诊所两边确认： **确切计划、接诊人及地点、治疗项目、是否转诊或预授权、本人付款** 。谈话治疗、精神科药物管理和药房处方分别问；诊所说“接这个保险公司”时，仍要核你的具体计划和此次服务。[DOL：了解行为健康福利](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/understanding-your-mental-health-and-substance-use-disorder-benefits)
+向计划索取福利与保障摘要（Summary of Benefits and Coverage，SBC）或雇主计划的计划摘要说明（Summary Plan Description，SPD），再向保险和诊所两边确认： **确切计划、接诊人及地点、治疗项目、是否转诊或预授权、本人付款** 。谈话治疗、精神科药物管理和药房处方分别问；诊所说“接这个保险公司”时，仍要核你的具体计划和此次服务。[DOL：了解行为健康福利](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/understanding-your-mental-health-and-substance-use-disorder-benefits)
 
 Marketplace计划的必要健康福利包括心理健康服务，但具体项目、网络和费用以本计划为准。预约时确认免赔额（deductible）、每次固定自付（copay）或按比例自付（coinsurance）怎样适用于这次服务，线上与现场是否不同、取消或未到诊怎样收费，保存计划和诊所的答复。一般医保费用与网络办理接 [医保费用](/book/people/health/insurance-costs/) 和 [预约与网络核对](/book/people/health/appointment-network/)。[HealthCare.gov：心理健康保障](https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage/)
 

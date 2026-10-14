@@ -6,12 +6,12 @@ content_kind: task
 scope: 加利福尼亚州 California（US-CA）一般住宅租赁；涉及地方附加规则须按房屋实际地址查询；查阅至 2026-10-13
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: health
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
-在加州租房，押金能否取回，往往取决于两组证据：入住时房子是什么样，搬出后每笔扣款是否有实际依据。房东只能依法扣除合理费用，并须在搬出后的 **21 天内** 结算。先保存租约、付款凭据和前后房况，再核对明细，比只争论“押金应该全退”更容易把问题说清。[加州法院：押金指南](https://selfhelp.courts.ca.gov/guide-security-deposits-california)
+在加州租房，押金能否取回，往往取决于两组证据：入住时房子是什么样，搬出后每笔扣款是否有实际依据。房东只能依法扣除合理费用，并须在搬出后的 **21 天内** 结算。先保存租约、付款凭据和前后房况，再核对明细。[加州法院：押金指南](https://selfhelp.courts.ca.gov/guide-security-deposits-california)
 
 ## 交钱前核对总额
 

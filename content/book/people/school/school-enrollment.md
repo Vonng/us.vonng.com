@@ -6,8 +6,8 @@ content_kind: task
 scope: "美国公立 K–12；加州、纽约州、华盛顿州、得州规则及旧金山、纽约市、西雅图、奥斯汀地方案例；查阅至 2026-10-13"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "documents（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -50,11 +50,11 @@ weight: 10
 
 低年级的年龄截止日会影响申请。加州通常要求孩子在该学年 **9 月 1 日前或当天满五岁** 才能从学年开始进入 kindergarten；州法另允许学区在孩子满五岁后作个别晚入学决定。西雅图公布的普通 kindergarten 条件则是 **8 月 31 日前或当天满五岁** 。这两个日期分别来自加州州级规则与西雅图当地登记页，不是全国统一生日门槛。[加州 CDE：Kindergarten FAQ](https://www.cde.ca.gov/ci/gs/em/kindergartenfaq.asp)；[西雅图登记](https://www.seattleschools.org/enroll/enroll-my-student/)
 
-从其他州、境外、私校或在家教育转来时，带上已读年级、课程和成绩记录，让新学校说明如何安排年级。高中尤其要与 counselor 核对哪些课程计入毕业要求、哪些还需补修，别只确认“进入十一年级”就结束。得州教育局的转入说明列出成绩单、课程资料、学习成果和评估等可供学校判断的材料。[TEA：从其他教育体系转入](https://tea.texas.gov/about-tea/contact-us/general-inquiry/enrollment-public-school)
+从其他州、境外、私校或在家教育转来时，带上已读年级、课程和成绩记录，让新学校说明如何安排年级。高中尤其要与学校辅导员（counselor）核对哪些课程计入毕业要求、哪些还需补修，别只确认“进入十一年级”就结束。得州教育局的转入说明列出成绩单、课程资料、学习成果和评估等可供学校判断的材料。[TEA：从其他教育体系转入](https://tea.texas.gov/about-tea/contact-us/general-inquiry/enrollment-public-school)
 
 ### 免疫记录先交给学校审核
 
-把原有接种记录交给 school nurse 或负责健康材料的工作人员，请其标明缺少的是记录、译文、核验，还是某项接种。境外打过的疫苗不能仅凭口头描述认定，也不要把“系统里查不到”自行理解为从未接种。需要补种时，再由医疗人员核对。
+把原有接种记录交给校护士（school nurse）或负责健康材料的工作人员，请其标明缺少的是记录、译文、核验，还是某项接种。境外打过的疫苗不能仅凭口头描述认定，也不要把“系统里查不到”自行理解为从未接种。需要补种时，再由医疗人员核对。
 
 以华盛顿州为例，CIS（Certificate of Immunization Status）用于记录符合要求的免疫情况，合法豁免使用相应 COE；州卫生部门接受符合核验标准、带医疗机构印章等的境外正式接种记录及译文，也说明了有条件入学、无家可归学生与寄养学生的不同处理。免疫要求和豁免类别因州而异，不能把这里的表格或豁免理由照搬到另一州。[华盛顿州卫生部：CIS、境外记录与入学例外](https://doh.wa.gov/community-and-environment/schools/immunization)
 
@@ -89,9 +89,9 @@ weight: 10
 - **讨论留在原学校的安排。** 学区应按孩子的最佳利益判断原学校与现住地学校，通常推定保留原学校更有利，同时重视家长或无人陪伴青少年的意愿。需要原学校交通服务时向联络员提出，不要自行假定搬家后只能马上转校。
 - **资格、择校或入学有争议时，索取书面决定及申诉办法。** 联邦规则要求在争议最终解决、包括可用申诉程序期间，立即让孩子进入所请求入学的学校，并转介联络员协助处理。
 
-这些保障来自 [42 USC §11432(g)(1)(J)、(3)、(6)](https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap119-subchapVI-partB-sec11432.htm)。立即入学后，学校和联络员仍要帮助取得记录及必要免疫服务；家长应配合后续安排。它不表示健康材料从此无需处理。[西雅图学区政策 3115](https://www.seattleschools.org/about/school-board/policies/3115-homeless-students-enrollment-rights-and-services/) 也明确列出立即入学、缺件、争议和交通的办理要求。
+这些保障来自 [42 USC §11432(g)(1)(J)、(3)、(6)](https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap119-subchapVI-partB-sec11432.htm)。立即入学后，学校和联络员仍要帮助取得记录及必要免疫服务；家长应配合后续安排。[西雅图学区政策 3115](https://www.seattleschools.org/about/school-board/policies/3115-homeless-students-enrollment-rights-and-services/) 也明确列出立即入学、缺件、争议和交通的办理要求。
 
-无人陪伴且符合上述住房条件的青少年可以请求联络员帮助登记。寄养学生另有教育稳定性与入学保障，应联系学区的 **foster care liaison** ，不要因为“由别人照顾”就自动套用无家可归规则。[华盛顿州 OEO：照顾者、原学校与寄养学生](https://www.oeo.wa.gov/en/education-issues/school-enrollment)
+无人陪伴且符合上述住房条件的青少年可以请求联络员帮助登记。寄养学生另有教育稳定性与入学保障，应联系学区的 **寄养学生联络员（foster care liaison）** ，不要因为“由别人照顾”就自动套用无家可归规则。[华盛顿州 OEO：照顾者、原学校与寄养学生](https://www.oeo.wa.gov/en/education-issues/school-enrollment)
 
 ## 被拒、一直等不到安排，怎样推进
 

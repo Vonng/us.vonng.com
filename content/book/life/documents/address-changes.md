@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国境内个人搬家；联邦邮政、移民、税务及社会保障记录，地方驾驶与保障手续链接相应主题；查阅至 2026-10-13
 status: integrated
 draft: false
-verified: 2026-10-13
-reviewed_by: documents（事实审）；civic（静态编辑审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -80,7 +80,7 @@ VAWA 自我申请、T／U 类受害人申请，以及以遭受虐待为由申请
 
 保存表格、提交及送达记录，并继续核对原有庭期。改址本身不是变更审理地点的申请，也不要因搬州就自行认为旧庭期取消。[ICE 法律指引：变更审理地点，第 1、4 页](https://portal.ice.gov/videos/Video-ChangeofVenue/Handout-ChangeofVenue%28English%29.pdf) 已经错过通知或庭期时，尽快让承办律师或合格法律援助核查案件，不能只补一张改址表后等待；[EOIR 自助资源](https://www.justice.gov/eoir/self-help-materials) 中有寻找律师及错过庭期的专门入口。
 
-另有 ICE 报到、监管或相关记录的人，还应按自己的通知与 ICE 官方渠道更新。ICE 的在线改址会提示有关 EOIR 的手续，但不替当事人完成法庭改址；不应把任一机构的成功页面当成所有机关都已更新。[ICE：地址更新与机构联系](https://www.ice.gov/detain/attorney-information-resources)
+另有 ICE 报到、监管或相关记录的人，还应按自己的通知与 ICE 官方渠道更新。ICE 的在线改址会提示有关 EOIR 的手续，但不替当事人完成法庭改址。[ICE：地址更新与机构联系](https://www.ice.gov/detain/attorney-information-resources)
 
 ## IRS 与 SSA：根据自己的记录办理
 

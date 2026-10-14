@@ -6,14 +6,14 @@ content_kind: task
 scope: 失去雇主保险或跨州搬家的个人与家庭；联邦常见衔接规则及加州、纽约州、华盛顿州、得州入口，按2026年10月查阅资料说明；Medicare及特殊资格另行核实。
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "civic（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 40
 ---
 
 接上医疗保险，先确定旧保障最后覆盖哪一天，再倒推新保险的申请、选计划和付款时间。最后上班日、工资结算日、保险终止日可能不同；收到申请回执，也不代表新保险已经生效。把每位家庭成员的保障分别列出来，孩子和成人有时会进入不同项目。
 
-本页处理失去雇主保险和搬州这两种常见变化。医疗计划、收入与移民资格在 2026 年已有调整，下文的州级说明以 **2026 年 10 月 13 日查阅的官方资料** 为准；跨入下一年度时，要重新确认资格、生效日和续保要求。
+医疗计划、收入与移民资格在 2026 年已有调整，下文的州级说明以 **2026 年 10 月 13 日查阅的官方资料** 为准；跨入下一年度时，要重新确认资格、生效日和续保要求。
 
 ## 先向旧雇主或原保险拿到这些信息
 
@@ -81,7 +81,7 @@ Medicaid 按州管理，新州会重新认定资格和可用服务。向原州�
 
 得州类别依据 [HHS 家庭医疗项目手册 A-240](https://fhb.hhs.texas.gov/handbooks/texas-works-handbook/a-240-medical-programs)及 [TDI 2026 指南“Government programs”](https://www.tdi.texas.gov/healthguide/2026-texas-health-coverage-guide.pdf)。一家人的申请可能分流：成人查市场保险，孩子获 Medicaid 或 CHIP。收到部分成员的批准后，继续追踪其余成员的结果。
 
-**加州的 2026 年变化：** 自 1 月 1 日起，某些因移民身份受限制的成人不能再新申请 full-scope Medi-Cal；已经参加者在仍符合规则且按时续保时，可以继续。儿童、孕产者和符合条件的原寄养青年有另外的入口，不能一概按成人冻结处理。10 月联邦资助资格变化所影响的已有成员，DHCS 说明将由州资金维持 full-scope Medi-Cal 至 2027 年 6 月 30 日；这不是所有人都被取消，也不是所有新搬入者都能加入。拿本人身份类别、是否已有保障和通知书核对。[DHCS：身份类别与例外](https://www.dhcs.ca.gov/immigration-status-and-changes-to-medi-cal-eligibility/)、[联邦变化及州过渡安排](https://www.dhcs.ca.gov/tracking-federal-impact-medi-cal-eligibility/)
+**加州的 2026 年变化：** 自 1 月 1 日起，某些因移民身份受限制的成人不能再新申请 full-scope Medi-Cal；已经参加者在仍符合规则且按时续保时，可以继续。儿童、孕产者和符合条件的原寄养青年有另外的入口，不能一概按成人冻结处理。10 月联邦资助资格变化所影响的已有成员，DHCS 说明将由州资金维持 full-scope Medi-Cal 至 2027 年 6 月 30 日。拿本人身份类别、是否已有保障和通知书核对。[DHCS：身份类别与例外](https://www.dhcs.ca.gov/immigration-status-and-changes-to-medi-cal-eligibility/)、[联邦变化及州过渡安排](https://www.dhcs.ca.gov/tracking-federal-impact-medi-cal-eligibility/)
 
 **纽约的 2026 年变化：** Essential Plan 原扩展到联邦贫困线 200%—250% 的收入组，已在 7 月 1 日退出该计划范围。收入高于 200% 的家庭不能继续按旧扩展规则判断；需要通过 NY State of Health 重查其他保险及补助。不要把“Essential Plan 可全年申请”理解为收入范围没有改变，也不要使用已经过去的专项转换截止日。[纽约州总检察长：2026 年调整](https://ag.ny.gov/press-release/2026/attorney-general-james-issues-guidance-new-yorkers-facing-health-insurance)、[NYC311：已生效的 Essential Plan 变化](https://portal.311.nyc.gov/article/?kanumber=KA-02767)
 

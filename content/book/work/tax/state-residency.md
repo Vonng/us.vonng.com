@@ -6,12 +6,12 @@ content_kind: task
 scope: "California、New York、Washington、Texas；以普通 W-2 雇员跨州搬家及远程工作为主；规则查阅至 2026-10-13，表件须按实际税年选择"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "documents（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
-搬到另一个州、改了驾照和工资单地址，并不自动结束原州的税务关系。准备报税时，要分别回答： **这一年什么时候是哪州居民，哪些收入仍来自其他州，已经向哪些州扣缴了多少钱。** 三个答案不一定相同。
+搬到另一个州、改了驾照和工资单地址，并不自动结束原州的税务关系。准备报税时，要分别回答： **这一年什么时候是哪州居民，哪些收入仍来自其他州，已经向哪些州扣缴了多少钱。** 
 
 本页处理普通 W-2 雇员的跨州搬家和远程工作。先按 [联邦税务居民判定](/book/work/tax/tax-residency/) 确定联邦身份，再单独判断州税；州规则不能用联邦的绿卡或三年居留天数测试代替。独立承包者、军人、跨州运输人员、复杂股权报酬及夫妻分居不同州，需要另查相应规则；尤其加州雇员工资的地点规则，不能直接套给承包服务收入。[加州：居民定义](https://www.ftb.ca.gov/file/personal/residency-status/index.html)、[加州：搬离后的雇员与承包者区别](https://www.ftb.ca.gov/file/personal/residency-status/part-year-and-nonresident.html)
 
@@ -26,7 +26,7 @@ weight: 20
 | 远程工作批准、岗位指定办公室、雇主是否要求在外州工作的说明 | 尤其用于检查纽约的外州工作日规则 |
 | 每期工资单、W-2、奖金或股权说明、其他州税表 | 分开收入归属、税款扣缴和抵免，解释搬家后迟发的报酬 |
 
-这些是整理事实的起点，不是交齐文件就保证取得某种身份。加州看联系的强弱和具体目的；纽约也不会只凭一张新驾照或选民登记认定旧 domicile 已经放弃。[FTB Publication 1031，第 5 页联系因素、第 10 页 domicile](https://www.ftb.ca.gov/forms/2025/2025-1031-publication.pdf)、[纽约：住所及居民问答](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)
+加州看联系的强弱和具体目的；纽约也不会只凭一张新驾照或选民登记认定旧 domicile 已经放弃。[FTB Publication 1031，第 5 页联系因素、第 10 页 domicile](https://www.ftb.ca.gov/forms/2025/2025-1031-publication.pdf)、[纽约：住所及居民问答](https://www.tax.ny.gov/pit/file/nonresident-faqs.htm)
 
 ## 第一步：逐州判断全年、部分年度还是非居民
 

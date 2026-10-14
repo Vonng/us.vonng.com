@@ -6,8 +6,8 @@ content_kind: comparison
 scope: 美国区域与选址的共同方法；以部分州、哥伦比亚特区、阿拉斯加和夏威夷说明差异，不代替具体地址的规则与服务核验
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: civic；root（静态编辑审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -79,7 +79,7 @@ NOAA 的 **U.S. Climate Normals** 提供各观测站的长期典型状况。目�
 1. **地址和规则。** 保存完整地址、州或特区、县市及主管查询结果。确认租约主体、收费、维修与退租要求，接着读 [从找房到签约入住](/book/life/housing/rental-process/)。
 2. **学校与照顾。** 有入学需求时，向实际学区核对地址、年级和入学程序，见 [搬家后怎样让孩子入读公校](/book/people/school/school-enrollment/)。把接送、放学时间与自己的工作安排放在同一周计划中；学校评分不能替你确认学位、地址分配或服务是否合适。
 3. **医疗和日常服务。** 记录自己会使用的诊所、药房、商店、图书馆或社区设施的营业时间与交通。需要常用药或专科服务的，按 [保险网络与预约](/book/people/health/appointment-network/) 核对实际计划和医生。
-4. **通信与住房条件。** 远程工作先按地址查宽带，再向运营商确认可订套餐、安装日期和费用。[FCC 的说明](https://help.bdc.fcc.gov/hc/en-us/articles/10476040597787-How-to-Submit-an-Availability-Challenge) 明确：全国宽带地图显示运营商报送的可用服务，不代表实测性能或可负担性。把采光、噪声、温控、出入口与收货方式也记在看房记录里。
+4. **通信与住房条件。** 远程工作先按地址查宽带地图，再向运营商确认可订套餐、安装日期和费用；全国宽带地图只反映运营商报送的可用性。[FCC 的说明](https://help.bdc.fcc.gov/hc/en-us/articles/10476040597787-How-to-Submit-an-Availability-Challenge) 把采光、噪声、温控、出入口与收货方式也记在看房记录里。
 5. **每月费用和一次性现金。** 每月预算合并租金、按合同自付的水电燃气、通信、停车和实际出行费用；开车还要计入适用的车款、保险与维护。押金、搬运、设备和接通费单列为入住前现金需求。若比较跨州工作或住所，继续核对 [州税居民与收入来源](/book/work/tax/state-residency/)，不要只拿税前工资相减。
 
 下面是 **教学虚构算例** ，两个地址不对应真实房源，也不代表当地价格；只比较居住和出行三项，不是完整家庭预算：

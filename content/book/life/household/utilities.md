@@ -6,8 +6,8 @@ content_kind: task
 scope: "美国普通住宅住户；全国办理主线，配加州洛杉矶市、纽约市、华盛顿州西雅图及得州休斯敦实际服务区案例；资料查阅至2026-10-13"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "birth_fact（事实审）；static_editor（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 ---
 
 入住前，把水、电、燃气、污水和垃圾分别列出来，确认谁开账户、谁收钱、从哪天由你负责。开通后保存起始读数和确认；每次账单核用量、费率和付款。付不起或收到停供通知时，带着账单及时谈安排；搬走后还要核最终账、押金和退款。
@@ -31,7 +31,7 @@ reviewed_by: "birth_fact（事实审）；static_editor（第三静态）"
 | WA 西雅图 | 电找 [Seattle City Light](https://seattle.gov/city-light/start-or-stop-service)；水、污水和垃圾找西雅图公共事业机构 Seattle Public Utilities（SPU）。先向房东和SPU核账户姓名、租约代收及自己的办理责任，再决定谁开通和付费；可从 **206-684-3000** 问对应账户。[SPU 分工与公开联系](https://atyourservice.seattle.gov/2024/09/04/text-message-in-real-time-emergency-water-outage/) |
 | TX 休斯敦 | 在可选售电商的地区，向售电公司（REP）买电，CenterPoint 负责送电与电网。[CenterPoint 当前分工](https://www.centerpointenergy.com/en-us/our-services/rates-tariffs)；市营／合作社未参加选择的客户另按其提供者办理。[得州 §39.102](https://tcss.legis.texas.gov/resources/UT/htm/UT.39.htm) 水／污水按地址问 [Houston Utility Billing](https://www.houstonpublicworks.org/utility-billing)， **713-371-1400** ；垃圾另核 [市住宅收运](https://www.houstontx.gov/solidwaste/garbage.html) 或物业的私人安排。 |
 
-这些提供者的价格和投诉主管也不同。加州公共事业委员会（CPUC）的一般投诉流程不能直接套洛杉矶市营 LADWP；华盛顿州公用事业与运输委员会（UTC）的这类价格／服务投诉也不覆盖 City Light、市营供水、城市垃圾或私人井水。[CPUC 管辖说明](https://www.cpuc.ca.gov/publicsafetycomplaint)、[UTC 怎样分流](https://www.utc.wa.gov/whentocallcommission)
+加州公共事业委员会（CPUC）的一般投诉流程不能直接套洛杉矶市营 LADWP；华盛顿州公用事业与运输委员会（UTC）的这类价格／服务投诉也不覆盖 City Light、市营供水、城市垃圾或私人井水。[CPUC 管辖说明](https://www.cpuc.ca.gov/publicsafetycomplaint)、[UTC 怎样分流](https://www.utc.wa.gov/whentocallcommission)
 
 垃圾另问实际收运日、容器、分类和大件办法；多单元楼确认谁把垃圾放到收运点、谁申报漏收。使用 DSNY 路边收集的纽约市1—9单元住宅自2026年6月1日起须用官方 NYC Bin，较大楼另核投放方式。[DSNY 当前住宅投放规则](https://www.nyc.gov/site/dsny/collection/residents/trash.page)
 

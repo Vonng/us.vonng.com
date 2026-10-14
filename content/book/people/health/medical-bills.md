@@ -6,8 +6,8 @@ content_kind: document
 scope: 美国医疗账单的通用核对方法；申诉期限以 Marketplace 计划的联邦消费者说明为例，Medicare、Medicaid、雇主及其他计划应按各自通知办理。
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: civic
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -33,7 +33,7 @@ weight: 30
 
 ## 发现不一致，先确认是哪种问题
 
-向收费机构的 billing department 要 itemized bill（逐项账单），说明有疑问的服务日期和金额；同时在保险账户或客服电话查询该笔 claim 是否已收到、仍在处理、已付款或被拒。可以按下面的顺序整理问题：
+向收费机构的收费账务部门（billing department） 要 itemized bill（逐项账单），说明有疑问的服务日期和金额；同时在保险账户或客服电话查询该笔 claim 是否已收到、仍在处理、已付款或被拒。可以按下面的顺序整理问题：
 
 - 服务、日期、患者或已付款记录不对：请收费机构核对原始记录，必要时更正收费或重新递交理赔。
 - 保险方没有收到理赔：向诊所核实使用的保险信息、递交日期和后续处理责任人。
@@ -47,8 +47,8 @@ weight: 30
 下面的期限是 HealthCare.gov 对其所述保险申诉程序的说明，尤其适合 Marketplace 计划读者。雇主保险先查 plan document、Summary Plan Description 与拒赔通知；Medicare、Medicaid 及其他特殊保障使用各自程序。
 
 1. **找到书面理由。** 抄下拒赔条款、claim number、服务日期、要求复议的金额或服务，以及通知上的截止日和递交方式。
-2. **递交 internal appeal。** 按计划要求提交表格或书面申诉，附 EOB、拒赔通知、相关记录和医生说明。HealthCare.gov 列出的普通内部申诉期限为收到拒赔通知后 180 天；保留自己提交的完整副本与送达凭据。普通内部申诉，对尚未接受的服务通常须在 30 天内完成，对已经接受的服务通常须在 60 天内完成。[HealthCare.gov：内部申诉](https://www.healthcare.gov/appeal-insurance-company-decision/internal-appeals/)
-3. **仍被拒绝时检查 external review。** 对涉及医疗判断、试验性治疗判断等符合条件的决定，可以申请独立外部审查。HealthCare.gov 所述标准申请期限为收到拒赔通知或最终决定后 4 个月，具体主管机构见通知；州程序可能另有更有利规定。普通外部审查应在收到请求后不迟于 45 天决定。[HealthCare.gov：外部审查](https://www.healthcare.gov/appeal-insurance-company-decision/external-review/)
+2. **递交内部申诉（internal appeal）。** 按计划要求提交表格或书面申诉，附 EOB、拒赔通知、相关记录和医生说明。HealthCare.gov 列出的普通内部申诉期限为收到拒赔通知后 180 天；保留自己提交的完整副本与送达凭据。普通内部申诉，对尚未接受的服务通常须在 30 天内完成，对已经接受的服务通常须在 60 天内完成。[HealthCare.gov：内部申诉](https://www.healthcare.gov/appeal-insurance-company-decision/internal-appeals/)
+3. **仍被拒绝时核查外部审查（external review）。** 对涉及医疗判断、试验性治疗判断等符合条件的决定，可以申请独立外部审查。HealthCare.gov 所述标准申请期限为收到拒赔通知或最终决定后 4 个月，具体主管机构见通知；州程序可能另有更有利规定。普通外部审查应在收到请求后不迟于 45 天决定。[HealthCare.gov：外部审查](https://www.healthcare.gov/appeal-insurance-company-decision/external-review/)
 
 若普通等待会严重危及生命或恢复功能，应立刻联系治疗医生和计划，要求适用的加急审查。符合紧急条件时，可以同时请求内部申诉与外部审查。不要等普通期限走完才提出。[HealthCare.gov：紧急申诉](https://www.healthcare.gov/appeal-insurance-company-decision/internal-appeals/)
 
@@ -60,7 +60,7 @@ No Surprises Act 对多数私人医疗保险的特定网络外急诊、网络内
 
 怀疑违反这些规则时，可从该 CMS 页面进入投诉与帮助流程，或拨 **1-800-985-3059** 联系 No Surprises Help Desk。准备账单、EOB、服务日期及签过的文件；该帮助热线提供多语言服务。[CMS：账单帮助](https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/read-explanation-benefits)
 
-没有使用保险时，核对事前拿到的书面 good faith estimate。若某一个提供者或设施的账单，比该提供者或设施的估算至少高 400 美元，可以检查联邦患者账单争议程序的资格；须在收到初始账单后 120 天内启动。多家机构参与时，各自的估算与账单要分别核对。[CMS：不使用保险时的争议程序](https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/without-insurance)
+没有使用保险时，核对事前拿到的书面善意费用估算（good faith estimate）。若某一个提供者或设施的账单，比该提供者或设施的估算至少高 400 美元，可以检查联邦患者账单争议程序的资格；须在收到初始账单后 120 天内启动。多家机构参与时，各自的估算与账单要分别核对。[CMS：不使用保险时的争议程序](https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/without-insurance)
 
 ## 钱算对了，仍付不起怎么办
 

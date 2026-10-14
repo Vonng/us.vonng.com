@@ -6,8 +6,8 @@ content_kind: task
 scope: 在美国为成年亲人安排老年、疾病或残障照护的家庭；全国 HIPAA 与 Medicare 框架，加州、纽约州、华盛顿州和得州长期服务及社区支持入口；依据2026年10月13日实际查阅资料。
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "banking_fact（独立事实审）；root（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 10
 ---
 
@@ -44,7 +44,7 @@ weight: 10
 
 接回家前，向接收机构或上门团队确认已接受转介、收到必要记录、确定首次服务时间。若器材、药物或照顾人仍缺位，把缺项告诉出院团队，重新讨论过渡安排。
 
-担心 **Medicare 承保的服务过早结束** 时，索取并读通知：医院通常使用 Important Message from Medicare（IM），专业护理机构、居家医护等使用 Notice of Medicare Non-Coverage（NOMNC）。按通知向 BFCC-QIO 提出快速申诉；医院的请求最迟在计划出院当天提出，其他上述服务最迟在通知终止日期前一天中午提出。保存通知和提出请求的时间；继续接受服务的自付责任也要按通知核对。[Medicare：快速申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/fast-appeals)
+担心 **Medicare 承保的服务过早结束** 时，索取并读通知：医院通常使用Medicare重要通知（Important Message from Medicare，IM），专业护理机构、居家医护等使用Medicare终止承保通知（Notice of Medicare Non-Coverage，NOMNC）。按通知向BFCC-QIO（负责该快速申诉的机构）提出快速申诉；医院的请求最迟在计划出院当天提出，其他上述服务最迟在通知终止日期前一天中午提出。保存通知和提出请求的时间；继续接受服务的自付责任也要按通知核对。[Medicare：快速申诉](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/fast-appeals)
 
 ## 按照料内容选场所，再查谁付款
 
@@ -112,9 +112,9 @@ weight: 10
 | 所在州 | 找谁把支持接起来 |
 |---|---|
 | 加州 | 从 [Family Caregiver Services](https://aging.ca.gov/Programs_and_Services/Family_Caregiver_Services/)按县找 AAA，询问临时居家或机构喘息照护及培训；其成年亲友分支包括照顾 60 岁及以上者或任何年龄的相关失智疾病患者 |
-| 纽约州 | [NY Connects](https://aging.ny.gov/ny-connects-your-link-long-term-services-and-supports)，**800-342-9871** ：按县接通本地人员，免费协助各年龄及残障人群了解长期服务、照顾者支持和福利申请，也接受自费家庭咨询 |
-| 华盛顿州 | [DSHS 的本地支持入口](https://www.dshs.wa.gov/who-can-help)：Community Living Connections，**1-855-567-0252** ；Family Caregiver Support Program 为照顾成年亲友或邻居的无薪照顾者查培训、咨询和喘息照护 |
-| 得州 | [ADRC 县／ZIP 目录](https://resources.hhs.texas.gov/directories/adrc)，**855-937-2372** ；照顾 60 岁及以上者也可向 AAA 询问支持，州 AAA 入口 **800-252-9240** 。[HHS：老龄及照顾者入口](https://hhs.texas.gov/services/aging) |
+| 纽约州 | [NY Connects](https://aging.ny.gov/ny-connects-your-link-long-term-services-and-supports)， **800-342-9871** ：按县接通本地人员，免费协助各年龄及残障人群了解长期服务、照顾者支持和福利申请，也接受自费家庭咨询 |
+| 华盛顿州 | [DSHS 的本地支持入口](https://www.dshs.wa.gov/who-can-help)：Community Living Connections， **1-855-567-0252** ；Family Caregiver Support Program 为照顾成年亲友或邻居的无薪照顾者查培训、咨询和喘息照护 |
+| 得州 | [ADRC 县／ZIP 目录](https://resources.hhs.texas.gov/directories/adrc)， **855-937-2372** ；照顾 60 岁及以上者也可向 AAA 询问支持，州 AAA 入口 **800-252-9240** 。[HHS：老龄及照顾者入口](https://hhs.texas.gov/services/aging) |
 
 其他州照顾老年亲人，可用 [Eldercare Locator](https://eldercare.acl.gov/home)按居住地找服务，或致电、发短信至 **1-800-677-1116** 。年轻残障成年人的家庭向州残障主管或当地长期服务咨询入口说明年龄、残障和具体任务，请其转到对应项目。
 
@@ -126,14 +126,14 @@ weight: 10
 
 | 州 | 查验与投诉入口 |
 |---|---|
-| 加州 | [CDSS 设施查询](https://www.cdss.ca.gov/inforesources/community-care-licensing/facility-search-welcome)含许可设施和投诉调查资料；社区非医疗设施及 Home Care Organizations 向 [CCLD 投诉](https://www.cdss.ca.gov/inforesources/ccld-complaint-hotline)，**844-538-8766** 。护理院等医疗机构按该页分流至 CDPH |
+| 加州 | [CDSS 设施查询](https://www.cdss.ca.gov/inforesources/community-care-licensing/facility-search-welcome)含许可设施和投诉调查资料；社区非医疗设施及 Home Care Organizations 向 [CCLD 投诉](https://www.cdss.ca.gov/inforesources/ccld-complaint-hotline)， **844-538-8766** 。护理院等医疗机构按该页分流至 CDPH |
 | 纽约州 | [NY Health Profiles 居家照护查询](https://profiles.health.ny.gov/home_care/index)可按机构和服务县查找，并转入护理院或成人住所资料；[DOH 投诉分流](https://healthweb-back.health.ny.gov/health_care/consumer_information/)列明居家照护／hospice **800-628-5972** 、护理院 **888-201-4563** 、成人住所及 assisted living **866-893-6772** |
 | 华盛顿州 | [DSHS 住所选择页](https://www.dshs.wa.gov/long-term-care-residential-options)连接护理院、adult family home、assisted living 的查验；[DOH 居家照料机构页](https://doh.wa.gov/licenses-permits-and-certificates/facilities-z/home-care-agencies)提供许可核对及投诉入口。投诉时注明服务类型，让主管按其管辖处理 |
 | 得州 | [HHS 长期照护页](https://hhs.texas.gov/services/aging/long-term-care)连接当前 TULIP 提供者查询；[HHS Ombudsman 分流](https://hhs.texas.gov/about-hhs/your-rights/office-ombudsman)列有机构住民及服务问题的入口，Medicaid 管理式医疗服务求助 **866-566-8989** ；受 HHS 监管的照护服务涉嫌虐待、忽视或剥削，向 [Complaint and Incident Intake](https://www.hhs.texas.gov/contact/complaints-appeals/complaint-incident-intake)报告： **800-458-9858** |
 
 向服务方逐项取得答复：能否接收这个人、到这个地址、做这些任务；接受哪种付款；首次日期和每周时段；人员缺勤怎样替班；价格包括什么、加时和终止怎样处理。偏远地址要报出完整位置，核对实际服务区、上门交通和复诊接送。需要家庭语言或口译者，确认首次评估及日常照护分别怎样安排。
 
-机构住民遇到权利、照护或搬离争议，可联系所在地 **Long-Term Care Ombudsman** 协助；华盛顿州的适用住所包括 adult family home、assisted living 和护理院，得州入口列有护理院及 assisted living。保存问题发生的日期、具体任务、有关人员及机构答复。涉嫌虐待、忽视或财产剥削时，及时向相应许可／保护机构报告；人身紧急危险先拨 911。
+机构住民遇到权利、照护或搬离争议，可联系所在地 **长期照护申诉专员（Long-Term Care Ombudsman）** 协助；华盛顿州的适用住所包括 adult family home、assisted living 和护理院，得州入口列有护理院及 assisted living。保存问题发生的日期、具体任务、有关人员及机构答复。涉嫌虐待、忽视或财产剥削时，及时向相应许可／保护机构报告；人身紧急危险先拨 911。
 
 服务还没落实时，把下一步分开处理：
 

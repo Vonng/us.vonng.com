@@ -6,12 +6,12 @@ content_kind: task
 scope: 美国联邦；首次申请、资料更正及 ITIN 续期的一般路径；查阅至 2026-10-13
 status: integrated
 draft: false
-verified: '2026-10-13'
-reviewed_by: health
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
-已有 SSN 的人通常继续使用原号码，换工作或换身份时处理资料更新。没有 SSN，先确认自己是否具备向 SSA 申请的资格；只有不具备 SSN 资格、又有联邦税务用途时，才走 IRS 的 ITIN 申请程序。两种号码由不同机关管理。
+已有 SSN 的人通常继续使用原号码，换工作或换身份时处理资料更新。没有 SSN，先确认自己是否具备向 SSA 申请的资格；只有不具备 SSN 资格、又有联邦税务用途时，才走 IRS 的 ITIN 申请程序。
 
 ## 先判断需要哪一种号码
 

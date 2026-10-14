@@ -31,7 +31,7 @@ weight: 10
 - [迎接孩子](/docs/routes/parenthood/)：安排孕产服务，分别跟进出生记录、号码、孩子加保及出院随访。
 - [结婚或分居离婚](/docs/routes/marriage-separation/)：核现有关系与办理地，完成办证或法院程序，再落实保险、账户与其他文件。
 - [找工作到入职](/docs/routes/start-work/)：准备申请，核实招聘和背景材料，确认录用条件，跟进文件、报到和工资。
-- [请假、工伤与歧视处理](/docs/routes/workplace-rights/)：核工作资格和收件人，分别提出请求或正式提交，继续付款、治疗与回岗安排。
+- [请假、工伤与歧视处理](/docs/routes/workplace-rights/)：核相应项目资格和收件人，分别提出请求或正式提交，继续付款、治疗与回岗安排。
 - [失业或工时减少](/docs/routes/job-loss/)：从离职记录与最后工资开始，接上失业保险、医保和紧急生活支持。
 - [缺食物或生活费](/docs/routes/food-cash-support/)：先找当下帮助，再核家庭、申请材料、领取与受阻继续。
 - [为成年亲人安排照护](/docs/routes/caregiving/)：确认本人意愿，把日常任务、服务、付款与替班接到实际开始。

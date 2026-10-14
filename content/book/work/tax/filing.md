@@ -6,8 +6,8 @@ content_kind: task
 scope: "普通成年人个人年度申报；联邦、加州、纽约州、华盛顿州与得州；使用已公布的2025税年／2026办理日历，查阅至2026-10-13；复杂海外实体、信托及税收协定个案须另核"
 status: integrated
 draft: false
-verified: 2026-10-13
-reviewed_by: static_editor（独立事实审）；birth_fact（第三静态审）
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -76,7 +76,7 @@ weight: 30
 
 符合条件的外国所得税可以沿 **foreign tax credit / Form 1116** 判断抵免，金额和适用税种均有限制。境外工作所得另可能适用 **foreign earned income exclusion / Form 2555** ，需要境外 tax home 及符合的境外居住或连续 12 个月内在境外满 330 个完整日等测试；身份和测试期间也有要求。排除主要针对劳动所得，不是所有境外投资、养老金或账户余额；自雇者也不能由此推定自雇税一并免除。同一笔已经排除的收入所对应外国税，不能再重复取得抵免。[IRS：外国税抵免](https://www.irs.gov/individuals/international-taxpayers/foreign-tax-credit)、[境外工作所得排除条件](https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion)
 
-这些选择可能影响多年的处理。把工作地点、境外居住天数、收入种类、外国完税凭据和以前年度的选择交给熟悉跨境税的报税人核；不要只依据软件勾选结果判断。海外公司、合伙、信托、外国赠与或复杂资产可能还有其他表件，本页的个人账户检查不穷尽那些义务。
+这些选择可能影响多年的处理。把工作地点、境外居住天数、收入种类、外国完税凭据和以前年度的选择交给熟悉跨境税的报税人核；不要只依据软件勾选结果判断。海外公司、合伙、信托、外国赠与或复杂资产可能还有其他表件，须另核相应的申报义务。
 
 ## 海外账户：FBAR 与 Form 8938 分开检查
 

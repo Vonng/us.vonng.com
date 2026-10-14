@@ -6,8 +6,8 @@ content_kind: task
 scope: 美国普通家庭处理成年亲人死亡后的手续；全国殡葬消费者保护、SSA和保险主线，配加州洛杉矶县、纽约市Brooklyn／Kings County、华州King County、得州Harris County／Houston实例；资料查阅至2026年10月14日。
 status: integrated
 draft: false
-verified: "2026-10-14"
-reviewed_by: "birth_fact（独立事实审）；static_editor（第三静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -116,7 +116,7 @@ SSA另有 **255美元的一次性死亡支付** ：通常由死亡时同住的�
 殡葬价格、未授权服务或遗体安排有争议，先把价目、选定服务单、合同、收据和往来记录交经理处理，仍不能解决再找实际主管：
 
 - **CA** ：[Cemetery and Funeral Bureau指南，物理第19页／印刷第17页](https://cfb.ca.gov/consumer/consumer_guide.pdf)列其监管的殡葬、火葬和私人墓地投诉；宗教、公共、Tribal及联邦等墓地有其他管理方，先核墓地类型。
-- **NY** ：[卫生主管Bureau of Funeral Directing](https://healthweb-back.health.ny.gov/professionals/funeral_director/faq.htm)说明书面投诉及其监管范围，从其所指入口取得投诉表；墓地另核Division of Cemeteries。
+- **NY** ：[卫生主管Bureau of Funeral Directing](https://healthweb-back.health.ny.gov/professionals/funeral_director/faq.htm)说明书面投诉及其监管范围，从其所指入口取得投诉表；墓地另核墓地管理部门（Division of Cemeteries）。
 - **WA** ：[DOL Funeral establishments](https://dol.wa.gov/professional-licenses/funeral-establishments)提供监管联系和投诉邮箱 **dfccompliance@dol.wa.gov** ，按其要求交事实及文件。
 - **TX** ：[Texas Funeral Service Commission](https://tfsc.texas.gov/complaints)处理其监管的殡葬人员、机构和火葬服务；预付殡葬／perpetual-care墓地及保险分别转其列出的银行或保险主管。该页规定投诉通常在事件后2年内，基于正当理由（good cause）的延期由主管判断，尽早交件。
 

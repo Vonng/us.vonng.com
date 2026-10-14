@@ -6,8 +6,8 @@ content_kind: task
 scope: "普通公交、城市铁路和日常接续；洛杉矶Metro、纽约市MTA、西雅图地区King County Metro／Sound Transit及休斯敦METRO实例，并说明ADA配套接送的资格、预约与受阻处理；查阅于2026-10-14，地方实例不代表全州"
 status: integrated
 draft: false
-verified: "2026-10-14"
-reviewed_by: "birth_fact（事实审）；banking_fact（第三静态）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 30
 ---
 
@@ -77,7 +77,7 @@ weight: 30
 
 ADA complementary paratransit是与适用固定线路配套的接送服务。资格看残障怎样影响实际上车、乘车、下车或到达车站，可按特定行程或临时情况批准；有某种诊断、年纪大或路途不方便，本身不自动等于资格。覆盖还受固定公交／轨道的范围、运行日期和时段限制，通常涉及线路或车站周边3/4英里；不能据此要求全县每个地址全天接送。[49 CFR 37.123资格](https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F/section-37.123)、[37.131服务标准](https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F/section-37.131)
 
-先向当地项目取得申请办法，说明具体障碍，完成所需资料及评估，并保存提交、补件和评估日期，要求确认何时算申请完整。联邦程序从完整申请起21日未决定，应给予临时服务直至作出拒绝决定；地方页面写“评估后”或“面谈后”时，要问评估怎样计入完整申请，不能把最初询问日当成起算日，也不能让补件状态一直不清楚。[49 CFR 37.125](https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F/section-37.125)
+先向当地项目取得申请办法，说明具体障碍，完成所需资料及评估，并保存提交、补件和评估日期，要求确认何时算申请完整。联邦程序从完整申请起21日未决定，应给予临时服务直至作出拒绝决定；地方页面写“评估后”或“面谈后”时，要问评估怎样计入完整申请，不能把最初询问日当成起算日。[49 CFR 37.125](https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F/section-37.125)
 
 四地的实际办理入口不同：
 

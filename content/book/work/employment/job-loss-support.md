@@ -6,8 +6,8 @@ content_kind: task
 scope: "美国普通私营雇员失业或工时减少；California、New York、Washington、Texas 常规失业保险；2026 年首次申领为主，查阅至 2026-10-13"
 status: integrated
 draft: false
-verified: "2026-10-13"
-reviewed_by: "root（独立事实审）；static_editor（静态审）"
+verified: '2026-10-14'
+reviewed_by: banking_fact（差分事实审）；birth_fact（第三静态审）
 weight: 20
 ---
 
@@ -115,6 +115,6 @@ UI 通常回看一段已经结束的工资记录，称为 **base period / base y
 
 **房租付不上或即将没有住处：** 从 [紧急住房及租金帮助](https://www.usa.gov/emergency-housing-assistance) 联系所在州及当地项目，分别说明是否已有驱逐通知、法院日期或今晚无处可住。申请援助不会自动停止租约或法院程序；已有通知应及时寻求租客法律帮助，并沿 [租房与通知处理](/book/life/housing/rental-process/) 保留记录。
 
-需要持续购买食物的帮助，可从 [SNAP 州／地方申请入口](https://www.usa.gov/food-stamps) 查起；有家庭现金支持需求，再查 [TANF 当地项目](https://www.usa.gov/welfare-benefits)。这些不是 UI 的补发渠道，各自要判断家庭成员、收入、居住及其他资格。家人身份不同，应向项目说明谁在申请、谁只是家庭成员，并询问每人需要哪些资料；不要照搬 UI 的工作授权结论。本页只负责分流，不提供 SNAP／TANF 的统一移民资格、金额或工作要求。
+需要持续购买食物的帮助，可从 [SNAP 州／地方申请入口](https://www.usa.gov/food-stamps) 查起；有家庭现金支持需求，再查 [TANF 当地项目](https://www.usa.gov/welfare-benefits)。这些不是 UI 的补发渠道，各自要判断家庭成员、收入、居住及其他资格。家人身份不同，应向项目说明谁在申请、谁只是家庭成员，并询问每人需要哪些资料；不要照搬 UI 的工作授权结论。SNAP／TANF 的移民资格、金额和工作要求，向各项目核对。
 
 这一轮办事完成时，应留下：最后工资的结算或追讨记录；UI 申请确认、工资决定与仍待解决的问题；下一次持续申报、补件或申诉日期；医保起止日期；以及食物、住房项目的具体联系人和下一步。找到工作或工时恢复后，再按州指引报告变化，核对最后一次申领的实际工作与收入。
