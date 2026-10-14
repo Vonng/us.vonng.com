@@ -13,3 +13,5 @@ __pycache__/
 *.jpg
 *.webp
 *.woff*
+!/static/*.png
+!/static/images/*.webp
