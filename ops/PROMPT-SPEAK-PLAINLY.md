@@ -1,5 +1,7 @@
 # "说人话"全书语言校对提示词（B-PL 批次）
 
+> **2026-10-14 起由 [第二版 PROMPT-SPEAK-PLAINLY-R2.md](PROMPT-SPEAK-PLAINLY-R2.md) 接替为当前执行版本**（首轮已收口：138 件 verified，账见 [speak-plainly-progress.md](reviews/speak-plainly-progress.md)）。本文件保持原样，供首轮审阅记录追溯。
+
 发起：2026-10-13，主控。进度表：[ops/reviews/speak-plainly-progress.md](reviews/speak-plainly-progress.md)。
 
 本文件是 [PROMPT.md](../PROMPT.md) §7.3"说人话"标准的执行细化，供全书语言校对批次使用。规则冲突时以本文件为准。用法：把"给执行者的提示词"一节原文发给校对执行者（子代理或新会话），并指明其批次。
