@@ -37,7 +37,7 @@ outputs:
   - markdown
 taxonomies: {}
 params:
-  logo: favicon.svg
+  logo: favicon.svg?v=f39df1c8a8505fd2beb68aaed21d7445481e239de281af33336f14b0ea4636e1
   offline_search: true
   offline_search_index: content
   copyright:
