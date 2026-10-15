@@ -15,6 +15,6 @@
 
 ## 工程与权限
 
-Hugo 0.166.0 Extended；OINK 固定 `f8f476e660cf053a2645b7b923ae8d08d5448fce`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
+Hugo 0.166.0 Extended；OINK 固定 `eaa1586270ced08de4d1782a2c9787e25beb0393`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
 
 普通研究、修订、核验、构建和本地提交自主推进。不得外部推送、部署、改 DNS 或联系他人。加拿大项目只读参考；不得启动或探测 Claude。任何记录不能代替实际核验。
