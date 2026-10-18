@@ -18,7 +18,7 @@ nested=f/'content/book/probe-draft-chapter/page.md';nested.parent.mkdir();nested
 hidden=f/'content/book/probe-hidden-parent';hidden.mkdir()
 (hidden/'_index.md').write_text('---\ntitle: FILTER_PROBE_PARENT\ntoc_hide: true\n---\n\nHIDDEN_PARENT_BODY\n')
 (hidden/'child.md').write_text('---\ntitle: FILTER_PROBE_CHILD\n---\n\nHIDDEN_CHILD_BODY\n')
-subprocess.run(['hugo','--source',str(f),'--destination',str(out),'--environment','production','--cleanDestinationDir','--panicOnWarning'],check=True,capture_output=True,text=True)
+subprocess.run(['hugo','--source',str(f),'--destination',str(out),'--environment','production','--cleanDestinationDir'],check=True,capture_output=True,text=True)
 idx=json.loads(next(out.glob('offline-search-index*.json')).read_text());refs={x['ref'] for x in idx}
 pr=(out/'_print/book/index.html').read_text();book=BeautifulSoup((out/'book/index.html').read_text(),'html.parser')
 nav={a.get('href') for a in book.select('.us-book-directory a,.td-shell-sidebar a')}

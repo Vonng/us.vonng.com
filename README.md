@@ -1,8 +1,8 @@
 # 美利坚生活指南
 
 [![Website](https://img.shields.io/badge/Website-us.vonng.com-244b6e?style=flat-square)](https://us.vonng.com/)
-[![Hugo Extended](https://img.shields.io/badge/Hugo-0.166.0_Extended-ff4088?style=flat-square&logo=hugo&logoColor=white)](https://gohugo.io/)
-[![OINK](https://img.shields.io/badge/OINK-1.3.0-245b54?style=flat-square)](https://github.com/pgsty/oink)
+[![Hugo Extended](https://img.shields.io/badge/Hugo-0.168.0_Extended-ff4088?style=flat-square&logo=hugo&logoColor=white)](https://gohugo.io/)
+[![OINK](https://img.shields.io/badge/OINK-1.3.2-245b54?style=flat-square)](https://github.com/pgsty/oink)
 [![GitHub](https://img.shields.io/badge/GitHub-Source-181717?style=flat-square&logo=github)](https://github.com/Vonng/us.vonng.com)
 
 面向中文读者的美国社会与生活参考书，涵盖社会背景、日常生活、家庭健康、工作财务和法律风险。可以从头阅读，也可以按正在处理的事项和居住地区查找。
@@ -23,7 +23,10 @@
 
 ## 本地运行
 
-需要 Hugo Extended **0.166.0**、Git 和 Python 3。OINK 主题通过 Git 子模块固定为 **v1.3.0**，站点构建不依赖 Node.js。
+需要 Hugo Extended **0.168.0**、Git 和 Python 3。OINK 主题通过 Git 子模块固定为 **v1.3.2**，站点构建不依赖 Node.js。
+
+SCSS 由 Hugo 内置编译器处理，无需另装 Sass。主题运行文件来自公开的 OINK `v1.3.2` 标签；本地构建仍可离线进行。
+
 
 ```sh
 git clone --recurse-submodules https://github.com/Vonng/us.vonng.com.git
@@ -35,7 +38,7 @@ make check DESTINATION=.cache/production-review
 make preview
 ```
 
-主题开发使用 `make dev`，读取 `~/pgsty/oink` 的当前工作树（Hugo Extended 0.166.0）。
+主题开发使用 `make dev`，读取 `~/pgsty/oink` 的当前工作树（Hugo Extended 0.168.0）。
 可用 `make dev OINK_LOCAL=/path/to/oink PORT=1314` 覆盖主题目录和端口。
 此入口通过 Hugo `themesDir` 选择本地主题，不修改 `themes/oink`；原有构建、检查和预览入口
 继续使用仓库内固定的 OINK 版本，可离线构建。Go/Hugo workspace 和继承的模块替换均被禁用。

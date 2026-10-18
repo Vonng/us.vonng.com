@@ -2,6 +2,13 @@
 
 完整目标和验收见 `PROMPT.md`。恢复时依次读 `ops/BOOKMAP.md`、`ops/TASKS.md`、`ops/CHECKPOINT.md`，再检查实际文件与 Git。正文唯一源在 `content/book/`；入口在 `content/docs/`。未写主题只留地图。
 
+## OINK build baseline
+
+As of 2026-10-18, this site uses OINK v1.3.2 and Hugo Extended 0.168.0.
+Keep CI and local builds on this baseline. Do not enable `--panicOnWarning`
+or `HUGO_PANICONWARNING`; keep warnings visible and review them. The upstream
+LibSass deprecation warning is accepted. No external Sass compiler is required.
+
 ## 所有权
 
 - 主控拥有配置、模板、首页、章节导读、公共入口、总账、共享构建及本地提交。
@@ -15,6 +22,6 @@
 
 ## 工程与权限
 
-Hugo 0.166.0 Extended；OINK 固定 `eaa1586270ced08de4d1782a2c9787e25beb0393`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
+Hugo 0.168.0 Extended；OINK 固定 `bd2e856e6e2f7027a9189af009701f5b8cf562cf`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
 
 普通研究、修订、核验、构建和本地提交自主推进。不得外部推送、部署、改 DNS 或联系他人。加拿大项目只读参考；不得启动或探测 Claude。任何记录不能代替实际核验。

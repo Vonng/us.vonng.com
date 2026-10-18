@@ -11,7 +11,7 @@ LOCAL_HUGO = env -u HUGO_MODULE_REPLACEMENTS $(HUGO) --themesDir "$(abspath $(OI
 .PHONY: build check preview sync check-drafts browser
 DESTINATION ?= public
 build:
-	$(PINNED_HUGO) --destination "$(DESTINATION)" --cleanDestinationDir --gc --minify --environment production --printPathWarnings --panicOnWarning
+	$(PINNED_HUGO) --destination "$(DESTINATION)" --cleanDestinationDir --gc --minify --environment production --printPathWarnings
 check: build
 	python3 scripts/check_site.py --public-dir "$(DESTINATION)"
 check-drafts:
