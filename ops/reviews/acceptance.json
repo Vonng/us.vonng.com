@@ -209,7 +209,7 @@
     "installed_whole_sha256": "3ae210e653a5f1eef736eba8c07918ecacee7dfeaac30b15de08f341edc46169"
   },
   "content/book/work/tax/tax-residency.md": {
-    "body_sha256": "8e4a97775c002567a72441d5346496ff4e10887f7af57b8a5112db9a509e43f5",
+    "body_sha256": "f5131e6b959897e8a621f6ae7e459f23b38cfc907eda1a1718c0e40574a59f3b",
     "author": "B-PL-R2-4",
     "fact_reviewer": "root",
     "static_reviewer": "B-PL-R2-THIRD",
@@ -249,7 +249,14 @@
     },
     "previous_whole_sha256": "2ee57adc4d694213516b82ee0eb2d104d75f212631db2ac033b698eaf97ba512",
     "proposed_whole_sha256": "c7739a1863def91b651d23bfa803fd3bc9ad89bceda406c830b2ff5eae8d062a",
-    "installed_whole_sha256": "c7739a1863def91b651d23bfa803fd3bc9ad89bceda406c830b2ff5eae8d062a"
+    "installed_whole_sha256": "c7739a1863def91b651d23bfa803fd3bc9ad89bceda406c830b2ff5eae8d062a",
+    "presentation_revision": {
+      "date": "2026-11-04",
+      "editor": "Codex",
+      "scope": "Added only OINK .wide .expand table attributes; prose, links, factual claims and original review dates are unchanged.",
+      "previous_body_sha256": "8e4a97775c002567a72441d5346496ff4e10887f7af57b8a5112db9a509e43f5",
+      "previous_file_sha256": "c7739a1863def91b651d23bfa803fd3bc9ad89bceda406c830b2ff5eae8d062a"
+    }
   },
   "content/book/people/language/service-conversations.md": {
     "body_sha256": "41a9d3b418c44ad20e39a326fcaa862cce6a16d3408ff7d8abf2aa747a893a6c",

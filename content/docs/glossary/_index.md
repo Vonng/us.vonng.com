@@ -74,3 +74,4 @@ weight: 30
 | Summons、complaint、answer、service、default judgment、proof of service | [法院通知、回应、送达与到庭](/book/rights/legal/notices-deadlines/) |
 | Evacuation、shelter、FEMA、STEAR | [灾害预警、撤离、保险与援助](/book/rights/safety/disaster-preparation/) |
 | FFL、CPL、GV-EPO、CFARS、LER | [家庭枪支安全、搬动与依法交出](/book/rights/safety/firearms/) |
+{.wide .expand}
