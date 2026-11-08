@@ -1,0 +1,22 @@
+{{- /* us 首页“按事项查”：图标、名称与一句说明组成的整卡链接。列数随条目数在数据里给定。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+{{- $hreflang := cond (eq site.Language.Lang "zh") "" "zh-CN" -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-routes{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    {{- partial "us/home/head.html" (dict "data" $data "id" $id "hreflang" $hreflang) }}
+    <ul class="guide-routes__grid guide-routes__grid--{{ $data.layout | default "cards" }}" style="--guide-columns: {{ $data.columns | default 5 }}">
+      {{- range $item := $data.items }}
+      <li>
+        <a class="guide-route" href="{{ partial "us/home/link.html" $item }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}>
+          <span class="guide-route__icon" aria-hidden="true"><i class="{{ $item.icon }}"></i></span>
+          <span class="guide-route__text">
+            <strong class="guide-route__name">{{ $item.name }}</strong>
+            {{- with $item.desc }}<span class="guide-route__desc">{{ . }}</span>{{ end }}
+          </span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>

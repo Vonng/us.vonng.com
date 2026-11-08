@@ -1,0 +1,12 @@
+{{- /* us 首页：把 {page, anchor} 或 {url} 解析成 href。page 经中文站校验，缺失时构建报错；
+       url 只用于非页面产物（整书打印视图）或站外地址，按原样输出。 */ -}}
+{{- $href := "" -}}
+{{- with .page -}}
+  {{- $p := partial "us/home/page.html" . -}}
+  {{- if not $p }}{{ errorf "us home: page %q not found" . }}{{ end -}}
+  {{- $href = $p.RelPermalink -}}
+{{- else -}}
+  {{- with .url }}{{ $href = . }}{{ end -}}
+{{- end -}}
+{{- with .anchor }}{{ $href = printf "%s#%s" $href . }}{{ end -}}
+{{- return $href -}}

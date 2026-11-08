@@ -1,4 +1,4 @@
-{{- /* 首页分区标题：主标题、单行导语，右侧可选“查看全部”入口。 */ -}}
+{{- /* us 首页分区标题：标题、一句说明，右侧可选的整表入口（只用于首页未列全的内容）。 */ -}}
 {{- $data := .data -}}
 {{- $id := .id -}}
 <header class="guide-head">
@@ -7,7 +7,7 @@
     {{- with $data.desc }}<p class="guide-head__desc">{{ . }}</p>{{ end }}
   </div>
   {{- with $data.more }}
-  <a class="guide-head__more" href="{{ .url | relLangURL }}">
+  <a class="guide-head__more" href="{{ partial "us/home/link.html" . }}"{{ with $.hreflang }} hreflang="{{ . }}"{{ end }}>
     <span>{{ .label }}</span>
     <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
   </a>

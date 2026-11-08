@@ -1,6 +1,8 @@
-# 首页 landing 数据（《美利坚生活指南》）
-# 由 content/_index.md（layout: landing, landing: home）引用。
-# 设计语言与 ca.vonng.com 首页一致：卡片只保留标题与单行说明，全部链接经 site.GetPage 校验。
+# 中文首页 landing 数据（《美利坚生活指南》）
+# 由 content/_index.md（layout: landing, landing: home）引用；英文首页见同目录 en.yaml。
+# 站点分区模板在 layouts/_partials/us/home/，设计语言与 ca.vonng.com、sg.vonng.com 首页一致：
+# 部分与章节的链接、顺序取自真实分区（只列已有正文的章节），page 引用经 site.GetPage 校验，缺失时构建报错。
+# 文案按“桌面一行、窄屏两行均衡”写，修改后在 1440 与 390 宽各看一遍，不要留孤字。
 
 sections:
   - type: hero
@@ -8,6 +10,8 @@ sections:
       class: guide-home-hero
       title: 美利坚生活指南
       lead: 读懂美利坚社会，找到日常生活与人生事务的办事指南。
+      note: 冯若航 编写 · 每篇注明适用范围与核验日期
+      note_icon: fa-solid fa-pen-nib
       image:
         src: /images/us-life-hero.webp
         alt: 海湾步道、金门大桥与远山的美国生活主题插画
@@ -15,69 +19,75 @@ sections:
         ratio: 1fr 1.1fr
         max_width: 600px
       actions:
-        - { label: 阅读, url: /book/, style: primary, icon: fa-solid fa-book-open }
-        - { label: 按事项, url: "#routes", style: ghost, icon: fa-solid fa-list-check }
-        - { label: 按地区, url: "#regions", style: ghost, icon: fa-solid fa-map-location-dot }
+        - { label: 阅读全书, url: /book/, style: primary, icon: fa-solid fa-book-open }
+        - { label: 按事项查, url: "#routes", style: ghost, icon: fa-solid fa-list-check }
+        - { label: 按州查, url: "#regions", style: ghost, icon: fa-solid fa-map-location-dot }
 
   - type: guide-parts
-    partial: landing/sections/guide-parts.html
-    key: parts
+    partial: us/home/parts.html
+    key: contents
     data:
       title: 全书目录
-      desc: 从社会背景到日常实务，每部分先有导读，各章均可独立查用。
-      more: { label: 展开三级目录, url: "/book/#contents" }
+      desc: 五个部分由背景到实务，每章都可以单独查用。
+      more: { label: 三级目录, page: /book, anchor: contents }
       items:
         - page: /book/foundations
+          icon: fa-solid fa-landmark
           desc: 地区差异、历史形成与联邦州地方分工。
           chapters:
-            geography: 城乡通勤、气候时区与住址比较
-            government: 联邦州县分工、公共参与与投票
-            history: 国家形成、移民脉络与民权历史
-            communities: 部落主权、土地与今天的共同体
-            culture: 寒暄邀约、交往边界与社交默契
-            world: 跨国家庭、海外联系与国际往来
+            geography: { desc: 城乡通勤、气候时区与住址比较 }
+            government: { desc: 联邦州县分工、公共参与与投票 }
+            history: { desc: 国家形成、移民脉络与民权历史 }
+            communities: { desc: 部落主权、土地与今天的共同体 }
+            culture: { desc: 寒暄邀约、交往边界与社交默契 }
+            world: { desc: 跨国家庭、海外联系与国际往来 }
         - page: /book/life
+          icon: fa-solid fa-house
           desc: 身份文件、住房、出行、消费与社区日常。
           chapters:
-            documents: 签证身份、SSN、返美与地址变更
-            housing: 租房流程、押金结算与自住购房
-            household: 水电燃气开户、日常购物与退货
-            transport: 公共交通、驾照换领与买车保险
-            digital: 手机套餐、家庭网络与通信补助
-            community: 图书馆办卡、社区课程与活动
+            documents: { desc: 签证身份、SSN、返美与地址变更 }
+            housing: { desc: 租房流程、押金结算与自住购房 }
+            household: { desc: 水电燃气开户、日常购物与退货 }
+            transport: { desc: 公共交通、驾照换领与买车保险 }
+            digital: { desc: 手机套餐、家庭网络与通信补助 }
+            community: { desc: 图书馆办卡、社区课程与活动 }
         - page: /book/people
+          icon: fa-solid fa-heart-pulse
           desc: 医疗保险、婚育、学校、照护与养老。
           chapters:
-            accessibility: 心理健康支持与无障碍便利申请
-            health: 保险费用、预约网络与账单申诉
-            family: 结婚离婚、孕产出生与托育安排
-            education: 成人继续学习、选课与学费资助
-            school: 公校入学、学区分配与在校支持
-            language: 预约、查账与跟进的英语沟通
-            aging: 退休与 Medicare、照护与身后事
+            accessibility: { desc: 心理健康支持与无障碍便利申请 }
+            health: { desc: 保险费用、预约网络与账单申诉 }
+            family: { desc: 结婚离婚、孕产出生与托育安排 }
+            education: { desc: 成人继续学习、选课与学费资助 }
+            school: { desc: 公校入学、学区分配与在校支持 }
+            language: { desc: 预约、查账与跟进的英语沟通 }
+            aging: { desc: 退休与 Medicare、照护与身后事 }
         - page: /book/work
+          icon: fa-solid fa-briefcase
           desc: 求职就业、劳动权益、银行信用与税务。
           chapters:
-            career: 求职渠道、录用核对与入职文件
-            employment: 工资加班、失业保险与职场权利
-            finance: 银行付款、信用报告、债务与援助
-            tax: 税务居民判定、年度报税与州税
-            business: 个人接单、开店登记与停业结清
+            career: { desc: 求职渠道、录用核对与入职文件 }
+            employment: { desc: 工资加班、失业保险与职场权利 }
+            finance: { desc: 银行付款、信用报告、债务与援助 }
+            tax: { desc: 税务居民判定、年度报税与州税 }
+            business: { desc: 个人接单、开店登记与停业结清 }
         - page: /book/rights
+          icon: fa-solid fa-scale-balanced
           desc: 法律帮助、合同纠纷、应急安全与户外。
           chapters:
-            legal: 寻找律师、法院通知与回应期限
-            contracts: 消费合同签约、取消与投诉
-            outdoors: 公园步道、营地规则与野外安全
-            safety: 紧急求助、灾害准备与枪支安全
+            legal: { desc: 寻找律师、法院通知与回应期限 }
+            contracts: { desc: 消费合同签约、取消与投诉 }
+            outdoors: { desc: 公园步道、营地规则与野外安全 }
+            safety: { desc: 紧急求助、灾害准备与枪支安全 }
 
   - type: guide-routes
-    partial: landing/sections/guide-routes.html
+    partial: us/home/routes.html
     key: routes
     data:
       title: 按事项查
-      desc: 按具体人生事件串联跨章主题，理清前置条件与办理顺序。
-      more: { label: 全部事项, url: /docs/routes/ }
+      desc: 按人生事件串起跨章主题，理清前置条件与办理顺序。
+      more: { label: 全部事项, page: /docs/routes }
+      columns: 5
       items:
         - { name: 抵达, desc: 住处、通信、账户与医疗, page: /docs/routes/arrival, icon: fa-solid fa-plane-arrival }
         - { name: 搬家, desc: 地址、驾照、医保与州税衔接, page: /docs/routes/moving, icon: fa-solid fa-truck-moving }
@@ -90,19 +100,19 @@ sections:
         - { name: 退休, desc: 退休收入与 Medicare 登记, page: /docs/routes/retirement, icon: fa-solid fa-umbrella-beach }
         - { name: 丧亲, desc: 死亡证明、殡葬与遗属申领, page: /docs/routes/bereavement, icon: fa-solid fa-dove }
 
-  # 四州覆盖深度一致（每州约 45 个本州分支入口），因此四州均为主卡；
-  # 其余各州暂无地区页，不设缩写入口行。
+  # 四州覆盖深度一致（每州约 45 个本州分支入口），因此四州均为主卡；其余各州暂无地区页，不设缩写入口。
   - type: guide-regions
-    partial: landing/sections/guide-regions.html
+    partial: us/home/regions.html
     key: regions
     data:
-      title: 按地区查
+      title: 按州查
       desc: 同一件事各州规则与机构不同，按实际居住的州进入当地入口。
-      more: { label: 地区总览, url: /docs/regions/ }
+      more: { label: 地区总览, page: /docs/regions }
+      topics_label: 常用入口
       featured:
         - code: CA
           name: 加利福尼亚州
-          desc: 加州与洛杉矶、旧金山的租房、驾照、就业与入学入口。
+          desc: 洛杉矶、旧金山的租房、驾照、就业与入学入口。
           page: /docs/regions/california
           topics:
             - { label: 加州租房押金, page: /book/life/housing/ca-deposit }
@@ -115,7 +125,7 @@ sections:
             - { label: 旧金山公校入学, page: /book/people/school/school-enrollment }
         - code: NY
           name: 纽约州
-          desc: 纽约州与纽约市的租房、驾照、就业、医保与入学入口。
+          desc: 纽约市的租房、驾照、就业、医保与入学入口。
           page: /docs/regions/new-york
           topics:
             - { label: 租房申请与押金, page: /book/life/housing/rental-process }
@@ -128,7 +138,7 @@ sections:
             - { label: HIICAP 与 Medicare, page: /book/people/aging/retirement-medicare }
         - code: WA
           name: 华盛顿州
-          desc: 华盛顿州与西雅图的租房、驾照、就业、照护与入学入口。
+          desc: 西雅图的租房、驾照、就业、照护与入学入口。
           page: /docs/regions/washington
           topics:
             - { label: 租房申请与押金, page: /book/life/housing/rental-process }
@@ -141,7 +151,7 @@ sections:
             - { label: WorkSource 求职, page: /book/work/career/job-search-onboarding }
         - code: TX
           name: 得克萨斯州
-          desc: 得州与奥斯汀、休斯敦的租房、驾照、就业与入学入口。
+          desc: 奥斯汀、休斯敦的租房、驾照、就业与入学入口。
           page: /docs/regions/texas
           topics:
             - { label: 租房申请与押金, page: /book/life/housing/rental-process }
@@ -153,34 +163,19 @@ sections:
             - { label: 休斯敦水电开户, page: /book/life/household/utilities }
             - { label: OAG 消费投诉, page: /book/rights/contracts/reading-contracts }
 
-  - type: guide-tools
-    partial: landing/sections/guide-tools.html
-    key: tools
+  - type: guide-about
+    partial: us/home/about.html
+    key: about
     data:
-      title: 查询与说明
-      desc: 检索全书主题、核对英文文件简称，或查看阅读与来源说明。
-      items:
-        - title: 全书查询索引
-          desc: 按事项、地区与术语找到全书主题页。
-          icon: fa-solid fa-magnifying-glass
-          page: /docs
-          links:
-            - { label: 按事项查, page: /docs/routes }
-            - { label: 按地区查, page: /docs/regions }
-            - { label: 全书三级目录, page: /book, anchor: contents }
-        - title: 术语与文件索引
-          desc: 从英文文件名与简称查对应解释页。
-          icon: fa-solid fa-language
-          page: /docs/glossary
-          links:
-            - { label: SSN 与 ITIN, page: /book/life/documents/numbers }
-            - { label: I-94 与 EAD, page: /book/life/documents/status-documents }
-            - { label: EOB 与账单, page: /book/people/health/medical-bills }
-        - title: 阅读与来源说明
-          desc: 了解阅读方式、来源核验与覆盖边界。
-          icon: fa-solid fa-book-bookmark
-          page: /docs/about
-          links:
-            - { label: 怎样使用, page: /docs/about, anchor: 怎样使用 }
-            - { label: 来源与核验, page: /docs/about, anchor: 来源与核验 }
-            - { label: 整书打印视图, url: "/_print/book/" }
+      title: 关于本书
+      desc: 用中文写成的美国社会与生活参考书，可以从头读，也可以按问题查。
+      links:
+        - { label: 阅读说明, page: /docs/about, icon: fa-solid fa-book-bookmark }
+        - { label: 术语与文件, page: /docs/glossary, icon: fa-solid fa-language }
+        - { label: 整书打印, url: /_print/book/, icon: fa-solid fa-print }
+        - { label: GitHub 源码, url: "https://github.com/Vonng/us.vonng.com", external: true, icon: fa-brands fa-github }
+      facts:
+        - { label: 作者, text: "[冯若航](https://vonng.com/)" }
+        - { label: 来源, text: 重要事实引用主管机构、法律、官方服务说明与原始表件。 }
+        - { label: 核验, text: 正式主题由作者以外的参与者对照原文核验，页面注明核验日期。 }
+        - { label: 覆盖, text: 州一级细节集中在加州、纽约州、华盛顿州与得州，按实际地址确认。 }

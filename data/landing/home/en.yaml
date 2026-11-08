@@ -1,0 +1,187 @@
+# English home landing data (Life in America).
+# Used by content/_index.en.md (layout: landing, landing: home). The guide itself is
+# written in Chinese only: every entry here links to the Chinese page (hreflang zh-CN),
+# and the page says so once in the hero and once per section rather than on every card.
+# Hero and footer links run through Hugo's relLangURL, so Chinese targets are written
+# as ../book/ (resolves to /book/); the site partials resolve `page:` in the zh site.
+
+sections:
+  - type: hero
+    data:
+      class: guide-home-hero
+      title: Life in America
+      lead: Understand how the United States works and find your way through everyday life, from documents and housing to health insurance, work and taxes.
+      note: The guide is written in Simplified Chinese; this page maps it in English.
+      note_icon: fa-solid fa-language
+      image:
+        src: /images/us-life-hero.webp
+        alt: Illustration of a bayside path with the Golden Gate Bridge and distant hills
+      media:
+        ratio: 1fr 1.1fr
+        max_width: 600px
+      actions:
+        - { label: Read in Chinese, url: ../book/, style: primary, icon: fa-solid fa-book-open }
+        - { label: By task, url: "#routes", style: ghost, icon: fa-solid fa-list-check }
+        - { label: By state, url: "#regions", style: ghost, icon: fa-solid fa-map-location-dot }
+
+  - type: guide-parts
+    partial: us/home/parts.html
+    key: contents
+    data:
+      title: Contents
+      desc: Five parts, from background to practice. Each chapter stands on its own and opens in Chinese.
+      more: { label: Full contents, page: /book, anchor: contents }
+      items:
+        - page: /book/foundations
+          icon: fa-solid fa-landmark
+          title: Understanding America
+          desc: Regional differences, history and who governs what.
+          chapters:
+            geography: { title: "Regions and places to live", desc: "Commutes, climate, time zones and comparing places" }
+            government: { title: "Government and public affairs", desc: "Federal, state and county roles; voting and taking part" }
+            history: { title: "History and how society formed", desc: "Nation-building, immigration and civil rights" }
+            communities: { title: "Native nations and communities", desc: "Tribal sovereignty, land and communities today" }
+            culture: { title: "Social life and everyday culture", desc: "Small talk, invitations, boundaries and social cues" }
+            world: { title: "America and the world", desc: "Transnational families and ties abroad" }
+        - page: /book/life
+          icon: fa-solid fa-house
+          title: Setting up daily life
+          desc: Documents, housing, getting around, shopping and community.
+          chapters:
+            documents: { title: "Status and documents", desc: "Visa status, SSN, re-entry and changing address" }
+            housing: { title: "Housing: renting and buying", desc: "Renting, deposits and buying a home to live in" }
+            household: { title: "Household services", desc: "Utilities, everyday shopping and returns" }
+            transport: { title: "Getting around, driving and cars", desc: "Transit, license transfer, buying and insuring a car" }
+            digital: { title: "Phones, accounts and digital life", desc: "Phone plans, home internet and connectivity aid" }
+            community: { title: "Libraries, events and community services", desc: "Library cards, community classes and events" }
+        - page: /book/people
+          icon: fa-solid fa-heart-pulse
+          title: Health, family and learning
+          desc: Health insurance, family, school, care and later life.
+          chapters:
+            accessibility: { title: "Mental health, disability and access", desc: "Mental health support and asking for accommodations" }
+            health: { title: "Health care and insurance", desc: "Premiums, networks, appointments and billing disputes" }
+            family: { title: "Marriage, family and a new baby", desc: "Marriage, divorce, pregnancy, birth and child care" }
+            education: { title: "Higher and continuing education", desc: "Adult learning, choosing courses and paying tuition" }
+            school: { title: "Children and school", desc: "Public school enrollment, assignment and support" }
+            language: { title: "American English and other languages", desc: "English for appointments, bills and follow-ups" }
+            aging: { title: "Retirement, care and after a death", desc: "Retirement, Medicare, care and end-of-life matters" }
+        - page: /book/work
+          icon: fa-solid fa-briefcase
+          title: Work and money
+          desc: Jobs, workplace rights, banking, credit and tax.
+          chapters:
+            career: { title: "Finding and starting a job", desc: "Job search, checking offers and onboarding forms" }
+            employment: { title: "Employment rights and benefits", desc: "Wages, overtime, unemployment and workplace rights" }
+            finance: { title: "Banking, credit and money", desc: "Bank accounts, credit reports, debt and assistance" }
+            tax: { title: "Taxes and filing", desc: "Tax residency, annual returns and state taxes" }
+            business: { title: "Starting a business", desc: "Freelancing, registering a business and closing it" }
+        - page: /book/rights
+          icon: fa-solid fa-scale-balanced
+          title: Law, risk and the outdoors
+          desc: Legal help, contracts, emergencies and the outdoors.
+          chapters:
+            legal: { title: "Legal help and solving problems", desc: "Finding a lawyer, court notices and deadlines" }
+            contracts: { title: "Contracts", desc: "Consumer contracts, cancelling and complaints" }
+            outdoors: { title: "Nature and the outdoors", desc: "Parks, trails, campgrounds and staying safe" }
+            safety: { title: "Safety and emergencies", desc: "Emergency help, disaster readiness and gun safety" }
+
+  - type: guide-routes
+    partial: us/home/routes.html
+    key: routes
+    data:
+      title: By task
+      desc: Each path gathers topics from across the book and sets out what to settle first.
+      more: { label: All tasks, page: /docs/routes }
+      columns: 2
+      layout: rows
+      items:
+        - { name: Arrival, desc: "Housing, phone, bank accounts and health care", page: /docs/routes/arrival, icon: fa-solid fa-plane-arrival }
+        - { name: Moving, desc: "Address, license, health coverage and state tax", page: /docs/routes/moving, icon: fa-solid fa-truck-moving }
+        - { name: New job, desc: "Job search, checking the offer and onboarding forms", page: /docs/routes/start-work, icon: fa-solid fa-briefcase }
+        - { name: Job loss, desc: "Final pay, unemployment benefits and health coverage", page: /docs/routes/job-loss, icon: fa-solid fa-user-xmark }
+        - { name: Medical care, desc: "Insurance networks, appointments and disputing bills", page: /docs/routes/medical-care, icon: fa-solid fa-stethoscope }
+        - { name: Taxes, desc: "Filing status, documents and state returns", page: /docs/routes/tax-preparation, icon: fa-solid fa-file-invoice-dollar }
+        - { name: New baby, desc: "Pregnancy coverage, birth certificate and adding to a plan", page: /docs/routes/parenthood, icon: fa-solid fa-baby-carriage }
+        - { name: Caregiving, desc: "Care assessments, home services and legal authority", page: /docs/routes/caregiving, icon: fa-solid fa-hand-holding-heart }
+        - { name: Retirement, desc: "Retirement income and Medicare enrollment", page: /docs/routes/retirement, icon: fa-solid fa-umbrella-beach }
+        - { name: Bereavement, desc: "Death certificates, funerals and survivor benefits", page: /docs/routes/bereavement, icon: fa-solid fa-dove }
+
+  - type: guide-regions
+    partial: us/home/regions.html
+    key: regions
+    data:
+      title: By state
+      desc: Rules and agencies differ by state, so start from where you actually live.
+      more: { label: All regions, page: /docs/regions }
+      topics_label: " common topics"
+      featured:
+        - code: CA
+          name: California
+          desc: Renting, driving, work and school in Los Angeles and San Francisco.
+          page: /docs/regions/california
+          topics:
+            - { label: Security deposits in CA, page: /book/life/housing/ca-deposit }
+            - { label: Applying and moving in, page: /book/life/housing/rental-process }
+            - { label: DMV license for newcomers, page: /book/life/transport/new-resident-license }
+            - { label: Overtime and unpaid wages, page: /book/work/employment/pay-stub-overtime }
+            - { label: EDD unemployment claims, page: /book/work/employment/job-loss-support }
+            - { label: Medi-Cal in pregnancy, page: /book/people/family/birth-and-first-weeks }
+            - { label: IHSS in-home care, page: /book/people/aging/caregiving-plan }
+            - { label: San Francisco schools, page: /book/people/school/school-enrollment }
+        - code: NY
+          name: New York
+          desc: Renting, driving, work, coverage and school in New York City.
+          page: /docs/regions/new-york
+          topics:
+            - { label: Applications and deposits, page: /book/life/housing/rental-process }
+            - { label: DMV license for newcomers, page: /book/life/transport/new-resident-license }
+            - { label: Pay stubs and overtime, page: /book/work/employment/pay-stub-overtime }
+            - { label: Unemployment and hearings, page: /book/work/employment/job-loss-support }
+            - { label: Pregnancy and birth records, page: /book/people/family/birth-and-first-weeks }
+            - { label: NYC public schools, page: /book/people/school/school-enrollment }
+            - { label: Getting married in NYC, page: /book/people/family/marriage-separation }
+            - { label: HIICAP and Medicare, page: /book/people/aging/retirement-medicare }
+        - code: WA
+          name: Washington
+          desc: Renting, driving, work, care and school in Seattle.
+          page: /docs/regions/washington
+          topics:
+            - { label: Applications and deposits, page: /book/life/housing/rental-process }
+            - { label: DOL license for newcomers, page: /book/life/transport/new-resident-license }
+            - { label: ESD unemployment claims, page: /book/work/employment/job-loss-support }
+            - { label: Apple Health in pregnancy, page: /book/people/family/birth-and-first-weeks }
+            - { label: Seattle public schools, page: /book/people/school/school-enrollment }
+            - { label: Emergency help in Seattle, page: /book/rights/safety/emergency-help }
+            - { label: HCS care assessments, page: /book/people/aging/caregiving-plan }
+            - { label: Job search with WorkSource, page: /book/work/career/job-search-onboarding }
+        - code: TX
+          name: Texas
+          desc: Renting, driving, work and school in Austin and Houston.
+          page: /docs/regions/texas
+          topics:
+            - { label: Applications and deposits, page: /book/life/housing/rental-process }
+            - { label: DPS license for newcomers, page: /book/life/transport/new-resident-license }
+            - { label: TWC unemployment claims, page: /book/work/employment/job-loss-support }
+            - { label: "Medicaid, CHIP and pregnancy", page: /book/people/family/birth-and-first-weeks }
+            - { label: Austin public schools, page: /book/people/school/school-enrollment }
+            - { label: STAR+PLUS care, page: /book/people/aging/caregiving-plan }
+            - { label: Utilities in Houston, page: /book/life/household/utilities }
+            - { label: Complaints to the OAG, page: /book/rights/contracts/reading-contracts }
+
+  - type: guide-about
+    partial: us/home/about.html
+    key: about
+    data:
+      title: About this guide
+      desc: A reference to American society and daily life, written in Chinese. Read it through, or look up one question.
+      links:
+        - { label: Reading notes, page: /docs/about, icon: fa-solid fa-book-bookmark }
+        - { label: Glossary, page: /docs/glossary, icon: fa-solid fa-language }
+        - { label: Print edition, url: /_print/book/, icon: fa-solid fa-print }
+        - { label: GitHub, url: "https://github.com/Vonng/us.vonng.com", external: true, icon: fa-brands fa-github }
+      facts:
+        - { label: Language, text: "Simplified Chinese, keeping the English terms used on forms and notices." }
+        - { label: Sources, text: "Key facts cite agencies, statutes, official guidance and original forms." }
+        - { label: Checks, text: "Topics are checked against their sources by someone other than the author, and dated." }
+        - { label: Coverage, text: "State-level detail covers California, New York, Washington and Texas." }

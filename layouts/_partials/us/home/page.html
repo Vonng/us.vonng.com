@@ -1,0 +1,10 @@
+{{- /* us 首页：从中文站（源语言）取页面。英文首页只是全书的英文地图，
+       所有入口都指向中文正文，因此始终在 zh 站点里解析。找不到时返回 false。 */ -}}
+{{- $path := . -}}
+{{- $found := false -}}
+{{- range hugo.Sites -}}
+  {{- if and (not $found) (eq .Language.Lang "zh") -}}
+    {{- with .GetPage $path }}{{ $found = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $found -}}

@@ -2,6 +2,7 @@ title: 美利坚生活指南
 baseURL: https://us.vonng.com/
 theme: oink
 defaultContentLanguage: zh
+defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 timeZone: America/New_York
 enableRobotsTXT: true
@@ -13,6 +14,36 @@ languages:
     weight: 1
     params:
       description: 理解美国社会，处理日常生活中的具体问题。
+  # 英文只有首页（content/_index.en.md）：它是中文全书的英文地图，入口都指向中文正文。
+  # 英文站没有可检索的正文，因此关闭其搜索；导航锚定英文首页的三个分区。
+  en:
+    label: English
+    locale: en-US
+    weight: 2
+    title: Life in America
+    params:
+      description: A Chinese-language guide to American society and everyday life.
+      offline_search: false
+    menus:
+      main:
+      - identifier: contents
+        name: Contents
+        url: '#contents'
+        weight: 10
+        params:
+          icon: fa-solid fa-book-open
+      - identifier: routes
+        name: Tasks
+        url: '#routes'
+        weight: 20
+        params:
+          icon: fa-solid fa-list-check
+      - identifier: regions
+        name: States
+        url: '#regions'
+        weight: 30
+        params:
+          icon: fa-solid fa-map-location-dot
 markup:
   goldmark:
     renderer:

@@ -13,8 +13,10 @@ def fail(s): errors.append(str(s))
 def read(path): return path.read_text(encoding='utf-8')
 def permalink(path):
  rel=path.relative_to(ROOT/'content');parts=list(rel.parts)
- if parts[-1]=='_index.md': parts.pop()
- else: parts[-1]=path.stem
+ stem,_,lang=path.stem.partition('.')  # `_index.en.md` → /en/; zh stays at the root
+ if stem=='_index': parts.pop()
+ else: parts[-1]=stem
+ if lang and lang!='zh': parts.insert(0,lang)
  return '/' + ('/'.join(parts) + '/' if parts else '')
 seen={};metadata={}
 for path in sorted((ROOT/'content').rglob('*.md')):

@@ -1,0 +1,50 @@
+{{- /* us 首页“按地区查”：重点省份为主卡（常用入口两列排开），简要省份为次卡，其余省区为缩写入口。
+       名称与说明来自 data；英文首页的标签由 data 给出，链接一律指向中文正文。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+{{- $hreflang := cond (eq site.Language.Lang "zh") "" "zh-CN" -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-regions{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    {{- partial "us/home/head.html" (dict "data" $data "id" $id "hreflang" $hreflang) }}
+    {{- range $group := slice "featured" "secondary" }}
+    {{- with index $data $group }}
+    <div class="guide-regions__{{ $group }}">
+      {{- range $index, $item := . }}
+      {{- $region := partial "us/home/page.html" $item.page -}}
+      {{- if not $region }}{{ errorf "us home: region %q not found" $item.page }}{{ end }}
+      {{- $cardID := printf "%s-%s-%d" $id $group $index }}
+      <article class="guide-region guide-region--{{ $group }}" aria-labelledby="{{ $cardID }}">
+        <a class="guide-region__main" href="{{ $region.RelPermalink }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}>
+          <span class="guide-region__code" aria-hidden="true">{{ $item.code }}</span>
+          <span class="guide-region__heading">
+            <h3 id="{{ $cardID }}" class="guide-region__title">{{ $item.name }}</h3>
+            {{- with $item.desc }}<span class="guide-region__desc">{{ . }}</span>{{ end }}
+          </span>
+        </a>
+        {{- with $item.topics }}
+        <ul class="guide-region__topics" aria-label="{{ $item.name }}{{ $data.topics_label }}">
+          {{- range . }}
+          <li><a href="{{ partial "us/home/link.html" . }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}><span>{{ .label }}</span><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- end }}
+
+    {{- with $data.other }}
+    <ul class="guide-regions__others guide-regions__others--{{ $data.others_layout | default "compact" }}" aria-label="{{ $data.others_label }}">
+      {{- range . }}
+      <li>
+        <a class="guide-region-chip" href="{{ partial "us/home/link.html" . }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}>
+          <b class="guide-region-chip__code">{{ .code }}</b>
+          <span class="guide-region-chip__name">{{ .name }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</section>

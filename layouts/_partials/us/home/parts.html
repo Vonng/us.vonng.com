@@ -1,0 +1,51 @@
+{{- /* us 首页“全书目录”：每个部分一张卡片，左侧是部分标题与说明，右侧按列排开该部分的章节。
+       部分与章节的链接、顺序取自中文站的真实分区（只列已有正文的章节）；data 提供图标、说明，
+       英文首页另给 title。英文缺译时告警并沿用中文标题，避免静默混排。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+{{- $zh := eq site.Language.Lang "zh" -}}
+{{- $hreflang := cond $zh "" "zh-CN" -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-parts{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    {{- partial "us/home/head.html" (dict "data" $data "id" $id "hreflang" $hreflang) }}
+    <ol class="guide-parts__list">
+      {{- range $index, $item := $data.items }}
+      {{- $part := partial "us/home/page.html" $item.page -}}
+      {{- if not $part }}{{ errorf "us home: book part %q not found" $item.page }}{{ end -}}
+      {{- $chapters := slice -}}
+      {{- range $part.Sections.ByWeight }}{{ if .RegularPagesRecursive }}{{ $chapters = $chapters | append . }}{{ end }}{{ end -}}
+      {{- $titleID := printf "%s-part-%d" $id $index -}}
+      {{- $partTitle := $item.title | default $part.LinkTitle -}}
+      {{- if and (not $zh) (not $item.title) }}{{ warnf "us home (%s): part %q has no translated title" site.Language.Lang $item.page }}{{ end }}
+      <li class="guide-part">
+        <div class="guide-part__intro">
+          {{- with $item.icon }}<span class="guide-part__icon" aria-hidden="true"><i class="{{ . }}"></i></span>{{ end }}
+          <h3 id="{{ $titleID }}" class="guide-part__title">
+            <a href="{{ $part.RelPermalink }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}>{{ $partTitle }}</a>
+          </h3>
+          {{- with ($item.desc | default $part.Description) }}
+          <p class="guide-part__desc">{{ . }}</p>
+          {{- end }}
+        </div>
+        <ul class="guide-part__chapters" style="--guide-rows: {{ int (math.Ceil (div (float (len $chapters)) 2)) }}" aria-labelledby="{{ $titleID }}">
+          {{- range $chapters }}
+          {{- $slug := path.Base (strings.TrimSuffix "/" .RelPermalink) -}}
+          {{- $override := dict -}}
+          {{- with $item.chapters }}{{ with index . $slug }}{{ $override = . }}{{ end }}{{ end -}}
+          {{- $chTitle := $override.title | default .LinkTitle -}}
+          {{- if and (not $zh) (not $override.title) }}{{ warnf "us home (%s): chapter %q has no translated title" site.Language.Lang .RelPermalink }}{{ end }}
+          <li>
+            <a class="guide-chapter" href="{{ .RelPermalink }}"{{ with $hreflang }} hreflang="{{ . }}"{{ end }}>
+              <strong class="guide-chapter__title">{{ $chTitle }}</strong>
+              {{- with ($override.desc | default (cond $zh .Description "")) }}
+              <span class="guide-chapter__desc">{{ . }}</span>
+              {{- end }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </li>
+      {{- end }}
+    </ol>
+  </div>
+</section>

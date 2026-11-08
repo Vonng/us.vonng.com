@@ -1,0 +1,38 @@
+{{- /* us 首页“关于本书”：版权页式的说明。左侧是标题、一句介绍与常用说明入口，右侧是作者、来源、
+       核验与覆盖范围等事实。事实文字支持行内 Markdown（用于外部链接）。 */ -}}
+{{- $data := .data -}}
+{{- $id := .id -}}
+{{- $page := .page -}}
+{{- $hreflang := cond (eq site.Language.Lang "zh") "" "zh-CN" -}}
+<section id="{{ $id }}" class="td-landing-section guide-section guide-about{{ with $data.class }} {{ . }}{{ end }}" aria-labelledby="{{ $id }}-title">
+  <div class="td-site-container">
+    <div class="guide-about__panel">
+      <div class="guide-about__intro">
+        <h2 id="{{ $id }}-title">{{ $data.title }}</h2>
+        {{- with $data.desc }}<p class="guide-about__desc">{{ . }}</p>{{ end }}
+        {{- with $data.links }}
+        <ul class="guide-about__links">
+          {{- range . }}
+          <li>
+            <a href="{{ partial "us/home/link.html" . }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ else if and $hreflang (not .url) }} hreflang="{{ $hreflang }}"{{ end }}>
+              {{- with .icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}
+              <span>{{ .label }}</span>
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </div>
+      {{- with $data.facts }}
+      <dl class="guide-about__facts">
+        {{- range . }}
+        <div class="guide-about__fact">
+          <dt>{{ .label }}</dt>
+          <dd>{{ $page.RenderString .text }}</dd>
+        </div>
+        {{- end }}
+      </dl>
+      {{- end }}
+    </div>
+  </div>
+</section>

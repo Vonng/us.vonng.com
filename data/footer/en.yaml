@@ -1,0 +1,26 @@
+# English footer (OINK fat footer): brand plus four columns of three links.
+# Footer links pass through relLangURL, so Chinese pages are written as ../path/.
+brand:
+  name: Life in America
+  tagline: A Chinese-language guide to American society and everyday life.
+columns:
+  - title: Read
+    links:
+      - { label: Full guide, url: ../book/ }
+      - { label: Task paths, url: ../docs/routes/ }
+      - { label: States, url: ../docs/regions/ }
+  - title: Look up
+    links:
+      - { label: Index, url: ../docs/ }
+      - { label: Glossary, url: ../docs/glossary/ }
+      - { label: Reading notes, url: ../docs/about/ }
+  - title: Sister guides
+    links:
+      - { label: Life in Canada, url: "https://ca.vonng.com/", external: true }
+      - { label: Life in America, url: / }
+      - { label: Life in Singapore, url: "https://sg.vonng.com/", external: true }
+  - title: Project
+    links:
+      - { label: Source on GitHub, url: "https://github.com/Vonng/us.vonng.com", external: true }
+      - { label: Author's blog, url: "https://vonng.com/", external: true }
+      - { label: OINK theme, url: "https://github.com/pgsty/oink", external: true }

@@ -4,7 +4,7 @@
 
 ## OINK build baseline
 
-As of 2026-11-05, this site uses OINK v1.5.0 and Hugo Extended 0.168.0.
+As of 2026-11-07, this site uses OINK v1.5.1 and Hugo Extended 0.168.0.
 Keep CI and local builds on this baseline. Do not enable `--panicOnWarning`
 or `HUGO_PANICONWARNING`; keep warnings visible and review them. The upstream
 LibSass deprecation warning is accepted. No external Sass compiler is required.
@@ -22,6 +22,13 @@ LibSass deprecation warning is accepted. No external Sass compiler is required.
 
 ## 工程与权限
 
-Hugo 0.168.0 Extended；OINK 固定 `84b93e4ec2bd1a2adb2bb1ac0fe4513fc5e0a012`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
+Hugo 0.168.0 Extended；OINK 固定 `ef3f1192250684b2d92a22a877e220e1ff6789f2`。运行 `make check DESTINATION=.cache/production-review`，通过后验证并同步 `public/`。源文件、轻量证据与记录入 Git；依赖、缓存、截图、打印稿及生成目录忽略。下载前验证忽略规则。
 
 普通研究、修订、核验、构建和本地提交自主推进。不得外部推送、部署、改 DNS 或联系他人。加拿大项目只读参考；不得启动或探测 Claude。任何记录不能代替实际核验。
+
+## 首页与英文入口（站点扩展）
+
+- 首页是 `content/_index.md`（中文）与 `content/_index.en.md`（英文）上的 `layout: landing` + `landing: home`，数据在 `data/landing/home/zh.yaml`、`en.yaml`；页脚在 `data/footer/zh.yaml`、`en.yaml`。
+- 分区模板是站点扩展，不是 OINK 内置分区：`layouts/_partials/us/home/`（目录、事项、按州、关于本书；`page.html` 始终在中文站解析页面）。样式限定在 `body_class: guide-home` 作用域，见 `assets/scss/_styles_project.scss` 的首页段。
+- 英文只有首页：它是中文全书的英文地图，所有入口指向中文正文（`hreflang="zh-CN"`），不机翻正文。英文站关闭搜索，导航锚定英文首页分区；经 relLangURL 的 hero/页脚链接用 `../book/` 指向中文路径。
+- 首页文案不截断、不省略：桌面一行、窄屏均衡两行；改动后在 1440 与 390 宽、亮暗两色检查孤字与卡片行数。
